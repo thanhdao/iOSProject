@@ -70,9 +70,9 @@
     
     NSString *titleSearchString = self.titleTextField.text;
     NSString *singerSearchString = self.singerTextField.text;
-    NSPredicate *titlePredicate = [NSPredicate predicateWithFormat: @"(title CONTAINS[cd] %@) AND (singer CONTAINS[cd] %@) ", titleSearchString, singerSearchString ];
+    NSPredicate *searchPredicate = [NSPredicate predicateWithFormat: @"(title CONTAINS[cd] %@) AND (singer CONTAINS[cd] %@) ", titleSearchString, singerSearchString ];
     
-    NSSet *results = [self.songList filteredSetUsingPredicate:  titlePredicate];
+    NSSet *results = [self.songList filteredSetUsingPredicate:  searchPredicate];
     
     for(Song *s in results){
         NSLog (@"%@", s);
