@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73D906AD17042B380002E75E /* hybridtheory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73D906AB17042B380002E75E /* hybridtheory.jpg */; };
+		73D906AE17042B380002E75E /* Meteora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73D906AC17042B380002E75E /* Meteora.jpg */; };
+		73D906B017042EBB0002E75E /* MomentOfGlory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73D906AF17042EBB0002E75E /* MomentOfGlory.jpg */; };
+		73E781FD1703FBAA00DEDC44 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73E781FC1703FBAA00DEDC44 /* images.jpg */; };
+		73E782021704068500DEDC44 /* LinkinPark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73E782001704068500DEDC44 /* LinkinPark.jpg */; };
+		73E782031704068500DEDC44 /* u2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73E782011704068500DEDC44 /* u2.jpg */; };
 		CD2CA4CF170153FF0086EDD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2CA4CE170153FF0086EDD4 /* UIKit.framework */; };
 		CD2CA4D1170153FF0086EDD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2CA4D0170153FF0086EDD4 /* Foundation.framework */; };
 		CD2CA4D3170153FF0086EDD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2CA4D2170153FF0086EDD4 /* CoreGraphics.framework */; };
@@ -22,6 +28,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73D906AB17042B380002E75E /* hybridtheory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hybridtheory.jpg; sourceTree = "<group>"; };
+		73D906AC17042B380002E75E /* Meteora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meteora.jpg; sourceTree = "<group>"; };
+		73D906AF17042EBB0002E75E /* MomentOfGlory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MomentOfGlory.jpg; sourceTree = "<group>"; };
+		73E781FC1703FBAA00DEDC44 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		73E782001704068500DEDC44 /* LinkinPark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LinkinPark.jpg; sourceTree = "<group>"; };
+		73E782011704068500DEDC44 /* u2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = u2.jpg; sourceTree = "<group>"; };
 		CD2CA4CB170153FF0086EDD4 /* SongManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2CA4CE170153FF0086EDD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CD2CA4D0170153FF0086EDD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,6 +68,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73E782041704068A00DEDC44 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				73D906AF17042EBB0002E75E /* MomentOfGlory.jpg */,
+				73D906AB17042B380002E75E /* hybridtheory.jpg */,
+				73D906AC17042B380002E75E /* Meteora.jpg */,
+				73E782001704068500DEDC44 /* LinkinPark.jpg */,
+				73E782011704068500DEDC44 /* u2.jpg */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		CD2CA4C2170153FF0086EDD4 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +110,8 @@
 		CD2CA4D4170153FF0086EDD4 /* SongManager */ = {
 			isa = PBXGroup;
 			children = (
+				73E782041704068A00DEDC44 /* Resource */,
+				73E781FC1703FBAA00DEDC44 /* images.jpg */,
 				CD2CA4DD170153FF0086EDD4 /* AppDelegate.h */,
 				CD2CA4DE170153FF0086EDD4 /* AppDelegate.m */,
 				CD2CA4E6170153FF0086EDD4 /* ViewController.h */,
@@ -168,6 +194,12 @@
 				CD2CA4E3170153FF0086EDD4 /* Default@2x.png in Resources */,
 				CD2CA4E5170153FF0086EDD4 /* Default-568h@2x.png in Resources */,
 				CD2CA4EB170153FF0086EDD4 /* ViewController.xib in Resources */,
+				73E781FD1703FBAA00DEDC44 /* images.jpg in Resources */,
+				73E782021704068500DEDC44 /* LinkinPark.jpg in Resources */,
+				73E782031704068500DEDC44 /* u2.jpg in Resources */,
+				73D906AD17042B380002E75E /* hybridtheory.jpg in Resources */,
+				73D906AE17042B380002E75E /* Meteora.jpg in Resources */,
+				73D906B017042EBB0002E75E /* MomentOfGlory.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +336,7 @@
 				CD2CA4F0170153FF0086EDD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
