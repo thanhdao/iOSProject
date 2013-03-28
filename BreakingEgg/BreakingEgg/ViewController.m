@@ -18,20 +18,36 @@
 
 - (void)viewDidLoad
 {
-    self.shake = 0;
+    //Khởi tạo 
+    self.shake = 0; // Số lần lắc
     UIImageView *eggViewStart = [[UIImageView alloc] initWithFrame:self.view.frame];
 
-    eggViewStart.image = [UIImage imageNamed:@"IMG_0047.JPG"];
+    UIImage *image = [UIImage imageNamed:@"IMG_0047.JPG"];
+    eggViewStart.image = image;
+    
+    
     [self.view addSubview:eggViewStart];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
 }
 
+// Hàm hiển thị quả trứng vỡ sau mỗi lần lắc.
 - (void)animationEgg{
     
     self.shake += 1;
+    self.shake = self.shake % 7;
     switch (self.shake) {
+            // Lắc lần 0
+        case 0:
+        {
+            UIImageView *eggView = [[UIImageView alloc] initWithFrame:self.view.frame];
+            
+            eggView.image = [UIImage imageNamed: @"IMG_0047.JPG"];
+            [self.view addSubview:eggView];
+        }
+            break;
+            // Lắc lần 1
         case 1:
         {
             UIImageView *eggView = [[UIImageView alloc] initWithFrame:self.view.frame];
@@ -40,6 +56,7 @@
             [self.view addSubview:eggView];
         }
         break;
+        // Lắc lần 2
         case 2:
         {
             UIImageView *eggView = [[UIImageView alloc] initWithFrame:self.view.frame];
@@ -48,6 +65,7 @@
             [self.view addSubview:eggView];
         }
             break;
+       // Lắc lần 3
         case 3:
         {
             UIImageView *eggView = [[UIImageView alloc] initWithFrame:self.view.frame];
@@ -56,6 +74,7 @@
             [self.view addSubview:eggView];
         }
             break;
+     // Lắc lần 4
         case 4:
         {
             UIImageView *eggView = [[UIImageView alloc] initWithFrame:self.view.frame];
@@ -64,6 +83,8 @@
             [self.view addSubview:eggView];
         }
             break;
+            
+        // Lắc lần 5
         case 5:
         {
             UIImageView *eggView = [[UIImageView alloc] initWithFrame:self.view.frame];
@@ -72,13 +93,13 @@
             [self.view addSubview:eggView];
         }
             break;
+        // Lắc lần 6
         case 6:
         {
             UIImageView *eggView = [[UIImageView alloc] initWithFrame:self.view.frame];
             
             eggView.image = [UIImage imageNamed: @"IMG_0052.JPG"];
             [self.view addSubview:eggView];
-            self.shake = -1;
         }
             break;
             
@@ -87,7 +108,8 @@
     }
     
     
-    /*
+    /* // Hien thi animation quả trứng
+     vỡ
     UIImageView *eggView = [[UIImageView alloc] initWithFrame:self.view.frame];
     
     // load all the frames of our animation

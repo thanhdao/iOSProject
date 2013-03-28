@@ -27,11 +27,12 @@
     // Drawing code
 }
 */
-
+// Hứng sự kiện lắc
 - (void) motionEnded: (UIEventSubtype)motion
            withEvent: (UIEvent *)event {
     if (motion == UIEventSubtypeMotionShake) {
         NSLog(@"Detected a shake");
+        // TRuyền Notification khi có sự kiện lắc.
         [[NSNotificationCenter defaultCenter] postNotificationName:@"shake" object:self];
     }
 }

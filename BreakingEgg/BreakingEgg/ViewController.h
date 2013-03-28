@@ -10,6 +10,6 @@
 
 @interface ViewController : UIViewController
 
-- (void)animationEgg;
+- (void)animationEgg; // Hiển thị quả trứng vỡ.
 
 @end
