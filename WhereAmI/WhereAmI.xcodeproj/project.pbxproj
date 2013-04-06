@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73FCDC9D17093B7500B397BD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FCDC9C17093B7500B397BD /* MapKit.framework */; };
+		73FCDCA017094C4200B397BD /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FCDC9F17094C4200B397BD /* MapPoint.m */; };
 		CD34ED8717005F3F0084DC12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD34ED8617005F3F0084DC12 /* UIKit.framework */; };
 		CD34ED8917005F3F0084DC12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD34ED8817005F3F0084DC12 /* Foundation.framework */; };
 		CD34ED8B17005F3F0084DC12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD34ED8A17005F3F0084DC12 /* CoreGraphics.framework */; };
@@ -22,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73FCDC9C17093B7500B397BD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		73FCDC9E17094C4200B397BD /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		73FCDC9F17094C4200B397BD /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
 		CD34ED8317005F3F0084DC12 /* WhereAmI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereAmI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD34ED8617005F3F0084DC12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CD34ED8817005F3F0084DC12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73FCDC9D17093B7500B397BD /* MapKit.framework in Frameworks */,
 				CD34EDAA1700636E0084DC12 /* CoreLocation.framework in Frameworks */,
 				CD34ED8717005F3F0084DC12 /* UIKit.framework in Frameworks */,
 				CD34ED8917005F3F0084DC12 /* Foundation.framework in Frameworks */,
@@ -76,6 +82,7 @@
 		CD34ED8517005F3F0084DC12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				73FCDC9C17093B7500B397BD /* MapKit.framework */,
 				CD34EDA91700636E0084DC12 /* CoreLocation.framework */,
 				CD34ED8617005F3F0084DC12 /* UIKit.framework */,
 				CD34ED8817005F3F0084DC12 /* Foundation.framework */,
@@ -93,6 +100,8 @@
 				CD34ED9F17005F3F0084DC12 /* ViewController.m */,
 				CD34EDA117005F3F0084DC12 /* ViewController.xib */,
 				CD34ED8D17005F3F0084DC12 /* Supporting Files */,
+				73FCDC9E17094C4200B397BD /* MapPoint.h */,
+				73FCDC9F17094C4200B397BD /* MapPoint.m */,
 			);
 			path = WhereAmI;
 			sourceTree = "<group>";
@@ -180,6 +189,7 @@
 				CD34ED9317005F3F0084DC12 /* main.m in Sources */,
 				CD34ED9717005F3F0084DC12 /* AppDelegate.m in Sources */,
 				CD34EDA017005F3F0084DC12 /* ViewController.m in Sources */,
+				73FCDCA017094C4200B397BD /* MapPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +312,7 @@
 				CD34EDA817005F3F0084DC12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

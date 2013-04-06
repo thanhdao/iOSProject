@@ -35,7 +35,7 @@
     //float x = (_aSlider.value * _aSlider.frame.size.width );
     
     //[_aLabel setFrame: CGRectMake(x, 50, 42, 21)];
-    float centerX = 18 + _aSlider.value * (_aSlider.frame.size.width - 18);
+    float centerX = 27 + _aSlider.value * (_aSlider.frame.size.width - 18);
     _aLabel.center = CGPointMake(centerX, 50);
 }
 
