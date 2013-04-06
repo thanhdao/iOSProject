@@ -36,10 +36,10 @@
 		73F9AD6B171023EF007F0C34 /* backGirl.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F9AD6A171023EF007F0C34 /* backGirl.png */; };
 		73F9AD6D17102613007F0C34 /* backGirl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73F9AD6C17102613007F0C34 /* backGirl.jpg */; };
 		73F9AD6F171027F2007F0C34 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F9AD6E171027F2007F0C34 /* AVFoundation.framework */; };
-		73F9AD7117102936007F0C34 /* Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F9AD7017102936007F0C34 /* Song.mp3 */; };
 		73F9AD7917103366007F0C34 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F9AD7717103366007F0C34 /* correct.mp3 */; };
 		73F9AD7A17103366007F0C34 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F9AD7817103366007F0C34 /* wrong.mp3 */; };
 		73F9AD7C1710353A007F0C34 /* fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F9AD7B17103539007F0C34 /* fail.mp3 */; };
+		73F9AD7E171037C6007F0C34 /* Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F9AD7D171037C6007F0C34 /* Song.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,10 +77,10 @@
 		73F9AD6A171023EF007F0C34 /* backGirl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backGirl.png; sourceTree = "<group>"; };
 		73F9AD6C17102613007F0C34 /* backGirl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backGirl.jpg; sourceTree = "<group>"; };
 		73F9AD6E171027F2007F0C34 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		73F9AD7017102936007F0C34 /* Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Song.mp3; path = ../../../Resource/Song.mp3; sourceTree = "<group>"; };
 		73F9AD7717103366007F0C34 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
 		73F9AD7817103366007F0C34 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
 		73F9AD7B17103539007F0C34 /* fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fail.mp3; sourceTree = "<group>"; };
+		73F9AD7D171037C6007F0C34 /* Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Song.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,10 +182,10 @@
 		73F9AD7217103023007F0C34 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				73F9AD7D171037C6007F0C34 /* Song.mp3 */,
 				73F9AD7B17103539007F0C34 /* fail.mp3 */,
 				73F9AD7717103366007F0C34 /* correct.mp3 */,
 				73F9AD7817103366007F0C34 /* wrong.mp3 */,
-				73F9AD7017102936007F0C34 /* Song.mp3 */,
 			);
 			name = Audio;
 			sourceTree = "<group>";
@@ -263,10 +263,10 @@
 				73F9AD6917101F05007F0C34 /* girl12.jpg in Resources */,
 				73F9AD6B171023EF007F0C34 /* backGirl.png in Resources */,
 				73F9AD6D17102613007F0C34 /* backGirl.jpg in Resources */,
-				73F9AD7117102936007F0C34 /* Song.mp3 in Resources */,
 				73F9AD7917103366007F0C34 /* correct.mp3 in Resources */,
 				73F9AD7A17103366007F0C34 /* wrong.mp3 in Resources */,
 				73F9AD7C1710353A007F0C34 /* fail.mp3 in Resources */,
+				73F9AD7E171037C6007F0C34 /* Song.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
