@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  HypnoTime
+//  DemoFood
 //
-//  Created by Thanh Dao on 4/5/13.
+//  Created by Thanh Dao on 4/7/13.
 //  Copyright (c) 2013 Thanh Dao. All rights reserved.
 //
 
@@ -12,29 +12,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Create the tabBarController
-    UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    
-    // The window retains tabBarController, we can release our reference
-    //[tabBarController release];
-    
-   
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    
-    // Create two view controllers
-    UIViewController *vc1 = [[HypnosisViewController alloc] init];
-    UIViewController *vc2 = [[CurrentTimeViewController alloc] init];
-    UIViewController *vc3 = [[MapViewController alloc] init];
-
-    // Make an array containing the two view controllers
-    NSArray *viewControllers = [NSArray arrayWithObjects: vc1, vc2, vc3, nil];
-    
-    [tabBarController setViewControllers: viewControllers];
-    
-    // Set tabBarController as rootViewController of window
-    [[self window]  setRootViewController: tabBarController];
-    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

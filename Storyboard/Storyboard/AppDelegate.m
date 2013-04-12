@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  HypnoTime
+//  Storyboard
 //
-//  Created by Thanh Dao on 4/5/13.
+//  Created by Thanh Dao on 4/9/13.
 //  Copyright (c) 2013 Thanh Dao. All rights reserved.
 //
 
@@ -12,34 +12,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Create the tabBarController
-    UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    
-    // The window retains tabBarController, we can release our reference
-    //[tabBarController release];
-    
-   
     // Override point for customization after application launch.
-    
-    // Create two view controllers
-    UIViewController *vc1 = [[HypnosisViewController alloc] init];
-    UIViewController *vc2 = [[CurrentTimeViewController alloc] init];
-    UIViewController *vc3 = [[MapViewController alloc] init];
-
-    // Make an array containing the two view controllers
-    NSArray *viewControllers = [NSArray arrayWithObjects: vc1, vc2, vc3, nil];
-    
-    [tabBarController setViewControllers: viewControllers];
-    
-    // Set tabBarController as rootViewController of window
-    [[self window]  setRootViewController: tabBarController];
-    
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
     return YES;
 }
-
+							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -1,18 +1,19 @@
 //
 //  AppDelegate.h
-//  HypnoTime
+//  ViewController
 //
-//  Created by Thanh Dao on 4/5/13.
+//  Created by Thanh Dao on 4/7/13.
 //  Copyright (c) 2013 Thanh Dao. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "HypnosisViewController.h"
-#import "CurrentTimeViewController.h"
-#import "MapViewController.h"
+
+@class ViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) ViewController *viewController;
 
 @end

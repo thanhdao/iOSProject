@@ -1,41 +1,32 @@
 //
 //  AppDelegate.m
-//  HypnoTime
+//  FoodShop
 //
-//  Created by Thanh Dao on 4/5/13.
+//  Created by Thanh Dao on 4/7/13.
 //  Copyright (c) 2013 Thanh Dao. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "MainScreenVC.h"
+
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Create the tabBarController
-    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    // The window retains tabBarController, we can release our reference
-    //[tabBarController release];
+     MainScreenVC *mainScreenVC = [[MainScreenVC alloc] initWithNibName: @"MainScreenVC" bundle: nil];
     
-   
-    // Override point for customization after application launch.
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController: mainScreenVC];
     
-    // Create two view controllers
-    UIViewController *vc1 = [[HypnosisViewController alloc] init];
-    UIViewController *vc2 = [[CurrentTimeViewController alloc] init];
-    UIViewController *vc3 = [[MapViewController alloc] init];
-
-    // Make an array containing the two view controllers
-    NSArray *viewControllers = [NSArray arrayWithObjects: vc1, vc2, vc3, nil];
     
-    [tabBarController setViewControllers: viewControllers];
     
-    // Set tabBarController as rootViewController of window
-    [[self window]  setRootViewController: tabBarController];
+    self.window.rootViewController = navigationController;
     
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self.window addSubview: navigationController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }

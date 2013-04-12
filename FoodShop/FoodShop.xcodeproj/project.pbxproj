@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73588E0C1711758200258E6C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73588E0A1711758200258E6C /* DetailViewController.m */; };
+		73588E0D1711758200258E6C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73588E0B1711758200258E6C /* DetailViewController.xib */; };
+		7373CB34171171080067C7D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7373CB33171171080067C7D2 /* UIKit.framework */; };
+		7373CB36171171080067C7D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7373CB35171171080067C7D2 /* Foundation.framework */; };
+		7373CB38171171080067C7D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7373CB37171171080067C7D2 /* CoreGraphics.framework */; };
+		7373CB3E171171080067C7D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB3C171171080067C7D2 /* InfoPlist.strings */; };
+		7373CB40171171080067C7D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373CB3F171171080067C7D2 /* main.m */; };
+		7373CB44171171080067C7D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373CB43171171080067C7D2 /* AppDelegate.m */; };
+		7373CB46171171080067C7D2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB45171171080067C7D2 /* Default.png */; };
+		7373CB48171171080067C7D2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB47171171080067C7D2 /* Default@2x.png */; };
+		7373CB4A171171080067C7D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB49171171080067C7D2 /* Default-568h@2x.png */; };
+		7373CB53171171910067C7D2 /* MainScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373CB51171171910067C7D2 /* MainScreenVC.m */; };
+		7373CB54171171910067C7D2 /* MainScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB52171171910067C7D2 /* MainScreenVC.xib */; };
+		7373CB63171172BF0067C7D2 /* beach_chair.png in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB56171172BF0067C7D2 /* beach_chair.png */; };
+		7373CB64171172BF0067C7D2 /* cake.png in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB57171172BF0067C7D2 /* cake.png */; };
+		7373CB65171172BF0067C7D2 /* cocktail.png in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB58171172BF0067C7D2 /* cocktail.png */; };
+		7373CB66171172BF0067C7D2 /* drink.png in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB59171172BF0067C7D2 /* drink.png */; };
+		7373CB67171172BF0067C7D2 /* drink1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB5A171172BF0067C7D2 /* drink1.png */; };
+		7373CB68171172BF0067C7D2 /* drink2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB5B171172BF0067C7D2 /* drink2.png */; };
+		7373CB69171172BF0067C7D2 /* drink3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB5C171172BF0067C7D2 /* drink3.png */; };
+		7373CB6A171172BF0067C7D2 /* drink4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB5D171172BF0067C7D2 /* drink4.png */; };
+		7373CB6B171172BF0067C7D2 /* drink5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB5E171172BF0067C7D2 /* drink5.png */; };
+		7373CB6C171172BF0067C7D2 /* japaneseTea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB5F171172BF0067C7D2 /* japaneseTea.jpg */; };
+		7373CB6D171172BF0067C7D2 /* soup.png in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB60171172BF0067C7D2 /* soup.png */; };
+		7373CB6E171172BF0067C7D2 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB61171172BF0067C7D2 /* star.png */; };
+		7373CB6F171172BF0067C7D2 /* sushi.png in Resources */ = {isa = PBXBuildFile; fileRef = 7373CB62171172BF0067C7D2 /* sushi.png */; };
+		73ABC48417156AE200784AEB /* players.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73ABC48317156AE200784AEB /* players.plist */; };
+		73DDA5FE1717CE8F00DBCBFB /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DDA5FD1717CE8F00DBCBFB /* DataManager.m */; };
+		73FD6D721717FB5F00D99662 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FD6D711717FB5F00D99662 /* Player.m */; };
+		73FD6D8A17181F0300D99662 /* adrianoCorreia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D7317181F0300D99662 /* adrianoCorreia.jpg */; };
+		73FD6D8B17181F0300D99662 /* alexanderSong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D7417181F0300D99662 /* alexanderSong.jpg */; };
+		73FD6D8C17181F0300D99662 /* alexisSanchez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D7517181F0300D99662 /* alexisSanchez.jpg */; };
+		73FD6D8D17181F0300D99662 /* andresIniesta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D7617181F0300D99662 /* andresIniesta.jpg */; };
+		73FD6D8E17181F0300D99662 /* carlesPuyol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D7717181F0300D99662 /* carlesPuyol.jpg */; };
+		73FD6D8F17181F0300D99662 /* cescFabregas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D7817181F0300D99662 /* cescFabregas.jpg */; };
+		73FD6D9017181F0300D99662 /* cristianTello.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D7917181F0300D99662 /* cristianTello.jpg */; };
+		73FD6D9117181F0300D99662 /* daniAlves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D7A17181F0300D99662 /* daniAlves.jpg */; };
+		73FD6D9217181F0300D99662 /* davidVilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D7B17181F0300D99662 /* davidVilla.jpg */; };
+		73FD6D9317181F0300D99662 /* ericAbidal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D7C17181F0300D99662 /* ericAbidal.jpg */; };
+		73FD6D9417181F0300D99662 /* gerardPique.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D7D17181F0300D99662 /* gerardPique.jpg */; };
+		73FD6D9517181F0300D99662 /* javierMascherano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D7E17181F0300D99662 /* javierMascherano.jpg */; };
+		73FD6D9617181F0300D99662 /* jonathanDosSantos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D7F17181F0300D99662 /* jonathanDosSantos.jpg */; };
+		73FD6D9717181F0300D99662 /* jordiAlba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D8017181F0300D99662 /* jordiAlba.jpg */; };
+		73FD6D9817181F0300D99662 /* joseManuelPinto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D8117181F0300D99662 /* joseManuelPinto.jpg */; };
+		73FD6D9917181F0300D99662 /* leoMessi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D8217181F0300D99662 /* leoMessi.jpg */; };
+		73FD6D9A17181F0300D99662 /* marcBartra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D8317181F0300D99662 /* marcBartra.jpg */; };
+		73FD6D9B17181F0300D99662 /* martinMontoya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D8417181F0300D99662 /* martinMontoya.jpg */; };
+		73FD6D9C17181F0300D99662 /* pedroRodriguez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D8517181F0300D99662 /* pedroRodriguez.jpg */; };
+		73FD6D9D17181F0300D99662 /* sergioBusquets.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D8617181F0300D99662 /* sergioBusquets.jpg */; };
+		73FD6D9E17181F0300D99662 /* thiagoAlcantara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D8717181F0300D99662 /* thiagoAlcantara.jpg */; };
+		73FD6D9F17181F0300D99662 /* victorValdes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D8817181F0300D99662 /* victorValdes.jpg */; };
+		73FD6DA017181F0300D99662 /* xaviHernandez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73FD6D8917181F0300D99662 /* xaviHernandez.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73588E091711758200258E6C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		73588E0A1711758200258E6C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		73588E0B1711758200258E6C /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		7373CB30171171080067C7D2 /* FoodShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7373CB33171171080067C7D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7373CB35171171080067C7D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7373CB37171171080067C7D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7373CB3B171171080067C7D2 /* FoodShop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodShop-Info.plist"; sourceTree = "<group>"; };
+		7373CB3D171171080067C7D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7373CB3F171171080067C7D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7373CB41171171080067C7D2 /* FoodShop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodShop-Prefix.pch"; sourceTree = "<group>"; };
+		7373CB42171171080067C7D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FoodShop/AppDelegate.h; sourceTree = "<group>"; };
+		7373CB43171171080067C7D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FoodShop/AppDelegate.m; sourceTree = "<group>"; };
+		7373CB45171171080067C7D2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7373CB47171171080067C7D2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7373CB49171171080067C7D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7373CB50171171910067C7D2 /* MainScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenVC.h; sourceTree = "<group>"; };
+		7373CB51171171910067C7D2 /* MainScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenVC.m; sourceTree = "<group>"; };
+		7373CB52171171910067C7D2 /* MainScreenVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainScreenVC.xib; sourceTree = "<group>"; };
+		7373CB56171172BF0067C7D2 /* beach_chair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beach_chair.png; sourceTree = "<group>"; };
+		7373CB57171172BF0067C7D2 /* cake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cake.png; sourceTree = "<group>"; };
+		7373CB58171172BF0067C7D2 /* cocktail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cocktail.png; sourceTree = "<group>"; };
+		7373CB59171172BF0067C7D2 /* drink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink.png; sourceTree = "<group>"; };
+		7373CB5A171172BF0067C7D2 /* drink1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink1.png; sourceTree = "<group>"; };
+		7373CB5B171172BF0067C7D2 /* drink2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink2.png; sourceTree = "<group>"; };
+		7373CB5C171172BF0067C7D2 /* drink3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink3.png; sourceTree = "<group>"; };
+		7373CB5D171172BF0067C7D2 /* drink4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink4.png; sourceTree = "<group>"; };
+		7373CB5E171172BF0067C7D2 /* drink5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink5.png; sourceTree = "<group>"; };
+		7373CB5F171172BF0067C7D2 /* japaneseTea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japaneseTea.jpg; sourceTree = "<group>"; };
+		7373CB60171172BF0067C7D2 /* soup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soup.png; sourceTree = "<group>"; };
+		7373CB61171172BF0067C7D2 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		7373CB62171172BF0067C7D2 /* sushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sushi.png; sourceTree = "<group>"; };
+		73ABC48317156AE200784AEB /* players.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = players.plist; path = FoodShop/players.plist; sourceTree = "<group>"; };
+		73DDA5FC1717CE8F00DBCBFB /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		73DDA5FD1717CE8F00DBCBFB /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		73FD6D701717FB5F00D99662 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		73FD6D711717FB5F00D99662 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		73FD6D7317181F0300D99662 /* adrianoCorreia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = adrianoCorreia.jpg; path = Images/adrianoCorreia.jpg; sourceTree = "<group>"; };
+		73FD6D7417181F0300D99662 /* alexanderSong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alexanderSong.jpg; path = Images/alexanderSong.jpg; sourceTree = "<group>"; };
+		73FD6D7517181F0300D99662 /* alexisSanchez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alexisSanchez.jpg; path = Images/alexisSanchez.jpg; sourceTree = "<group>"; };
+		73FD6D7617181F0300D99662 /* andresIniesta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = andresIniesta.jpg; path = Images/andresIniesta.jpg; sourceTree = "<group>"; };
+		73FD6D7717181F0300D99662 /* carlesPuyol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = carlesPuyol.jpg; path = Images/carlesPuyol.jpg; sourceTree = "<group>"; };
+		73FD6D7817181F0300D99662 /* cescFabregas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cescFabregas.jpg; path = Images/cescFabregas.jpg; sourceTree = "<group>"; };
+		73FD6D7917181F0300D99662 /* cristianTello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cristianTello.jpg; path = Images/cristianTello.jpg; sourceTree = "<group>"; };
+		73FD6D7A17181F0300D99662 /* daniAlves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = daniAlves.jpg; path = Images/daniAlves.jpg; sourceTree = "<group>"; };
+		73FD6D7B17181F0300D99662 /* davidVilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = davidVilla.jpg; path = Images/davidVilla.jpg; sourceTree = "<group>"; };
+		73FD6D7C17181F0300D99662 /* ericAbidal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ericAbidal.jpg; path = Images/ericAbidal.jpg; sourceTree = "<group>"; };
+		73FD6D7D17181F0300D99662 /* gerardPique.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gerardPique.jpg; path = Images/gerardPique.jpg; sourceTree = "<group>"; };
+		73FD6D7E17181F0300D99662 /* javierMascherano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = javierMascherano.jpg; path = Images/javierMascherano.jpg; sourceTree = "<group>"; };
+		73FD6D7F17181F0300D99662 /* jonathanDosSantos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jonathanDosSantos.jpg; path = Images/jonathanDosSantos.jpg; sourceTree = "<group>"; };
+		73FD6D8017181F0300D99662 /* jordiAlba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jordiAlba.jpg; path = Images/jordiAlba.jpg; sourceTree = "<group>"; };
+		73FD6D8117181F0300D99662 /* joseManuelPinto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = joseManuelPinto.jpg; path = Images/joseManuelPinto.jpg; sourceTree = "<group>"; };
+		73FD6D8217181F0300D99662 /* leoMessi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = leoMessi.jpg; path = Images/leoMessi.jpg; sourceTree = "<group>"; };
+		73FD6D8317181F0300D99662 /* marcBartra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = marcBartra.jpg; path = Images/marcBartra.jpg; sourceTree = "<group>"; };
+		73FD6D8417181F0300D99662 /* martinMontoya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = martinMontoya.jpg; path = Images/martinMontoya.jpg; sourceTree = "<group>"; };
+		73FD6D8517181F0300D99662 /* pedroRodriguez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pedroRodriguez.jpg; path = Images/pedroRodriguez.jpg; sourceTree = "<group>"; };
+		73FD6D8617181F0300D99662 /* sergioBusquets.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sergioBusquets.jpg; path = Images/sergioBusquets.jpg; sourceTree = "<group>"; };
+		73FD6D8717181F0300D99662 /* thiagoAlcantara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thiagoAlcantara.jpg; path = Images/thiagoAlcantara.jpg; sourceTree = "<group>"; };
+		73FD6D8817181F0300D99662 /* victorValdes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = victorValdes.jpg; path = Images/victorValdes.jpg; sourceTree = "<group>"; };
+		73FD6D8917181F0300D99662 /* xaviHernandez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = xaviHernandez.jpg; path = Images/xaviHernandez.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7373CB2D171171080067C7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7373CB34171171080067C7D2 /* UIKit.framework in Frameworks */,
+				7373CB36171171080067C7D2 /* Foundation.framework in Frameworks */,
+				7373CB38171171080067C7D2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73588E0E1711758800258E6C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7373CB50171171910067C7D2 /* MainScreenVC.h */,
+				7373CB51171171910067C7D2 /* MainScreenVC.m */,
+				7373CB52171171910067C7D2 /* MainScreenVC.xib */,
+				73588E091711758200258E6C /* DetailViewController.h */,
+				73588E0A1711758200258E6C /* DetailViewController.m */,
+				73588E0B1711758200258E6C /* DetailViewController.xib */,
+			);
+			name = ViewController;
+			path = FoodShop;
+			sourceTree = "<group>";
+		};
+		7373CB27171171080067C7D2 = {
+			isa = PBXGroup;
+			children = (
+				73ABC4861715724A00784AEB /* FootballPlayer */,
+				73ABC48517156CC200784AEB /* DataManager */,
+				7373CB42171171080067C7D2 /* AppDelegate.h */,
+				7373CB43171171080067C7D2 /* AppDelegate.m */,
+				73588E0E1711758800258E6C /* ViewController */,
+				7373CB551711728D0067C7D2 /* Resources */,
+				7373CB32171171080067C7D2 /* Frameworks */,
+				7373CB3A171171080067C7D2 /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7373CB31171171080067C7D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7373CB30171171080067C7D2 /* FoodShop.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7373CB32171171080067C7D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7373CB33171171080067C7D2 /* UIKit.framework */,
+				7373CB35171171080067C7D2 /* Foundation.framework */,
+				7373CB37171171080067C7D2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7373CB3A171171080067C7D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7373CB3B171171080067C7D2 /* FoodShop-Info.plist */,
+				7373CB31171171080067C7D2 /* Products */,
+				7373CB3C171171080067C7D2 /* InfoPlist.strings */,
+				7373CB3F171171080067C7D2 /* main.m */,
+				7373CB41171171080067C7D2 /* FoodShop-Prefix.pch */,
+				7373CB45171171080067C7D2 /* Default.png */,
+				7373CB47171171080067C7D2 /* Default@2x.png */,
+				7373CB49171171080067C7D2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = FoodShop;
+			sourceTree = "<group>";
+		};
+		7373CB551711728D0067C7D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7373CB56171172BF0067C7D2 /* beach_chair.png */,
+				7373CB57171172BF0067C7D2 /* cake.png */,
+				7373CB58171172BF0067C7D2 /* cocktail.png */,
+				7373CB59171172BF0067C7D2 /* drink.png */,
+				7373CB5A171172BF0067C7D2 /* drink1.png */,
+				7373CB5B171172BF0067C7D2 /* drink2.png */,
+				7373CB5C171172BF0067C7D2 /* drink3.png */,
+				7373CB5D171172BF0067C7D2 /* drink4.png */,
+				7373CB5E171172BF0067C7D2 /* drink5.png */,
+				7373CB5F171172BF0067C7D2 /* japaneseTea.jpg */,
+				7373CB60171172BF0067C7D2 /* soup.png */,
+				7373CB61171172BF0067C7D2 /* star.png */,
+				7373CB62171172BF0067C7D2 /* sushi.png */,
+			);
+			name = Resources;
+			path = FoodShop;
+			sourceTree = "<group>";
+		};
+		73ABC48517156CC200784AEB /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				73ABC48317156AE200784AEB /* players.plist */,
+				73FD6D701717FB5F00D99662 /* Player.h */,
+				73FD6D711717FB5F00D99662 /* Player.m */,
+				73DDA5FC1717CE8F00DBCBFB /* DataManager.h */,
+				73DDA5FD1717CE8F00DBCBFB /* DataManager.m */,
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		73ABC4861715724A00784AEB /* FootballPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				73FD6D7317181F0300D99662 /* adrianoCorreia.jpg */,
+				73FD6D7417181F0300D99662 /* alexanderSong.jpg */,
+				73FD6D7517181F0300D99662 /* alexisSanchez.jpg */,
+				73FD6D7617181F0300D99662 /* andresIniesta.jpg */,
+				73FD6D7717181F0300D99662 /* carlesPuyol.jpg */,
+				73FD6D7817181F0300D99662 /* cescFabregas.jpg */,
+				73FD6D7917181F0300D99662 /* cristianTello.jpg */,
+				73FD6D7A17181F0300D99662 /* daniAlves.jpg */,
+				73FD6D7B17181F0300D99662 /* davidVilla.jpg */,
+				73FD6D7C17181F0300D99662 /* ericAbidal.jpg */,
+				73FD6D7D17181F0300D99662 /* gerardPique.jpg */,
+				73FD6D7E17181F0300D99662 /* javierMascherano.jpg */,
+				73FD6D7F17181F0300D99662 /* jonathanDosSantos.jpg */,
+				73FD6D8017181F0300D99662 /* jordiAlba.jpg */,
+				73FD6D8117181F0300D99662 /* joseManuelPinto.jpg */,
+				73FD6D8217181F0300D99662 /* leoMessi.jpg */,
+				73FD6D8317181F0300D99662 /* marcBartra.jpg */,
+				73FD6D8417181F0300D99662 /* martinMontoya.jpg */,
+				73FD6D8517181F0300D99662 /* pedroRodriguez.jpg */,
+				73FD6D8617181F0300D99662 /* sergioBusquets.jpg */,
+				73FD6D8717181F0300D99662 /* thiagoAlcantara.jpg */,
+				73FD6D8817181F0300D99662 /* victorValdes.jpg */,
+				73FD6D8917181F0300D99662 /* xaviHernandez.jpg */,
+			);
+			name = FootballPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7373CB2F171171080067C7D2 /* FoodShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7373CB4D171171080067C7D2 /* Build configuration list for PBXNativeTarget "FoodShop" */;
+			buildPhases = (
+				7373CB2C171171080067C7D2 /* Sources */,
+				7373CB2D171171080067C7D2 /* Frameworks */,
+				7373CB2E171171080067C7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodShop;
+			productName = FoodShop;
+			productReference = 7373CB30171171080067C7D2 /* FoodShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7373CB28171171080067C7D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Thanh Dao";
+			};
+			buildConfigurationList = 7373CB2B171171080067C7D2 /* Build configuration list for PBXProject "FoodShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7373CB27171171080067C7D2;
+			productRefGroup = 7373CB31171171080067C7D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7373CB2F171171080067C7D2 /* FoodShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7373CB2E171171080067C7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7373CB3E171171080067C7D2 /* InfoPlist.strings in Resources */,
+				7373CB46171171080067C7D2 /* Default.png in Resources */,
+				7373CB48171171080067C7D2 /* Default@2x.png in Resources */,
+				7373CB4A171171080067C7D2 /* Default-568h@2x.png in Resources */,
+				7373CB54171171910067C7D2 /* MainScreenVC.xib in Resources */,
+				7373CB63171172BF0067C7D2 /* beach_chair.png in Resources */,
+				7373CB64171172BF0067C7D2 /* cake.png in Resources */,
+				7373CB65171172BF0067C7D2 /* cocktail.png in Resources */,
+				7373CB66171172BF0067C7D2 /* drink.png in Resources */,
+				7373CB67171172BF0067C7D2 /* drink1.png in Resources */,
+				7373CB68171172BF0067C7D2 /* drink2.png in Resources */,
+				7373CB69171172BF0067C7D2 /* drink3.png in Resources */,
+				7373CB6A171172BF0067C7D2 /* drink4.png in Resources */,
+				7373CB6B171172BF0067C7D2 /* drink5.png in Resources */,
+				7373CB6C171172BF0067C7D2 /* japaneseTea.jpg in Resources */,
+				7373CB6D171172BF0067C7D2 /* soup.png in Resources */,
+				7373CB6E171172BF0067C7D2 /* star.png in Resources */,
+				7373CB6F171172BF0067C7D2 /* sushi.png in Resources */,
+				73588E0D1711758200258E6C /* DetailViewController.xib in Resources */,
+				73ABC48417156AE200784AEB /* players.plist in Resources */,
+				73FD6D8A17181F0300D99662 /* adrianoCorreia.jpg in Resources */,
+				73FD6D8B17181F0300D99662 /* alexanderSong.jpg in Resources */,
+				73FD6D8C17181F0300D99662 /* alexisSanchez.jpg in Resources */,
+				73FD6D8D17181F0300D99662 /* andresIniesta.jpg in Resources */,
+				73FD6D8E17181F0300D99662 /* carlesPuyol.jpg in Resources */,
+				73FD6D8F17181F0300D99662 /* cescFabregas.jpg in Resources */,
+				73FD6D9017181F0300D99662 /* cristianTello.jpg in Resources */,
+				73FD6D9117181F0300D99662 /* daniAlves.jpg in Resources */,
+				73FD6D9217181F0300D99662 /* davidVilla.jpg in Resources */,
+				73FD6D9317181F0300D99662 /* ericAbidal.jpg in Resources */,
+				73FD6D9417181F0300D99662 /* gerardPique.jpg in Resources */,
+				73FD6D9517181F0300D99662 /* javierMascherano.jpg in Resources */,
+				73FD6D9617181F0300D99662 /* jonathanDosSantos.jpg in Resources */,
+				73FD6D9717181F0300D99662 /* jordiAlba.jpg in Resources */,
+				73FD6D9817181F0300D99662 /* joseManuelPinto.jpg in Resources */,
+				73FD6D9917181F0300D99662 /* leoMessi.jpg in Resources */,
+				73FD6D9A17181F0300D99662 /* marcBartra.jpg in Resources */,
+				73FD6D9B17181F0300D99662 /* martinMontoya.jpg in Resources */,
+				73FD6D9C17181F0300D99662 /* pedroRodriguez.jpg in Resources */,
+				73FD6D9D17181F0300D99662 /* sergioBusquets.jpg in Resources */,
+				73FD6D9E17181F0300D99662 /* thiagoAlcantara.jpg in Resources */,
+				73FD6D9F17181F0300D99662 /* victorValdes.jpg in Resources */,
+				73FD6DA017181F0300D99662 /* xaviHernandez.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7373CB2C171171080067C7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7373CB40171171080067C7D2 /* main.m in Sources */,
+				7373CB44171171080067C7D2 /* AppDelegate.m in Sources */,
+				7373CB53171171910067C7D2 /* MainScreenVC.m in Sources */,
+				73588E0C1711758200258E6C /* DetailViewController.m in Sources */,
+				73DDA5FE1717CE8F00DBCBFB /* DataManager.m in Sources */,
+				73FD6D721717FB5F00D99662 /* Player.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7373CB3C171171080067C7D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7373CB3D171171080067C7D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7373CB4B171171080067C7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7373CB4C171171080067C7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7373CB4E171171080067C7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodShop/FoodShop-Prefix.pch";
+				INFOPLIST_FILE = "FoodShop/FoodShop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7373CB4F171171080067C7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodShop/FoodShop-Prefix.pch";
+				INFOPLIST_FILE = "FoodShop/FoodShop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7373CB2B171171080067C7D2 /* Build configuration list for PBXProject "FoodShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7373CB4B171171080067C7D2 /* Debug */,
+				7373CB4C171171080067C7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7373CB4D171171080067C7D2 /* Build configuration list for PBXNativeTarget "FoodShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7373CB4E171171080067C7D2 /* Debug */,
+				7373CB4F171171080067C7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7373CB28171171080067C7D2 /* Project object */;
+}

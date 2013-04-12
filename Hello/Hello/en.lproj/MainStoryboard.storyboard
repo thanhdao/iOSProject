@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C54" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVD-sx-gck">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="apple">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="applePress:" destination="2" eventType="touchUpInside" id="psV-fU-TaT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uu4-h8-CYj">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="banana">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7LU-De-QCO" kind="modal" identifier="bananaSegue" id="5gV-Ft-0yN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJ9-Px-A4u">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="orange">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7LU-De-QCO" kind="modal" identifier="orangeSegue" id="xS6-VQ-Hvo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBy-74-y5G">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="peach">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7LU-De-QCO" kind="modal" identifier="peachSegue" id="BNH-0i-l9R"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Select a Fruit" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJO-Sh-Tgu">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cVD-sx-gck" firstAttribute="leading" secondItem="uu4-h8-CYj" secondAttribute="leading" type="default" id="56X-uB-UKi"/>
+                            <constraint firstItem="cVD-sx-gck" firstAttribute="top" secondItem="3" secondAttribute="top" constant="168" id="Eah-1Q-HE0"/>
+                            <constraint firstItem="uu4-h8-CYj" firstAttribute="leading" secondItem="WJ9-Px-A4u" secondAttribute="leading" type="default" id="TDa-9D-dVO"/>
+                            <constraint firstItem="WJ9-Px-A4u" firstAttribute="leading" secondItem="oBy-74-y5G" secondAttribute="leading" type="default" id="a8Z-f0-OKv"/>
+                            <constraint firstItem="uu4-h8-CYj" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="cbA-vb-JgH"/>
+                            <constraint firstAttribute="bottom" secondItem="WJ9-Px-A4u" secondAttribute="bottom" constant="105" id="dBB-AE-StI"/>
+                            <constraint firstItem="QJO-Sh-Tgu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="123" id="dmB-VY-OHn"/>
+                            <constraint firstAttribute="bottom" secondItem="uu4-h8-CYj" secondAttribute="bottom" constant="173" id="rSz-wi-Zos"/>
+                            <constraint firstItem="QJO-Sh-Tgu" firstAttribute="centerX" secondItem="cVD-sx-gck" secondAttribute="centerX" type="default" id="siH-gy-K3f"/>
+                            <constraint firstAttribute="bottom" secondItem="oBy-74-y5G" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="yNI-YK-OeP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-595" y="132"/>
+        </scene>
+        <!--Fruit Detail View Controller-->
+        <scene sceneID="sS6-Ph-vop">
+            <objects>
+                <viewController id="7LU-De-QCO" customClass="FruitDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="loc-ip-Wdi">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Rm-QC-XWj">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="press:" destination="7LU-De-QCO" eventType="touchUpInside" id="Bs5-fP-3UD"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ht2-lY-6E7">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="S6r-8f-mGI"/>
+                                    <constraint firstAttribute="height" constant="132" id="V3R-8e-ULK"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fruit Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2GE-nZ-DmS">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fruit Family" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rH-0e-GfD">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Genus" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQG-WR-5Wd">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ht2-lY-6E7" firstAttribute="top" secondItem="loc-ip-Wdi" secondAttribute="top" constant="63" id="9gA-Cu-F23"/>
+                            <constraint firstItem="Ht2-lY-6E7" firstAttribute="leading" secondItem="loc-ip-Wdi" secondAttribute="leading" constant="100" id="DYN-QH-LcW"/>
+                            <constraint firstItem="5rH-0e-GfD" firstAttribute="centerX" secondItem="VQG-WR-5Wd" secondAttribute="centerX" type="default" id="IwZ-id-cdY"/>
+                            <constraint firstItem="VQG-WR-5Wd" firstAttribute="centerX" secondItem="loc-ip-Wdi" secondAttribute="centerX" type="default" id="RNp-r0-w1C"/>
+                            <constraint firstItem="2GE-nZ-DmS" firstAttribute="top" secondItem="loc-ip-Wdi" secondAttribute="top" constant="214" id="Snq-b9-e6F"/>
+                            <constraint firstAttribute="bottom" secondItem="VQG-WR-5Wd" secondAttribute="bottom" constant="125" id="Ygs-1X-3ru"/>
+                            <constraint firstItem="5rH-0e-GfD" firstAttribute="centerX" secondItem="2GE-nZ-DmS" secondAttribute="centerX" type="default" id="ayH-6g-e9a"/>
+                            <constraint firstAttribute="bottom" secondItem="5rH-0e-GfD" secondAttribute="bottom" constant="171" id="bVA-3e-bLc"/>
+                            <constraint firstAttribute="bottom" secondItem="9Rm-QC-XWj" secondAttribute="bottom" constant="49" id="fSY-Yi-MJ5"/>
+                            <constraint firstItem="VQG-WR-5Wd" firstAttribute="centerX" secondItem="9Rm-QC-XWj" secondAttribute="centerX" type="default" id="glC-xh-PbJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="YSB-wU-yVS"/>
+                    <connections>
+                        <outlet property="fruitFamily" destination="5rH-0e-GfD" id="Obg-TH-IUW"/>
+                        <outlet property="fruitGenus" destination="VQG-WR-5Wd" id="iZ6-8T-1bJ"/>
+                        <outlet property="fruitImage" destination="Ht2-lY-6E7" id="lIw-Sj-BMW"/>
+                        <outlet property="fruitName" destination="2GE-nZ-DmS" id="Yqe-RJ-khm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iT4-dN-JyH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-119" y="132"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="FruitDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FruitDetailViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="press:"/>
+                <relationship kind="outlet" name="fruitFamily" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="fruitGenus" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="fruitImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="fruitName" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="applePress:"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="BNH-0i-l9R"/>
+    </inferredMetricsTieBreakers>
+</document>

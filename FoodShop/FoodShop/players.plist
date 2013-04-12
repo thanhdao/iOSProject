@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Lionel Messi</string>
+		<key>Photo</key>
+		<string>leoMessi.jpg</string>
+		<key>Description</key>
+		<string>Striker</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Victor Valdes</string>
+		<key>Photo</key>
+		<string>victorValdes.jpg</string>
+		<key>Description</key>
+		<string>Goal Keeper</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dani Alves</string>
+		<key>Photo</key>
+		<string>daniAlves.jpg</string>
+		<key>Description</key>
+		<string>Defender</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Gerard Pique</string>
+		<key>Photo</key>
+		<string>gerardPique.jpg</string>
+		<key>Description</key>
+		<string>Defender</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cesc Fabregas</string>
+		<key>Photo</key>
+		<string>cescFabregas.jpg</string>
+		<key>Description</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Carles Puyol</string>
+		<key>Photo</key>
+		<string>carlesPuyol.jpg</string>
+		<key>Description</key>
+		<string>Defender</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Xavi Hernandez</string>
+		<key>Photo</key>
+		<string>xaviHernandez.jpg</string>
+		<key>Description</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>David Villa</string>
+		<key>Photo</key>
+		<string>davidVilla.jpg</string>
+		<key>Description</key>
+		<string>Striker</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Andrés Iniesta Luján</string>
+		<key>Photo</key>
+		<string>andresIniesta.jpg</string>
+		<key>Description</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Alexis Sanchez</string>
+		<key>Photo</key>
+		<string>alexisSanchez.jpg</string>
+		<key>Description</key>
+		<string>Striker</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Thiago Alcantara</string>
+		<key>Photo</key>
+		<string>thiagoAlcantara.jpg</string>
+		<key>Description</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Jonathan dos Santos Ramirez</string>
+		<key>Photo</key>
+		<string>jonathanDosSantos.jpg</string>
+		<key>Description</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Jose Manuel Pinto</string>
+		<key>Photo</key>
+		<string>joseManuelPinto.jpg</string>
+		<key>Description</key>
+		<string>Goalkeeper</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Javier Alejandro Mascherano</string>
+		<key>Photo</key>
+		<string>javierMascherano.jpg</string>
+		<key>Description</key>
+		<string>Defensive midfielder</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Marc Bartra Aregall</string>
+		<key>Photo</key>
+		<string>marcBartra.jpg</string>
+		<key>Description</key>
+		<string>Centre back</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sergio Busquets Burgos</string>
+		<key>Photo</key>
+		<string>sergioBusquets.jpg</string>
+		<key>Description</key>
+		<string>Defensive Midfielder</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pedro Eliezer Rodriguez Ledesma</string>
+		<key>Photo</key>
+		<string>pedroRodriguez.jpg</string>
+		<key>Description</key>
+		<string>Forward / Winger</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Jordi Alba Ramos</string>
+		<key>Photo</key>
+		<string>jordiAlba.jpg</string>
+		<key>Description</key>
+		<string>Left back / Midfielder</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Martin Montoya Torralbo</string>
+		<key>Photo</key>
+		<string>martinMontoya.jpg</string>
+		<key>Description</key>
+		<string>Right back</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Adriano Correia Claro</string>
+		<key>Photo</key>
+		<string>adrianoCorreia.jpg</string>
+		<key>Description</key>
+		<string>Full back / Midfielder</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Eric Sylvain Abidal</string>
+		<key>Photo</key>
+		<string>ericAbidal.jpg</string>
+		<key>Description</key>
+		<string>Defender</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Alexandre Dimitri Song Billong</string>
+		<key>Photo</key>
+		<string>alexanderSong.jpg</string>
+		<key>Description</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cristian Tello Herrera</string>
+		<key>Photo</key>
+		<string>cristianTello.jpg</string>
+		<key>Description</key>
+		<string>Forward / Winger</string>
+	</dict>
+</array>
+</plist>
