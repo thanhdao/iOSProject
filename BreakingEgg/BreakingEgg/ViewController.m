@@ -20,9 +20,9 @@
 {
     //Khởi tạo 
     self.shake = 0; // Số lần lắc
-    UIImageView *eggViewStart = [[UIImageView alloc] initWithFrame:self.view.frame];
+    UIImageView *eggViewStart = [[UIImageView alloc] initWithFrame: self.view.frame];
 
-    UIImage *image = [UIImage imageNamed:@"IMG_0047.JPG"];
+    UIImage *image = [UIImage imageNamed: @"IMG_0047.JPG"];
     eggViewStart.image = image;
     
     

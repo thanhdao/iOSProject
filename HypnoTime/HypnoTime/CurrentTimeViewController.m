@@ -25,6 +25,7 @@
         
         UIImage *i = [UIImage  imageNamed: @"Time.png"];
         [tbi setImage: i];
+        [[self view] setBackgroundColor: [UIColor yellowColor]];
     }
     
     return self;

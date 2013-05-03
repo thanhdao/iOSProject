@@ -12,7 +12,7 @@
 #import "Player.h"
 
 
-#define BUTTON_WIDTH 100
+#define BUTTON_WIDTH 50
 #define BUTTON_LENGTH 100
 #define ROW_DISTANCE 30
 #define COLUMN_DISTANCE 40
@@ -62,7 +62,10 @@
     [self.view addSubview: self.myScrollView];
     
     //Kich thuoc Scroll View, Nhieu hon 6 cau thu la phai cuon
-    [_myScrollView setContentSize: CGSizeMake(self.view.frame.size.width, self.view.frame.size.height * self.playerNumber / 6)];
+    
+    [_myScrollView setContentSize: CGSizeMake(320,460)];
+    //[_myScrollView setContentSize: CGSizeMake(self.view.frame.size.width, self.view.frame.size.height * self.playerNumber / 6)];
+    //NSLog(@"%f",self.view.frame.size.width);
    
     
     // Tao cac nut chua anh player

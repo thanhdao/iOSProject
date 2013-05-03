@@ -1,45 +1,25 @@
 //
 //  AppDelegate.m
-//  BreakingEgg
+//  DemoTextView
 //
-//  Created by Thanh Dao on 3/28/13.
+//  Created by Thanh Dao on 4/18/13.
 //  Copyright (c) 2013 Thanh Dao. All rights reserved.
 //
 
 #import "AppDelegate.h"
 
 #import "ViewController.h"
-#import "EggWindow.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Dùng EggWindow thay Window để hứng sự kiện lắc 
-    self.window = [[EggWindow alloc]initWithFrame: [[UIScreen mainScreen] bounds]];
-    
-    //self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];     
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    
-    self.window.rootViewController = self.viewController;
-    
-    [self.window makeKeyAndVisible];
-    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-        // Nhận notification của sự kiện lắc và gọi hàm hiển thị trứng vỡ.
-    [[NSNotificationCenter defaultCenter] addObserver: self
-                                             selector: @selector(animation) name: @"shake"
-                                               object: nil];
+    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    self.window.rootViewController = self.viewController;
+    [self.window makeKeyAndVisible];
     return YES;
-     
-}
-
-// Gọi hàm hiển thị trứng vỡ
-- (void)animation{
-    
-
-    [self.viewController animationEgg];
-    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

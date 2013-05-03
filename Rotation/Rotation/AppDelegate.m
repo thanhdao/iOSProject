@@ -1,45 +1,50 @@
 //
 //  AppDelegate.m
-//  BreakingEgg
+//  Rotation
 //
-//  Created by Thanh Dao on 3/28/13.
+//  Created by Thanh Dao on 4/13/13.
 //  Copyright (c) 2013 Thanh Dao. All rights reserved.
 //
 
 #import "AppDelegate.h"
 
 #import "ViewController.h"
-#import "EggWindow.h"
+
+#import "HeavyRotationViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Dùng EggWindow thay Window để hứng sự kiện lắc 
-    self.window = [[EggWindow alloc]initWithFrame: [[UIScreen mainScreen] bounds]];
+    // Get the device object
+    UIDevice *device = [UIDevice currentDevice];
     
-    //self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];     
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    // Tell it to start monitoring the accelerometer for orientation
+    [device beginGeneratingDeviceOrientationNotifications];
     
-    self.window.rootViewController = self.viewController;
+    // Get the notification center for the app
+    NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
     
-    [self.window makeKeyAndVisible];
+    // Add yourself as an observer
+    [nc addObserver: self
+           selector: @selector(orientationChanged:)
+               name: UIDeviceOrientationDidChangeNotification
+             object: device];
     
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-        // Nhận notification của sự kiện lắc và gọi hàm hiển thị trứng vỡ.
-    [[NSNotificationCenter defaultCenter] addObserver: self
-                                             selector: @selector(animation) name: @"shake"
-                                               object: nil];
+    self.viewController = [[HeavyRotationViewController alloc]
+                           initWithNibName: @"HeavyRotationViewController"
+                                    bundle:nil];
+    self.window.rootViewController = self.viewController;
+    [self.window makeKeyAndVisible];
     return YES;
-     
 }
 
-// Gọi hàm hiển thị trứng vỡ
-- (void)animation{
-    
-
-    [self.viewController animationEgg];
-    
+- (void)orientationChanged: (NSNotification *)note
+{
+    // Log the constant that represents the current orientation
+    NSLog(@"Orientation Changed: %d", [[note object] orientation]);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

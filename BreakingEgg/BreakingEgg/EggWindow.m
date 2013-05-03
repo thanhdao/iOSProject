@@ -33,7 +33,9 @@
     if (motion == UIEventSubtypeMotionShake) {
         NSLog(@"Detected a shake");
         // TRuyền Notification khi có sự kiện lắc.
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"shake" object:self];
+        [[NSNotificationCenter defaultCenter]
+         postNotificationName: @"shake"
+                       object: self];
     }
 }
 

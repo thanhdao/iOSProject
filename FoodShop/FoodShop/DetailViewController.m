@@ -25,14 +25,29 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+     NSLog(@"View will appear");
     self.nameLabel.text = self.player.name;
     self.descriptionLabel.text = self.player.description;
     [self.imageView setImage: [UIImage imageNamed: self.player.photo]];
+    //super viewWillAppear: animated];
 
 }
+- (void)viewDidAppear:(BOOL)animated {
+    NSLog(@"View did appear");
+}
+- (void)viewWillDisappear:(BOOL)animated
+{
+    NSLog(@"View will disappear");
+    //NSLog(@"CurrentTimeViewController will DISappear");
+    //[super viewWillDisappear:animated];
+}
 
+- (void)viewDidDisappear:(BOOL)animated{
+    NSLog(@"View did disappear");
+}
 - (void)viewDidLoad
 {
+    NSLog(@"View did load");
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     }
