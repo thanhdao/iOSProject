@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'Fun Multiplication For Kids' target in the 'Fun Multiplication For Kids' project
+//
+
+#import <Availability.h>
+
+#define TIME_TABLE_SIZE 12
+
+#define BACK_BUTTON_X 0
+#define BACK_BUTTON_Y 0
+#define BACK_BUTTON_WIDTH 40
+#define BACK_BUTTON_HEIGH 40
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

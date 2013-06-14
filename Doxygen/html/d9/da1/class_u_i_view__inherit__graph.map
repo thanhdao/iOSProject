@@ -1,0 +1,13 @@
+<map id="UIView" name="UIView">
+<area shape="rect" id="node2" href="$d2/dad/interface_reader_content_page.html" title="ReaderContentPage" alt="" coords="129,5,271,33"/>
+<area shape="rect" id="node3" href="$dc/d4a/interface_reader_main_pagebar.html" title="ReaderMainPagebar" alt="" coords="128,57,272,85"/>
+<area shape="rect" id="node4" href="$db/d3e/interface_reader_pagebar_shadow.html" title="ReaderPagebarShadow" alt="" coords="118,109,282,137"/>
+<area shape="rect" id="node5" href="$d8/d25/interface_reader_thumb_view.html" title="ReaderThumbView" alt="" coords="132,161,268,189"/>
+<area shape="rect" id="node9" href="$d9/d6a/interface_u_i_x_toolbar_shadow.html" title="UIXToolbarShadow" alt="" coords="132,213,268,241"/>
+<area shape="rect" id="node10" href="$d3/dea/interface_u_i_x_toolbar_view.html" title="UIXToolbarView" alt="" coords="142,265,258,293"/>
+<area shape="rect" id="node6" href="$d4/df0/interface_reader_content_thumb.html" title="ReaderContentThumb" alt="" coords="333,109,486,137"/>
+<area shape="rect" id="node7" href="$dd/d65/interface_reader_pagebar_thumb.html" title="ReaderPagebarThumb" alt="" coords="331,161,488,189"/>
+<area shape="rect" id="node8" href="$d0/ddf/interface_thumbs_page_thumb.html" title="ThumbsPageThumb" alt="" coords="338,213,480,241"/>
+<area shape="rect" id="node11" href="$dd/dd4/interface_reader_main_toolbar.html" title="ReaderMainToolbar" alt="" coords="340,265,478,293"/>
+<area shape="rect" id="node12" href="$df/db1/interface_thumbs_main_toolbar.html" title="ThumbsMainToolbar" alt="" coords="338,317,480,345"/>
+</map>

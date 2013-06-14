@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d9/dca/_reader_constants_8h" kind="file">
+    <compoundname>ReaderConstants.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="d4/dd2/_reader_constants_8m" local="yes">Sources/ReaderConstants.m</includedby>
+    <includedby refid="d3/d15/_reader_content_page_8m" local="yes">Sources/ReaderContentPage.m</includedby>
+    <includedby refid="d0/dfc/_reader_content_view_8m" local="yes">Sources/ReaderContentView.m</includedby>
+    <includedby refid="dc/d5a/_reader_main_toolbar_8m" local="yes">Sources/ReaderMainToolbar.m</includedby>
+    <includedby refid="da/d57/_reader_view_controller_8m" local="yes">Sources/ReaderViewController.m</includedby>
+    <includedby refid="d6/d82/_thumbs_main_toolbar_8m" local="yes">Sources/ThumbsMainToolbar.m</includedby>
+    <includedby refid="d3/d0f/_thumbs_view_controller_8m" local="yes">Sources/ThumbsViewController.m</includedby>
+    <incdepgraph>
+      <node id="426">
+        <label>Sources/ReaderConstants.h</label>
+        <link refid="ReaderConstants.h"/>
+        <childnode refid="427" relation="include">
+        </childnode>
+      </node>
+      <node id="427">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="428">
+        <label>Sources/ReaderConstants.h</label>
+        <link refid="ReaderConstants.h"/>
+        <childnode refid="429" relation="include">
+        </childnode>
+        <childnode refid="430" relation="include">
+        </childnode>
+        <childnode refid="431" relation="include">
+        </childnode>
+        <childnode refid="432" relation="include">
+        </childnode>
+        <childnode refid="433" relation="include">
+        </childnode>
+        <childnode refid="434" relation="include">
+        </childnode>
+        <childnode refid="435" relation="include">
+        </childnode>
+      </node>
+      <node id="429">
+        <label>Sources/ReaderConstants.m</label>
+        <link refid="d4/dd2/_reader_constants_8m"/>
+      </node>
+      <node id="435">
+        <label>Sources/ThumbsViewController.m</label>
+        <link refid="d3/d0f/_thumbs_view_controller_8m"/>
+      </node>
+      <node id="434">
+        <label>Sources/ThumbsMainToolbar.m</label>
+        <link refid="d6/d82/_thumbs_main_toolbar_8m"/>
+      </node>
+      <node id="433">
+        <label>Sources/ReaderViewController.m</label>
+        <link refid="da/d57/_reader_view_controller_8m"/>
+      </node>
+      <node id="430">
+        <label>Sources/ReaderContentPage.m</label>
+        <link refid="d3/d15/_reader_content_page_8m"/>
+      </node>
+      <node id="432">
+        <label>Sources/ReaderMainToolbar.m</label>
+        <link refid="dc/d5a/_reader_main_toolbar_8m"/>
+      </node>
+      <node id="431">
+        <label>Sources/ReaderContentView.m</label>
+        <link refid="d0/dfc/_reader_content_view_8m"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="d9/dca/_reader_constants_8h_1a86ca34e77ef1fa1e16b98cb8437452ab" prot="public" static="no">
+        <name>READER_BOOKMARKS</name>
+        <initializer>TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" line="32" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d9/dca/_reader_constants_8h_1a13973483334283c82da76e9d239eadc0" prot="public" static="no">
+        <name>READER_ENABLE_MAIL</name>
+        <initializer>TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" line="33" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d9/dca/_reader_constants_8h_1a87e9bb8ee96d5f0a6c5c99d2c8dd1b99" prot="public" static="no">
+        <name>READER_ENABLE_PRINT</name>
+        <initializer>TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" line="34" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d9/dca/_reader_constants_8h_1af883b26a8905278b6e67c16df69755d2" prot="public" static="no">
+        <name>READER_ENABLE_THUMBS</name>
+        <initializer>TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" line="35" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d9/dca/_reader_constants_8h_1a474f9b4b05f944a9fd3eac9ca382e4ba" prot="public" static="no">
+        <name>READER_ENABLE_PREVIEW</name>
+        <initializer>TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" line="36" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d9/dca/_reader_constants_8h_1a5e2d61b0f44a43f09c46b3edb30ecf87" prot="public" static="no">
+        <name>READER_DISABLE_RETINA</name>
+        <initializer>FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" line="37" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d9/dca/_reader_constants_8h_1a0ec890949e5cb38482a782182b2a016a" prot="public" static="no">
+        <name>READER_DISABLE_IDLE</name>
+        <initializer>FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" line="38" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d9/dca/_reader_constants_8h_1a1c53d6067046ed5a8cc5a25439b953ad" prot="public" static="no">
+        <name>READER_SHOW_SHADOWS</name>
+        <initializer>TRUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" line="39" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d9/dca/_reader_constants_8h_1a86dd7ead52a6b8d8a6d1a56727175926" prot="public" static="no">
+        <name>READER_STANDALONE</name>
+        <initializer>FALSE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" line="40" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="d9/dca/_reader_constants_8h_1ac3529fcad5224ffe205f06aa246d5089" prot="public" static="no" mutable="no">
+        <type>NSString *const</type>
+        <definition>NSString* const kReaderCopyrightNotice</definition>
+        <argsstring></argsstring>
+        <name>kReaderCopyrightNotice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h" line="42" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.m" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>ReaderConstants.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Reader<sp/>v2.6.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Julius<sp/>Oklamcak<sp/>on<sp/>2011-07-01.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2011-2012<sp/>Julius<sp/>Oklamcak.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell<sp/>copies</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in<sp/>all</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>OR<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!__has_feature(objc_arc)</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#error<sp/>ARC<sp/>(-fobjc-arc)<sp/>is<sp/>required<sp/>to<sp/>build<sp/>this<sp/>code.</highlight></codeline>
+<codeline lineno="28"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="29"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="d9/dca/_reader_constants_8h_1a86ca34e77ef1fa1e16b98cb8437452ab" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>READER_BOOKMARKS<sp/>TRUE</highlight></codeline>
+<codeline lineno="33" refid="d9/dca/_reader_constants_8h_1a13973483334283c82da76e9d239eadc0" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>READER_ENABLE_MAIL<sp/>TRUE</highlight></codeline>
+<codeline lineno="34" refid="d9/dca/_reader_constants_8h_1a87e9bb8ee96d5f0a6c5c99d2c8dd1b99" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>READER_ENABLE_PRINT<sp/>TRUE</highlight></codeline>
+<codeline lineno="35" refid="d9/dca/_reader_constants_8h_1af883b26a8905278b6e67c16df69755d2" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>READER_ENABLE_THUMBS<sp/>TRUE</highlight></codeline>
+<codeline lineno="36" refid="d9/dca/_reader_constants_8h_1a474f9b4b05f944a9fd3eac9ca382e4ba" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>READER_ENABLE_PREVIEW<sp/>TRUE</highlight></codeline>
+<codeline lineno="37" refid="d9/dca/_reader_constants_8h_1a5e2d61b0f44a43f09c46b3edb30ecf87" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>READER_DISABLE_RETINA<sp/>FALSE</highlight></codeline>
+<codeline lineno="38" refid="d9/dca/_reader_constants_8h_1a0ec890949e5cb38482a782182b2a016a" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>READER_DISABLE_IDLE<sp/>FALSE</highlight></codeline>
+<codeline lineno="39" refid="d9/dca/_reader_constants_8h_1a1c53d6067046ed5a8cc5a25439b953ad" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>READER_SHOW_SHADOWS<sp/>TRUE</highlight></codeline>
+<codeline lineno="40" refid="d9/dca/_reader_constants_8h_1a86dd7ead52a6b8d8a6d1a56727175926" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>READER_STANDALONE<sp/>FALSE</highlight></codeline>
+<codeline lineno="41"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>NSString<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d9/dca/_reader_constants_8h_1ac3529fcad5224ffe205f06aa246d5089" kindref="member">kReaderCopyrightNotice</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderConstants.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,157 @@
+\hypertarget{interface_reader_content_view}{\section{Reader\-Content\-View Class Reference}
+\label{dd/de3/interface_reader_content_view}\index{Reader\-Content\-View@{Reader\-Content\-View}}
+}
+
+
+{\ttfamily \#import $<$Reader\-Content\-View.\-h$>$}
+
+
+
+Inheritance diagram for Reader\-Content\-View\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{d2/d5f/interface_reader_content_view__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Reader\-Content\-View\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d7f/interface_reader_content_view__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(id) -\/ \hyperlink{interface_reader_content_view_ac045875376b7c51f37c2ee946f9c3de4}{init\-With\-Frame\-:file\-U\-R\-L\-:page\-:password\-:}
+\item 
+(void) -\/ \hyperlink{interface_reader_content_view_a952138f340db971d89ca8f455c20eda8}{show\-Page\-Thumb\-:page\-:password\-:guid\-:}
+\item 
+(id) -\/ \hyperlink{interface_reader_content_view_ace7f8325b0e739649fe9aab17a15b66a}{process\-Single\-Tap\-:}
+\item 
+(void) -\/ \hyperlink{interface_reader_content_view_af43ce1f20e44310bfc790100ed823d37}{zoom\-Increment}
+\item 
+(void) -\/ \hyperlink{interface_reader_content_view_a9045f28f0f226225b3da62941522252d}{zoom\-Decrement}
+\item 
+(void) -\/ \hyperlink{interface_reader_content_view_a771f0b83553366bd863f9c5b00db4808}{zoom\-Reset}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+id$<$ \hyperlink{protocol_reader_content_view_delegate-p}{Reader\-Content\-View\-Delegate} $>$ \hyperlink{interface_reader_content_view_abbbb9c4881d98915cb299e3f903b9719}{message}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 42 of file Reader\-Content\-View.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_reader_content_view_ac045875376b7c51f37c2ee946f9c3de4}{\index{Reader\-Content\-View@{Reader\-Content\-View}!init\-With\-Frame\-:file\-U\-R\-L\-:page\-:password\-:@{init\-With\-Frame\-:file\-U\-R\-L\-:page\-:password\-:}}
+\index{init\-With\-Frame\-:file\-U\-R\-L\-:page\-:password\-:@{init\-With\-Frame\-:file\-U\-R\-L\-:page\-:password\-:}!ReaderContentView@{Reader\-Content\-View}}
+\subsubsection[{init\-With\-Frame\-:file\-U\-R\-L\-:page\-:password\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) init\-With\-Frame\-: 
+\begin{DoxyParamCaption}
+\item[{(C\-G\-Rect)}]{frame}
+\item[{fileURL:(N\-S\-U\-R\-L $\ast$)}]{file\-U\-R\-L}
+\item[{page:(N\-S\-U\-Integer)}]{page}
+\item[{password:(N\-S\-String $\ast$)}]{phrase}
+\end{DoxyParamCaption}
+}}\label{dd/de3/interface_reader_content_view_ac045875376b7c51f37c2ee946f9c3de4}
+
+
+Definition at line 89 of file Reader\-Content\-View.\-m.
+
+\hypertarget{interface_reader_content_view_ace7f8325b0e739649fe9aab17a15b66a}{\index{Reader\-Content\-View@{Reader\-Content\-View}!process\-Single\-Tap\-:@{process\-Single\-Tap\-:}}
+\index{process\-Single\-Tap\-:@{process\-Single\-Tap\-:}!ReaderContentView@{Reader\-Content\-View}}
+\subsubsection[{process\-Single\-Tap\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) process\-Single\-Tap\-: 
+\begin{DoxyParamCaption}
+\item[{(U\-I\-Tap\-Gesture\-Recognizer $\ast$)}]{recognizer}
+\end{DoxyParamCaption}
+}}\label{dd/de3/interface_reader_content_view_ace7f8325b0e739649fe9aab17a15b66a}
+
+
+Definition at line 230 of file Reader\-Content\-View.\-m.
+
+\hypertarget{interface_reader_content_view_a952138f340db971d89ca8f455c20eda8}{\index{Reader\-Content\-View@{Reader\-Content\-View}!show\-Page\-Thumb\-:page\-:password\-:guid\-:@{show\-Page\-Thumb\-:page\-:password\-:guid\-:}}
+\index{show\-Page\-Thumb\-:page\-:password\-:guid\-:@{show\-Page\-Thumb\-:page\-:password\-:guid\-:}!ReaderContentView@{Reader\-Content\-View}}
+\subsubsection[{show\-Page\-Thumb\-:page\-:password\-:guid\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) show\-Page\-Thumb\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-U\-R\-L $\ast$)}]{file\-U\-R\-L}
+\item[{page:(N\-S\-Integer)}]{page}
+\item[{password:(N\-S\-String $\ast$)}]{phrase}
+\item[{guid:(N\-S\-String $\ast$)}]{guid}
+\end{DoxyParamCaption}
+}}\label{dd/de3/interface_reader_content_view_a952138f340db971d89ca8f455c20eda8}
+
+
+Definition at line 161 of file Reader\-Content\-View.\-m.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/de3/interface_reader_content_view_a952138f340db971d89ca8f455c20eda8_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{interface_reader_content_view_a9045f28f0f226225b3da62941522252d}{\index{Reader\-Content\-View@{Reader\-Content\-View}!zoom\-Decrement@{zoom\-Decrement}}
+\index{zoom\-Decrement@{zoom\-Decrement}!ReaderContentView@{Reader\-Content\-View}}
+\subsubsection[{zoom\-Decrement}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) zoom\-Decrement 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{dd/de3/interface_reader_content_view_a9045f28f0f226225b3da62941522252d}
+
+
+Definition at line 252 of file Reader\-Content\-View.\-m.
+
+\hypertarget{interface_reader_content_view_af43ce1f20e44310bfc790100ed823d37}{\index{Reader\-Content\-View@{Reader\-Content\-View}!zoom\-Increment@{zoom\-Increment}}
+\index{zoom\-Increment@{zoom\-Increment}!ReaderContentView@{Reader\-Content\-View}}
+\subsubsection[{zoom\-Increment}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) zoom\-Increment 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{dd/de3/interface_reader_content_view_af43ce1f20e44310bfc790100ed823d37}
+
+
+Definition at line 235 of file Reader\-Content\-View.\-m.
+
+\hypertarget{interface_reader_content_view_a771f0b83553366bd863f9c5b00db4808}{\index{Reader\-Content\-View@{Reader\-Content\-View}!zoom\-Reset@{zoom\-Reset}}
+\index{zoom\-Reset@{zoom\-Reset}!ReaderContentView@{Reader\-Content\-View}}
+\subsubsection[{zoom\-Reset}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) zoom\-Reset 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{dd/de3/interface_reader_content_view_a771f0b83553366bd863f9c5b00db4808}
+
+
+Definition at line 269 of file Reader\-Content\-View.\-m.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_reader_content_view_abbbb9c4881d98915cb299e3f903b9719}{\index{Reader\-Content\-View@{Reader\-Content\-View}!message@{message}}
+\index{message@{message}!ReaderContentView@{Reader\-Content\-View}}
+\subsubsection[{message}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id$<${\bf Reader\-Content\-View\-Delegate}$>$) message\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [unsafe_unretained]}}}\label{dd/de3/interface_reader_content_view_abbbb9c4881d98915cb299e3f903b9719}
+
+
+Definition at line 44 of file Reader\-Content\-View.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Sources/\hyperlink{_reader_content_view_8h}{Reader\-Content\-View.\-h}\item 
+Sources/\hyperlink{_reader_content_view_8m}{Reader\-Content\-View.\-m}\end{DoxyCompactItemize}

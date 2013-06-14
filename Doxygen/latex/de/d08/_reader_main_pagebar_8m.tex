@@ -1,0 +1,167 @@
+\hypertarget{_reader_main_pagebar_8m}{\section{Sources/\-Reader\-Main\-Pagebar.m File Reference}
+\label{de/d08/_reader_main_pagebar_8m}\index{Sources/\-Reader\-Main\-Pagebar.\-m@{Sources/\-Reader\-Main\-Pagebar.\-m}}
+}
+{\ttfamily \#import \char`\"{}Reader\-Main\-Pagebar.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Reader\-Thumb\-Cache.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Reader\-Document.\-h\char`\"{}}\\*
+{\ttfamily \#import $<$Quartz\-Core/\-Quartz\-Core.\-h$>$}\\*
+Include dependency graph for Reader\-Main\-Pagebar.\-m\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/dce/_reader_main_pagebar_8m__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_reader_main_pagebar_8m_a180c94e132479bd2ba59e6c1885b9c89}{T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-G\-A\-P}~2
+\item 
+\#define \hyperlink{_reader_main_pagebar_8m_a08ee0c339acdbfb35232cf30808f095b}{T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-W\-I\-D\-T\-H}~22
+\item 
+\#define \hyperlink{_reader_main_pagebar_8m_aec5f13f9043470f9578f841af959bdfa}{T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-H\-E\-I\-G\-H\-T}~28
+\item 
+\#define \hyperlink{_reader_main_pagebar_8m_a4693f1d651b875475204619a9bea49e6}{T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E\-\_\-\-W\-I\-D\-T\-H}~32
+\item 
+\#define \hyperlink{_reader_main_pagebar_8m_a3afcd44650b9ed9d3ab19a3321034019}{T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E\-\_\-\-H\-E\-I\-G\-H\-T}~42
+\item 
+\#define \hyperlink{_reader_main_pagebar_8m_aac10052e24bcffe9493c14b36de940e1}{P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-W\-I\-D\-T\-H}~96.\-0f
+\item 
+\#define \hyperlink{_reader_main_pagebar_8m_aafb4d17bff3f03afc7db061ed29a9f66}{P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-H\-E\-I\-G\-H\-T}~30.\-0f
+\item 
+\#define \hyperlink{_reader_main_pagebar_8m_a2677ea8745695182e419ab1045345c26}{P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-S\-P\-A\-C\-E}~20.\-0f
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{interface_reader_track_control}{Reader\-Track\-Control} $\ast$ \hyperlink{_reader_main_pagebar_8m_af2419bb02973efd46c8cd511d62a0e55}{track\-Control}
+\item 
+N\-S\-Mutable\-Dictionary $\ast$ \hyperlink{_reader_main_pagebar_8m_a6de392004fbeba7f1f705d936a59fbf2}{mini\-Thumb\-Views}
+\item 
+\hyperlink{interface_reader_pagebar_thumb}{Reader\-Pagebar\-Thumb} $\ast$ \hyperlink{_reader_main_pagebar_8m_a29eefa5acf3247abd51e28129cf3ea03}{page\-Thumb\-View}
+\item 
+U\-I\-Label $\ast$ \hyperlink{_reader_main_pagebar_8m_a557956db9b02e362cd63fcd0e2b9178a}{page\-Number\-Label}
+\item 
+\hyperlink{class_u_i_view}{U\-I\-View} $\ast$ \hyperlink{_reader_main_pagebar_8m_a8ce2239057b89357c1a2b8b4e6fd9d74}{page\-Number\-View}
+\item 
+N\-S\-Timer $\ast$ \hyperlink{_reader_main_pagebar_8m_a636ed67b08c37d58cba31357d8c622c4}{enable\-Timer}
+\item 
+N\-S\-Timer $\ast$ \hyperlink{_reader_main_pagebar_8m_a368689a42c8483d1519e91adf5a7cbe8}{track\-Timer}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{_reader_main_pagebar_8m_aafb4d17bff3f03afc7db061ed29a9f66}{\index{Reader\-Main\-Pagebar.\-m@{Reader\-Main\-Pagebar.\-m}!P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-H\-E\-I\-G\-H\-T@{P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-H\-E\-I\-G\-H\-T}}
+\index{P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-H\-E\-I\-G\-H\-T@{P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-H\-E\-I\-G\-H\-T}!ReaderMainPagebar.m@{Reader\-Main\-Pagebar.\-m}}
+\subsubsection[{P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-H\-E\-I\-G\-H\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-H\-E\-I\-G\-H\-T~30.\-0f}}\label{de/d08/_reader_main_pagebar_8m_aafb4d17bff3f03afc7db061ed29a9f66}
+
+
+Definition at line 60 of file Reader\-Main\-Pagebar.\-m.
+
+\hypertarget{_reader_main_pagebar_8m_a2677ea8745695182e419ab1045345c26}{\index{Reader\-Main\-Pagebar.\-m@{Reader\-Main\-Pagebar.\-m}!P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-S\-P\-A\-C\-E@{P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-S\-P\-A\-C\-E}}
+\index{P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-S\-P\-A\-C\-E@{P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-S\-P\-A\-C\-E}!ReaderMainPagebar.m@{Reader\-Main\-Pagebar.\-m}}
+\subsubsection[{P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-S\-P\-A\-C\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-S\-P\-A\-C\-E~20.\-0f}}\label{de/d08/_reader_main_pagebar_8m_a2677ea8745695182e419ab1045345c26}
+
+
+Definition at line 61 of file Reader\-Main\-Pagebar.\-m.
+
+\hypertarget{_reader_main_pagebar_8m_aac10052e24bcffe9493c14b36de940e1}{\index{Reader\-Main\-Pagebar.\-m@{Reader\-Main\-Pagebar.\-m}!P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-W\-I\-D\-T\-H@{P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-W\-I\-D\-T\-H}}
+\index{P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-W\-I\-D\-T\-H@{P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-W\-I\-D\-T\-H}!ReaderMainPagebar.m@{Reader\-Main\-Pagebar.\-m}}
+\subsubsection[{P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-W\-I\-D\-T\-H}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-A\-G\-E\-\_\-\-N\-U\-M\-B\-E\-R\-\_\-\-W\-I\-D\-T\-H~96.\-0f}}\label{de/d08/_reader_main_pagebar_8m_aac10052e24bcffe9493c14b36de940e1}
+
+
+Definition at line 59 of file Reader\-Main\-Pagebar.\-m.
+
+\hypertarget{_reader_main_pagebar_8m_a3afcd44650b9ed9d3ab19a3321034019}{\index{Reader\-Main\-Pagebar.\-m@{Reader\-Main\-Pagebar.\-m}!T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E\-\_\-\-H\-E\-I\-G\-H\-T@{T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E\-\_\-\-H\-E\-I\-G\-H\-T}}
+\index{T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E\-\_\-\-H\-E\-I\-G\-H\-T@{T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E\-\_\-\-H\-E\-I\-G\-H\-T}!ReaderMainPagebar.m@{Reader\-Main\-Pagebar.\-m}}
+\subsubsection[{T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E\-\_\-\-H\-E\-I\-G\-H\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E\-\_\-\-H\-E\-I\-G\-H\-T~42}}\label{de/d08/_reader_main_pagebar_8m_a3afcd44650b9ed9d3ab19a3321034019}
+
+
+Definition at line 57 of file Reader\-Main\-Pagebar.\-m.
+
+\hypertarget{_reader_main_pagebar_8m_a4693f1d651b875475204619a9bea49e6}{\index{Reader\-Main\-Pagebar.\-m@{Reader\-Main\-Pagebar.\-m}!T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E\-\_\-\-W\-I\-D\-T\-H@{T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E\-\_\-\-W\-I\-D\-T\-H}}
+\index{T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E\-\_\-\-W\-I\-D\-T\-H@{T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E\-\_\-\-W\-I\-D\-T\-H}!ReaderMainPagebar.m@{Reader\-Main\-Pagebar.\-m}}
+\subsubsection[{T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E\-\_\-\-W\-I\-D\-T\-H}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E\-\_\-\-W\-I\-D\-T\-H~32}}\label{de/d08/_reader_main_pagebar_8m_a4693f1d651b875475204619a9bea49e6}
+
+
+Definition at line 56 of file Reader\-Main\-Pagebar.\-m.
+
+\hypertarget{_reader_main_pagebar_8m_a180c94e132479bd2ba59e6c1885b9c89}{\index{Reader\-Main\-Pagebar.\-m@{Reader\-Main\-Pagebar.\-m}!T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-G\-A\-P@{T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-G\-A\-P}}
+\index{T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-G\-A\-P@{T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-G\-A\-P}!ReaderMainPagebar.m@{Reader\-Main\-Pagebar.\-m}}
+\subsubsection[{T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-G\-A\-P}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-G\-A\-P~2}}\label{de/d08/_reader_main_pagebar_8m_a180c94e132479bd2ba59e6c1885b9c89}
+
+
+Definition at line 52 of file Reader\-Main\-Pagebar.\-m.
+
+\hypertarget{_reader_main_pagebar_8m_aec5f13f9043470f9578f841af959bdfa}{\index{Reader\-Main\-Pagebar.\-m@{Reader\-Main\-Pagebar.\-m}!T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-H\-E\-I\-G\-H\-T@{T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-H\-E\-I\-G\-H\-T}}
+\index{T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-H\-E\-I\-G\-H\-T@{T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-H\-E\-I\-G\-H\-T}!ReaderMainPagebar.m@{Reader\-Main\-Pagebar.\-m}}
+\subsubsection[{T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-H\-E\-I\-G\-H\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-H\-E\-I\-G\-H\-T~28}}\label{de/d08/_reader_main_pagebar_8m_aec5f13f9043470f9578f841af959bdfa}
+
+
+Definition at line 54 of file Reader\-Main\-Pagebar.\-m.
+
+\hypertarget{_reader_main_pagebar_8m_a08ee0c339acdbfb35232cf30808f095b}{\index{Reader\-Main\-Pagebar.\-m@{Reader\-Main\-Pagebar.\-m}!T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-W\-I\-D\-T\-H@{T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-W\-I\-D\-T\-H}}
+\index{T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-W\-I\-D\-T\-H@{T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-W\-I\-D\-T\-H}!ReaderMainPagebar.m@{Reader\-Main\-Pagebar.\-m}}
+\subsubsection[{T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-W\-I\-D\-T\-H}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L\-\_\-\-W\-I\-D\-T\-H~22}}\label{de/d08/_reader_main_pagebar_8m_a08ee0c339acdbfb35232cf30808f095b}
+
+
+Definition at line 53 of file Reader\-Main\-Pagebar.\-m.
+
+
+
+\subsection{Variable Documentation}
+\hypertarget{_reader_main_pagebar_8m_a636ed67b08c37d58cba31357d8c622c4}{\index{Reader\-Main\-Pagebar.\-m@{Reader\-Main\-Pagebar.\-m}!enable\-Timer@{enable\-Timer}}
+\index{enable\-Timer@{enable\-Timer}!ReaderMainPagebar.m@{Reader\-Main\-Pagebar.\-m}}
+\subsubsection[{enable\-Timer}]{\setlength{\rightskip}{0pt plus 5cm}N\-S\-Timer$\ast$ enable\-Timer}}\label{de/d08/_reader_main_pagebar_8m_a636ed67b08c37d58cba31357d8c622c4}
+
+
+Definition at line 46 of file Reader\-Main\-Pagebar.\-m.
+
+\hypertarget{_reader_main_pagebar_8m_a6de392004fbeba7f1f705d936a59fbf2}{\index{Reader\-Main\-Pagebar.\-m@{Reader\-Main\-Pagebar.\-m}!mini\-Thumb\-Views@{mini\-Thumb\-Views}}
+\index{mini\-Thumb\-Views@{mini\-Thumb\-Views}!ReaderMainPagebar.m@{Reader\-Main\-Pagebar.\-m}}
+\subsubsection[{mini\-Thumb\-Views}]{\setlength{\rightskip}{0pt plus 5cm}N\-S\-Mutable\-Dictionary$\ast$ mini\-Thumb\-Views}}\label{de/d08/_reader_main_pagebar_8m_a6de392004fbeba7f1f705d936a59fbf2}
+
+
+Definition at line 38 of file Reader\-Main\-Pagebar.\-m.
+
+\hypertarget{_reader_main_pagebar_8m_a557956db9b02e362cd63fcd0e2b9178a}{\index{Reader\-Main\-Pagebar.\-m@{Reader\-Main\-Pagebar.\-m}!page\-Number\-Label@{page\-Number\-Label}}
+\index{page\-Number\-Label@{page\-Number\-Label}!ReaderMainPagebar.m@{Reader\-Main\-Pagebar.\-m}}
+\subsubsection[{page\-Number\-Label}]{\setlength{\rightskip}{0pt plus 5cm}U\-I\-Label$\ast$ page\-Number\-Label}}\label{de/d08/_reader_main_pagebar_8m_a557956db9b02e362cd63fcd0e2b9178a}
+
+
+Definition at line 42 of file Reader\-Main\-Pagebar.\-m.
+
+\hypertarget{_reader_main_pagebar_8m_a8ce2239057b89357c1a2b8b4e6fd9d74}{\index{Reader\-Main\-Pagebar.\-m@{Reader\-Main\-Pagebar.\-m}!page\-Number\-View@{page\-Number\-View}}
+\index{page\-Number\-View@{page\-Number\-View}!ReaderMainPagebar.m@{Reader\-Main\-Pagebar.\-m}}
+\subsubsection[{page\-Number\-View}]{\setlength{\rightskip}{0pt plus 5cm}{\bf U\-I\-View}$\ast$ page\-Number\-View}}\label{de/d08/_reader_main_pagebar_8m_a8ce2239057b89357c1a2b8b4e6fd9d74}
+
+
+Definition at line 44 of file Reader\-Main\-Pagebar.\-m.
+
+\hypertarget{_reader_main_pagebar_8m_a29eefa5acf3247abd51e28129cf3ea03}{\index{Reader\-Main\-Pagebar.\-m@{Reader\-Main\-Pagebar.\-m}!page\-Thumb\-View@{page\-Thumb\-View}}
+\index{page\-Thumb\-View@{page\-Thumb\-View}!ReaderMainPagebar.m@{Reader\-Main\-Pagebar.\-m}}
+\subsubsection[{page\-Thumb\-View}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Reader\-Pagebar\-Thumb}$\ast$ page\-Thumb\-View}}\label{de/d08/_reader_main_pagebar_8m_a29eefa5acf3247abd51e28129cf3ea03}
+
+
+Definition at line 40 of file Reader\-Main\-Pagebar.\-m.
+
+\hypertarget{_reader_main_pagebar_8m_af2419bb02973efd46c8cd511d62a0e55}{\index{Reader\-Main\-Pagebar.\-m@{Reader\-Main\-Pagebar.\-m}!track\-Control@{track\-Control}}
+\index{track\-Control@{track\-Control}!ReaderMainPagebar.m@{Reader\-Main\-Pagebar.\-m}}
+\subsubsection[{track\-Control}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Reader\-Track\-Control}$\ast$ track\-Control}}\label{de/d08/_reader_main_pagebar_8m_af2419bb02973efd46c8cd511d62a0e55}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+\{
+    \hyperlink{interface_reader_document}{ReaderDocument} *document
+\end{DoxyCode}
+
+
+Definition at line 33 of file Reader\-Main\-Pagebar.\-m.
+
+\hypertarget{_reader_main_pagebar_8m_a368689a42c8483d1519e91adf5a7cbe8}{\index{Reader\-Main\-Pagebar.\-m@{Reader\-Main\-Pagebar.\-m}!track\-Timer@{track\-Timer}}
+\index{track\-Timer@{track\-Timer}!ReaderMainPagebar.m@{Reader\-Main\-Pagebar.\-m}}
+\subsubsection[{track\-Timer}]{\setlength{\rightskip}{0pt plus 5cm}N\-S\-Timer$\ast$ track\-Timer}}\label{de/d08/_reader_main_pagebar_8m_a368689a42c8483d1519e91adf5a7cbe8}
+
+
+Definition at line 47 of file Reader\-Main\-Pagebar.\-m.
+

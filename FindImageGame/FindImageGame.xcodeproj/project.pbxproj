@@ -101,7 +101,6 @@
 		73CEB4D9170FC5A1006CD42B = {
 			isa = PBXGroup;
 			children = (
-				73F9AD6E171027F2007F0C34 /* AVFoundation.framework */,
 				73CEB4EB170FC5A1006CD42B /* FindImageGame */,
 				73CEB4E4170FC5A1006CD42B /* Frameworks */,
 				73CEB4E3170FC5A1006CD42B /* Products */,
@@ -119,6 +118,7 @@
 		73CEB4E4170FC5A1006CD42B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				73F9AD6E171027F2007F0C34 /* AVFoundation.framework */,
 				73CEB4E5170FC5A1006CD42B /* UIKit.framework */,
 				73CEB4E7170FC5A1006CD42B /* Foundation.framework */,
 				73CEB4E9170FC5A1006CD42B /* CoreGraphics.framework */,

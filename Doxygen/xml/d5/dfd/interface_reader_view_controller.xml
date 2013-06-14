@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d5/dfd/interface_reader_view_controller" kind="class" prot="public">
+    <compoundname>ReaderViewController</compoundname>
+    <basecompoundref refid="d7/d7e/class_u_i_view_controller" prot="public" virt="non-virtual">UIViewController</basecompoundref>
+    <includes refid="d2/dca/_reader_view_controller_8h" local="no">ReaderViewController.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d5/dfd/interface_reader_view_controller_1ab90e46fc4dbc3417344a6ac78b1516fc" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>id&lt; <ref refid="d7/dd9/protocol_reader_view_controller_delegate-p" kindref="compound">ReaderViewControllerDelegate</ref> &gt;</type>
+        <definition>id&lt;ReaderViewControllerDelegate&gt; ReaderViewController::delegate</definition>
+        <argsstring></argsstring>
+        <name>delegate</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderViewController.h" line="42" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderViewController.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/dfd/interface_reader_view_controller_1ab5d4b891df22eba0bec1ee6f6be9ac29" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ReaderViewController::initWithReaderDocument:</definition>
+        <argsstring>(ReaderDocument *object)</argsstring>
+        <name>initWithReaderDocument:</name>
+        <param>
+          <type><ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderViewController.h" line="44" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderViewController.m" bodystart="283" bodyend="306"/>
+        <references refid="dc/d78/interface_reader_document_1abaa0f925596750005438de7667b115a9" compoundref="d3/dfb/_reader_document_8m" startline="280" endline="304">ReaderDocument::updateProperties</references>
+        <references refid="da/d97/interface_reader_thumb_cache_1aa3c0deaeeed2095eba99fb8adae05acf" compoundref="db/d21/_reader_thumb_cache_8m" startline="97" endline="106">ReaderThumbCache::touchThumbCacheWithGUID:</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="642">
+        <label>ReaderViewController</label>
+        <link refid="d5/dfd/interface_reader_view_controller"/>
+        <childnode refid="643" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="643">
+        <label>UIViewController</label>
+        <link refid="d7/d7e/class_u_i_view_controller"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="644">
+        <label>ReaderViewController</label>
+        <link refid="d5/dfd/interface_reader_view_controller"/>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+        <childnode refid="646" relation="usage">
+          <edgelabel>delegate</edgelabel>
+        </childnode>
+      </node>
+      <node id="646">
+        <label>id&lt; ReaderViewControllerDelegate-p &gt;</label>
+      </node>
+      <node id="645">
+        <label>UIViewController</label>
+        <link refid="d7/d7e/class_u_i_view_controller"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderViewController.h" line="41" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderViewController.h" bodystart="40" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d5/dfd/interface_reader_view_controller_1ab90e46fc4dbc3417344a6ac78b1516fc" prot="public" virt="non-virtual"><scope>ReaderViewController</scope><name>delegate</name></member>
+      <member refid="d5/dfd/interface_reader_view_controller_1ab5d4b891df22eba0bec1ee6f6be9ac29" prot="public" virt="virtual"><scope>ReaderViewController</scope><name>initWithReaderDocument:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

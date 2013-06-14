@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d7/dc8/class_n_s_coding-p" kind="protocol" prot="public">
+    <compoundname>NSCoding-p</compoundname>
+    <derivedcompoundref refid="dc/d78/interface_reader_document" prot="public" virt="non-virtual">ReaderDocument</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="402">
+        <label>&lt;NSCoding&gt;</label>
+        <link refid="d7/dc8/class_n_s_coding-p"/>
+      </node>
+      <node id="403">
+        <label>ReaderDocument</label>
+        <link refid="dc/d78/interface_reader_document"/>
+        <childnode refid="402" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="28"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

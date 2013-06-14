@@ -1,0 +1,11 @@
+<map id="NSObject" name="NSObject">
+<area shape="rect" id="node2" href="$de/da0/interface_document_outline_entry.html" title="DocumentOutlineEntry" alt="" coords="140,5,295,33"/>
+<area shape="rect" id="node3" href="$d5/d15/interface_reader_app_delegate.html" title="ReaderAppDelegate" alt="" coords="146,57,288,85"/>
+<area shape="rect" id="node4" href="$d1/dfc/interface_reader_book_delegate.html" title="ReaderBookDelegate" alt="" coords="143,109,292,137"/>
+<area shape="rect" id="node5" href="$dc/d78/interface_reader_document.html" title="ReaderDocument" alt="" coords="154,161,280,189"/>
+<area shape="rect" id="node6" href="$df/d6f/interface_reader_document_link.html" title="ReaderDocumentLink" alt="" coords="142,213,292,241"/>
+<area shape="rect" id="node7" href="$d6/d28/interface_reader_document_outline.html" title="ReaderDocumentOutline" alt="" coords="133,265,301,293"/>
+<area shape="rect" id="node8" href="$da/d97/interface_reader_thumb_cache.html" title="ReaderThumbCache" alt="" coords="145,317,290,345"/>
+<area shape="rect" id="node9" href="$df/d91/interface_reader_thumb_queue.html" title="ReaderThumbQueue" alt="" coords="144,369,291,397"/>
+<area shape="rect" id="node10" href="$dc/dc5/interface_reader_thumb_request.html" title="ReaderThumbRequest" alt="" coords="139,421,295,449"/>
+</map>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dc/d4a/interface_reader_main_pagebar" kind="class" prot="public">
+    <compoundname>ReaderMainPagebar</compoundname>
+    <basecompoundref refid="db/d6b/class_u_i_view" prot="public" virt="non-virtual">UIView</basecompoundref>
+    <includes refid="d9/d69/_reader_main_pagebar_8h" local="no">ReaderMainPagebar.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="dc/d4a/interface_reader_main_pagebar_1a12d550b5c0842cbda05b7d1d65579639" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>id&lt; <ref refid="d9/d22/protocol_reader_main_pagebar_delegate-p" kindref="compound">ReaderMainPagebarDelegate</ref> &gt;</type>
+        <definition>id&lt;ReaderMainPagebarDelegate&gt; ReaderMainPagebar::delegate</definition>
+        <argsstring></argsstring>
+        <name>delegate</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" line="45" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d4a/interface_reader_main_pagebar_1a04accde91d6432e1de7824d70f82236d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ReaderMainPagebar::initWithFrame:document:</definition>
+        <argsstring>(CGRect frame,[document] ReaderDocument *object)</argsstring>
+        <name>initWithFrame:document:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <attributes>[document]</attributes>
+          <type><ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" line="47" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.m" bodystart="137" bodyend="212"/>
+        <references refid="de/d08/_reader_main_pagebar_8m_1aafb4d17bff3f03afc7db061ed29a9f66" compoundref="de/d08/_reader_main_pagebar_8m" startline="60">PAGE_NUMBER_HEIGHT</references>
+        <references refid="de/d08/_reader_main_pagebar_8m_1a2677ea8745695182e419ab1045345c26" compoundref="de/d08/_reader_main_pagebar_8m" startline="61">PAGE_NUMBER_SPACE</references>
+        <references refid="de/d08/_reader_main_pagebar_8m_1aac10052e24bcffe9493c14b36de940e1" compoundref="de/d08/_reader_main_pagebar_8m" startline="59">PAGE_NUMBER_WIDTH</references>
+        <references refid="de/d08/_reader_main_pagebar_8m_1a8ce2239057b89357c1a2b8b4e6fd9d74" compoundref="de/d08/_reader_main_pagebar_8m" startline="44">pageNumberView</references>
+        <references refid="de/d08/_reader_main_pagebar_8m_1a557956db9b02e362cd63fcd0e2b9178a" compoundref="de/d08/_reader_main_pagebar_8m" startline="42">pageNumberLabel</references>
+        <references refid="de/d08/_reader_main_pagebar_8m_1af2419bb02973efd46c8cd511d62a0e55" compoundref="de/d08/_reader_main_pagebar_8m" startline="33">trackControl</references>
+        <references refid="de/d08/_reader_main_pagebar_8m_1a6de392004fbeba7f1f705d936a59fbf2" compoundref="de/d08/_reader_main_pagebar_8m" startline="38">miniThumbViews</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d4a/interface_reader_main_pagebar_1a112506f28ba3e8a4d364450dae65b5a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderMainPagebar::updatePagebar</definition>
+        <argsstring>()</argsstring>
+        <name>updatePagebar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" line="49" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.m" bodystart="326" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d4a/interface_reader_main_pagebar_1af95e7773600c31dbde51f8aab173aff6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderMainPagebar::hidePagebar</definition>
+        <argsstring>()</argsstring>
+        <name>hidePagebar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" line="51" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.m" bodystart="334" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d4a/interface_reader_main_pagebar_1af74dd167acd9ea2e004eb02406adbe3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderMainPagebar::showPagebar</definition>
+        <argsstring>()</argsstring>
+        <name>showPagebar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" line="52" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.m" bodystart="352" bodyend="368"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="525">
+        <label>ReaderMainPagebar</label>
+        <link refid="dc/d4a/interface_reader_main_pagebar"/>
+        <childnode refid="526" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="526">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="529">
+        <label>id&lt; ReaderMainPagebarDelegate-p &gt;</label>
+      </node>
+      <node id="527">
+        <label>ReaderMainPagebar</label>
+        <link refid="dc/d4a/interface_reader_main_pagebar"/>
+        <childnode refid="528" relation="public-inheritance">
+        </childnode>
+        <childnode refid="529" relation="usage">
+          <edgelabel>delegate</edgelabel>
+        </childnode>
+      </node>
+      <node id="528">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" line="44" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" bodystart="43" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="dc/d4a/interface_reader_main_pagebar_1a12d550b5c0842cbda05b7d1d65579639" prot="public" virt="non-virtual"><scope>ReaderMainPagebar</scope><name>delegate</name></member>
+      <member refid="dc/d4a/interface_reader_main_pagebar_1af95e7773600c31dbde51f8aab173aff6" prot="public" virt="virtual"><scope>ReaderMainPagebar</scope><name>hidePagebar</name></member>
+      <member refid="dc/d4a/interface_reader_main_pagebar_1a04accde91d6432e1de7824d70f82236d" prot="public" virt="virtual"><scope>ReaderMainPagebar</scope><name>initWithFrame:document:</name></member>
+      <member refid="dc/d4a/interface_reader_main_pagebar_1af74dd167acd9ea2e004eb02406adbe3d" prot="public" virt="virtual"><scope>ReaderMainPagebar</scope><name>showPagebar</name></member>
+      <member refid="dc/d4a/interface_reader_main_pagebar_1a112506f28ba3e8a4d364450dae65b5a5" prot="public" virt="virtual"><scope>ReaderMainPagebar</scope><name>updatePagebar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

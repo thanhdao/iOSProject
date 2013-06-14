@@ -1,0 +1,5 @@
+<map id="&#45;[ReaderViewController initWithReaderDocument:]" name="&#45;[ReaderViewController initWithReaderDocument:]">
+<area shape="rect" id="node2" href="$dc/d78/interface_reader_document.html#abaa0f925596750005438de7667b115a9" title="&#45;[ReaderDocument updateProperties]" alt="" coords="235,5,477,33"/>
+<area shape="rect" id="node3" href="$da/d97/interface_reader_thumb_cache.html#aa3c0deaeeed2095eba99fb8adae05acf" title="+[ReaderThumbCache\l touchThumbCacheWithGUID:]" alt="" coords="253,57,459,101"/>
+<area shape="rect" id="node4" href="$da/d97/interface_reader_thumb_cache.html#a612df97f8366c742529535f6d6e88fe0" title="+[ReaderThumbCache\l thumbCachePathForGUID:]" alt="" coords="526,57,714,101"/>
+</map>

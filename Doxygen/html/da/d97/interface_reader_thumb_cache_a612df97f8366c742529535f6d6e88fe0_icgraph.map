@@ -1,0 +1,6 @@
+<map id="+[ReaderThumbCache thumbCachePathForGUID:]" name="+[ReaderThumbCache thumbCachePathForGUID:]">
+<area shape="rect" id="node2" href="$da/d97/interface_reader_thumb_cache.html#a30c4fab0b30c0ced09dc1c47f9f2788a" title="+[ReaderThumbCache\l createThumbCacheWithGUID:]" alt="" coords="247,5,457,49"/>
+<area shape="rect" id="node3" href="$da/d97/interface_reader_thumb_cache.html#a1cad6b7316810dafbcbf4a3a075897d6" title="+[ReaderThumbCache\l removeThumbCacheWithGUID:]" alt="" coords="244,73,460,117"/>
+<area shape="rect" id="node4" href="$da/d97/interface_reader_thumb_cache.html#aa3c0deaeeed2095eba99fb8adae05acf" title="+[ReaderThumbCache\l touchThumbCacheWithGUID:]" alt="" coords="249,141,455,185"/>
+<area shape="rect" id="node5" href="$d5/dfd/interface_reader_view_controller.html#ab5d4b891df22eba0bec1ee6f6be9ac29" title="&#45;[ReaderViewController\l initWithReaderDocument:]" alt="" coords="510,141,690,185"/>
+</map>

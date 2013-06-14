@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="db/d6b/class_u_i_view" kind="class" prot="public">
+    <compoundname>UIView</compoundname>
+    <derivedcompoundref refid="d2/dad/interface_reader_content_page" prot="public" virt="non-virtual">ReaderContentPage</derivedcompoundref>
+    <derivedcompoundref refid="dc/d4a/interface_reader_main_pagebar" prot="public" virt="non-virtual">ReaderMainPagebar</derivedcompoundref>
+    <derivedcompoundref refid="db/d3e/interface_reader_pagebar_shadow" prot="public" virt="non-virtual">ReaderPagebarShadow</derivedcompoundref>
+    <derivedcompoundref refid="d8/d25/interface_reader_thumb_view" prot="public" virt="non-virtual">ReaderThumbView</derivedcompoundref>
+    <derivedcompoundref refid="d9/d6a/interface_u_i_x_toolbar_shadow" prot="public" virt="non-virtual">UIXToolbarShadow</derivedcompoundref>
+    <derivedcompoundref refid="d3/dea/interface_u_i_x_toolbar_view" prot="public" virt="non-virtual">UIXToolbarView</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="738">
+        <label>ReaderThumbView</label>
+        <link refid="d8/d25/interface_reader_thumb_view"/>
+        <childnode refid="734" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="743">
+        <label>UIXToolbarView</label>
+        <link refid="d3/dea/interface_u_i_x_toolbar_view"/>
+        <childnode refid="734" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="735">
+        <label>ReaderContentPage</label>
+        <link refid="d2/dad/interface_reader_content_page"/>
+        <childnode refid="734" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="737">
+        <label>ReaderPagebarShadow</label>
+        <link refid="db/d3e/interface_reader_pagebar_shadow"/>
+        <childnode refid="734" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="742">
+        <label>UIXToolbarShadow</label>
+        <link refid="d9/d6a/interface_u_i_x_toolbar_shadow"/>
+        <childnode refid="734" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="740">
+        <label>ReaderPagebarThumb</label>
+        <link refid="dd/d65/interface_reader_pagebar_thumb"/>
+        <childnode refid="738" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="739">
+        <label>ReaderContentThumb</label>
+        <link refid="d4/df0/interface_reader_content_thumb"/>
+        <childnode refid="738" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="736">
+        <label>ReaderMainPagebar</label>
+        <link refid="dc/d4a/interface_reader_main_pagebar"/>
+        <childnode refid="734" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="741">
+        <label>ThumbsPageThumb</label>
+        <link refid="d0/ddf/interface_thumbs_page_thumb"/>
+        <childnode refid="738" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="744">
+        <label>ReaderMainToolbar</label>
+        <link refid="dd/dd4/interface_reader_main_toolbar"/>
+        <childnode refid="743" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="734">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+      <node id="745">
+        <label>ThumbsMainToolbar</label>
+        <link refid="df/db1/interface_thumbs_main_toolbar"/>
+        <childnode refid="743" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbView.h" line="29"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

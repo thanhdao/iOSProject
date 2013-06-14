@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="de/da0/interface_document_outline_entry" kind="class" prot="public">
+    <compoundname>DocumentOutlineEntry</compoundname>
+    <basecompoundref refid="d7/dc4/class_n_s_object" prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <basecompoundref refid="d0/d10/class_n_s_object-p" prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <includes refid="d6/d79/_reader_document_outline_8h" local="no">ReaderDocumentOutline.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="de/da0/interface_document_outline_entry_1abe9be523985b9d5104a66ffcba8c300b" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger DocumentOutlineEntry::level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" line="42" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" bodystart="42" bodyend="-1"/>
+        <referencedby refid="de/da0/interface_document_outline_entry_1abb79e8b34d4d229cce77fccce8cc15dc" compoundref="d3/d2f/_reader_document_outline_8m" startline="450" endline="458">initWithTitle:target:level:</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="de/da0/interface_document_outline_entry_1a84581d5931ebe971f2acfbe6031f48df" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray* DocumentOutlineEntry::children</definition>
+        <argsstring></argsstring>
+        <name>children</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" line="43" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="de/da0/interface_document_outline_entry_1a4a104dd07c71a2fe72885ea24eae1492" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* DocumentOutlineEntry::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" line="44" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="de/da0/interface_document_outline_entry_1abb79e8b34d4d229cce77fccce8cc15dc" compoundref="d3/d2f/_reader_document_outline_8m" startline="450" endline="458">initWithTitle:target:level:</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="de/da0/interface_document_outline_entry_1ad722f2daed26eba405771c8eb66cd3b0" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no" accessor="strong">
+        <type>id</type>
+        <definition>id DocumentOutlineEntry::target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" line="45" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" bodystart="45" bodyend="-1"/>
+        <referencedby refid="de/da0/interface_document_outline_entry_1abb79e8b34d4d229cce77fccce8cc15dc" compoundref="d3/d2f/_reader_document_outline_8m" startline="450" endline="458">initWithTitle:target:level:</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="de/da0/interface_document_outline_entry_1a88affa91783de3e68487ad8ea22c575c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id DocumentOutlineEntry::newWithTitle:target:level:</definition>
+        <argsstring>(NSString *title,[target] id target,[level] NSInteger level)</argsstring>
+        <name>newWithTitle:target:level:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[target]</attributes>
+          <type>id</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <attributes>[level]</attributes>
+          <type>NSInteger</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" line="38" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.m" bodystart="443" bodyend="446"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/da0/interface_document_outline_entry_1abb79e8b34d4d229cce77fccce8cc15dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id DocumentOutlineEntry::initWithTitle:target:level:</definition>
+        <argsstring>(NSString *title,[target] id target,[level] NSInteger level)</argsstring>
+        <name>initWithTitle:target:level:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <attributes>[target]</attributes>
+          <type>id</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <attributes>[level]</attributes>
+          <type>NSInteger</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" line="40" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.m" bodystart="450" bodyend="458"/>
+        <references refid="de/da0/interface_document_outline_entry_1a4a104dd07c71a2fe72885ea24eae1492" compoundref="d6/d79/_reader_document_outline_8h" startline="44">title</references>
+        <references refid="de/da0/interface_document_outline_entry_1ad722f2daed26eba405771c8eb66cd3b0" compoundref="d6/d79/_reader_document_outline_8h" startline="45">target</references>
+        <references refid="de/da0/interface_document_outline_entry_1abe9be523985b9d5104a66ffcba8c300b" compoundref="d6/d79/_reader_document_outline_8h" startline="42">level</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="384">
+        <label>DocumentOutlineEntry</label>
+        <link refid="de/da0/interface_document_outline_entry"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+        <childnode refid="386" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="386">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="385">
+        <label>NSObject</label>
+        <link refid="d7/dc4/class_n_s_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="391">
+        <label>NSInteger</label>
+      </node>
+      <node id="390">
+        <label>NSMutableArray *</label>
+      </node>
+      <node id="387">
+        <label>DocumentOutlineEntry</label>
+        <link refid="de/da0/interface_document_outline_entry"/>
+        <childnode refid="388" relation="public-inheritance">
+        </childnode>
+        <childnode refid="389" relation="public-inheritance">
+        </childnode>
+        <childnode refid="390" relation="usage">
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="391" relation="usage">
+          <edgelabel>level</edgelabel>
+        </childnode>
+        <childnode refid="392" relation="usage">
+          <edgelabel>title</edgelabel>
+        </childnode>
+        <childnode refid="393" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+      </node>
+      <node id="392">
+        <label>NSString *</label>
+      </node>
+      <node id="393">
+        <label>id</label>
+      </node>
+      <node id="389">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="388">
+        <label>NSObject</label>
+        <link refid="d7/dc4/class_n_s_object"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" line="36" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" bodystart="36" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="de/da0/interface_document_outline_entry_1a84581d5931ebe971f2acfbe6031f48df" prot="public" virt="non-virtual"><scope>DocumentOutlineEntry</scope><name>children</name></member>
+      <member refid="de/da0/interface_document_outline_entry_1abb79e8b34d4d229cce77fccce8cc15dc" prot="public" virt="virtual"><scope>DocumentOutlineEntry</scope><name>initWithTitle:target:level:</name></member>
+      <member refid="de/da0/interface_document_outline_entry_1abe9be523985b9d5104a66ffcba8c300b" prot="public" virt="non-virtual"><scope>DocumentOutlineEntry</scope><name>level</name></member>
+      <member refid="de/da0/interface_document_outline_entry_1a88affa91783de3e68487ad8ea22c575c" prot="public" virt="virtual"><scope>DocumentOutlineEntry</scope><name>newWithTitle:target:level:</name></member>
+      <member refid="de/da0/interface_document_outline_entry_1ad722f2daed26eba405771c8eb66cd3b0" prot="public" virt="non-virtual"><scope>DocumentOutlineEntry</scope><name>target</name></member>
+      <member refid="de/da0/interface_document_outline_entry_1a4a104dd07c71a2fe72885ea24eae1492" prot="public" virt="non-virtual"><scope>DocumentOutlineEntry</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

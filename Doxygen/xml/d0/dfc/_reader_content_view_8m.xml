@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d0/dfc/_reader_content_view_8m" kind="file">
+    <compoundname>ReaderContentView.m</compoundname>
+    <includes refid="d9/dca/_reader_constants_8h" local="yes">ReaderConstants.h</includes>
+    <includes refid="da/dd6/_reader_content_view_8h" local="yes">ReaderContentView.h</includes>
+    <includes refid="de/d36/_reader_content_page_8h" local="yes">ReaderContentPage.h</includes>
+    <includes refid="d2/d4c/_reader_thumb_cache_8h" local="yes">ReaderThumbCache.h</includes>
+    <includes local="no">QuartzCore/QuartzCore.h</includes>
+    <incdepgraph>
+      <node id="472">
+        <label>ReaderConstants.h</label>
+        <link refid="d9/dca/_reader_constants_8h"/>
+        <childnode refid="473" relation="include">
+        </childnode>
+      </node>
+      <node id="479">
+        <label>ReaderThumbRequest.h</label>
+        <link refid="d6/d40/_reader_thumb_request_8h"/>
+        <childnode refid="475" relation="include">
+        </childnode>
+      </node>
+      <node id="475">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="478">
+        <label>ReaderThumbCache.h</label>
+        <link refid="d2/d4c/_reader_thumb_cache_8h"/>
+        <childnode refid="475" relation="include">
+        </childnode>
+        <childnode refid="479" relation="include">
+        </childnode>
+      </node>
+      <node id="477">
+        <label>ReaderContentPage.h</label>
+        <link refid="de/d36/_reader_content_page_8h"/>
+        <childnode refid="475" relation="include">
+        </childnode>
+      </node>
+      <node id="473">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="476">
+        <label>ReaderThumbView.h</label>
+        <link refid="d6/d83/_reader_thumb_view_8h"/>
+        <childnode refid="475" relation="include">
+        </childnode>
+      </node>
+      <node id="480">
+        <label>QuartzCore/QuartzCore.h</label>
+      </node>
+      <node id="474">
+        <label>ReaderContentView.h</label>
+        <link refid="da/dd6/_reader_content_view_8h"/>
+        <childnode refid="475" relation="include">
+        </childnode>
+        <childnode refid="476" relation="include">
+        </childnode>
+      </node>
+      <node id="471">
+        <label>Sources/ReaderContentView.m</label>
+        <link refid="ReaderContentView.m"/>
+        <childnode refid="472" relation="include">
+        </childnode>
+        <childnode refid="474" relation="include">
+        </childnode>
+        <childnode refid="477" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+        <childnode refid="480" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="d0/dfc/_reader_content_view_8m_1a4e0bf09e231e4136fa48545a3a009139" prot="public" static="no">
+        <name>ZOOM_LEVELS</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" line="46" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d0/dfc/_reader_content_view_8m_1a3cde7c414f32ec6318a25dd6ab15838b" prot="public" static="no">
+        <name>CONTENT_INSET</name>
+        <initializer>4.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" line="49" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" bodystart="49" bodyend="-1"/>
+        <referencedby refid="dd/de3/interface_reader_content_view_1ac045875376b7c51f37c2ee946f9c3de4" compoundref="d0/dfc/_reader_content_view_8m" startline="89" endline="152">ReaderContentView::initWithFrame:fileURL:page:password:</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="d0/dfc/_reader_content_view_8m_1a3743fb19ca662d805f3189a296804910" prot="public" static="no">
+        <name>PAGE_THUMB_LARGE</name>
+        <initializer>240</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" line="54" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" bodystart="54" bodyend="-1"/>
+        <referencedby refid="dd/de3/interface_reader_content_view_1a952138f340db971d89ca8f455c20eda8" compoundref="d0/dfc/_reader_content_view_8m" startline="161" endline="176">ReaderContentView::showPageThumb:page:password:guid:</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="d0/dfc/_reader_content_view_8m_1aee64ce469e56253e26100e37ae359664" prot="public" static="no">
+        <name>PAGE_THUMB_SMALL</name>
+        <initializer>144</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" line="55" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" bodystart="55" bodyend="-1"/>
+        <referencedby refid="dd/de3/interface_reader_content_view_1a952138f340db971d89ca8f455c20eda8" compoundref="d0/dfc/_reader_content_view_8m" startline="161" endline="176">ReaderContentView::showPageThumb:page:password:guid:</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="d0/dfc/_reader_content_view_8m_1a43bbdfc8c7e72c062123df3990bbd296" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/df0/interface_reader_content_thumb" kindref="compound">ReaderContentThumb</ref> *</type>
+        <definition>ReaderContentThumb* theThumbView</definition>
+        <argsstring></argsstring>
+        <name>theThumbView</name>
+        <initializer>{
+	<ref refid="d2/dad/interface_reader_content_page" kindref="compound">ReaderContentPage</ref> *theContentView</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" line="37" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" bodystart="34" bodyend="-1"/>
+        <referencedby refid="dd/de3/interface_reader_content_view_1ac045875376b7c51f37c2ee946f9c3de4" compoundref="d0/dfc/_reader_content_view_8m" startline="89" endline="152">ReaderContentView::initWithFrame:fileURL:page:password:</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" prot="public" static="no" mutable="no">
+        <type><ref refid="db/d6b/class_u_i_view" kindref="compound">UIView</ref> *</type>
+        <definition>UIView* theContainerView</definition>
+        <argsstring></argsstring>
+        <name>theContainerView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" line="39" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" bodystart="39" bodyend="-1"/>
+        <referencedby refid="dd/de3/interface_reader_content_view_1ac045875376b7c51f37c2ee946f9c3de4" compoundref="d0/dfc/_reader_content_view_8m" startline="89" endline="152">ReaderContentView::initWithFrame:fileURL:page:password:</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dfc/_reader_content_view_8m_1afaa77712cb340ee34fc56eb5b926d98d" prot="public" static="no" mutable="no">
+        <type>CGFloat</type>
+        <definition>CGFloat zoomAmount</definition>
+        <argsstring></argsstring>
+        <name>zoomAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" line="41" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" bodystart="41" bodyend="-1"/>
+        <referencedby refid="dd/de3/interface_reader_content_view_1af43ce1f20e44310bfc790100ed823d37" compoundref="d0/dfc/_reader_content_view_8m" startline="235" endline="250">ReaderContentView::zoomIncrement</referencedby>
+        <referencedby refid="dd/de3/interface_reader_content_view_1a9045f28f0f226225b3da62941522252d" compoundref="d0/dfc/_reader_content_view_8m" startline="252" endline="267">ReaderContentView::zoomDecrement</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dfc/_reader_content_view_8m_1aacfb0f4272e6d64aebe52626479fb1ea" prot="public" static="yes" mutable="no">
+        <type>void *</type>
+        <definition>void* ReaderContentViewContext</definition>
+        <argsstring></argsstring>
+        <name>ReaderContentViewContext</name>
+        <initializer>= &amp;ReaderContentViewContext</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" line="57" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>ReaderContentView.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Reader<sp/>v2.6.1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Julius<sp/>Oklamcak<sp/>on<sp/>2011-07-01.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2011-2012<sp/>Julius<sp/>Oklamcak.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell<sp/>copies</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in<sp/>all</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>OR<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="d9/dca/_reader_constants_8h" kindref="compound">ReaderConstants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="da/dd6/_reader_content_view_8h" kindref="compound">ReaderContentView.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="de/d36/_reader_content_page_8h" kindref="compound">ReaderContentPage.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="d2/d4c/_reader_thumb_cache_8h" kindref="compound">ReaderThumbCache.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;QuartzCore/QuartzCore.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="dd/de3/interface_reader_content_view" kindref="compound">ReaderContentView</ref></highlight></codeline>
+<codeline lineno="34" refid="d0/dfc/_reader_content_view_8m_1a43bbdfc8c7e72c062123df3990bbd296" refkind="member"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/dad/interface_reader_content_page" kindref="compound">ReaderContentPage</ref><sp/>*theContentView;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/df0/interface_reader_content_thumb" kindref="compound">ReaderContentThumb</ref><sp/>*<ref refid="d0/dfc/_reader_content_view_8m_1a43bbdfc8c7e72c062123df3990bbd296" kindref="member">theThumbView</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/d6b/class_u_i_view" kindref="compound">UIView</ref><sp/>*<ref refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" kindref="member">theContainerView</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="d0/dfc/_reader_content_view_8m_1afaa77712cb340ee34fc56eb5b926d98d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/><ref refid="d0/dfc/_reader_content_view_8m_1afaa77712cb340ee34fc56eb5b926d98d" kindref="member">zoomAmount</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Constants</highlight></codeline>
+<codeline lineno="45"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="d0/dfc/_reader_content_view_8m_1a4e0bf09e231e4136fa48545a3a009139" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ZOOM_LEVELS<sp/>4</highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(READER_SHOW_SHADOWS<sp/>==<sp/>TRUE)<sp/>//<sp/>Option</highlight></codeline>
+<codeline lineno="49" refid="d0/dfc/_reader_content_view_8m_1a3cde7c414f32ec6318a25dd6ab15838b" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>CONTENT_INSET<sp/>4.0f</highlight></codeline>
+<codeline lineno="50"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="51"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>CONTENT_INSET<sp/>2.0f</highlight></codeline>
+<codeline lineno="52"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>end<sp/>of<sp/>READER_SHOW_SHADOWS<sp/>Option</highlight></codeline>
+<codeline lineno="53"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="d0/dfc/_reader_content_view_8m_1a3743fb19ca662d805f3189a296804910" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PAGE_THUMB_LARGE<sp/>240</highlight></codeline>
+<codeline lineno="55" refid="d0/dfc/_reader_content_view_8m_1aee64ce469e56253e26100e37ae359664" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PAGE_THUMB_SMALL<sp/>144</highlight></codeline>
+<codeline lineno="56"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ReaderContentViewContext<sp/>=<sp/>&amp;ReaderContentViewContext;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Properties</highlight></codeline>
+<codeline lineno="60"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dd/de3/interface_reader_content_view_1abbbb9c4881d98915cb299e3f903b9719" kindref="member">message</ref>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>ReaderContentView<sp/>functions</highlight></codeline>
+<codeline lineno="64"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>CGFloat<sp/>ZoomScaleThatFits(CGSize<sp/>target,<sp/>CGSize<sp/>source)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>w_scale<sp/>=<sp/>(target.width<sp/>/<sp/>source.width);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>h_scale<sp/>=<sp/>(target.height<sp/>/<sp/>source.height);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((w_scale<sp/>&lt;<sp/>h_scale)<sp/>?<sp/>w_scale<sp/>:<sp/>h_scale);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>ReaderContentView<sp/>instance<sp/>methods</highlight></codeline>
+<codeline lineno="75"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">-<sp/>(void)updateMinimumMaximumZoom</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>CGRect<sp/>targetRect<sp/>=<sp/>CGRectInset(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds,<sp/><ref refid="d0/dfc/_reader_content_view_8m_1a3cde7c414f32ec6318a25dd6ab15838b" kindref="member">CONTENT_INSET</ref>,<sp/><ref refid="d0/dfc/_reader_content_view_8m_1a3cde7c414f32ec6318a25dd6ab15838b" kindref="member">CONTENT_INSET</ref>);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>zoomScale<sp/>=<sp/>ZoomScaleThatFits(targetRect.size,<sp/>theContentView.bounds.size);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.minimumZoomScale<sp/>=<sp/>zoomScale;<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>minimum<sp/>and<sp/>maximum<sp/>zoom<sp/>scales</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.maximumZoomScale<sp/>=<sp/>(zoomScale<sp/>*<sp/><ref refid="d0/dfc/_reader_content_view_8m_1a4e0bf09e231e4136fa48545a3a009139" kindref="member">ZOOM_LEVELS</ref>);<sp/></highlight><highlight class="comment">//<sp/>Max<sp/>number<sp/>of<sp/>zoom<sp/>levels</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/dfc/_reader_content_view_8m_1afaa77712cb340ee34fc56eb5b926d98d" kindref="member">zoomAmount</ref><sp/>=<sp/>((</highlight><highlight class="keyword">self</highlight><highlight class="normal">.maximumZoomScale<sp/>-<sp/>self.minimumZoomScale)<sp/>/<sp/><ref refid="d0/dfc/_reader_content_view_8m_1a4e0bf09e231e4136fa48545a3a009139" kindref="member">ZOOM_LEVELS</ref>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="dd/de3/interface_reader_content_view_1ac045875376b7c51f37c2ee946f9c3de4" refkind="member"><highlight class="normal">-<sp/>(id)initWithFrame:(CGRect)frame<sp/>fileURL:(NSURL<sp/>*)fileURL<sp/>page:(NSUInteger)page<sp/>password:(NSString<sp/>*)phrase</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[super<sp/>initWithFrame:frame]))</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.scrollsToTop<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.delaysContentTouches<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.showsVerticalScrollIndicator<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.showsHorizontalScrollIndicator<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentMode<sp/>=<sp/>UIViewContentModeRedraw;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.autoresizingMask<sp/>=<sp/>UIViewAutoresizingFlexibleWidth<sp/>|<sp/>UIViewAutoresizingFlexibleHeight;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.backgroundColor<sp/>=<sp/>[UIColor<sp/>clearColor];</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.userInteractionEnabled<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.autoresizesSubviews<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bouncesZoom<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.delegate<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>theContentView<sp/>=<sp/>[[<ref refid="d2/dad/interface_reader_content_page" kindref="compound">ReaderContentPage</ref><sp/>alloc]<sp/>initWithURL:fileURL<sp/>page:page<sp/>password:phrase];</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(theContentView<sp/>!=<sp/>nil)<sp/></highlight><highlight class="comment">//<sp/>Must<sp/>have<sp/>a<sp/>valid<sp/>and<sp/>initialized<sp/>content<sp/>view</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" kindref="member">theContainerView</ref><sp/>=<sp/>[[<ref refid="db/d6b/class_u_i_view" kindref="compound">UIView</ref><sp/>alloc]<sp/>initWithFrame:theContentView.bounds];</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" kindref="member">theContainerView</ref>.autoresizesSubviews<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" kindref="member">theContainerView</ref>.userInteractionEnabled<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" kindref="member">theContainerView</ref>.contentMode<sp/>=<sp/>UIViewContentModeRedraw;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" kindref="member">theContainerView</ref>.autoresizingMask<sp/>=<sp/>UIViewAutoresizingNone;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" kindref="member">theContainerView</ref>.backgroundColor<sp/>=<sp/>[UIColor<sp/>whiteColor];</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(READER_SHOW_SHADOWS<sp/>==<sp/>TRUE)<sp/>//<sp/>Option</highlight></codeline>
+<codeline lineno="118"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" kindref="member">theContainerView</ref>.layer.shadowOffset<sp/>=<sp/>CGSizeMake(0.0f,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" kindref="member">theContainerView</ref>.layer.shadowRadius<sp/>=<sp/>4.0f;<sp/><ref refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" kindref="member">theContainerView</ref>.layer.shadowOpacity<sp/>=<sp/>1.0f;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" kindref="member">theContainerView</ref>.layer.shadowPath<sp/>=<sp/>[UIBezierPath<sp/>bezierPathWithRect:theContainerView.bounds].CGPath;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>end<sp/>of<sp/>READER_SHOW_SHADOWS<sp/>Option</highlight></codeline>
+<codeline lineno="124"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentSize<sp/>=<sp/>theContentView.bounds.size;<sp/></highlight><highlight class="comment">//<sp/>Content<sp/>size<sp/>same<sp/>as<sp/>view<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentOffset<sp/>=<sp/>CGPointMake((0.0f<sp/>-<sp/><ref refid="d0/dfc/_reader_content_view_8m_1a3cde7c414f32ec6318a25dd6ab15838b" kindref="member">CONTENT_INSET</ref>),<sp/>(0.0f<sp/>-<sp/><ref refid="d0/dfc/_reader_content_view_8m_1a3cde7c414f32ec6318a25dd6ab15838b" kindref="member">CONTENT_INSET</ref>));<sp/></highlight><highlight class="comment">//<sp/>Offset</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.contentInset<sp/>=<sp/>UIEdgeInsetsMake(<ref refid="d0/dfc/_reader_content_view_8m_1a3cde7c414f32ec6318a25dd6ab15838b" kindref="member">CONTENT_INSET</ref>,<sp/><ref refid="d0/dfc/_reader_content_view_8m_1a3cde7c414f32ec6318a25dd6ab15838b" kindref="member">CONTENT_INSET</ref>,<sp/><ref refid="d0/dfc/_reader_content_view_8m_1a3cde7c414f32ec6318a25dd6ab15838b" kindref="member">CONTENT_INSET</ref>,<sp/><ref refid="d0/dfc/_reader_content_view_8m_1a3cde7c414f32ec6318a25dd6ab15838b" kindref="member">CONTENT_INSET</ref>);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(READER_ENABLE_PREVIEW<sp/>==<sp/>TRUE)<sp/>//<sp/>Option</highlight></codeline>
+<codeline lineno="130"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/dfc/_reader_content_view_8m_1a43bbdfc8c7e72c062123df3990bbd296" kindref="member">theThumbView</ref><sp/>=<sp/>[[<ref refid="d4/df0/interface_reader_content_thumb" kindref="compound">ReaderContentThumb</ref><sp/>alloc]<sp/>initWithFrame:theContentView.bounds];<sp/></highlight><highlight class="comment">//<sp/>Page<sp/>thumb<sp/>view</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[theContainerView<sp/>addSubview:theThumbView];<sp/></highlight><highlight class="comment">//<sp/>Add<sp/>the<sp/>thumb<sp/>view<sp/>to<sp/>the<sp/>container<sp/>view</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>end<sp/>of<sp/>READER_ENABLE_PREVIEW<sp/>Option</highlight></codeline>
+<codeline lineno="136"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[theContainerView<sp/>addSubview:theContentView];<sp/></highlight><highlight class="comment">//<sp/>Add<sp/>the<sp/>content<sp/>view<sp/>to<sp/>the<sp/>container<sp/>view</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addSubview:theContainerView];<sp/></highlight><highlight class="comment">//<sp/>Add<sp/>the<sp/>container<sp/>view<sp/>to<sp/>the<sp/>scroll<sp/>view</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>updateMinimumMaximumZoom];<sp/></highlight><highlight class="comment">//<sp/>Update<sp/>the<sp/>minimum<sp/>and<sp/>maximum<sp/>zoom<sp/>scales</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.zoomScale<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.minimumZoomScale;<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>zoom<sp/>to<sp/>fit<sp/>page<sp/>content</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addObserver:self<sp/>forKeyPath:@&quot;frame&quot;<sp/>options:0<sp/>context:ReaderContentViewContext];</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.tag<sp/>=<sp/>page;<sp/></highlight><highlight class="comment">//<sp/>Tag<sp/>the<sp/>view<sp/>with<sp/>the<sp/>page<sp/>number</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal">-<sp/>(void)dealloc</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>[self<sp/>removeObserver:self<sp/>forKeyPath:@&quot;frame&quot;<sp/>context:ReaderContentViewContext];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>removeObserver:self<sp/>forKeyPath:@&quot;frame&quot;];<sp/></highlight><highlight class="comment">//<sp/>Maintain<sp/>iOS<sp/>4.x<sp/>compatability</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="dd/de3/interface_reader_content_view_1a952138f340db971d89ca8f455c20eda8" refkind="member"><highlight class="normal">-<sp/>(void)showPageThumb:(NSURL<sp/>*)fileURL<sp/>page:(NSInteger)page<sp/>password:(NSString<sp/>*)phrase<sp/>guid:(NSString<sp/>*)guid</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(READER_ENABLE_PREVIEW<sp/>==<sp/>TRUE)<sp/>//<sp/>Option</highlight></codeline>
+<codeline lineno="164"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/>large<sp/>=<sp/>([UIDevice<sp/>currentDevice].userInterfaceIdiom<sp/>==<sp/>UIUserInterfaceIdiomPad);<sp/></highlight><highlight class="comment">//<sp/>Page<sp/>thumb<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>CGSize<sp/>size<sp/>=<sp/>(large<sp/>?<sp/>CGSizeMake(<ref refid="d0/dfc/_reader_content_view_8m_1a3743fb19ca662d805f3189a296804910" kindref="member">PAGE_THUMB_LARGE</ref>,<sp/><ref refid="d0/dfc/_reader_content_view_8m_1a3743fb19ca662d805f3189a296804910" kindref="member">PAGE_THUMB_LARGE</ref>)<sp/>:<sp/>CGSizeMake(<ref refid="d0/dfc/_reader_content_view_8m_1aee64ce469e56253e26100e37ae359664" kindref="member">PAGE_THUMB_SMALL</ref>,<sp/><ref refid="d0/dfc/_reader_content_view_8m_1aee64ce469e56253e26100e37ae359664" kindref="member">PAGE_THUMB_SMALL</ref>));</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/dc5/interface_reader_thumb_request" kindref="compound">ReaderThumbRequest</ref><sp/>*request<sp/>=<sp/>[<ref refid="dc/dc5/interface_reader_thumb_request" kindref="compound">ReaderThumbRequest</ref><sp/><ref refid="dc/dc5/interface_reader_thumb_request_1aceedc8df03338e125e8e6872e46080bf" kindref="member">newForView</ref>:theThumbView<sp/><ref refid="dc/dc5/interface_reader_thumb_request_1aceedc8df03338e125e8e6872e46080bf" kindref="member">fileURL</ref>:fileURL<sp/><ref refid="dc/dc5/interface_reader_thumb_request_1aceedc8df03338e125e8e6872e46080bf" kindref="member">password</ref>:phrase<sp/><ref refid="dc/dc5/interface_reader_thumb_request_1aceedc8df03338e125e8e6872e46080bf" kindref="member">guid</ref>:guid<sp/><ref refid="dc/dc5/interface_reader_thumb_request_1aceedc8df03338e125e8e6872e46080bf" kindref="member">page</ref>:page<sp/><ref refid="dc/dc5/interface_reader_thumb_request_1aceedc8df03338e125e8e6872e46080bf" kindref="member">size</ref>:size];</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>UIImage<sp/>*image<sp/>=<sp/>[[<ref refid="da/d97/interface_reader_thumb_cache" kindref="compound">ReaderThumbCache</ref><sp/><ref refid="da/d97/interface_reader_thumb_cache_1a5254f54ac18877ab24f532abedf47e6e" kindref="member">sharedInstance</ref>]<sp/><ref refid="da/d97/interface_reader_thumb_cache_1a4471faa4bdb367b02aeed4da49af7e4b" kindref="member">thumbRequest</ref>:request<sp/><ref refid="da/d97/interface_reader_thumb_cache_1a4471faa4bdb367b02aeed4da49af7e4b" kindref="member">priority</ref>:YES];<sp/></highlight><highlight class="comment">//<sp/>Request<sp/>the<sp/>page<sp/>thumb</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([image<sp/>isKindOfClass:[UIImage<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">]])<sp/>[theThumbView<sp/>showImage:image];<sp/></highlight><highlight class="comment">//<sp/>Show<sp/>image<sp/>from<sp/>cache</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>end<sp/>of<sp/>READER_ENABLE_PREVIEW<sp/>Option</highlight></codeline>
+<codeline lineno="176"><highlight class="preprocessor"></highlight><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal">-<sp/>(void)observeValueForKeyPath:(NSString<sp/>*)keyPath<sp/>ofObject:(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)object<sp/>change:(NSDictionary<sp/>*)change<sp/>context:(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)context</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(context<sp/>==<sp/>ReaderContentViewContext)<sp/></highlight><highlight class="comment">//<sp/>Our<sp/>context</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>==<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">)<sp/>&amp;&amp;<sp/>[keyPath<sp/>isEqualToString:@&quot;frame&quot;])</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>oldMinimumZoomScale<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.minimumZoomScale;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>updateMinimumMaximumZoom];<sp/></highlight><highlight class="comment">//<sp/>Update<sp/>zoom<sp/>scale<sp/>limits</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.zoomScale<sp/>==<sp/>oldMinimumZoomScale)<sp/></highlight><highlight class="comment">//<sp/>Old<sp/>minimum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.zoomScale<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.minimumZoomScale;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>against<sp/>minimum<sp/>zoom<sp/>scale</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.zoomScale<sp/>&lt;<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.minimumZoomScale)</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.zoomScale<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.minimumZoomScale;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>against<sp/>maximum<sp/>zoom<sp/>scale</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.zoomScale<sp/>&gt;<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.maximumZoomScale)</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.zoomScale<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.maximumZoomScale;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal">-<sp/>(void)layoutSubviews</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>layoutSubviews];</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>CGSize<sp/>boundsSize<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>CGRect<sp/>viewFrame<sp/>=<sp/><ref refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" kindref="member">theContainerView</ref>.frame;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(viewFrame.size.width<sp/>&lt;<sp/>boundsSize.width)</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>viewFrame.origin.x<sp/>=<sp/>(((boundsSize.width<sp/>-<sp/>viewFrame.size.width)<sp/>/<sp/>2.0f)<sp/>+<sp/>self.contentOffset.x);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>viewFrame.origin.x<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(viewFrame.size.height<sp/>&lt;<sp/>boundsSize.height)</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>viewFrame.origin.y<sp/>=<sp/>(((boundsSize.height<sp/>-<sp/>viewFrame.size.height)<sp/>/<sp/>2.0f)<sp/>+<sp/>self.contentOffset.y);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>viewFrame.origin.y<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" kindref="member">theContainerView</ref>.frame<sp/>=<sp/>viewFrame;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="dd/de3/interface_reader_content_view_1ace7f8325b0e739649fe9aab17a15b66a" refkind="member"><highlight class="normal">-<sp/>(id)processSingleTap:(UITapGestureRecognizer<sp/>*)recognizer</highlight></codeline>
+<codeline lineno="231"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[theContentView<sp/>processSingleTap:recognizer];</highlight></codeline>
+<codeline lineno="233"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="dd/de3/interface_reader_content_view_1af43ce1f20e44310bfc790100ed823d37" refkind="member"><highlight class="normal">-<sp/>(void)<ref refid="dd/de3/interface_reader_content_view_1af43ce1f20e44310bfc790100ed823d37" kindref="member">zoomIncrement</ref></highlight></codeline>
+<codeline lineno="236"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>zoomScale<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.zoomScale;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(zoomScale<sp/>&lt;<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.maximumZoomScale)</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>zoomScale<sp/>+=<sp/><ref refid="d0/dfc/_reader_content_view_8m_1afaa77712cb340ee34fc56eb5b926d98d" kindref="member">zoomAmount</ref>;<sp/></highlight><highlight class="comment">//<sp/>+=<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(zoomScale<sp/>&gt;<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.maximumZoomScale)</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>zoomScale<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.maximumZoomScale;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setZoomScale:zoomScale<sp/>animated:YES];</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="250"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="dd/de3/interface_reader_content_view_1a9045f28f0f226225b3da62941522252d" refkind="member"><highlight class="normal">-<sp/>(void)<ref refid="dd/de3/interface_reader_content_view_1a9045f28f0f226225b3da62941522252d" kindref="member">zoomDecrement</ref></highlight></codeline>
+<codeline lineno="253"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/>zoomScale<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.zoomScale;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(zoomScale<sp/>&gt;<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.minimumZoomScale)</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>zoomScale<sp/>-=<sp/><ref refid="d0/dfc/_reader_content_view_8m_1afaa77712cb340ee34fc56eb5b926d98d" kindref="member">zoomAmount</ref>;<sp/></highlight><highlight class="comment">//<sp/>-=<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(zoomScale<sp/>&lt;<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.minimumZoomScale)</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>zoomScale<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.minimumZoomScale;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>setZoomScale:zoomScale<sp/>animated:YES];</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="dd/de3/interface_reader_content_view_1a771f0b83553366bd863f9c5b00db4808" refkind="member"><highlight class="normal">-<sp/>(void)<ref refid="dd/de3/interface_reader_content_view_1a771f0b83553366bd863f9c5b00db4808" kindref="member">zoomReset</ref></highlight></codeline>
+<codeline lineno="270"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.zoomScale<sp/>&gt;<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.minimumZoomScale)</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.zoomScale<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.minimumZoomScale;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="275"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>UIScrollViewDelegate<sp/>methods</highlight></codeline>
+<codeline lineno="278"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal">-<sp/>(<ref refid="db/d6b/class_u_i_view" kindref="compound">UIView</ref><sp/>*)viewForZoomingInScrollView:(<ref refid="d0/dd4/class_u_i_scroll_view" kindref="compound">UIScrollView</ref><sp/>*)scrollView</highlight></codeline>
+<codeline lineno="280"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" kindref="member">theContainerView</ref>;</highlight></codeline>
+<codeline lineno="282"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>UIResponder<sp/>instance<sp/>methods</highlight></codeline>
+<codeline lineno="285"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal">-<sp/>(void)touchesBegan:(NSSet<sp/>*)touches<sp/>withEvent:(UIEvent<sp/>*)event</highlight></codeline>
+<codeline lineno="287"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>touchesBegan:touches<sp/>withEvent:event];<sp/></highlight><highlight class="comment">//<sp/>Message<sp/>superclass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>[message<sp/>contentView:self<sp/>touchesBegan:touches];<sp/></highlight><highlight class="comment">//<sp/>Message<sp/>delegate</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal">-<sp/>(void)touchesCancelled:(NSSet<sp/>*)touches<sp/>withEvent:(UIEvent<sp/>*)event</highlight></codeline>
+<codeline lineno="294"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>touchesCancelled:touches<sp/>withEvent:event];<sp/></highlight><highlight class="comment">//<sp/>Message<sp/>superclass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal">-<sp/>(void)touchesEnded:(NSSet<sp/>*)touches<sp/>withEvent:(UIEvent<sp/>*)event</highlight></codeline>
+<codeline lineno="299"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>touchesEnded:touches<sp/>withEvent:event];<sp/></highlight><highlight class="comment">//<sp/>Message<sp/>superclass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal">-<sp/>(void)touchesMoved:(NSSet<sp/>*)touches<sp/>withEvent:(UIEvent<sp/>*)event</highlight></codeline>
+<codeline lineno="304"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>touchesMoved:touches<sp/>withEvent:event];<sp/></highlight><highlight class="comment">//<sp/>Message<sp/>superclass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-</highlight></codeline>
+<codeline lineno="311"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>ReaderContentThumb<sp/>class<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="d4/df0/interface_reader_content_thumb" kindref="compound">ReaderContentThumb</ref></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>ReaderContentThumb<sp/>instance<sp/>methods</highlight></codeline>
+<codeline lineno="319"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal">-<sp/>(id)initWithFrame:(CGRect)frame</highlight></codeline>
+<codeline lineno="321"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[super<sp/>initWithFrame:frame]))<sp/></highlight><highlight class="comment">//<sp/>Superclass<sp/>init</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d8/d25/interface_reader_thumb_view_1a533ff56283d349d1e397116ea6a3c7d1" kindref="member">imageView</ref>.contentMode<sp/>=<sp/>UIViewContentModeScaleAspectFill;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d8/d25/interface_reader_thumb_view_1a533ff56283d349d1e397116ea6a3c7d1" kindref="member">imageView</ref>.clipsToBounds<sp/>=<sp/>YES;<sp/></highlight><highlight class="comment">//<sp/>Needed<sp/>for<sp/>aspect<sp/>fill</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m"/>
+  </compounddef>
+</doxygen>

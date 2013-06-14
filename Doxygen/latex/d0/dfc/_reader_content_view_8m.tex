@@ -1,0 +1,96 @@
+\hypertarget{_reader_content_view_8m}{\section{Sources/\-Reader\-Content\-View.m File Reference}
+\label{d0/dfc/_reader_content_view_8m}\index{Sources/\-Reader\-Content\-View.\-m@{Sources/\-Reader\-Content\-View.\-m}}
+}
+{\ttfamily \#import \char`\"{}Reader\-Constants.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Reader\-Content\-View.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Reader\-Content\-Page.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Reader\-Thumb\-Cache.\-h\char`\"{}}\\*
+{\ttfamily \#import $<$Quartz\-Core/\-Quartz\-Core.\-h$>$}\\*
+Include dependency graph for Reader\-Content\-View.\-m\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/d38/_reader_content_view_8m__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_reader_content_view_8m_a4e0bf09e231e4136fa48545a3a009139}{Z\-O\-O\-M\-\_\-\-L\-E\-V\-E\-L\-S}~4
+\item 
+\#define \hyperlink{_reader_content_view_8m_a3cde7c414f32ec6318a25dd6ab15838b}{C\-O\-N\-T\-E\-N\-T\-\_\-\-I\-N\-S\-E\-T}~4.\-0f
+\item 
+\#define \hyperlink{_reader_content_view_8m_a3743fb19ca662d805f3189a296804910}{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E}~240
+\item 
+\#define \hyperlink{_reader_content_view_8m_aee64ce469e56253e26100e37ae359664}{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L}~144
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{interface_reader_content_thumb}{Reader\-Content\-Thumb} $\ast$ \hyperlink{_reader_content_view_8m_a43bbdfc8c7e72c062123df3990bbd296}{the\-Thumb\-View}
+\item 
+\hyperlink{class_u_i_view}{U\-I\-View} $\ast$ \hyperlink{_reader_content_view_8m_a9b4d22a4b9ff601bf1f349fd74b5153d}{the\-Container\-View}
+\item 
+C\-G\-Float \hyperlink{_reader_content_view_8m_afaa77712cb340ee34fc56eb5b926d98d}{zoom\-Amount}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{_reader_content_view_8m_a3cde7c414f32ec6318a25dd6ab15838b}{\index{Reader\-Content\-View.\-m@{Reader\-Content\-View.\-m}!C\-O\-N\-T\-E\-N\-T\-\_\-\-I\-N\-S\-E\-T@{C\-O\-N\-T\-E\-N\-T\-\_\-\-I\-N\-S\-E\-T}}
+\index{C\-O\-N\-T\-E\-N\-T\-\_\-\-I\-N\-S\-E\-T@{C\-O\-N\-T\-E\-N\-T\-\_\-\-I\-N\-S\-E\-T}!ReaderContentView.m@{Reader\-Content\-View.\-m}}
+\subsubsection[{C\-O\-N\-T\-E\-N\-T\-\_\-\-I\-N\-S\-E\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\-O\-N\-T\-E\-N\-T\-\_\-\-I\-N\-S\-E\-T~4.\-0f}}\label{d0/dfc/_reader_content_view_8m_a3cde7c414f32ec6318a25dd6ab15838b}
+
+
+Definition at line 49 of file Reader\-Content\-View.\-m.
+
+\hypertarget{_reader_content_view_8m_a3743fb19ca662d805f3189a296804910}{\index{Reader\-Content\-View.\-m@{Reader\-Content\-View.\-m}!P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E@{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E}}
+\index{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E@{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E}!ReaderContentView.m@{Reader\-Content\-View.\-m}}
+\subsubsection[{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E~240}}\label{d0/dfc/_reader_content_view_8m_a3743fb19ca662d805f3189a296804910}
+
+
+Definition at line 54 of file Reader\-Content\-View.\-m.
+
+\hypertarget{_reader_content_view_8m_aee64ce469e56253e26100e37ae359664}{\index{Reader\-Content\-View.\-m@{Reader\-Content\-View.\-m}!P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L@{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L}}
+\index{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L@{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L}!ReaderContentView.m@{Reader\-Content\-View.\-m}}
+\subsubsection[{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L~144}}\label{d0/dfc/_reader_content_view_8m_aee64ce469e56253e26100e37ae359664}
+
+
+Definition at line 55 of file Reader\-Content\-View.\-m.
+
+\hypertarget{_reader_content_view_8m_a4e0bf09e231e4136fa48545a3a009139}{\index{Reader\-Content\-View.\-m@{Reader\-Content\-View.\-m}!Z\-O\-O\-M\-\_\-\-L\-E\-V\-E\-L\-S@{Z\-O\-O\-M\-\_\-\-L\-E\-V\-E\-L\-S}}
+\index{Z\-O\-O\-M\-\_\-\-L\-E\-V\-E\-L\-S@{Z\-O\-O\-M\-\_\-\-L\-E\-V\-E\-L\-S}!ReaderContentView.m@{Reader\-Content\-View.\-m}}
+\subsubsection[{Z\-O\-O\-M\-\_\-\-L\-E\-V\-E\-L\-S}]{\setlength{\rightskip}{0pt plus 5cm}\#define Z\-O\-O\-M\-\_\-\-L\-E\-V\-E\-L\-S~4}}\label{d0/dfc/_reader_content_view_8m_a4e0bf09e231e4136fa48545a3a009139}
+
+
+Definition at line 46 of file Reader\-Content\-View.\-m.
+
+
+
+\subsection{Variable Documentation}
+\hypertarget{_reader_content_view_8m_a9b4d22a4b9ff601bf1f349fd74b5153d}{\index{Reader\-Content\-View.\-m@{Reader\-Content\-View.\-m}!the\-Container\-View@{the\-Container\-View}}
+\index{the\-Container\-View@{the\-Container\-View}!ReaderContentView.m@{Reader\-Content\-View.\-m}}
+\subsubsection[{the\-Container\-View}]{\setlength{\rightskip}{0pt plus 5cm}{\bf U\-I\-View}$\ast$ the\-Container\-View}}\label{d0/dfc/_reader_content_view_8m_a9b4d22a4b9ff601bf1f349fd74b5153d}
+
+
+Definition at line 39 of file Reader\-Content\-View.\-m.
+
+\hypertarget{_reader_content_view_8m_a43bbdfc8c7e72c062123df3990bbd296}{\index{Reader\-Content\-View.\-m@{Reader\-Content\-View.\-m}!the\-Thumb\-View@{the\-Thumb\-View}}
+\index{the\-Thumb\-View@{the\-Thumb\-View}!ReaderContentView.m@{Reader\-Content\-View.\-m}}
+\subsubsection[{the\-Thumb\-View}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Reader\-Content\-Thumb}$\ast$ the\-Thumb\-View}}\label{d0/dfc/_reader_content_view_8m_a43bbdfc8c7e72c062123df3990bbd296}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+\{
+    \hyperlink{interface_reader_content_page}{ReaderContentPage} *theContentView
+\end{DoxyCode}
+
+
+Definition at line 34 of file Reader\-Content\-View.\-m.
+
+\hypertarget{_reader_content_view_8m_afaa77712cb340ee34fc56eb5b926d98d}{\index{Reader\-Content\-View.\-m@{Reader\-Content\-View.\-m}!zoom\-Amount@{zoom\-Amount}}
+\index{zoom\-Amount@{zoom\-Amount}!ReaderContentView.m@{Reader\-Content\-View.\-m}}
+\subsubsection[{zoom\-Amount}]{\setlength{\rightskip}{0pt plus 5cm}C\-G\-Float zoom\-Amount}}\label{d0/dfc/_reader_content_view_8m_afaa77712cb340ee34fc56eb5b926d98d}
+
+
+Definition at line 41 of file Reader\-Content\-View.\-m.
+

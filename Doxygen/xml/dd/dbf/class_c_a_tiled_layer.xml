@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dd/dbf/class_c_a_tiled_layer" kind="class" prot="public">
+    <compoundname>CATiledLayer</compoundname>
+    <derivedcompoundref refid="d4/dec/interface_reader_content_tile" prot="public" virt="non-virtual">ReaderContentTile</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="381">
+        <label>CATiledLayer</label>
+        <link refid="dd/dbf/class_c_a_tiled_layer"/>
+      </node>
+      <node id="382">
+        <label>ReaderContentTile</label>
+        <link refid="d4/dec/interface_reader_content_tile"/>
+        <childnode refid="381" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentTile.h" line="30"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

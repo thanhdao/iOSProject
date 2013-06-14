@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d3/d8f/category_thumbs_view_controller_07_08" kind="category" prot="public">
+    <compoundname>ThumbsViewController()</compoundname>
+    <basecompoundref refid="dc/d59/protocol_thumbs_main_toolbar_delegate-p" prot="public" virt="non-virtual">&lt;ThumbsMainToolbarDelegate&gt;</basecompoundref>
+    <basecompoundref refid="d9/d3a/protocol_reader_thumbs_view_delegate-p" prot="public" virt="non-virtual">&lt;ReaderThumbsViewDelegate&gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="697">
+        <label>ThumbsViewController()</label>
+        <link refid="d3/d8f/category_thumbs_view_controller_07_08"/>
+        <childnode refid="698" relation="public-inheritance">
+        </childnode>
+        <childnode refid="700" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="701">
+        <label>&lt;UIScrollViewDelegate&gt;</label>
+        <link refid="d6/dde/class_u_i_scroll_view_delegate-p"/>
+      </node>
+      <node id="698">
+        <label>&lt;ThumbsMainToolbarDelegate&gt;</label>
+        <link refid="dc/d59/protocol_thumbs_main_toolbar_delegate-p"/>
+        <childnode refid="699" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="700">
+        <label>&lt;ReaderThumbsViewDelegate&gt;</label>
+        <link refid="d9/d3a/protocol_reader_thumbs_view_delegate-p"/>
+        <childnode refid="699" relation="public-inheritance">
+        </childnode>
+        <childnode refid="701" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="699">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="702">
+        <label>ThumbsViewController()</label>
+        <link refid="d3/d8f/category_thumbs_view_controller_07_08"/>
+        <childnode refid="703" relation="public-inheritance">
+        </childnode>
+        <childnode refid="705" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="706">
+        <label>&lt;UIScrollViewDelegate&gt;</label>
+        <link refid="d6/dde/class_u_i_scroll_view_delegate-p"/>
+      </node>
+      <node id="703">
+        <label>&lt;ThumbsMainToolbarDelegate&gt;</label>
+        <link refid="dc/d59/protocol_thumbs_main_toolbar_delegate-p"/>
+        <childnode refid="704" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="705">
+        <label>&lt;ReaderThumbsViewDelegate&gt;</label>
+        <link refid="d9/d3a/protocol_reader_thumbs_view_delegate-p"/>
+        <childnode refid="704" relation="public-inheritance">
+        </childnode>
+        <childnode refid="706" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="704">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.m" line="34" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.m" bodystart="34" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a7994669387eb329edb3aad761710786f" prot="public" virt="virtual"><scope>ThumbsViewController()</scope><name>numberOfThumbsInThumbsView:</name></member>
+      <member refid="dc/d59/protocol_thumbs_main_toolbar_delegate-p_1a0a1f15eccee494d202ee8b4bc99633db" prot="public" virt="virtual"><scope>ThumbsViewController()</scope><name>tappedInToolbar:doneButton:</name></member>
+      <member refid="dc/d59/protocol_thumbs_main_toolbar_delegate-p_1a2b192075116f44d678a6bfc923086bd7" prot="public" virt="virtual"><scope>ThumbsViewController()</scope><name>tappedInToolbar:showControl:</name></member>
+      <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a958b9247665abef986a150f1320b7048" prot="public" virt="virtual"><scope>ThumbsViewController()</scope><name>thumbsView:didPressThumbWithIndex:</name></member>
+      <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a664c8fd8faf6f277cbcb3287aeecf26f" prot="public" virt="virtual"><scope>ThumbsViewController()</scope><name>thumbsView:didSelectThumbWithIndex:</name></member>
+      <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a358c8c70944eedb2986383076b98ca94" prot="public" virt="virtual"><scope>ThumbsViewController()</scope><name>thumbsView:refreshThumbCell:forIndex:</name></member>
+      <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a2f8cd902ac375053c12c2c2745d6296e" prot="public" virt="virtual"><scope>ThumbsViewController()</scope><name>thumbsView:thumbCellWithFrame:</name></member>
+      <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a0e775cbe6eac2c4f29090ef56087a626" prot="public" virt="virtual"><scope>ThumbsViewController()</scope><name>thumbsView:updateThumbCell:forIndex:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dd/db6/protocol_reader_main_toolbar_delegate-p" kind="protocol" prot="public" abstract="yes">
+    <compoundname>ReaderMainToolbarDelegate-p</compoundname>
+    <basecompoundref refid="d0/d10/class_n_s_object-p" prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <derivedcompoundref refid="db/d1e/category_reader_view_controller_07_08" prot="public" virt="non-virtual">ReaderViewController()</derivedcompoundref>
+    <includes refid="db/d57/_reader_main_toolbar_8h" local="no">ReaderMainToolbar.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/db6/protocol_reader_main_toolbar_delegate-p_1ac6e6634e74e67393ce7d855bcb0ef503" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderMainToolbarDelegate-p::tappedInToolbar:doneButton:</definition>
+        <argsstring>(ReaderMainToolbar *toolbar,[doneButton] UIButton *button)</argsstring>
+        <name>tappedInToolbar:doneButton:</name>
+        <param>
+          <type><ref refid="dd/dd4/interface_reader_main_toolbar" kindref="compound">ReaderMainToolbar</ref> *</type>
+          <declname>toolbar</declname>
+        </param>
+        <param>
+          <attributes>[doneButton]</attributes>
+          <type>UIButton *</type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db6/protocol_reader_main_toolbar_delegate-p_1aadd3af1a2dd465ca3dce248572fee3a3" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderMainToolbarDelegate-p::tappedInToolbar:thumbsButton:</definition>
+        <argsstring>(ReaderMainToolbar *toolbar,[thumbsButton] UIButton *button)</argsstring>
+        <name>tappedInToolbar:thumbsButton:</name>
+        <param>
+          <type><ref refid="dd/dd4/interface_reader_main_toolbar" kindref="compound">ReaderMainToolbar</ref> *</type>
+          <declname>toolbar</declname>
+        </param>
+        <param>
+          <attributes>[thumbsButton]</attributes>
+          <type>UIButton *</type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db6/protocol_reader_main_toolbar_delegate-p_1a385d12621b90bff7ea6320656aa20e37" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderMainToolbarDelegate-p::tappedInToolbar:printButton:</definition>
+        <argsstring>(ReaderMainToolbar *toolbar,[printButton] UIButton *button)</argsstring>
+        <name>tappedInToolbar:printButton:</name>
+        <param>
+          <type><ref refid="dd/dd4/interface_reader_main_toolbar" kindref="compound">ReaderMainToolbar</ref> *</type>
+          <declname>toolbar</declname>
+        </param>
+        <param>
+          <attributes>[printButton]</attributes>
+          <type>UIButton *</type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db6/protocol_reader_main_toolbar_delegate-p_1aa89d3fbf056cd9a35d08d5f2f3d7c704" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderMainToolbarDelegate-p::tappedInToolbar:emailButton:</definition>
+        <argsstring>(ReaderMainToolbar *toolbar,[emailButton] UIButton *button)</argsstring>
+        <name>tappedInToolbar:emailButton:</name>
+        <param>
+          <type><ref refid="dd/dd4/interface_reader_main_toolbar" kindref="compound">ReaderMainToolbar</ref> *</type>
+          <declname>toolbar</declname>
+        </param>
+        <param>
+          <attributes>[emailButton]</attributes>
+          <type>UIButton *</type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db6/protocol_reader_main_toolbar_delegate-p_1ad5091069cb05ce63825ffdcef02e93a7" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderMainToolbarDelegate-p::tappedInToolbar:markButton:</definition>
+        <argsstring>(ReaderMainToolbar *toolbar,[markButton] UIButton *button)</argsstring>
+        <name>tappedInToolbar:markButton:</name>
+        <param>
+          <type><ref refid="dd/dd4/interface_reader_main_toolbar" kindref="compound">ReaderMainToolbar</ref> *</type>
+          <declname>toolbar</declname>
+        </param>
+        <param>
+          <attributes>[markButton]</attributes>
+          <type>UIButton *</type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.h" line="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="542">
+        <label>&lt;ReaderMainToolbarDelegate&gt;</label>
+        <link refid="dd/db6/protocol_reader_main_toolbar_delegate-p"/>
+        <childnode refid="543" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="544">
+        <label>ReaderViewController()</label>
+        <link refid="db/d1e/category_reader_view_controller_07_08"/>
+        <childnode refid="542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="543">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="545">
+        <label>&lt;ReaderMainToolbarDelegate&gt;</label>
+        <link refid="dd/db6/protocol_reader_main_toolbar_delegate-p"/>
+        <childnode refid="546" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="546">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.h" line="33" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.h" bodystart="33" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="dd/db6/protocol_reader_main_toolbar_delegate-p_1ac6e6634e74e67393ce7d855bcb0ef503" prot="public" virt="virtual"><scope>ReaderMainToolbarDelegate-p</scope><name>tappedInToolbar:doneButton:</name></member>
+      <member refid="dd/db6/protocol_reader_main_toolbar_delegate-p_1aa89d3fbf056cd9a35d08d5f2f3d7c704" prot="public" virt="virtual"><scope>ReaderMainToolbarDelegate-p</scope><name>tappedInToolbar:emailButton:</name></member>
+      <member refid="dd/db6/protocol_reader_main_toolbar_delegate-p_1ad5091069cb05ce63825ffdcef02e93a7" prot="public" virt="virtual"><scope>ReaderMainToolbarDelegate-p</scope><name>tappedInToolbar:markButton:</name></member>
+      <member refid="dd/db6/protocol_reader_main_toolbar_delegate-p_1a385d12621b90bff7ea6320656aa20e37" prot="public" virt="virtual"><scope>ReaderMainToolbarDelegate-p</scope><name>tappedInToolbar:printButton:</name></member>
+      <member refid="dd/db6/protocol_reader_main_toolbar_delegate-p_1aadd3af1a2dd465ca3dce248572fee3a3" prot="public" virt="virtual"><scope>ReaderMainToolbarDelegate-p</scope><name>tappedInToolbar:thumbsButton:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

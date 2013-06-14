@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d0/d10/class_n_s_object-p" kind="protocol" prot="public">
+    <compoundname>NSObject-p</compoundname>
+    <derivedcompoundref refid="de/da0/interface_document_outline_entry" prot="public" virt="non-virtual">DocumentOutlineEntry</derivedcompoundref>
+    <derivedcompoundref refid="d5/d7d/protocol_reader_content_view_delegate-p" prot="public" virt="non-virtual">&lt;ReaderContentViewDelegate&gt;</derivedcompoundref>
+    <derivedcompoundref refid="dc/d78/interface_reader_document" prot="public" virt="non-virtual">ReaderDocument</derivedcompoundref>
+    <derivedcompoundref refid="df/d6f/interface_reader_document_link" prot="public" virt="non-virtual">ReaderDocumentLink</derivedcompoundref>
+    <derivedcompoundref refid="d6/d28/interface_reader_document_outline" prot="public" virt="non-virtual">ReaderDocumentOutline</derivedcompoundref>
+    <derivedcompoundref refid="d9/d22/protocol_reader_main_pagebar_delegate-p" prot="public" virt="non-virtual">&lt;ReaderMainPagebarDelegate&gt;</derivedcompoundref>
+    <derivedcompoundref refid="dd/db6/protocol_reader_main_toolbar_delegate-p" prot="public" virt="non-virtual">&lt;ReaderMainToolbarDelegate&gt;</derivedcompoundref>
+    <derivedcompoundref refid="da/d97/interface_reader_thumb_cache" prot="public" virt="non-virtual">ReaderThumbCache</derivedcompoundref>
+    <derivedcompoundref refid="df/d91/interface_reader_thumb_queue" prot="public" virt="non-virtual">ReaderThumbQueue</derivedcompoundref>
+    <derivedcompoundref refid="dc/dc5/interface_reader_thumb_request" prot="public" virt="non-virtual">ReaderThumbRequest</derivedcompoundref>
+    <derivedcompoundref refid="d9/d3a/protocol_reader_thumbs_view_delegate-p" prot="public" virt="non-virtual">&lt;ReaderThumbsViewDelegate&gt;</derivedcompoundref>
+    <derivedcompoundref refid="d7/dd9/protocol_reader_view_controller_delegate-p" prot="public" virt="non-virtual">&lt;ReaderViewControllerDelegate&gt;</derivedcompoundref>
+    <derivedcompoundref refid="dc/d59/protocol_thumbs_main_toolbar_delegate-p" prot="public" virt="non-virtual">&lt;ThumbsMainToolbarDelegate&gt;</derivedcompoundref>
+    <derivedcompoundref refid="db/d4e/protocol_thumbs_view_controller_delegate-p" prot="public" virt="non-virtual">&lt;ThumbsViewControllerDelegate&gt;</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="424">
+        <label>&lt;ReaderMainToolbarDelegate&gt;</label>
+        <link refid="dd/db6/protocol_reader_main_toolbar_delegate-p"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="420">
+        <label>ReaderDocument</label>
+        <link refid="dc/d78/interface_reader_document"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="429">
+        <label>ThumbsViewController()</label>
+        <link refid="d3/d8f/category_thumbs_view_controller_07_08"/>
+        <childnode refid="428" relation="public-inheritance">
+        </childnode>
+        <childnode refid="433" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="433">
+        <label>&lt;ThumbsMainToolbarDelegate&gt;</label>
+        <link refid="dc/d59/protocol_thumbs_main_toolbar_delegate-p"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="419">
+        <label>ReaderViewController()</label>
+        <link refid="db/d1e/category_reader_view_controller_07_08"/>
+        <childnode refid="418" relation="public-inheritance">
+        </childnode>
+        <childnode refid="423" relation="public-inheritance">
+        </childnode>
+        <childnode refid="424" relation="public-inheritance">
+        </childnode>
+        <childnode refid="434" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="417">
+        <label>DocumentOutlineEntry</label>
+        <link refid="de/da0/interface_document_outline_entry"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="434">
+        <label>&lt;ThumbsViewControllerDelegate&gt;</label>
+        <link refid="db/d4e/protocol_thumbs_view_controller_delegate-p"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="428">
+        <label>&lt;ReaderThumbsViewDelegate&gt;</label>
+        <link refid="d9/d3a/protocol_reader_thumbs_view_delegate-p"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="422">
+        <label>ReaderDocumentOutline</label>
+        <link refid="d6/d28/interface_reader_document_outline"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="423">
+        <label>&lt;ReaderMainPagebarDelegate&gt;</label>
+        <link refid="d9/d22/protocol_reader_main_pagebar_delegate-p"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="431">
+        <label>ReaderBookDelegate()</label>
+        <link refid="d2/d8f/category_reader_book_delegate_07_08"/>
+        <childnode refid="430" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="425">
+        <label>ReaderThumbCache</label>
+        <link refid="da/d97/interface_reader_thumb_cache"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="432">
+        <label>ReaderDemoController()</label>
+        <link refid="d8/d29/category_reader_demo_controller_07_08"/>
+        <childnode refid="430" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="421">
+        <label>ReaderDocumentLink</label>
+        <link refid="df/d6f/interface_reader_document_link"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="426">
+        <label>ReaderThumbQueue</label>
+        <link refid="df/d91/interface_reader_thumb_queue"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="416">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="430">
+        <label>&lt;ReaderViewControllerDelegate&gt;</label>
+        <link refid="d7/dd9/protocol_reader_view_controller_delegate-p"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="427">
+        <label>ReaderThumbRequest</label>
+        <link refid="dc/dc5/interface_reader_thumb_request"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="418">
+        <label>&lt;ReaderContentViewDelegate&gt;</label>
+        <link refid="d5/d7d/protocol_reader_content_view_delegate-p"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="28"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

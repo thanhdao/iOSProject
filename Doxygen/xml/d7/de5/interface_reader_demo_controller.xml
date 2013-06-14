@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d7/de5/interface_reader_demo_controller" kind="class" prot="public">
+    <compoundname>ReaderDemoController</compoundname>
+    <basecompoundref refid="d7/d7e/class_u_i_view_controller" prot="public" virt="non-virtual">UIViewController</basecompoundref>
+    <includes refid="de/d19/_reader_demo_controller_8h" local="no">ReaderDemoController.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="489">
+        <label>UIViewController</label>
+        <link refid="d7/d7e/class_u_i_view_controller"/>
+      </node>
+      <node id="488">
+        <label>ReaderDemoController</label>
+        <link refid="d7/de5/interface_reader_demo_controller"/>
+        <childnode refid="489" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="491">
+        <label>UIViewController</label>
+        <link refid="d7/d7e/class_u_i_view_controller"/>
+      </node>
+      <node id="490">
+        <label>ReaderDemoController</label>
+        <link refid="d7/de5/interface_reader_demo_controller"/>
+        <childnode refid="491" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderDemoController.h" line="29" bodyfile="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderDemoController.h" bodystart="28" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

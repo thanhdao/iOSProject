@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d6/d82/_thumbs_main_toolbar_8m" kind="file">
+    <compoundname>ThumbsMainToolbar.m</compoundname>
+    <includes refid="d9/dca/_reader_constants_8h" local="yes">ReaderConstants.h</includes>
+    <includes refid="d4/d40/_thumbs_main_toolbar_8h" local="yes">ThumbsMainToolbar.h</includes>
+    <incdepgraph>
+      <node id="697">
+        <label>ReaderConstants.h</label>
+        <link refid="d9/dca/_reader_constants_8h"/>
+        <childnode refid="698" relation="include">
+        </childnode>
+      </node>
+      <node id="700">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="699">
+        <label>ThumbsMainToolbar.h</label>
+        <link refid="d4/d40/_thumbs_main_toolbar_8h"/>
+        <childnode refid="700" relation="include">
+        </childnode>
+        <childnode refid="701" relation="include">
+        </childnode>
+      </node>
+      <node id="696">
+        <label>Sources/ThumbsMainToolbar.m</label>
+        <link refid="ThumbsMainToolbar.m"/>
+        <childnode refid="697" relation="include">
+        </childnode>
+        <childnode refid="699" relation="include">
+        </childnode>
+      </node>
+      <node id="698">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="701">
+        <label>UIXToolbarView.h</label>
+        <link refid="d4/dea/_u_i_x_toolbar_view_8h"/>
+        <childnode refid="700" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="d6/d82/_thumbs_main_toolbar_8m_1aa00c852ab240ccfc4717b66f0dddeeb0" prot="public" static="no">
+        <name>BUTTON_X</name>
+        <initializer>8.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m" line="33" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m" bodystart="33" bodyend="-1"/>
+        <referencedby refid="df/db1/interface_thumbs_main_toolbar_1a35addaf9329a272f6c0a6472ca4968e4" compoundref="d6/d82/_thumbs_main_toolbar_8m" startline="54" endline="131">ThumbsMainToolbar::initWithFrame:title:</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="d6/d82/_thumbs_main_toolbar_8m_1ae828609252069795563592f52c8f0ff1" prot="public" static="no">
+        <name>BUTTON_Y</name>
+        <initializer>8.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m" line="34" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m" bodystart="34" bodyend="-1"/>
+        <referencedby refid="df/db1/interface_thumbs_main_toolbar_1a35addaf9329a272f6c0a6472ca4968e4" compoundref="d6/d82/_thumbs_main_toolbar_8m" startline="54" endline="131">ThumbsMainToolbar::initWithFrame:title:</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="d6/d82/_thumbs_main_toolbar_8m_1a8f1e10810c95f47c353b73f314285eac" prot="public" static="no">
+        <name>BUTTON_SPACE</name>
+        <initializer>8.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m" line="35" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m" bodystart="35" bodyend="-1"/>
+        <referencedby refid="df/db1/interface_thumbs_main_toolbar_1a35addaf9329a272f6c0a6472ca4968e4" compoundref="d6/d82/_thumbs_main_toolbar_8m" startline="54" endline="131">ThumbsMainToolbar::initWithFrame:title:</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="d6/d82/_thumbs_main_toolbar_8m_1a94be6e055d514b19c7cb5f56f492f016" prot="public" static="no">
+        <name>BUTTON_HEIGHT</name>
+        <initializer>30.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m" line="36" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m" bodystart="36" bodyend="-1"/>
+        <referencedby refid="df/db1/interface_thumbs_main_toolbar_1a35addaf9329a272f6c0a6472ca4968e4" compoundref="d6/d82/_thumbs_main_toolbar_8m" startline="54" endline="131">ThumbsMainToolbar::initWithFrame:title:</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="d6/d82/_thumbs_main_toolbar_8m_1af073b8929e9fb751d249916260bbca28" prot="public" static="no">
+        <name>DONE_BUTTON_WIDTH</name>
+        <initializer>56.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m" line="38" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m" bodystart="38" bodyend="-1"/>
+        <referencedby refid="df/db1/interface_thumbs_main_toolbar_1a35addaf9329a272f6c0a6472ca4968e4" compoundref="d6/d82/_thumbs_main_toolbar_8m" startline="54" endline="131">ThumbsMainToolbar::initWithFrame:title:</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="d6/d82/_thumbs_main_toolbar_8m_1a79bea6cfde3660a4458408bb01571e6f" prot="public" static="no">
+        <name>SHOW_CONTROL_WIDTH</name>
+        <initializer>78.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m" line="39" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m" bodystart="39" bodyend="-1"/>
+        <referencedby refid="df/db1/interface_thumbs_main_toolbar_1a35addaf9329a272f6c0a6472ca4968e4" compoundref="d6/d82/_thumbs_main_toolbar_8m" startline="54" endline="131">ThumbsMainToolbar::initWithFrame:title:</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="d6/d82/_thumbs_main_toolbar_8m_1aca66aeea7d75b42b8f410023f648964c" prot="public" static="no">
+        <name>TITLE_HEIGHT</name>
+        <initializer>28.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m" line="41" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m" bodystart="41" bodyend="-1"/>
+        <referencedby refid="df/db1/interface_thumbs_main_toolbar_1a35addaf9329a272f6c0a6472ca4968e4" compoundref="d6/d82/_thumbs_main_toolbar_8m" startline="54" endline="131">ThumbsMainToolbar::initWithFrame:title:</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>ThumbsMainToolbar.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Reader<sp/>v2.6.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Julius<sp/>Oklamcak<sp/>on<sp/>2011-09-01.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2011-2012<sp/>Julius<sp/>Oklamcak.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell<sp/>copies</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in<sp/>all</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>OR<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="d9/dca/_reader_constants_8h" kindref="compound">ReaderConstants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="d4/d40/_thumbs_main_toolbar_8h" kindref="compound">ThumbsMainToolbar.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="df/db1/interface_thumbs_main_toolbar" kindref="compound">ThumbsMainToolbar</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Constants</highlight></codeline>
+<codeline lineno="32"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="d6/d82/_thumbs_main_toolbar_8m_1aa00c852ab240ccfc4717b66f0dddeeb0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BUTTON_X<sp/>8.0f</highlight></codeline>
+<codeline lineno="34" refid="d6/d82/_thumbs_main_toolbar_8m_1ae828609252069795563592f52c8f0ff1" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BUTTON_Y<sp/>8.0f</highlight></codeline>
+<codeline lineno="35" refid="d6/d82/_thumbs_main_toolbar_8m_1a8f1e10810c95f47c353b73f314285eac" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BUTTON_SPACE<sp/>8.0f</highlight></codeline>
+<codeline lineno="36" refid="d6/d82/_thumbs_main_toolbar_8m_1a94be6e055d514b19c7cb5f56f492f016" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BUTTON_HEIGHT<sp/>30.0f</highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="d6/d82/_thumbs_main_toolbar_8m_1af073b8929e9fb751d249916260bbca28" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DONE_BUTTON_WIDTH<sp/>56.0f</highlight></codeline>
+<codeline lineno="39" refid="d6/d82/_thumbs_main_toolbar_8m_1a79bea6cfde3660a4458408bb01571e6f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SHOW_CONTROL_WIDTH<sp/>78.0f</highlight></codeline>
+<codeline lineno="40"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="d6/d82/_thumbs_main_toolbar_8m_1aca66aeea7d75b42b8f410023f648964c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TITLE_HEIGHT<sp/>28.0f</highlight></codeline>
+<codeline lineno="42"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Properties</highlight></codeline>
+<codeline lineno="44"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="df/db1/interface_thumbs_main_toolbar_1a193cc895ab3fba1e9a9b119303e98f3f" kindref="member">delegate</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>ThumbsMainToolbar<sp/>instance<sp/>methods</highlight></codeline>
+<codeline lineno="48"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">-<sp/>(id)initWithFrame:(CGRect)frame</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>initWithFrame:frame<sp/>title:nil];</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="df/db1/interface_thumbs_main_toolbar_1a35addaf9329a272f6c0a6472ca4968e4" refkind="member"><highlight class="normal">-<sp/>(id)initWithFrame:(CGRect)frame<sp/>title:(NSString<sp/>*)title</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[super<sp/>initWithFrame:frame]))</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>viewWidth<sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">.bounds.size.width;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UIImage<sp/>*imageH<sp/>=<sp/>[UIImage<sp/>imageNamed:@&quot;Reader-Button-H&quot;];</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UIImage<sp/>*imageN<sp/>=<sp/>[UIImage<sp/>imageNamed:@&quot;Reader-Button-N&quot;];</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UIImage<sp/>*buttonH<sp/>=<sp/>[imageH<sp/>stretchableImageWithLeftCapWidth:5<sp/>topCapHeight:0];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UIImage<sp/>*buttonN<sp/>=<sp/>[imageN<sp/>stretchableImageWithLeftCapWidth:5<sp/>topCapHeight:0];</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>titleX<sp/>=<sp/><ref refid="d6/d82/_thumbs_main_toolbar_8m_1aa00c852ab240ccfc4717b66f0dddeeb0" kindref="member">BUTTON_X</ref>;<sp/>CGFloat<sp/>titleWidth<sp/>=<sp/>(viewWidth<sp/>-<sp/>(titleX<sp/>+<sp/>titleX));</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UIButton<sp/>*doneButton<sp/>=<sp/>[UIButton<sp/>buttonWithType:UIButtonTypeCustom];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doneButton.frame<sp/>=<sp/>CGRectMake(<ref refid="d6/d82/_thumbs_main_toolbar_8m_1aa00c852ab240ccfc4717b66f0dddeeb0" kindref="member">BUTTON_X</ref>,<sp/><ref refid="d6/d82/_thumbs_main_toolbar_8m_1ae828609252069795563592f52c8f0ff1" kindref="member">BUTTON_Y</ref>,<sp/><ref refid="d6/d82/_thumbs_main_toolbar_8m_1af073b8929e9fb751d249916260bbca28" kindref="member">DONE_BUTTON_WIDTH</ref>,<sp/><ref refid="d6/d82/_thumbs_main_toolbar_8m_1a94be6e055d514b19c7cb5f56f492f016" kindref="member">BUTTON_HEIGHT</ref>);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[doneButton<sp/>setTitle:NSLocalizedString(@&quot;Done&quot;,<sp/>@&quot;button&quot;)<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[doneButton<sp/>setTitleColor:[UIColor<sp/>colorWithWhite:0.0f<sp/>alpha:1.0f]<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[doneButton<sp/>setTitleColor:[UIColor<sp/>colorWithWhite:1.0f<sp/>alpha:1.0f]<sp/>forState:UIControlStateHighlighted];</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[doneButton<sp/>addTarget:self<sp/>action:@selector(doneButtonTapped:)<sp/>forControlEvents:UIControlEventTouchUpInside];</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[doneButton<sp/>setBackgroundImage:buttonH<sp/>forState:UIControlStateHighlighted];</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[doneButton<sp/>setBackgroundImage:buttonN<sp/>forState:UIControlStateNormal];</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doneButton.titleLabel.font<sp/>=<sp/>[UIFont<sp/>systemFontOfSize:14.0f];</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doneButton.autoresizingMask<sp/>=<sp/>UIViewAutoresizingNone;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addSubview:doneButton];</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleX<sp/>+=<sp/>(<ref refid="d6/d82/_thumbs_main_toolbar_8m_1af073b8929e9fb751d249916260bbca28" kindref="member">DONE_BUTTON_WIDTH</ref><sp/>+<sp/><ref refid="d6/d82/_thumbs_main_toolbar_8m_1a8f1e10810c95f47c353b73f314285eac" kindref="member">BUTTON_SPACE</ref>);<sp/>titleWidth<sp/>-=<sp/>(<ref refid="d6/d82/_thumbs_main_toolbar_8m_1af073b8929e9fb751d249916260bbca28" kindref="member">DONE_BUTTON_WIDTH</ref><sp/>+<sp/><ref refid="d6/d82/_thumbs_main_toolbar_8m_1a8f1e10810c95f47c353b73f314285eac" kindref="member">BUTTON_SPACE</ref>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(READER_BOOKMARKS<sp/>==<sp/>TRUE)<sp/>//<sp/>Option</highlight></codeline>
+<codeline lineno="85"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>showControlX<sp/>=<sp/>(viewWidth<sp/>-<sp/>(<ref refid="d6/d82/_thumbs_main_toolbar_8m_1a79bea6cfde3660a4458408bb01571e6f" kindref="member">SHOW_CONTROL_WIDTH</ref><sp/>+<sp/><ref refid="d6/d82/_thumbs_main_toolbar_8m_1a8f1e10810c95f47c353b73f314285eac" kindref="member">BUTTON_SPACE</ref>));</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UIImage<sp/>*thumbsImage<sp/>=<sp/>[UIImage<sp/>imageNamed:@&quot;Reader-Thumbs&quot;];</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UIImage<sp/>*bookmarkImage<sp/>=<sp/>[UIImage<sp/>imageNamed:@&quot;Reader-Mark-Y&quot;];</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSArray<sp/>*buttonItems<sp/>=<sp/>[NSArray<sp/>arrayWithObjects:thumbsImage,<sp/>bookmarkImage,<sp/>nil];</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UISegmentedControl<sp/>*showControl<sp/>=<sp/>[[UISegmentedControl<sp/>alloc]<sp/>initWithItems:buttonItems];</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>showControl.frame<sp/>=<sp/>CGRectMake(showControlX,<sp/><ref refid="d6/d82/_thumbs_main_toolbar_8m_1ae828609252069795563592f52c8f0ff1" kindref="member">BUTTON_Y</ref>,<sp/><ref refid="d6/d82/_thumbs_main_toolbar_8m_1a79bea6cfde3660a4458408bb01571e6f" kindref="member">SHOW_CONTROL_WIDTH</ref>,<sp/><ref refid="d6/d82/_thumbs_main_toolbar_8m_1a94be6e055d514b19c7cb5f56f492f016" kindref="member">BUTTON_HEIGHT</ref>);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>showControl.autoresizingMask<sp/>=<sp/>UIViewAutoresizingFlexibleLeftMargin;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>showControl.segmentedControlStyle<sp/>=<sp/>UISegmentedControlStyleBar;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>showControl.tintColor<sp/>=<sp/>[UIColor<sp/>colorWithWhite:0.8f<sp/>alpha:1.0f];</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>showControl.selectedSegmentIndex<sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>Default<sp/>segment<sp/>index</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[showControl<sp/>addTarget:self<sp/>action:@selector(showControlTapped:)<sp/>forControlEvents:UIControlEventValueChanged];</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addSubview:showControl];<sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleWidth<sp/>-=<sp/>(<ref refid="d6/d82/_thumbs_main_toolbar_8m_1a79bea6cfde3660a4458408bb01571e6f" kindref="member">SHOW_CONTROL_WIDTH</ref><sp/>+<sp/><ref refid="d6/d82/_thumbs_main_toolbar_8m_1a8f1e10810c95f47c353b73f314285eac" kindref="member">BUTTON_SPACE</ref>);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>end<sp/>of<sp/>READER_BOOKMARKS<sp/>Option</highlight></codeline>
+<codeline lineno="107"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([UIDevice<sp/>currentDevice].userInterfaceIdiom<sp/>==<sp/>UIUserInterfaceIdiomPad)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGRect<sp/>titleRect<sp/>=<sp/>CGRectMake(titleX,<sp/><ref refid="d6/d82/_thumbs_main_toolbar_8m_1ae828609252069795563592f52c8f0ff1" kindref="member">BUTTON_Y</ref>,<sp/>titleWidth,<sp/><ref refid="d6/d82/_thumbs_main_toolbar_8m_1aca66aeea7d75b42b8f410023f648964c" kindref="member">TITLE_HEIGHT</ref>);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UILabel<sp/>*titleLabel<sp/>=<sp/>[[UILabel<sp/>alloc]<sp/>initWithFrame:titleRect];</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.textAlignment<sp/>=<sp/>UITextAlignmentCenter;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.font<sp/>=<sp/>[UIFont<sp/>systemFontOfSize:19.0f];</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.autoresizingMask<sp/>=<sp/>UIViewAutoresizingFlexibleWidth;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.baselineAdjustment<sp/>=<sp/>UIBaselineAdjustmentAlignCenters;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.textColor<sp/>=<sp/>[UIColor<sp/>colorWithWhite:0.0f<sp/>alpha:1.0f];</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.shadowColor<sp/>=<sp/>[UIColor<sp/>colorWithWhite:0.65f<sp/>alpha:1.0f];</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.backgroundColor<sp/>=<sp/>[UIColor<sp/>clearColor];</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.shadowOffset<sp/>=<sp/>CGSizeMake(0.0f,<sp/>1.0f);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.adjustsFontSizeToFitWidth<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.minimumFontSize<sp/>=<sp/>14.0f;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>titleLabel.text<sp/>=<sp/>title;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>addSubview:titleLabel];<sp/></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>UISegmentedControl<sp/>action<sp/>methods</highlight></codeline>
+<codeline lineno="134"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">-<sp/>(void)showControlTapped:(UISegmentedControl<sp/>*)control</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>[delegate<sp/>tappedInToolbar:self<sp/>showControl:control];</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>UIButton<sp/>action<sp/>methods</highlight></codeline>
+<codeline lineno="141"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal">-<sp/>(void)doneButtonTapped:(UIButton<sp/>*)button</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>[delegate<sp/>tappedInToolbar:self<sp/>doneButton:button];</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m"/>
+  </compounddef>
+</doxygen>

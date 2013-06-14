@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="de/dbf/class_u_i_control" kind="class" prot="public">
+    <compoundname>UIControl</compoundname>
+    <derivedcompoundref refid="dc/d59/interface_reader_track_control" prot="public" virt="non-virtual">ReaderTrackControl</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="716">
+        <label>UIControl</label>
+        <link refid="de/dbf/class_u_i_control"/>
+      </node>
+      <node id="717">
+        <label>ReaderTrackControl</label>
+        <link refid="dc/d59/interface_reader_track_control"/>
+        <childnode refid="716" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" line="63"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

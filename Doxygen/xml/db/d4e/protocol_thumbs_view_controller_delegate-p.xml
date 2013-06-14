@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="db/d4e/protocol_thumbs_view_controller_delegate-p" kind="protocol" prot="public" abstract="yes">
+    <compoundname>ThumbsViewControllerDelegate-p</compoundname>
+    <basecompoundref refid="d0/d10/class_n_s_object-p" prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <derivedcompoundref refid="db/d1e/category_reader_view_controller_07_08" prot="public" virt="non-virtual">ReaderViewController()</derivedcompoundref>
+    <includes refid="d8/df0/_thumbs_view_controller_8h" local="no">ThumbsViewController.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d4e/protocol_thumbs_view_controller_delegate-p_1a54bb19fb8038c4598e3a5a05dd9710a7" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ThumbsViewControllerDelegate-p::thumbsViewController:gotoPage:</definition>
+        <argsstring>(ThumbsViewController *viewController,[gotoPage] NSInteger page)</argsstring>
+        <name>thumbsViewController:gotoPage:</name>
+        <param>
+          <type><ref refid="d7/d57/interface_thumbs_view_controller" kindref="compound">ThumbsViewController</ref> *</type>
+          <declname>viewController</declname>
+        </param>
+        <param>
+          <attributes>[gotoPage]</attributes>
+          <type>NSInteger</type>
+          <declname>page</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d4e/protocol_thumbs_view_controller_delegate-p_1a8520af536c2045525c5ce832d19d72dd" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ThumbsViewControllerDelegate-p::dismissThumbsViewController:</definition>
+        <argsstring>(ThumbsViewController *viewController)</argsstring>
+        <name>dismissThumbsViewController:</name>
+        <param>
+          <type><ref refid="d7/d57/interface_thumbs_view_controller" kindref="compound">ThumbsViewController</ref> *</type>
+          <declname>viewController</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.h" line="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="709">
+        <label>ReaderViewController()</label>
+        <link refid="db/d1e/category_reader_view_controller_07_08"/>
+        <childnode refid="707" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="707">
+        <label>&lt;ThumbsViewControllerDelegate&gt;</label>
+        <link refid="db/d4e/protocol_thumbs_view_controller_delegate-p"/>
+        <childnode refid="708" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="708">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="710">
+        <label>&lt;ThumbsViewControllerDelegate&gt;</label>
+        <link refid="db/d4e/protocol_thumbs_view_controller_delegate-p"/>
+        <childnode refid="711" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="711">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.h" line="34" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.h" bodystart="34" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="db/d4e/protocol_thumbs_view_controller_delegate-p_1a8520af536c2045525c5ce832d19d72dd" prot="public" virt="virtual"><scope>ThumbsViewControllerDelegate-p</scope><name>dismissThumbsViewController:</name></member>
+      <member refid="db/d4e/protocol_thumbs_view_controller_delegate-p_1a54bb19fb8038c4598e3a5a05dd9710a7" prot="public" virt="virtual"><scope>ThumbsViewControllerDelegate-p</scope><name>thumbsViewController:gotoPage:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d0/ddf/interface_thumbs_page_thumb" kind="class" prot="public">
+    <compoundname>ThumbsPageThumb</compoundname>
+    <basecompoundref refid="d8/d25/interface_reader_thumb_view" prot="public" virt="non-virtual">ReaderThumbView</basecompoundref>
+    <includes refid="d8/df0/_thumbs_view_controller_8h" local="no">ThumbsViewController.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/ddf/interface_thumbs_page_thumb_1ab7960994d533879d0d49cf8e3839e4a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>CGSize</type>
+        <definition>CGSize ThumbsPageThumb::maximumContentSize</definition>
+        <argsstring>()</argsstring>
+        <name>maximumContentSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.h" line="60" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.m" bodystart="417" bodyend="420"/>
+        <references refid="d3/d0f/_thumbs_view_controller_8m_1af52ea7735401f6383756ed49b729c0d8" compoundref="d3/d0f/_thumbs_view_controller_8m" startline="318">maximumSize</references>
+      </memberdef>
+      <memberdef kind="function" id="d0/ddf/interface_thumbs_page_thumb_1a12b1677f5f3baf7e8e0e44c9783773fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ThumbsPageThumb::showText:</definition>
+        <argsstring>(NSString *text)</argsstring>
+        <name>showText:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.h" line="62" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.m" bodystart="475" bodyend="478"/>
+        <references refid="d3/d0f/_thumbs_view_controller_8m_1a21d969dcd3722a9fde2cba36b8cde218" compoundref="d3/d0f/_thumbs_view_controller_8m" startline="314">textLabel</references>
+      </memberdef>
+      <memberdef kind="function" id="d0/ddf/interface_thumbs_page_thumb_1a30c047cec2c319aae2e8aaf7c7fad94c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ThumbsPageThumb::showBookmark:</definition>
+        <argsstring>(BOOL show)</argsstring>
+        <name>showBookmark:</name>
+        <param>
+          <type>BOOL</type>
+          <declname>show</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.h" line="64" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.m" bodystart="465" bodyend="468"/>
+        <references refid="d3/d0f/_thumbs_view_controller_8m_1a1beffcf65279226404237395792d11a8" compoundref="d3/d0f/_thumbs_view_controller_8m" startline="316">bookMark</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="684">
+        <label>ReaderThumbView</label>
+        <link refid="d8/d25/interface_reader_thumb_view"/>
+        <childnode refid="685" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="683">
+        <label>ThumbsPageThumb</label>
+        <link refid="d0/ddf/interface_thumbs_page_thumb"/>
+        <childnode refid="684" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="685">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="691">
+        <label>UIImageView *</label>
+      </node>
+      <node id="687">
+        <label>ReaderThumbView</label>
+        <link refid="d8/d25/interface_reader_thumb_view"/>
+        <childnode refid="688" relation="public-inheritance">
+        </childnode>
+        <childnode refid="689" relation="usage">
+          <edgelabel>targetTag</edgelabel>
+        </childnode>
+        <childnode refid="690" relation="usage">
+          <edgelabel>operation</edgelabel>
+        </childnode>
+        <childnode refid="691" relation="usage">
+          <edgelabel>imageView</edgelabel>
+        </childnode>
+      </node>
+      <node id="689">
+        <label>NSUInteger</label>
+      </node>
+      <node id="690">
+        <label>NSOperation *</label>
+      </node>
+      <node id="686">
+        <label>ThumbsPageThumb</label>
+        <link refid="d0/ddf/interface_thumbs_page_thumb"/>
+        <childnode refid="687" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="688">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.h" line="59" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.h" bodystart="58" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d8/d25/interface_reader_thumb_view_1a533ff56283d349d1e397116ea6a3c7d1" prot="protected" virt="non-virtual"><scope>ThumbsPageThumb</scope><name>imageView</name></member>
+      <member refid="d0/ddf/interface_thumbs_page_thumb_1ab7960994d533879d0d49cf8e3839e4a4" prot="public" virt="virtual"><scope>ThumbsPageThumb</scope><name>maximumContentSize</name></member>
+      <member refid="d8/d25/interface_reader_thumb_view_1aac43edee2217f11ec4a4d62e3e8dac0e" prot="public" virt="non-virtual"><scope>ThumbsPageThumb</scope><name>operation</name></member>
+      <member refid="d8/d25/interface_reader_thumb_view_1a747633c2aba05254b667d2e346e083e1" prot="public" virt="virtual"><scope>ThumbsPageThumb</scope><name>reuse</name></member>
+      <member refid="d0/ddf/interface_thumbs_page_thumb_1a30c047cec2c319aae2e8aaf7c7fad94c" prot="public" virt="virtual"><scope>ThumbsPageThumb</scope><name>showBookmark:</name></member>
+      <member refid="d8/d25/interface_reader_thumb_view_1a1e9c86de1b2fb76e3c56f2f5d7cfb953" prot="public" virt="virtual"><scope>ThumbsPageThumb</scope><name>showImage:</name></member>
+      <member refid="d0/ddf/interface_thumbs_page_thumb_1a12b1677f5f3baf7e8e0e44c9783773fd" prot="public" virt="virtual"><scope>ThumbsPageThumb</scope><name>showText:</name></member>
+      <member refid="d8/d25/interface_reader_thumb_view_1aacce43068c79a55abcbda4ef7188c3ba" prot="public" virt="virtual"><scope>ThumbsPageThumb</scope><name>showTouched:</name></member>
+      <member refid="d8/d25/interface_reader_thumb_view_1a41943cc8db6fb12bc967c4ea6ec4e2c5" prot="public" virt="non-virtual"><scope>ThumbsPageThumb</scope><name>targetTag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

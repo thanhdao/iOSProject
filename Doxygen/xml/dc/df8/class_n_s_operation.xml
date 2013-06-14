@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dc/df8/class_n_s_operation" kind="class" prot="public">
+    <compoundname>NSOperation</compoundname>
+    <derivedcompoundref refid="d1/d35/interface_reader_thumb_operation" prot="public" virt="non-virtual">ReaderThumbOperation</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="438">
+        <label>ReaderThumbFetch</label>
+        <link refid="dd/d32/interface_reader_thumb_fetch"/>
+        <childnode refid="437" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="437">
+        <label>ReaderThumbOperation</label>
+        <link refid="d1/d35/interface_reader_thumb_operation"/>
+        <childnode refid="436" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="439">
+        <label>ReaderThumbRender</label>
+        <link refid="d1/dcd/interface_reader_thumb_render"/>
+        <childnode refid="437" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="436">
+        <label>NSOperation</label>
+        <link refid="dc/df8/class_n_s_operation"/>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.h" line="49"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

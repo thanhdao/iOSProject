@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d0/dd4/class_u_i_scroll_view" kind="class" prot="public">
+    <compoundname>UIScrollView</compoundname>
+    <derivedcompoundref refid="dd/de3/interface_reader_content_view" prot="public" virt="non-virtual">ReaderContentView</derivedcompoundref>
+    <derivedcompoundref refid="dd/df8/interface_reader_thumbs_view" prot="public" virt="non-virtual">ReaderThumbsView</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="724">
+        <label>ReaderContentView</label>
+        <link refid="dd/de3/interface_reader_content_view"/>
+        <childnode refid="723" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="723">
+        <label>UIScrollView</label>
+        <link refid="d0/dd4/class_u_i_scroll_view"/>
+      </node>
+      <node id="725">
+        <label>ReaderThumbsView</label>
+        <link refid="dd/df8/interface_reader_thumbs_view"/>
+        <childnode refid="723" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" line="42"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,183 @@
+\hypertarget{_thumbs_view_controller_8m}{\section{Sources/\-Thumbs\-View\-Controller.m File Reference}
+\label{d3/d0f/_thumbs_view_controller_8m}\index{Sources/\-Thumbs\-View\-Controller.\-m@{Sources/\-Thumbs\-View\-Controller.\-m}}
+}
+{\ttfamily \#import \char`\"{}Reader\-Constants.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Thumbs\-View\-Controller.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Reader\-Thumb\-Request.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Reader\-Thumb\-Cache.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Reader\-Document.\-h\char`\"{}}\\*
+{\ttfamily \#import $<$Quartz\-Core/\-Quartz\-Core.\-h$>$}\\*
+Include dependency graph for Thumbs\-View\-Controller.\-m\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d5b/_thumbs_view_controller_8m__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_thumbs_view_controller_8m_a2f6f5ca2387ead23dcdfcec8360087ce}{T\-O\-O\-L\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T}~44.\-0f
+\item 
+\#define \hyperlink{_thumbs_view_controller_8m_aee64ce469e56253e26100e37ae359664}{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L}~160
+\item 
+\#define \hyperlink{_thumbs_view_controller_8m_a3743fb19ca662d805f3189a296804910}{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E}~256
+\item 
+\#define \hyperlink{_thumbs_view_controller_8m_a3cde7c414f32ec6318a25dd6ab15838b}{C\-O\-N\-T\-E\-N\-T\-\_\-\-I\-N\-S\-E\-T}~8.\-0f
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{interface_thumbs_main_toolbar}{Thumbs\-Main\-Toolbar} $\ast$ \hyperlink{_thumbs_view_controller_8m_a85729931ae389a0d30bf72322105e782}{main\-Toolbar}
+\item 
+\hyperlink{interface_reader_thumbs_view}{Reader\-Thumbs\-View} $\ast$ \hyperlink{_thumbs_view_controller_8m_a7b7b62f7d1be0e30925b1d57326fc41e}{the\-Thumbs\-View}
+\item 
+N\-S\-Mutable\-Array $\ast$ \hyperlink{_thumbs_view_controller_8m_a964e0b4394e13dfbf22f75af703c3b49}{bookmarked}
+\item 
+C\-G\-Point \hyperlink{_thumbs_view_controller_8m_a465a35365e2be615adf95050bac711bd}{thumbs\-Offset}
+\item 
+C\-G\-Point \hyperlink{_thumbs_view_controller_8m_ae5f42e6aee7bf36fd176a61355d300a6}{marked\-Offset}
+\item 
+B\-O\-O\-L \hyperlink{_thumbs_view_controller_8m_a5c7a5dd591616a23cb4fd962d7f50925}{update\-Bookmarked}
+\item 
+B\-O\-O\-L \hyperlink{_thumbs_view_controller_8m_a17ff10d4b0df6958404e7c6dac3a56c3}{show\-Bookmarked}
+\item 
+\hyperlink{class_u_i_view}{U\-I\-View} $\ast$ \hyperlink{_thumbs_view_controller_8m_a6c428d29cb6d0c3b04b1532229cb424e}{tint\-View}
+\item 
+U\-I\-Label $\ast$ \hyperlink{_thumbs_view_controller_8m_a21d969dcd3722a9fde2cba36b8cde218}{text\-Label}
+\item 
+U\-I\-Image\-View $\ast$ \hyperlink{_thumbs_view_controller_8m_a1beffcf65279226404237395792d11a8}{book\-Mark}
+\item 
+C\-G\-Size \hyperlink{_thumbs_view_controller_8m_af52ea7735401f6383756ed49b729c0d8}{maximum\-Size}
+\item 
+C\-G\-Rect \hyperlink{_thumbs_view_controller_8m_a9ab93a37a1c99042027e3ba07bd5ad1b}{default\-Rect}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{_thumbs_view_controller_8m_a3cde7c414f32ec6318a25dd6ab15838b}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!C\-O\-N\-T\-E\-N\-T\-\_\-\-I\-N\-S\-E\-T@{C\-O\-N\-T\-E\-N\-T\-\_\-\-I\-N\-S\-E\-T}}
+\index{C\-O\-N\-T\-E\-N\-T\-\_\-\-I\-N\-S\-E\-T@{C\-O\-N\-T\-E\-N\-T\-\_\-\-I\-N\-S\-E\-T}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{C\-O\-N\-T\-E\-N\-T\-\_\-\-I\-N\-S\-E\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\-O\-N\-T\-E\-N\-T\-\_\-\-I\-N\-S\-E\-T~8.\-0f}}\label{d3/d0f/_thumbs_view_controller_8m_a3cde7c414f32ec6318a25dd6ab15838b}
+
+
+Definition at line 325 of file Thumbs\-View\-Controller.\-m.
+
+\hypertarget{_thumbs_view_controller_8m_a3743fb19ca662d805f3189a296804910}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E@{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E}}
+\index{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E@{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-L\-A\-R\-G\-E~256}}\label{d3/d0f/_thumbs_view_controller_8m_a3743fb19ca662d805f3189a296804910}
+
+
+Definition at line 60 of file Thumbs\-View\-Controller.\-m.
+
+\hypertarget{_thumbs_view_controller_8m_aee64ce469e56253e26100e37ae359664}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L@{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L}}
+\index{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L@{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-A\-G\-E\-\_\-\-T\-H\-U\-M\-B\-\_\-\-S\-M\-A\-L\-L~160}}\label{d3/d0f/_thumbs_view_controller_8m_aee64ce469e56253e26100e37ae359664}
+
+
+Definition at line 59 of file Thumbs\-View\-Controller.\-m.
+
+\hypertarget{_thumbs_view_controller_8m_a2f6f5ca2387ead23dcdfcec8360087ce}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!T\-O\-O\-L\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T@{T\-O\-O\-L\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T}}
+\index{T\-O\-O\-L\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T@{T\-O\-O\-L\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{T\-O\-O\-L\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\-O\-O\-L\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T~44.\-0f}}\label{d3/d0f/_thumbs_view_controller_8m_a2f6f5ca2387ead23dcdfcec8360087ce}
+
+
+Definition at line 57 of file Thumbs\-View\-Controller.\-m.
+
+
+
+\subsection{Variable Documentation}
+\hypertarget{_thumbs_view_controller_8m_a1beffcf65279226404237395792d11a8}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!book\-Mark@{book\-Mark}}
+\index{book\-Mark@{book\-Mark}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{book\-Mark}]{\setlength{\rightskip}{0pt plus 5cm}U\-I\-Image\-View$\ast$ book\-Mark}}\label{d3/d0f/_thumbs_view_controller_8m_a1beffcf65279226404237395792d11a8}
+
+
+Definition at line 316 of file Thumbs\-View\-Controller.\-m.
+
+\hypertarget{_thumbs_view_controller_8m_a964e0b4394e13dfbf22f75af703c3b49}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!bookmarked@{bookmarked}}
+\index{bookmarked@{bookmarked}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{bookmarked}]{\setlength{\rightskip}{0pt plus 5cm}N\-S\-Mutable\-Array$\ast$ bookmarked}}\label{d3/d0f/_thumbs_view_controller_8m_a964e0b4394e13dfbf22f75af703c3b49}
+
+
+Definition at line 46 of file Thumbs\-View\-Controller.\-m.
+
+\hypertarget{_thumbs_view_controller_8m_a9ab93a37a1c99042027e3ba07bd5ad1b}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!default\-Rect@{default\-Rect}}
+\index{default\-Rect@{default\-Rect}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{default\-Rect}]{\setlength{\rightskip}{0pt plus 5cm}C\-G\-Rect default\-Rect}}\label{d3/d0f/_thumbs_view_controller_8m_a9ab93a37a1c99042027e3ba07bd5ad1b}
+
+
+Definition at line 320 of file Thumbs\-View\-Controller.\-m.
+
+\hypertarget{_thumbs_view_controller_8m_a85729931ae389a0d30bf72322105e782}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!main\-Toolbar@{main\-Toolbar}}
+\index{main\-Toolbar@{main\-Toolbar}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{main\-Toolbar}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Thumbs\-Main\-Toolbar}$\ast$ main\-Toolbar}}\label{d3/d0f/_thumbs_view_controller_8m_a85729931ae389a0d30bf72322105e782}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+\{
+    \hyperlink{interface_reader_document}{ReaderDocument} *document
+\end{DoxyCode}
+
+
+Definition at line 39 of file Thumbs\-View\-Controller.\-m.
+
+\hypertarget{_thumbs_view_controller_8m_ae5f42e6aee7bf36fd176a61355d300a6}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!marked\-Offset@{marked\-Offset}}
+\index{marked\-Offset@{marked\-Offset}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{marked\-Offset}]{\setlength{\rightskip}{0pt plus 5cm}C\-G\-Point marked\-Offset}}\label{d3/d0f/_thumbs_view_controller_8m_ae5f42e6aee7bf36fd176a61355d300a6}
+
+
+Definition at line 49 of file Thumbs\-View\-Controller.\-m.
+
+\hypertarget{_thumbs_view_controller_8m_af52ea7735401f6383756ed49b729c0d8}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!maximum\-Size@{maximum\-Size}}
+\index{maximum\-Size@{maximum\-Size}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{maximum\-Size}]{\setlength{\rightskip}{0pt plus 5cm}C\-G\-Size maximum\-Size}}\label{d3/d0f/_thumbs_view_controller_8m_af52ea7735401f6383756ed49b729c0d8}
+
+
+Definition at line 318 of file Thumbs\-View\-Controller.\-m.
+
+\hypertarget{_thumbs_view_controller_8m_a17ff10d4b0df6958404e7c6dac3a56c3}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!show\-Bookmarked@{show\-Bookmarked}}
+\index{show\-Bookmarked@{show\-Bookmarked}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{show\-Bookmarked}]{\setlength{\rightskip}{0pt plus 5cm}B\-O\-O\-L show\-Bookmarked}}\label{d3/d0f/_thumbs_view_controller_8m_a17ff10d4b0df6958404e7c6dac3a56c3}
+
+
+Definition at line 52 of file Thumbs\-View\-Controller.\-m.
+
+\hypertarget{_thumbs_view_controller_8m_a21d969dcd3722a9fde2cba36b8cde218}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!text\-Label@{text\-Label}}
+\index{text\-Label@{text\-Label}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{text\-Label}]{\setlength{\rightskip}{0pt plus 5cm}U\-I\-Label$\ast$ text\-Label}}\label{d3/d0f/_thumbs_view_controller_8m_a21d969dcd3722a9fde2cba36b8cde218}
+
+
+Definition at line 314 of file Thumbs\-View\-Controller.\-m.
+
+\hypertarget{_thumbs_view_controller_8m_a7b7b62f7d1be0e30925b1d57326fc41e}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!the\-Thumbs\-View@{the\-Thumbs\-View}}
+\index{the\-Thumbs\-View@{the\-Thumbs\-View}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{the\-Thumbs\-View}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Reader\-Thumbs\-View}$\ast$ the\-Thumbs\-View}}\label{d3/d0f/_thumbs_view_controller_8m_a7b7b62f7d1be0e30925b1d57326fc41e}
+
+
+Definition at line 44 of file Thumbs\-View\-Controller.\-m.
+
+\hypertarget{_thumbs_view_controller_8m_a465a35365e2be615adf95050bac711bd}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!thumbs\-Offset@{thumbs\-Offset}}
+\index{thumbs\-Offset@{thumbs\-Offset}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{thumbs\-Offset}]{\setlength{\rightskip}{0pt plus 5cm}C\-G\-Point thumbs\-Offset}}\label{d3/d0f/_thumbs_view_controller_8m_a465a35365e2be615adf95050bac711bd}
+
+
+Definition at line 48 of file Thumbs\-View\-Controller.\-m.
+
+\hypertarget{_thumbs_view_controller_8m_a6c428d29cb6d0c3b04b1532229cb424e}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!tint\-View@{tint\-View}}
+\index{tint\-View@{tint\-View}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{tint\-View}]{\setlength{\rightskip}{0pt plus 5cm}{\bf U\-I\-View}$\ast$ tint\-View}}\label{d3/d0f/_thumbs_view_controller_8m_a6c428d29cb6d0c3b04b1532229cb424e}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+\{
+    \hyperlink{class_u_i_view}{UIView} *backView
+\end{DoxyCode}
+
+
+Definition at line 309 of file Thumbs\-View\-Controller.\-m.
+
+\hypertarget{_thumbs_view_controller_8m_a5c7a5dd591616a23cb4fd962d7f50925}{\index{Thumbs\-View\-Controller.\-m@{Thumbs\-View\-Controller.\-m}!update\-Bookmarked@{update\-Bookmarked}}
+\index{update\-Bookmarked@{update\-Bookmarked}!ThumbsViewController.m@{Thumbs\-View\-Controller.\-m}}
+\subsubsection[{update\-Bookmarked}]{\setlength{\rightskip}{0pt plus 5cm}B\-O\-O\-L update\-Bookmarked}}\label{d3/d0f/_thumbs_view_controller_8m_a5c7a5dd591616a23cb4fd962d7f50925}
+
+
+Definition at line 51 of file Thumbs\-View\-Controller.\-m.
+

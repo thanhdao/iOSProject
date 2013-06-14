@@ -1,0 +1,290 @@
+\hypertarget{interface_reader_thumb_cache}{\section{Reader\-Thumb\-Cache Class Reference}
+\label{da/d97/interface_reader_thumb_cache}\index{Reader\-Thumb\-Cache@{Reader\-Thumb\-Cache}}
+}
+
+
+{\ttfamily \#import $<$Reader\-Thumb\-Cache.\-h$>$}
+
+
+
+Inheritance diagram for Reader\-Thumb\-Cache\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{d1/d7c/interface_reader_thumb_cache__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Reader\-Thumb\-Cache\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{dd/d95/interface_reader_thumb_cache__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(id) -\/ \hyperlink{interface_reader_thumb_cache_a4471faa4bdb367b02aeed4da49af7e4b}{thumb\-Request\-:priority\-:}
+\item 
+(void) -\/ \hyperlink{interface_reader_thumb_cache_abc66626fe85d5be6439e98eae9c22aa0}{set\-Object\-:for\-Key\-:}
+\item 
+(void) -\/ \hyperlink{interface_reader_thumb_cache_aea324161bd15fe1a1f1d7f4661b40172}{remove\-Object\-For\-Key\-:}
+\item 
+(void) -\/ \hyperlink{interface_reader_thumb_cache_a83f2dc15c3ae0f6dc0726066094d8283}{remove\-Null\-For\-Key\-:}
+\item 
+(void) -\/ \hyperlink{interface_reader_thumb_cache_a3a51b33b92b870172efe75752ced325b}{remove\-All\-Objects}
+\end{DoxyCompactItemize}
+\subsection*{Class Methods}
+\begin{DoxyCompactItemize}
+\item 
+(\hyperlink{interface_reader_thumb_cache}{Reader\-Thumb\-Cache} $\ast$) + \hyperlink{interface_reader_thumb_cache_a5254f54ac18877ab24f532abedf47e6e}{shared\-Instance}
+\item 
+(void) + \hyperlink{interface_reader_thumb_cache_aa3c0deaeeed2095eba99fb8adae05acf}{touch\-Thumb\-Cache\-With\-G\-U\-I\-D\-:}
+\item 
+(void) + \hyperlink{interface_reader_thumb_cache_a30c4fab0b30c0ced09dc1c47f9f2788a}{create\-Thumb\-Cache\-With\-G\-U\-I\-D\-:}
+\item 
+(void) + \hyperlink{interface_reader_thumb_cache_a1cad6b7316810dafbcbf4a3a075897d6}{remove\-Thumb\-Cache\-With\-G\-U\-I\-D\-:}
+\item 
+(void) + \hyperlink{interface_reader_thumb_cache_ad540c117c74fa55f0f16472245fccf0b}{purge\-Thumb\-Caches\-Older\-Than\-:}
+\item 
+(N\-S\-String $\ast$) + \hyperlink{interface_reader_thumb_cache_a612df97f8366c742529535f6d6e88fe0}{thumb\-Cache\-Path\-For\-G\-U\-I\-D\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 30 of file Reader\-Thumb\-Cache.\-h.
+
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_reader_thumb_cache_a30c4fab0b30c0ced09dc1c47f9f2788a}{\index{Reader\-Thumb\-Cache@{Reader\-Thumb\-Cache}!create\-Thumb\-Cache\-With\-G\-U\-I\-D\-:@{create\-Thumb\-Cache\-With\-G\-U\-I\-D\-:}}
+\index{create\-Thumb\-Cache\-With\-G\-U\-I\-D\-:@{create\-Thumb\-Cache\-With\-G\-U\-I\-D\-:}!ReaderThumbCache@{Reader\-Thumb\-Cache}}
+\subsubsection[{create\-Thumb\-Cache\-With\-G\-U\-I\-D\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) create\-Thumb\-Cache\-With\-G\-U\-I\-D\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{guid}
+\end{DoxyParamCaption}
+}}\label{da/d97/interface_reader_thumb_cache_a30c4fab0b30c0ced09dc1c47f9f2788a}
+
+
+Definition at line 76 of file Reader\-Thumb\-Cache.\-m.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d97/interface_reader_thumb_cache_a30c4fab0b30c0ced09dc1c47f9f2788a_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{interface_reader_thumb_cache_ad540c117c74fa55f0f16472245fccf0b}{\index{Reader\-Thumb\-Cache@{Reader\-Thumb\-Cache}!purge\-Thumb\-Caches\-Older\-Than\-:@{purge\-Thumb\-Caches\-Older\-Than\-:}}
+\index{purge\-Thumb\-Caches\-Older\-Than\-:@{purge\-Thumb\-Caches\-Older\-Than\-:}!ReaderThumbCache@{Reader\-Thumb\-Cache}}
+\subsubsection[{purge\-Thumb\-Caches\-Older\-Than\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) purge\-Thumb\-Caches\-Older\-Than\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Time\-Interval)}]{age}
+\end{DoxyParamCaption}
+}}\label{da/d97/interface_reader_thumb_cache_ad540c117c74fa55f0f16472245fccf0b}
+
+
+Definition at line 108 of file Reader\-Thumb\-Cache.\-m.
+
+\hypertarget{interface_reader_thumb_cache_a3a51b33b92b870172efe75752ced325b}{\index{Reader\-Thumb\-Cache@{Reader\-Thumb\-Cache}!remove\-All\-Objects@{remove\-All\-Objects}}
+\index{remove\-All\-Objects@{remove\-All\-Objects}!ReaderThumbCache@{Reader\-Thumb\-Cache}}
+\subsubsection[{remove\-All\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) remove\-All\-Objects 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{da/d97/interface_reader_thumb_cache_a3a51b33b92b870172efe75752ced325b}
+
+
+Definition at line 220 of file Reader\-Thumb\-Cache.\-m.
+
+\hypertarget{interface_reader_thumb_cache_a83f2dc15c3ae0f6dc0726066094d8283}{\index{Reader\-Thumb\-Cache@{Reader\-Thumb\-Cache}!remove\-Null\-For\-Key\-:@{remove\-Null\-For\-Key\-:}}
+\index{remove\-Null\-For\-Key\-:@{remove\-Null\-For\-Key\-:}!ReaderThumbCache@{Reader\-Thumb\-Cache}}
+\subsubsection[{remove\-Null\-For\-Key\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) remove\-Null\-For\-Key\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{key}
+\end{DoxyParamCaption}
+}}\label{da/d97/interface_reader_thumb_cache_a83f2dc15c3ae0f6dc0726066094d8283}
+
+
+Definition at line 207 of file Reader\-Thumb\-Cache.\-m.
+
+\hypertarget{interface_reader_thumb_cache_aea324161bd15fe1a1f1d7f4661b40172}{\index{Reader\-Thumb\-Cache@{Reader\-Thumb\-Cache}!remove\-Object\-For\-Key\-:@{remove\-Object\-For\-Key\-:}}
+\index{remove\-Object\-For\-Key\-:@{remove\-Object\-For\-Key\-:}!ReaderThumbCache@{Reader\-Thumb\-Cache}}
+\subsubsection[{remove\-Object\-For\-Key\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) remove\-Object\-For\-Key\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{key}
+\end{DoxyParamCaption}
+}}\label{da/d97/interface_reader_thumb_cache_aea324161bd15fe1a1f1d7f4661b40172}
+
+
+Definition at line 199 of file Reader\-Thumb\-Cache.\-m.
+
+\hypertarget{interface_reader_thumb_cache_a1cad6b7316810dafbcbf4a3a075897d6}{\index{Reader\-Thumb\-Cache@{Reader\-Thumb\-Cache}!remove\-Thumb\-Cache\-With\-G\-U\-I\-D\-:@{remove\-Thumb\-Cache\-With\-G\-U\-I\-D\-:}}
+\index{remove\-Thumb\-Cache\-With\-G\-U\-I\-D\-:@{remove\-Thumb\-Cache\-With\-G\-U\-I\-D\-:}!ReaderThumbCache@{Reader\-Thumb\-Cache}}
+\subsubsection[{remove\-Thumb\-Cache\-With\-G\-U\-I\-D\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) remove\-Thumb\-Cache\-With\-G\-U\-I\-D\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{guid}
+\end{DoxyParamCaption}
+}}\label{da/d97/interface_reader_thumb_cache_a1cad6b7316810dafbcbf4a3a075897d6}
+
+
+Definition at line 85 of file Reader\-Thumb\-Cache.\-m.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d97/interface_reader_thumb_cache_a1cad6b7316810dafbcbf4a3a075897d6_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{interface_reader_thumb_cache_abc66626fe85d5be6439e98eae9c22aa0}{\index{Reader\-Thumb\-Cache@{Reader\-Thumb\-Cache}!set\-Object\-:for\-Key\-:@{set\-Object\-:for\-Key\-:}}
+\index{set\-Object\-:for\-Key\-:@{set\-Object\-:for\-Key\-:}!ReaderThumbCache@{Reader\-Thumb\-Cache}}
+\subsubsection[{set\-Object\-:for\-Key\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) set\-Object\-: 
+\begin{DoxyParamCaption}
+\item[{(U\-I\-Image $\ast$)}]{image}
+\item[{forKey:(N\-S\-String $\ast$)}]{key}
+\end{DoxyParamCaption}
+}}\label{da/d97/interface_reader_thumb_cache_abc66626fe85d5be6439e98eae9c22aa0}
+
+
+Definition at line 189 of file Reader\-Thumb\-Cache.\-m.
+
+\hypertarget{interface_reader_thumb_cache_a5254f54ac18877ab24f532abedf47e6e}{\index{Reader\-Thumb\-Cache@{Reader\-Thumb\-Cache}!shared\-Instance@{shared\-Instance}}
+\index{shared\-Instance@{shared\-Instance}!ReaderThumbCache@{Reader\-Thumb\-Cache}}
+\subsubsection[{shared\-Instance}]{\setlength{\rightskip}{0pt plus 5cm}+ ({\bf Reader\-Thumb\-Cache} $\ast$) shared\-Instance 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{da/d97/interface_reader_thumb_cache_a5254f54ac18877ab24f532abedf47e6e}
+
+
+Definition at line 42 of file Reader\-Thumb\-Cache.\-m.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d97/interface_reader_thumb_cache_a5254f54ac18877ab24f532abedf47e6e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{interface_reader_thumb_cache_a612df97f8366c742529535f6d6e88fe0}{\index{Reader\-Thumb\-Cache@{Reader\-Thumb\-Cache}!thumb\-Cache\-Path\-For\-G\-U\-I\-D\-:@{thumb\-Cache\-Path\-For\-G\-U\-I\-D\-:}}
+\index{thumb\-Cache\-Path\-For\-G\-U\-I\-D\-:@{thumb\-Cache\-Path\-For\-G\-U\-I\-D\-:}!ReaderThumbCache@{Reader\-Thumb\-Cache}}
+\subsubsection[{thumb\-Cache\-Path\-For\-G\-U\-I\-D\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (N\-S\-String $\ast$) thumb\-Cache\-Path\-For\-G\-U\-I\-D\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{guid}
+\end{DoxyParamCaption}
+}}\label{da/d97/interface_reader_thumb_cache_a612df97f8366c742529535f6d6e88fe0}
+
+
+Definition at line 69 of file Reader\-Thumb\-Cache.\-m.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d97/interface_reader_thumb_cache_a612df97f8366c742529535f6d6e88fe0_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{interface_reader_thumb_cache_a4471faa4bdb367b02aeed4da49af7e4b}{\index{Reader\-Thumb\-Cache@{Reader\-Thumb\-Cache}!thumb\-Request\-:priority\-:@{thumb\-Request\-:priority\-:}}
+\index{thumb\-Request\-:priority\-:@{thumb\-Request\-:priority\-:}!ReaderThumbCache@{Reader\-Thumb\-Cache}}
+\subsubsection[{thumb\-Request\-:priority\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) thumb\-Request\-: 
+\begin{DoxyParamCaption}
+\item[{({\bf Reader\-Thumb\-Request} $\ast$)}]{request}
+\item[{priority:(B\-O\-O\-L)}]{priority}
+\end{DoxyParamCaption}
+}}\label{da/d97/interface_reader_thumb_cache_a4471faa4bdb367b02aeed4da49af7e4b}
+
+
+Definition at line 164 of file Reader\-Thumb\-Cache.\-m.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d97/interface_reader_thumb_cache_a4471faa4bdb367b02aeed4da49af7e4b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d97/interface_reader_thumb_cache_a4471faa4bdb367b02aeed4da49af7e4b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{interface_reader_thumb_cache_aa3c0deaeeed2095eba99fb8adae05acf}{\index{Reader\-Thumb\-Cache@{Reader\-Thumb\-Cache}!touch\-Thumb\-Cache\-With\-G\-U\-I\-D\-:@{touch\-Thumb\-Cache\-With\-G\-U\-I\-D\-:}}
+\index{touch\-Thumb\-Cache\-With\-G\-U\-I\-D\-:@{touch\-Thumb\-Cache\-With\-G\-U\-I\-D\-:}!ReaderThumbCache@{Reader\-Thumb\-Cache}}
+\subsubsection[{touch\-Thumb\-Cache\-With\-G\-U\-I\-D\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) touch\-Thumb\-Cache\-With\-G\-U\-I\-D\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{guid}
+\end{DoxyParamCaption}
+}}\label{da/d97/interface_reader_thumb_cache_aa3c0deaeeed2095eba99fb8adae05acf}
+
+
+Definition at line 97 of file Reader\-Thumb\-Cache.\-m.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d97/interface_reader_thumb_cache_aa3c0deaeeed2095eba99fb8adae05acf_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d97/interface_reader_thumb_cache_aa3c0deaeeed2095eba99fb8adae05acf_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Sources/\hyperlink{_reader_thumb_cache_8h}{Reader\-Thumb\-Cache.\-h}\item 
+Sources/\hyperlink{_reader_thumb_cache_8m}{Reader\-Thumb\-Cache.\-m}\end{DoxyCompactItemize}

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d7/d7e/class_u_i_view_controller" kind="class" prot="public">
+    <compoundname>UIViewController</compoundname>
+    <derivedcompoundref refid="d7/de5/interface_reader_demo_controller" prot="public" virt="non-virtual">ReaderDemoController</derivedcompoundref>
+    <derivedcompoundref refid="d5/dfd/interface_reader_view_controller" prot="public" virt="non-virtual">ReaderViewController</derivedcompoundref>
+    <derivedcompoundref refid="d7/d57/interface_thumbs_view_controller" prot="public" virt="non-virtual">ThumbsViewController</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="749">
+        <label>ReaderViewController</label>
+        <link refid="d5/dfd/interface_reader_view_controller"/>
+        <childnode refid="747" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="747">
+        <label>UIViewController</label>
+        <link refid="d7/d7e/class_u_i_view_controller"/>
+      </node>
+      <node id="750">
+        <label>ThumbsViewController</label>
+        <link refid="d7/d57/interface_thumbs_view_controller"/>
+        <childnode refid="747" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="748">
+        <label>ReaderDemoController</label>
+        <link refid="d7/de5/interface_reader_demo_controller"/>
+        <childnode refid="747" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderViewController.h" line="41"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

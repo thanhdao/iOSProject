@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="da/d97/interface_reader_thumb_cache" kind="class" prot="public">
+    <compoundname>ReaderThumbCache</compoundname>
+    <basecompoundref refid="d7/dc4/class_n_s_object" prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <basecompoundref refid="d0/d10/class_n_s_object-p" prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <includes refid="d2/d4c/_reader_thumb_cache_8h" local="no">ReaderThumbCache.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/d97/interface_reader_thumb_cache_1a5254f54ac18877ab24f532abedf47e6e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="da/d97/interface_reader_thumb_cache" kindref="compound">ReaderThumbCache</ref> *</type>
+        <definition>ReaderThumbCache * ReaderThumbCache::sharedInstance</definition>
+        <argsstring>()</argsstring>
+        <name>sharedInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.h" line="32" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.m" bodystart="42" bodyend="51"/>
+        <referencedby refid="dd/de3/interface_reader_content_view_1a952138f340db971d89ca8f455c20eda8" compoundref="d0/dfc/_reader_content_view_8m" startline="161" endline="176">ReaderContentView::showPageThumb:page:password:guid:</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d97/interface_reader_thumb_cache_1aa3c0deaeeed2095eba99fb8adae05acf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbCache::touchThumbCacheWithGUID:</definition>
+        <argsstring>(NSString *guid)</argsstring>
+        <name>touchThumbCacheWithGUID:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.h" line="34" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.m" bodystart="97" bodyend="106"/>
+        <references refid="da/d97/interface_reader_thumb_cache_1a612df97f8366c742529535f6d6e88fe0" compoundref="db/d21/_reader_thumb_cache_8m" startline="69" endline="74">thumbCachePathForGUID:</references>
+        <referencedby refid="d5/dfd/interface_reader_view_controller_1ab5d4b891df22eba0bec1ee6f6be9ac29" compoundref="da/d57/_reader_view_controller_8m" startline="283" endline="306">ReaderViewController::initWithReaderDocument:</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d97/interface_reader_thumb_cache_1a30c4fab0b30c0ced09dc1c47f9f2788a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbCache::createThumbCacheWithGUID:</definition>
+        <argsstring>(NSString *guid)</argsstring>
+        <name>createThumbCacheWithGUID:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.h" line="36" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.m" bodystart="76" bodyend="83"/>
+        <references refid="da/d97/interface_reader_thumb_cache_1a612df97f8366c742529535f6d6e88fe0" compoundref="db/d21/_reader_thumb_cache_8m" startline="69" endline="74">thumbCachePathForGUID:</references>
+      </memberdef>
+      <memberdef kind="function" id="da/d97/interface_reader_thumb_cache_1a1cad6b7316810dafbcbf4a3a075897d6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbCache::removeThumbCacheWithGUID:</definition>
+        <argsstring>(NSString *guid)</argsstring>
+        <name>removeThumbCacheWithGUID:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.h" line="38" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.m" bodystart="85" bodyend="95"/>
+        <references refid="da/d97/interface_reader_thumb_cache_1a612df97f8366c742529535f6d6e88fe0" compoundref="db/d21/_reader_thumb_cache_8m" startline="69" endline="74">thumbCachePathForGUID:</references>
+      </memberdef>
+      <memberdef kind="function" id="da/d97/interface_reader_thumb_cache_1ad540c117c74fa55f0f16472245fccf0b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbCache::purgeThumbCachesOlderThan:</definition>
+        <argsstring>(NSTimeInterval age)</argsstring>
+        <name>purgeThumbCachesOlderThan:</name>
+        <param>
+          <type>NSTimeInterval</type>
+          <declname>age</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.h" line="40" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.m" bodystart="108" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d97/interface_reader_thumb_cache_1a612df97f8366c742529535f6d6e88fe0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSString *</type>
+        <definition>NSString * ReaderThumbCache::thumbCachePathForGUID:</definition>
+        <argsstring>(NSString *guid)</argsstring>
+        <name>thumbCachePathForGUID:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.h" line="42" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.m" bodystart="69" bodyend="74"/>
+        <referencedby refid="da/d97/interface_reader_thumb_cache_1a30c4fab0b30c0ced09dc1c47f9f2788a" compoundref="db/d21/_reader_thumb_cache_8m" startline="76" endline="83">createThumbCacheWithGUID:</referencedby>
+        <referencedby refid="da/d97/interface_reader_thumb_cache_1a1cad6b7316810dafbcbf4a3a075897d6" compoundref="db/d21/_reader_thumb_cache_8m" startline="85" endline="95">removeThumbCacheWithGUID:</referencedby>
+        <referencedby refid="da/d97/interface_reader_thumb_cache_1aa3c0deaeeed2095eba99fb8adae05acf" compoundref="db/d21/_reader_thumb_cache_8m" startline="97" endline="106">touchThumbCacheWithGUID:</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d97/interface_reader_thumb_cache_1a4471faa4bdb367b02aeed4da49af7e4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ReaderThumbCache::thumbRequest:priority:</definition>
+        <argsstring>(ReaderThumbRequest *request,[priority] BOOL priority)</argsstring>
+        <name>thumbRequest:priority:</name>
+        <param>
+          <type><ref refid="dc/dc5/interface_reader_thumb_request" kindref="compound">ReaderThumbRequest</ref> *</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <attributes>[priority]</attributes>
+          <type>BOOL</type>
+          <declname>priority</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.h" line="44" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.m" bodystart="164" bodyend="187"/>
+        <references refid="dc/dc5/interface_reader_thumb_request_1ab188b120cf0ddaa698106bd5f0ba672d" compoundref="d6/d40/_reader_thumb_request_8h" startline="37">ReaderThumbRequest::thumbView</references>
+        <references refid="d8/d25/interface_reader_thumb_view_1aac43edee2217f11ec4a4d62e3e8dac0e" compoundref="d6/d83/_reader_thumb_view_8h" startline="35">ReaderThumbView::operation</references>
+        <references refid="df/d91/interface_reader_thumb_queue_1aa2f63348dc3b018a4a54f6346653edb8" compoundref="d2/d6b/_reader_thumb_queue_8m" startline="37" endline="46">ReaderThumbQueue::sharedInstance</references>
+        <references refid="df/d91/interface_reader_thumb_queue_1affdfe9694365536fa7976c23b9ba01ed" compoundref="d2/d6b/_reader_thumb_queue_8m" startline="70" endline="76">ReaderThumbQueue::addLoadOperation:</references>
+        <referencedby refid="dd/de3/interface_reader_content_view_1a952138f340db971d89ca8f455c20eda8" compoundref="d0/dfc/_reader_content_view_8m" startline="161" endline="176">ReaderContentView::showPageThumb:page:password:guid:</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d97/interface_reader_thumb_cache_1abc66626fe85d5be6439e98eae9c22aa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbCache::setObject:forKey:</definition>
+        <argsstring>(UIImage *image,[forKey] NSString *key)</argsstring>
+        <name>setObject:forKey:</name>
+        <param>
+          <type>UIImage *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <attributes>[forKey]</attributes>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.h" line="46" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.m" bodystart="189" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d97/interface_reader_thumb_cache_1aea324161bd15fe1a1f1d7f4661b40172" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbCache::removeObjectForKey:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>removeObjectForKey:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.h" line="48" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.m" bodystart="199" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d97/interface_reader_thumb_cache_1a83f2dc15c3ae0f6dc0726066094d8283" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbCache::removeNullForKey:</definition>
+        <argsstring>(NSString *key)</argsstring>
+        <name>removeNullForKey:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.h" line="50" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.m" bodystart="207" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d97/interface_reader_thumb_cache_1a3a51b33b92b870172efe75752ced325b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbCache::removeAllObjects</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllObjects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.h" line="52" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.m" bodystart="220" bodyend="226"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="560">
+        <label>ReaderThumbCache</label>
+        <link refid="da/d97/interface_reader_thumb_cache"/>
+        <childnode refid="561" relation="public-inheritance">
+        </childnode>
+        <childnode refid="562" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="562">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="561">
+        <label>NSObject</label>
+        <link refid="d7/dc4/class_n_s_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="563">
+        <label>ReaderThumbCache</label>
+        <link refid="da/d97/interface_reader_thumb_cache"/>
+        <childnode refid="564" relation="public-inheritance">
+        </childnode>
+        <childnode refid="565" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="565">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="564">
+        <label>NSObject</label>
+        <link refid="d7/dc4/class_n_s_object"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.h" line="30" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbCache.h" bodystart="30" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="da/d97/interface_reader_thumb_cache_1a30c4fab0b30c0ced09dc1c47f9f2788a" prot="public" virt="virtual"><scope>ReaderThumbCache</scope><name>createThumbCacheWithGUID:</name></member>
+      <member refid="da/d97/interface_reader_thumb_cache_1ad540c117c74fa55f0f16472245fccf0b" prot="public" virt="virtual"><scope>ReaderThumbCache</scope><name>purgeThumbCachesOlderThan:</name></member>
+      <member refid="da/d97/interface_reader_thumb_cache_1a3a51b33b92b870172efe75752ced325b" prot="public" virt="virtual"><scope>ReaderThumbCache</scope><name>removeAllObjects</name></member>
+      <member refid="da/d97/interface_reader_thumb_cache_1a83f2dc15c3ae0f6dc0726066094d8283" prot="public" virt="virtual"><scope>ReaderThumbCache</scope><name>removeNullForKey:</name></member>
+      <member refid="da/d97/interface_reader_thumb_cache_1aea324161bd15fe1a1f1d7f4661b40172" prot="public" virt="virtual"><scope>ReaderThumbCache</scope><name>removeObjectForKey:</name></member>
+      <member refid="da/d97/interface_reader_thumb_cache_1a1cad6b7316810dafbcbf4a3a075897d6" prot="public" virt="virtual"><scope>ReaderThumbCache</scope><name>removeThumbCacheWithGUID:</name></member>
+      <member refid="da/d97/interface_reader_thumb_cache_1abc66626fe85d5be6439e98eae9c22aa0" prot="public" virt="virtual"><scope>ReaderThumbCache</scope><name>setObject:forKey:</name></member>
+      <member refid="da/d97/interface_reader_thumb_cache_1a5254f54ac18877ab24f532abedf47e6e" prot="public" virt="virtual"><scope>ReaderThumbCache</scope><name>sharedInstance</name></member>
+      <member refid="da/d97/interface_reader_thumb_cache_1a612df97f8366c742529535f6d6e88fe0" prot="public" virt="virtual"><scope>ReaderThumbCache</scope><name>thumbCachePathForGUID:</name></member>
+      <member refid="da/d97/interface_reader_thumb_cache_1a4471faa4bdb367b02aeed4da49af7e4b" prot="public" virt="virtual"><scope>ReaderThumbCache</scope><name>thumbRequest:priority:</name></member>
+      <member refid="da/d97/interface_reader_thumb_cache_1aa3c0deaeeed2095eba99fb8adae05acf" prot="public" virt="virtual"><scope>ReaderThumbCache</scope><name>touchThumbCacheWithGUID:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d5/dab/class_m_f_mail_compose_view_controller_delegate-p" kind="protocol" prot="public">
+    <compoundname>MFMailComposeViewControllerDelegate-p</compoundname>
+    <derivedcompoundref refid="db/d1e/category_reader_view_controller_07_08" prot="public" virt="non-virtual">ReaderViewController()</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="399">
+        <label>&lt;MFMailComposeViewControllerDelegate&gt;</label>
+        <link refid="d5/dab/class_m_f_mail_compose_view_controller_delegate-p"/>
+      </node>
+      <node id="400">
+        <label>ReaderViewController()</label>
+        <link refid="db/d1e/category_reader_view_controller_07_08"/>
+        <childnode refid="399" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderViewController.m" line="38"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

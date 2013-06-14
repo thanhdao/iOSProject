@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d5/d7d/protocol_reader_content_view_delegate-p" kind="protocol" prot="public" abstract="yes">
+    <compoundname>ReaderContentViewDelegate-p</compoundname>
+    <basecompoundref refid="d0/d10/class_n_s_object-p" prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <derivedcompoundref refid="db/d1e/category_reader_view_controller_07_08" prot="public" virt="non-virtual">ReaderViewController()</derivedcompoundref>
+    <includes refid="da/dd6/_reader_content_view_8h" local="no">ReaderContentView.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d7d/protocol_reader_content_view_delegate-p_1a096f2e2552c7fdf9f8bb5481994ebe48" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderContentViewDelegate-p::contentView:touchesBegan:</definition>
+        <argsstring>(ReaderContentView *contentView,[touchesBegan] NSSet *touches)</argsstring>
+        <name>contentView:touchesBegan:</name>
+        <param>
+          <type><ref refid="dd/de3/interface_reader_content_view" kindref="compound">ReaderContentView</ref> *</type>
+          <declname>contentView</declname>
+        </param>
+        <param>
+          <attributes>[touchesBegan]</attributes>
+          <type>NSSet *</type>
+          <declname>touches</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" line="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="485">
+        <label>ReaderViewController()</label>
+        <link refid="db/d1e/category_reader_view_controller_07_08"/>
+        <childnode refid="483" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="484">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="483">
+        <label>&lt;ReaderContentViewDelegate&gt;</label>
+        <link refid="d5/d7d/protocol_reader_content_view_delegate-p"/>
+        <childnode refid="484" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="487">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="486">
+        <label>&lt;ReaderContentViewDelegate&gt;</label>
+        <link refid="d5/d7d/protocol_reader_content_view_delegate-p"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" line="34" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" bodystart="34" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d5/d7d/protocol_reader_content_view_delegate-p_1a096f2e2552c7fdf9f8bb5481994ebe48" prot="public" virt="virtual"><scope>ReaderContentViewDelegate-p</scope><name>contentView:touchesBegan:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dd/d32/interface_reader_thumb_fetch" kind="class" prot="public">
+    <compoundname>ReaderThumbFetch</compoundname>
+    <basecompoundref refid="d1/d35/interface_reader_thumb_operation" prot="public" virt="non-virtual">ReaderThumbOperation</basecompoundref>
+    <includes refid="dc/dbe/_reader_thumb_fetch_8h" local="no">ReaderThumbFetch.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d32/interface_reader_thumb_fetch_1a728987c90e71db9153a2fafa73f0992e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ReaderThumbFetch::initWithRequest:</definition>
+        <argsstring>(ReaderThumbRequest *options)</argsstring>
+        <name>initWithRequest:</name>
+        <param>
+          <type><ref refid="dc/dc5/interface_reader_thumb_request" kindref="compound">ReaderThumbRequest</ref> *</type>
+          <declname>options</declname>
+        </param>
+        <initializer>{
+	<ref refid="dc/dc5/interface_reader_thumb_request" kindref="compound">ReaderThumbRequest</ref> *request</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbFetch.h" line="34" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbFetch.m" bodystart="40" bodyend="48"/>
+        <references refid="dc/dc5/interface_reader_thumb_request_1a5d8e0e0f2279f1de7554a7740c314626" compoundref="d6/d40/_reader_thumb_request_8h" startline="33">ReaderThumbRequest::guid</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="566">
+        <label>ReaderThumbFetch</label>
+        <link refid="dd/d32/interface_reader_thumb_fetch"/>
+        <childnode refid="567" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="567">
+        <label>ReaderThumbOperation</label>
+        <link refid="d1/d35/interface_reader_thumb_operation"/>
+        <childnode refid="568" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="568">
+        <label>NSOperation</label>
+        <link refid="dc/df8/class_n_s_operation"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="569">
+        <label>ReaderThumbFetch</label>
+        <link refid="dd/d32/interface_reader_thumb_fetch"/>
+        <childnode refid="570" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="572">
+        <label>NSString *</label>
+      </node>
+      <node id="570">
+        <label>ReaderThumbOperation</label>
+        <link refid="d1/d35/interface_reader_thumb_operation"/>
+        <childnode refid="571" relation="public-inheritance">
+        </childnode>
+        <childnode refid="572" relation="usage">
+          <edgelabel>guid</edgelabel>
+        </childnode>
+      </node>
+      <node id="571">
+        <label>NSOperation</label>
+        <link refid="dc/df8/class_n_s_operation"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbFetch.h" line="33" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbFetch.h" bodystart="32" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d1/d35/interface_reader_thumb_operation_1a00d9e3c5b3f57b2e6ff5de0deebfc3ec" prot="public" virt="non-virtual"><scope>ReaderThumbFetch</scope><name>guid</name></member>
+      <member refid="d1/d35/interface_reader_thumb_operation_1ac842ce4ae99d560dec9449fb598996bf" prot="public" virt="virtual"><scope>ReaderThumbFetch</scope><name>initWithGUID:</name></member>
+      <member refid="dd/d32/interface_reader_thumb_fetch_1a728987c90e71db9153a2fafa73f0992e" prot="public" virt="virtual"><scope>ReaderThumbFetch</scope><name>initWithRequest:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

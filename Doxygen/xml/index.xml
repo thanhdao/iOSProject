@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.3.1">
+  <compound refid="dd/dbf/class_c_a_tiled_layer" kind="class"><name>CATiledLayer</name>
+  </compound>
+  <compound refid="de/da0/interface_document_outline_entry" kind="class"><name>DocumentOutlineEntry</name>
+    <member refid="de/da0/interface_document_outline_entry_1abe9be523985b9d5104a66ffcba8c300b" kind="property"><name>level</name></member>
+    <member refid="de/da0/interface_document_outline_entry_1a84581d5931ebe971f2acfbe6031f48df" kind="property"><name>children</name></member>
+    <member refid="de/da0/interface_document_outline_entry_1a4a104dd07c71a2fe72885ea24eae1492" kind="property"><name>title</name></member>
+    <member refid="de/da0/interface_document_outline_entry_1ad722f2daed26eba405771c8eb66cd3b0" kind="property"><name>target</name></member>
+    <member refid="de/da0/interface_document_outline_entry_1a88affa91783de3e68487ad8ea22c575c" kind="function"><name>newWithTitle:target:level:</name></member>
+    <member refid="de/da0/interface_document_outline_entry_1abb79e8b34d4d229cce77fccce8cc15dc" kind="function"><name>initWithTitle:target:level:</name></member>
+  </compound>
+  <compound refid="d8/da4/category_document_outline_entry_07_08" kind="category"><name>DocumentOutlineEntry()</name>
+    <member refid="d8/da4/category_document_outline_entry_07_08_1a528b075edd4071b08259d6012a2040af" kind="property"><name>level</name></member>
+    <member refid="d8/da4/category_document_outline_entry_07_08_1ab0bc837797c044f995cd199643689617" kind="property"><name>title</name></member>
+    <member refid="d8/da4/category_document_outline_entry_07_08_1a9da4d185e33f0c043de7420cd009f8dd" kind="property"><name>target</name></member>
+  </compound>
+  <compound refid="d5/dab/class_m_f_mail_compose_view_controller_delegate-p" kind="protocol"><name>MFMailComposeViewControllerDelegate-p</name>
+  </compound>
+  <compound refid="d7/dc8/class_n_s_coding-p" kind="protocol"><name>NSCoding-p</name>
+  </compound>
+  <compound refid="d7/dc4/class_n_s_object" kind="class"><name>NSObject</name>
+  </compound>
+  <compound refid="d0/d10/class_n_s_object-p" kind="protocol"><name>NSObject-p</name>
+  </compound>
+  <compound refid="dc/df8/class_n_s_operation" kind="class"><name>NSOperation</name>
+  </compound>
+  <compound refid="d5/d15/interface_reader_app_delegate" kind="class"><name>ReaderAppDelegate</name>
+  </compound>
+  <compound refid="d1/dfc/interface_reader_book_delegate" kind="class"><name>ReaderBookDelegate</name>
+  </compound>
+  <compound refid="d2/d8f/category_reader_book_delegate_07_08" kind="category"><name>ReaderBookDelegate()</name>
+  </compound>
+  <compound refid="d2/dad/interface_reader_content_page" kind="class"><name>ReaderContentPage</name>
+    <member refid="d2/dad/interface_reader_content_page_1a9189b3f021220df23b6ee0ba0511910d" kind="function"><name>initWithURL:page:password:</name></member>
+    <member refid="d2/dad/interface_reader_content_page_1ac3bf445eb3b43536fc1276061744c7f0" kind="function"><name>processSingleTap:</name></member>
+  </compound>
+  <compound refid="d4/df0/interface_reader_content_thumb" kind="class"><name>ReaderContentThumb</name>
+  </compound>
+  <compound refid="d4/dec/interface_reader_content_tile" kind="class"><name>ReaderContentTile</name>
+  </compound>
+  <compound refid="dd/de3/interface_reader_content_view" kind="class"><name>ReaderContentView</name>
+    <member refid="dd/de3/interface_reader_content_view_1abbbb9c4881d98915cb299e3f903b9719" kind="property"><name>message</name></member>
+    <member refid="dd/de3/interface_reader_content_view_1ac045875376b7c51f37c2ee946f9c3de4" kind="function"><name>initWithFrame:fileURL:page:password:</name></member>
+    <member refid="dd/de3/interface_reader_content_view_1a952138f340db971d89ca8f455c20eda8" kind="function"><name>showPageThumb:page:password:guid:</name></member>
+    <member refid="dd/de3/interface_reader_content_view_1ace7f8325b0e739649fe9aab17a15b66a" kind="function"><name>processSingleTap:</name></member>
+    <member refid="dd/de3/interface_reader_content_view_1af43ce1f20e44310bfc790100ed823d37" kind="function"><name>zoomIncrement</name></member>
+    <member refid="dd/de3/interface_reader_content_view_1a9045f28f0f226225b3da62941522252d" kind="function"><name>zoomDecrement</name></member>
+    <member refid="dd/de3/interface_reader_content_view_1a771f0b83553366bd863f9c5b00db4808" kind="function"><name>zoomReset</name></member>
+  </compound>
+  <compound refid="d5/d7d/protocol_reader_content_view_delegate-p" kind="protocol"><name>ReaderContentViewDelegate-p</name>
+    <member refid="d5/d7d/protocol_reader_content_view_delegate-p_1a096f2e2552c7fdf9f8bb5481994ebe48" kind="function"><name>contentView:touchesBegan:</name></member>
+  </compound>
+  <compound refid="d7/de5/interface_reader_demo_controller" kind="class"><name>ReaderDemoController</name>
+  </compound>
+  <compound refid="d8/d29/category_reader_demo_controller_07_08" kind="category"><name>ReaderDemoController()</name>
+  </compound>
+  <compound refid="dc/d78/interface_reader_document" kind="class"><name>ReaderDocument</name>
+    <member refid="dc/d78/interface_reader_document_1a1d10bceac39442fdd660c1696edf2573" kind="property"><name>guid</name></member>
+    <member refid="dc/d78/interface_reader_document_1adb6d224fb441a753e3f90baf4477c884" kind="property"><name>fileDate</name></member>
+    <member refid="dc/d78/interface_reader_document_1a9c51a6e373b8657337a0924ab0f19cb8" kind="property"><name>lastOpen</name></member>
+    <member refid="dc/d78/interface_reader_document_1a4c9221246aa089f1471bb9f58022629d" kind="property"><name>fileSize</name></member>
+    <member refid="dc/d78/interface_reader_document_1ac41f9c6f4b2b8c109ef03971eaa64225" kind="property"><name>pageCount</name></member>
+    <member refid="dc/d78/interface_reader_document_1a5604d89843047aadab52a61f92837c4b" kind="property"><name>pageNumber</name></member>
+    <member refid="dc/d78/interface_reader_document_1aeb8333eda0eee2c0a48a43e2766ae31a" kind="property"><name>bookmarks</name></member>
+    <member refid="dc/d78/interface_reader_document_1a1c95075453d9fde3a66ac3238496a8cb" kind="property"><name>fileName</name></member>
+    <member refid="dc/d78/interface_reader_document_1a782c81876b82fa2f840f4bef6709ec4d" kind="property"><name>password</name></member>
+    <member refid="dc/d78/interface_reader_document_1a76f21379e86bce6c49b5e7469494fdbc" kind="property"><name>fileURL</name></member>
+    <member refid="dc/d78/interface_reader_document_1a45e97f0c02ba91018b7ccac3b8b5d255" kind="function"><name>withDocumentFilePath:password:</name></member>
+    <member refid="dc/d78/interface_reader_document_1a3567d59bbbccc7c57f079e651d13c364" kind="function"><name>unarchiveFromFileName:password:</name></member>
+    <member refid="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" kind="function"><name>initWithFilePath:password:</name></member>
+    <member refid="dc/d78/interface_reader_document_1a4566989b0714e4a959806ab6b81b4c61" kind="function"><name>saveReaderDocument</name></member>
+    <member refid="dc/d78/interface_reader_document_1abaa0f925596750005438de7667b115a9" kind="function"><name>updateProperties</name></member>
+  </compound>
+  <compound refid="df/d6f/interface_reader_document_link" kind="class"><name>ReaderDocumentLink</name>
+    <member refid="df/d6f/interface_reader_document_link_1a63794e1b80f39759586ad90fd0ad0514" kind="property"><name>rect</name></member>
+    <member refid="df/d6f/interface_reader_document_link_1a0e0677dc4ecc91a6a8436588a46c5ff1" kind="property"><name>dictionary</name></member>
+    <member refid="df/d6f/interface_reader_document_link_1a0edf179eb392a5dbd9dce74550e7c8fb" kind="function"><name>newWithRect:dictionary:</name></member>
+    <member refid="df/d6f/interface_reader_document_link_1aa11819cafba813f5d2f2eda55806d387" kind="function"><name>initWithRect:dictionary:</name></member>
+  </compound>
+  <compound refid="d6/d28/interface_reader_document_outline" kind="class"><name>ReaderDocumentOutline</name>
+    <member refid="d6/d28/interface_reader_document_outline_1aeeb9f682b0b0e07a65ceb5b7aece0dc6" kind="function"><name>outlineFromFileURL:password:</name></member>
+    <member refid="d6/d28/interface_reader_document_outline_1a3ba49af0876f15f2a2460c0351de561e" kind="function"><name>logDocumentOutlineArray:</name></member>
+  </compound>
+  <compound refid="dc/d4a/interface_reader_main_pagebar" kind="class"><name>ReaderMainPagebar</name>
+    <member refid="dc/d4a/interface_reader_main_pagebar_1a12d550b5c0842cbda05b7d1d65579639" kind="property"><name>delegate</name></member>
+    <member refid="dc/d4a/interface_reader_main_pagebar_1a04accde91d6432e1de7824d70f82236d" kind="function"><name>initWithFrame:document:</name></member>
+    <member refid="dc/d4a/interface_reader_main_pagebar_1a112506f28ba3e8a4d364450dae65b5a5" kind="function"><name>updatePagebar</name></member>
+    <member refid="dc/d4a/interface_reader_main_pagebar_1af95e7773600c31dbde51f8aab173aff6" kind="function"><name>hidePagebar</name></member>
+    <member refid="dc/d4a/interface_reader_main_pagebar_1af74dd167acd9ea2e004eb02406adbe3d" kind="function"><name>showPagebar</name></member>
+  </compound>
+  <compound refid="d9/d22/protocol_reader_main_pagebar_delegate-p" kind="protocol"><name>ReaderMainPagebarDelegate-p</name>
+    <member refid="d9/d22/protocol_reader_main_pagebar_delegate-p_1ad3c540bd536a02775804a0f0a7fcecb4" kind="function"><name>pagebar:gotoPage:</name></member>
+  </compound>
+  <compound refid="dd/dd4/interface_reader_main_toolbar" kind="class"><name>ReaderMainToolbar</name>
+    <member refid="dd/dd4/interface_reader_main_toolbar_1ac49604961559e4c0f54d137e63af866b" kind="property"><name>delegate</name></member>
+    <member refid="dd/dd4/interface_reader_main_toolbar_1a044759c7364bd9a7a581e3bdf5e1d5d9" kind="function"><name>initWithFrame:document:</name></member>
+    <member refid="dd/dd4/interface_reader_main_toolbar_1aeab5ef81a054a7f6d482df492593c000" kind="function"><name>setBookmarkState:</name></member>
+    <member refid="dd/dd4/interface_reader_main_toolbar_1a382b768b1c7e3cdc248d2c4032fc0c50" kind="function"><name>hideToolbar</name></member>
+    <member refid="dd/dd4/interface_reader_main_toolbar_1aa660d25f2a55769eeccc672b59f473c5" kind="function"><name>showToolbar</name></member>
+  </compound>
+  <compound refid="dd/db6/protocol_reader_main_toolbar_delegate-p" kind="protocol"><name>ReaderMainToolbarDelegate-p</name>
+    <member refid="dd/db6/protocol_reader_main_toolbar_delegate-p_1ac6e6634e74e67393ce7d855bcb0ef503" kind="function"><name>tappedInToolbar:doneButton:</name></member>
+    <member refid="dd/db6/protocol_reader_main_toolbar_delegate-p_1aadd3af1a2dd465ca3dce248572fee3a3" kind="function"><name>tappedInToolbar:thumbsButton:</name></member>
+    <member refid="dd/db6/protocol_reader_main_toolbar_delegate-p_1a385d12621b90bff7ea6320656aa20e37" kind="function"><name>tappedInToolbar:printButton:</name></member>
+    <member refid="dd/db6/protocol_reader_main_toolbar_delegate-p_1aa89d3fbf056cd9a35d08d5f2f3d7c704" kind="function"><name>tappedInToolbar:emailButton:</name></member>
+    <member refid="dd/db6/protocol_reader_main_toolbar_delegate-p_1ad5091069cb05ce63825ffdcef02e93a7" kind="function"><name>tappedInToolbar:markButton:</name></member>
+  </compound>
+  <compound refid="db/d3e/interface_reader_pagebar_shadow" kind="class"><name>ReaderPagebarShadow</name>
+  </compound>
+  <compound refid="dd/d65/interface_reader_pagebar_thumb" kind="class"><name>ReaderPagebarThumb</name>
+    <member refid="dd/d65/interface_reader_pagebar_thumb_1a510b6fbb79957019d7756b2d79de31d2" kind="function"><name>initWithFrame:small:</name></member>
+  </compound>
+  <compound refid="da/d97/interface_reader_thumb_cache" kind="class"><name>ReaderThumbCache</name>
+    <member refid="da/d97/interface_reader_thumb_cache_1a5254f54ac18877ab24f532abedf47e6e" kind="function"><name>sharedInstance</name></member>
+    <member refid="da/d97/interface_reader_thumb_cache_1aa3c0deaeeed2095eba99fb8adae05acf" kind="function"><name>touchThumbCacheWithGUID:</name></member>
+    <member refid="da/d97/interface_reader_thumb_cache_1a30c4fab0b30c0ced09dc1c47f9f2788a" kind="function"><name>createThumbCacheWithGUID:</name></member>
+    <member refid="da/d97/interface_reader_thumb_cache_1a1cad6b7316810dafbcbf4a3a075897d6" kind="function"><name>removeThumbCacheWithGUID:</name></member>
+    <member refid="da/d97/interface_reader_thumb_cache_1ad540c117c74fa55f0f16472245fccf0b" kind="function"><name>purgeThumbCachesOlderThan:</name></member>
+    <member refid="da/d97/interface_reader_thumb_cache_1a612df97f8366c742529535f6d6e88fe0" kind="function"><name>thumbCachePathForGUID:</name></member>
+    <member refid="da/d97/interface_reader_thumb_cache_1a4471faa4bdb367b02aeed4da49af7e4b" kind="function"><name>thumbRequest:priority:</name></member>
+    <member refid="da/d97/interface_reader_thumb_cache_1abc66626fe85d5be6439e98eae9c22aa0" kind="function"><name>setObject:forKey:</name></member>
+    <member refid="da/d97/interface_reader_thumb_cache_1aea324161bd15fe1a1f1d7f4661b40172" kind="function"><name>removeObjectForKey:</name></member>
+    <member refid="da/d97/interface_reader_thumb_cache_1a83f2dc15c3ae0f6dc0726066094d8283" kind="function"><name>removeNullForKey:</name></member>
+    <member refid="da/d97/interface_reader_thumb_cache_1a3a51b33b92b870172efe75752ced325b" kind="function"><name>removeAllObjects</name></member>
+  </compound>
+  <compound refid="dd/d32/interface_reader_thumb_fetch" kind="class"><name>ReaderThumbFetch</name>
+    <member refid="dd/d32/interface_reader_thumb_fetch_1a728987c90e71db9153a2fafa73f0992e" kind="function"><name>initWithRequest:</name></member>
+  </compound>
+  <compound refid="d1/d35/interface_reader_thumb_operation" kind="class"><name>ReaderThumbOperation</name>
+    <member refid="d1/d35/interface_reader_thumb_operation_1a00d9e3c5b3f57b2e6ff5de0deebfc3ec" kind="property"><name>guid</name></member>
+    <member refid="d1/d35/interface_reader_thumb_operation_1ac842ce4ae99d560dec9449fb598996bf" kind="function"><name>initWithGUID:</name></member>
+  </compound>
+  <compound refid="df/d91/interface_reader_thumb_queue" kind="class"><name>ReaderThumbQueue</name>
+    <member refid="df/d91/interface_reader_thumb_queue_1aa2f63348dc3b018a4a54f6346653edb8" kind="function"><name>sharedInstance</name></member>
+    <member refid="df/d91/interface_reader_thumb_queue_1affdfe9694365536fa7976c23b9ba01ed" kind="function"><name>addLoadOperation:</name></member>
+    <member refid="df/d91/interface_reader_thumb_queue_1a5c975c0c3cf61853ca558464d34d57f2" kind="function"><name>addWorkOperation:</name></member>
+    <member refid="df/d91/interface_reader_thumb_queue_1a3b145bafbf743ce8b075674cebe46ce2" kind="function"><name>cancelOperationsWithGUID:</name></member>
+    <member refid="df/d91/interface_reader_thumb_queue_1af2de8a71b5112302278a513c2a897e01" kind="function"><name>cancelAllOperations</name></member>
+  </compound>
+  <compound refid="d1/dcd/interface_reader_thumb_render" kind="class"><name>ReaderThumbRender</name>
+    <member refid="d1/dcd/interface_reader_thumb_render_1a7935b2f01f7b98d02549bfdc4886f171" kind="function"><name>initWithRequest:</name></member>
+  </compound>
+  <compound refid="dc/dc5/interface_reader_thumb_request" kind="class"><name>ReaderThumbRequest</name>
+    <member refid="dc/dc5/interface_reader_thumb_request_1aa09c8d6a1a8361f0c9718d7a349abeb9" kind="property"><name>fileURL</name></member>
+    <member refid="dc/dc5/interface_reader_thumb_request_1a5d8e0e0f2279f1de7554a7740c314626" kind="property"><name>guid</name></member>
+    <member refid="dc/dc5/interface_reader_thumb_request_1a404e2e2b62add0bd182bcbcbc88bac19" kind="property"><name>password</name></member>
+    <member refid="dc/dc5/interface_reader_thumb_request_1ac7a62d4e74ee6a35e068cab853b835ac" kind="property"><name>cacheKey</name></member>
+    <member refid="dc/dc5/interface_reader_thumb_request_1acf28121ee63e65b1592485c1df30bac8" kind="property"><name>thumbName</name></member>
+    <member refid="dc/dc5/interface_reader_thumb_request_1ab188b120cf0ddaa698106bd5f0ba672d" kind="property"><name>thumbView</name></member>
+    <member refid="dc/dc5/interface_reader_thumb_request_1a177b60d5c03ad3407a82b3ca25f645ef" kind="property"><name>targetTag</name></member>
+    <member refid="dc/dc5/interface_reader_thumb_request_1a34178f66256a286b1936cd5951979928" kind="property"><name>thumbPage</name></member>
+    <member refid="dc/dc5/interface_reader_thumb_request_1ab9dfcc6d38c38033127dd553b170435b" kind="property"><name>thumbSize</name></member>
+    <member refid="dc/dc5/interface_reader_thumb_request_1a3093e22180f1847ff7acf1de7f4401de" kind="property"><name>scale</name></member>
+    <member refid="dc/dc5/interface_reader_thumb_request_1aceedc8df03338e125e8e6872e46080bf" kind="function"><name>newForView:fileURL:password:guid:page:size:</name></member>
+    <member refid="dc/dc5/interface_reader_thumb_request_1ab638dcd23e07bd9b88b5f149b789a91a" kind="function"><name>initWithView:fileURL:password:guid:page:size:</name></member>
+  </compound>
+  <compound refid="dd/df8/interface_reader_thumbs_view" kind="class"><name>ReaderThumbsView</name>
+    <member refid="dd/df8/interface_reader_thumbs_view_1a3d99b34c398496b2a7668305c50e0a1c" kind="property"><name>delegate</name></member>
+    <member refid="dd/df8/interface_reader_thumbs_view_1a3d0774973c3859073f9185d00d50dafc" kind="function"><name>setThumbSize:</name></member>
+    <member refid="dd/df8/interface_reader_thumbs_view_1adcc5f4050e6655a6da21b8f3423cbf3e" kind="function"><name>reloadThumbsCenterOnIndex:</name></member>
+    <member refid="dd/df8/interface_reader_thumbs_view_1ad4c9f141d7a0cbdb6120bd658ac4ca8a" kind="function"><name>reloadThumbsContentOffset:</name></member>
+    <member refid="dd/df8/interface_reader_thumbs_view_1a0e2464767a0c8166c77574fa8a5eeb32" kind="function"><name>refreshThumbWithIndex:</name></member>
+    <member refid="dd/df8/interface_reader_thumbs_view_1a33f466315ed3e5193336ba13d188beb6" kind="function"><name>refreshVisibleThumbs</name></member>
+    <member refid="dd/df8/interface_reader_thumbs_view_1aa4e7bf554dcde3287d27185e7c0d346b" kind="function"><name>insetContentOffset</name></member>
+  </compound>
+  <compound refid="d3/d02/category_reader_thumbs_view_07_08" kind="category"><name>ReaderThumbsView()</name>
+  </compound>
+  <compound refid="d9/d3a/protocol_reader_thumbs_view_delegate-p" kind="protocol"><name>ReaderThumbsViewDelegate-p</name>
+    <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a7994669387eb329edb3aad761710786f" kind="function"><name>numberOfThumbsInThumbsView:</name></member>
+    <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a2f8cd902ac375053c12c2c2745d6296e" kind="function"><name>thumbsView:thumbCellWithFrame:</name></member>
+    <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a0e775cbe6eac2c4f29090ef56087a626" kind="function"><name>thumbsView:updateThumbCell:forIndex:</name></member>
+    <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a664c8fd8faf6f277cbcb3287aeecf26f" kind="function"><name>thumbsView:didSelectThumbWithIndex:</name></member>
+    <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a358c8c70944eedb2986383076b98ca94" kind="function"><name>thumbsView:refreshThumbCell:forIndex:</name></member>
+    <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a958b9247665abef986a150f1320b7048" kind="function"><name>thumbsView:didPressThumbWithIndex:</name></member>
+  </compound>
+  <compound refid="d8/d25/interface_reader_thumb_view" kind="class"><name>ReaderThumbView</name>
+    <member refid="d8/d25/interface_reader_thumb_view_1a533ff56283d349d1e397116ea6a3c7d1" kind="variable"><name>imageView</name></member>
+    <member refid="d8/d25/interface_reader_thumb_view_1aac43edee2217f11ec4a4d62e3e8dac0e" kind="property"><name>operation</name></member>
+    <member refid="d8/d25/interface_reader_thumb_view_1a41943cc8db6fb12bc967c4ea6ec4e2c5" kind="property"><name>targetTag</name></member>
+    <member refid="d8/d25/interface_reader_thumb_view_1a1e9c86de1b2fb76e3c56f2f5d7cfb953" kind="function"><name>showImage:</name></member>
+    <member refid="d8/d25/interface_reader_thumb_view_1aacce43068c79a55abcbda4ef7188c3ba" kind="function"><name>showTouched:</name></member>
+    <member refid="d8/d25/interface_reader_thumb_view_1a747633c2aba05254b667d2e346e083e1" kind="function"><name>reuse</name></member>
+  </compound>
+  <compound refid="dc/d59/interface_reader_track_control" kind="class"><name>ReaderTrackControl</name>
+    <member refid="dc/d59/interface_reader_track_control_1a2a91dd40b3e8d4757ac201fe8a3b9829" kind="property"><name>value</name></member>
+  </compound>
+  <compound refid="d5/dfd/interface_reader_view_controller" kind="class"><name>ReaderViewController</name>
+    <member refid="d5/dfd/interface_reader_view_controller_1ab90e46fc4dbc3417344a6ac78b1516fc" kind="property"><name>delegate</name></member>
+    <member refid="d5/dfd/interface_reader_view_controller_1ab5d4b891df22eba0bec1ee6f6be9ac29" kind="function"><name>initWithReaderDocument:</name></member>
+  </compound>
+  <compound refid="db/d1e/category_reader_view_controller_07_08" kind="category"><name>ReaderViewController()</name>
+  </compound>
+  <compound refid="d7/dd9/protocol_reader_view_controller_delegate-p" kind="protocol"><name>ReaderViewControllerDelegate-p</name>
+    <member refid="d7/dd9/protocol_reader_view_controller_delegate-p_1a0c87991187c0e23da37e7b807ea56d40" kind="function"><name>dismissReaderViewController:</name></member>
+  </compound>
+  <compound refid="df/db1/interface_thumbs_main_toolbar" kind="class"><name>ThumbsMainToolbar</name>
+    <member refid="df/db1/interface_thumbs_main_toolbar_1a193cc895ab3fba1e9a9b119303e98f3f" kind="property"><name>delegate</name></member>
+    <member refid="df/db1/interface_thumbs_main_toolbar_1a35addaf9329a272f6c0a6472ca4968e4" kind="function"><name>initWithFrame:title:</name></member>
+  </compound>
+  <compound refid="dc/d59/protocol_thumbs_main_toolbar_delegate-p" kind="protocol"><name>ThumbsMainToolbarDelegate-p</name>
+    <member refid="dc/d59/protocol_thumbs_main_toolbar_delegate-p_1a0a1f15eccee494d202ee8b4bc99633db" kind="function"><name>tappedInToolbar:doneButton:</name></member>
+    <member refid="dc/d59/protocol_thumbs_main_toolbar_delegate-p_1a2b192075116f44d678a6bfc923086bd7" kind="function"><name>tappedInToolbar:showControl:</name></member>
+  </compound>
+  <compound refid="d0/ddf/interface_thumbs_page_thumb" kind="class"><name>ThumbsPageThumb</name>
+    <member refid="d0/ddf/interface_thumbs_page_thumb_1ab7960994d533879d0d49cf8e3839e4a4" kind="function"><name>maximumContentSize</name></member>
+    <member refid="d0/ddf/interface_thumbs_page_thumb_1a12b1677f5f3baf7e8e0e44c9783773fd" kind="function"><name>showText:</name></member>
+    <member refid="d0/ddf/interface_thumbs_page_thumb_1a30c047cec2c319aae2e8aaf7c7fad94c" kind="function"><name>showBookmark:</name></member>
+  </compound>
+  <compound refid="d7/d57/interface_thumbs_view_controller" kind="class"><name>ThumbsViewController</name>
+    <member refid="d7/d57/interface_thumbs_view_controller_1a7db40dd3f35d2160b4aac4299d5bedc1" kind="property"><name>delegate</name></member>
+    <member refid="d7/d57/interface_thumbs_view_controller_1af9aab69c12fd6e29af00d55e2fcecb9a" kind="function"><name>initWithReaderDocument:</name></member>
+  </compound>
+  <compound refid="d3/d8f/category_thumbs_view_controller_07_08" kind="category"><name>ThumbsViewController()</name>
+  </compound>
+  <compound refid="db/d4e/protocol_thumbs_view_controller_delegate-p" kind="protocol"><name>ThumbsViewControllerDelegate-p</name>
+    <member refid="db/d4e/protocol_thumbs_view_controller_delegate-p_1a54bb19fb8038c4598e3a5a05dd9710a7" kind="function"><name>thumbsViewController:gotoPage:</name></member>
+    <member refid="db/d4e/protocol_thumbs_view_controller_delegate-p_1a8520af536c2045525c5ce832d19d72dd" kind="function"><name>dismissThumbsViewController:</name></member>
+  </compound>
+  <compound refid="d8/d72/class_u_i_application_delegate-p" kind="protocol"><name>UIApplicationDelegate-p</name>
+  </compound>
+  <compound refid="de/dbf/class_u_i_control" kind="class"><name>UIControl</name>
+  </compound>
+  <compound refid="dc/d81/class_u_i_gesture_recognizer_delegate-p" kind="protocol"><name>UIGestureRecognizerDelegate-p</name>
+  </compound>
+  <compound refid="d0/dd4/class_u_i_scroll_view" kind="class"><name>UIScrollView</name>
+  </compound>
+  <compound refid="d6/dde/class_u_i_scroll_view_delegate-p" kind="protocol"><name>UIScrollViewDelegate-p</name>
+  </compound>
+  <compound refid="db/d6b/class_u_i_view" kind="class"><name>UIView</name>
+  </compound>
+  <compound refid="d7/d7e/class_u_i_view_controller" kind="class"><name>UIViewController</name>
+  </compound>
+  <compound refid="d9/d6a/interface_u_i_x_toolbar_shadow" kind="class"><name>UIXToolbarShadow</name>
+  </compound>
+  <compound refid="d3/dea/interface_u_i_x_toolbar_view" kind="class"><name>UIXToolbarView</name>
+  </compound>
+  <compound refid="dc/d3c/_reader_app_delegate_8h" kind="file"><name>ReaderAppDelegate.h</name>
+  </compound>
+  <compound refid="d2/d59/_reader_app_delegate_8m" kind="file"><name>ReaderAppDelegate.m</name>
+    <member refid="d2/d59/_reader_app_delegate_8m_1ad41d327356247702d2a76f46a3a75a2a" kind="variable"><name>navigationController</name></member>
+    <member refid="d2/d59/_reader_app_delegate_8m_1a281653728c72507f807ace642add9886" kind="variable"><name>readerDemoController</name></member>
+  </compound>
+  <compound refid="d3/d5d/_reader_book_delegate_8h" kind="file"><name>ReaderBookDelegate.h</name>
+  </compound>
+  <compound refid="de/dd9/_reader_book_delegate_8m" kind="file"><name>ReaderBookDelegate.m</name>
+    <member refid="de/dd9/_reader_book_delegate_8m_1add564bf71ff7d4c853227ebcfa5ad8df" kind="variable"><name>readerViewController</name></member>
+  </compound>
+  <compound refid="de/d19/_reader_demo_controller_8h" kind="file"><name>ReaderDemoController.h</name>
+  </compound>
+  <compound refid="d9/db5/_reader_demo_controller_8m" kind="file"><name>ReaderDemoController.m</name>
+    <member refid="d9/db5/_reader_demo_controller_8m_1a013c077e177817b46e4d89a1bdd52eca" kind="define"><name>DEMO_VIEW_CONTROLLER_PUSH</name></member>
+  </compound>
+  <compound refid="df/db4/_h_i_s_t_o_r_y_8md" kind="file"><name>HISTORY.md</name>
+  </compound>
+  <compound refid="dd/d79/_l_i_c_e_n_s_e_8md" kind="file"><name>LICENSE.md</name>
+  </compound>
+  <compound refid="d8/dd9/main_8m" kind="file"><name>main.m</name>
+    <member refid="d8/dd9/main_8m_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="d9/dd6/_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="d0/db1/_c_g_p_d_f_document_8h" kind="file"><name>CGPDFDocument.h</name>
+    <member refid="d0/db1/_c_g_p_d_f_document_8h_1a29e26388c8323c906c5b3160d32cb5f1" kind="function"><name>CGPDFDocumentCreateX</name></member>
+    <member refid="d0/db1/_c_g_p_d_f_document_8h_1a8d3893fc485b036a0996138760656c82" kind="function"><name>CGPDFDocumentNeedsPassword</name></member>
+  </compound>
+  <compound refid="d8/dac/_c_g_p_d_f_document_8m" kind="file"><name>CGPDFDocument.m</name>
+    <member refid="d8/dac/_c_g_p_d_f_document_8m_1a29e26388c8323c906c5b3160d32cb5f1" kind="function"><name>CGPDFDocumentCreateX</name></member>
+    <member refid="d8/dac/_c_g_p_d_f_document_8m_1a8d3893fc485b036a0996138760656c82" kind="function"><name>CGPDFDocumentNeedsPassword</name></member>
+  </compound>
+  <compound refid="d9/dca/_reader_constants_8h" kind="file"><name>ReaderConstants.h</name>
+    <member refid="d9/dca/_reader_constants_8h_1a86ca34e77ef1fa1e16b98cb8437452ab" kind="define"><name>READER_BOOKMARKS</name></member>
+    <member refid="d9/dca/_reader_constants_8h_1a13973483334283c82da76e9d239eadc0" kind="define"><name>READER_ENABLE_MAIL</name></member>
+    <member refid="d9/dca/_reader_constants_8h_1a87e9bb8ee96d5f0a6c5c99d2c8dd1b99" kind="define"><name>READER_ENABLE_PRINT</name></member>
+    <member refid="d9/dca/_reader_constants_8h_1af883b26a8905278b6e67c16df69755d2" kind="define"><name>READER_ENABLE_THUMBS</name></member>
+    <member refid="d9/dca/_reader_constants_8h_1a474f9b4b05f944a9fd3eac9ca382e4ba" kind="define"><name>READER_ENABLE_PREVIEW</name></member>
+    <member refid="d9/dca/_reader_constants_8h_1a5e2d61b0f44a43f09c46b3edb30ecf87" kind="define"><name>READER_DISABLE_RETINA</name></member>
+    <member refid="d9/dca/_reader_constants_8h_1a0ec890949e5cb38482a782182b2a016a" kind="define"><name>READER_DISABLE_IDLE</name></member>
+    <member refid="d9/dca/_reader_constants_8h_1a1c53d6067046ed5a8cc5a25439b953ad" kind="define"><name>READER_SHOW_SHADOWS</name></member>
+    <member refid="d9/dca/_reader_constants_8h_1a86dd7ead52a6b8d8a6d1a56727175926" kind="define"><name>READER_STANDALONE</name></member>
+    <member refid="d9/dca/_reader_constants_8h_1ac3529fcad5224ffe205f06aa246d5089" kind="variable"><name>kReaderCopyrightNotice</name></member>
+  </compound>
+  <compound refid="d4/dd2/_reader_constants_8m" kind="file"><name>ReaderConstants.m</name>
+    <member refid="d4/dd2/_reader_constants_8m_1ac3529fcad5224ffe205f06aa246d5089" kind="variable"><name>kReaderCopyrightNotice</name></member>
+  </compound>
+  <compound refid="de/d36/_reader_content_page_8h" kind="file"><name>ReaderContentPage.h</name>
+  </compound>
+  <compound refid="d3/d15/_reader_content_page_8m" kind="file"><name>ReaderContentPage.m</name>
+    <member refid="d3/d15/_reader_content_page_8m_1afde627706f908e1a2006f0654e478695" kind="variable"><name>_PDFDocRef</name></member>
+    <member refid="d3/d15/_reader_content_page_8m_1ad73c5a1305715113a5725011a29a0b7c" kind="variable"><name>_PDFPageRef</name></member>
+    <member refid="d3/d15/_reader_content_page_8m_1ac71fb248bcdf7365c8d03652dcc0265e" kind="variable"><name>_pageAngle</name></member>
+    <member refid="d3/d15/_reader_content_page_8m_1afaee0eb60985ed0b9c8d9a361acee6fb" kind="variable"><name>_pageWidth</name></member>
+    <member refid="d3/d15/_reader_content_page_8m_1a2acd052a4094e9819788a244872e525a" kind="variable"><name>_pageHeight</name></member>
+    <member refid="d3/d15/_reader_content_page_8m_1a1a8b8427a6b8cb04dfa0002c9f5ae822" kind="variable"><name>_pageOffsetX</name></member>
+    <member refid="d3/d15/_reader_content_page_8m_1a867fe189119d622784921bf5851a7470" kind="variable"><name>_pageOffsetY</name></member>
+    <member refid="d3/d15/_reader_content_page_8m_1a565bf633affc6b5982634237c859bb2f" kind="variable"><name>_rect</name></member>
+  </compound>
+  <compound refid="d9/d98/_reader_content_tile_8h" kind="file"><name>ReaderContentTile.h</name>
+  </compound>
+  <compound refid="d2/d3f/_reader_content_tile_8m" kind="file"><name>ReaderContentTile.m</name>
+    <member refid="d2/d3f/_reader_content_tile_8m_1a8029ff1914043ca7670ac40052830b73" kind="define"><name>LEVELS_OF_DETAIL</name></member>
+    <member refid="d2/d3f/_reader_content_tile_8m_1a74f4ee602b779dc1047a10fd611468c1" kind="define"><name>LEVELS_OF_DETAIL_BIAS</name></member>
+  </compound>
+  <compound refid="da/dd6/_reader_content_view_8h" kind="file"><name>ReaderContentView.h</name>
+  </compound>
+  <compound refid="d0/dfc/_reader_content_view_8m" kind="file"><name>ReaderContentView.m</name>
+    <member refid="d0/dfc/_reader_content_view_8m_1a4e0bf09e231e4136fa48545a3a009139" kind="define"><name>ZOOM_LEVELS</name></member>
+    <member refid="d0/dfc/_reader_content_view_8m_1a3cde7c414f32ec6318a25dd6ab15838b" kind="define"><name>CONTENT_INSET</name></member>
+    <member refid="d0/dfc/_reader_content_view_8m_1a3743fb19ca662d805f3189a296804910" kind="define"><name>PAGE_THUMB_LARGE</name></member>
+    <member refid="d0/dfc/_reader_content_view_8m_1aee64ce469e56253e26100e37ae359664" kind="define"><name>PAGE_THUMB_SMALL</name></member>
+    <member refid="d0/dfc/_reader_content_view_8m_1a43bbdfc8c7e72c062123df3990bbd296" kind="variable"><name>theThumbView</name></member>
+    <member refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" kind="variable"><name>theContainerView</name></member>
+    <member refid="d0/dfc/_reader_content_view_8m_1afaa77712cb340ee34fc56eb5b926d98d" kind="variable"><name>zoomAmount</name></member>
+    <member refid="d0/dfc/_reader_content_view_8m_1aacfb0f4272e6d64aebe52626479fb1ea" kind="variable"><name>ReaderContentViewContext</name></member>
+  </compound>
+  <compound refid="d9/db4/_reader_document_8h" kind="file"><name>ReaderDocument.h</name>
+  </compound>
+  <compound refid="d3/dfb/_reader_document_8m" kind="file"><name>ReaderDocument.m</name>
+    <member refid="d3/dfb/_reader_document_8m_1a280582bf94c845a6b2b1172b47985bb9" kind="variable"><name>_fileDate</name></member>
+    <member refid="d3/dfb/_reader_document_8m_1a58a038479c757187e233a0ea71d54dbe" kind="variable"><name>_lastOpen</name></member>
+    <member refid="d3/dfb/_reader_document_8m_1aadbe3726ec4d6dbd8227fb5af7325ec8" kind="variable"><name>_fileSize</name></member>
+    <member refid="d3/dfb/_reader_document_8m_1a768e662987b3edbf2688848b45bea3da" kind="variable"><name>_pageCount</name></member>
+    <member refid="d3/dfb/_reader_document_8m_1a6181e4abb2165c889e8f788bd29caedb" kind="variable"><name>_pageNumber</name></member>
+    <member refid="d3/dfb/_reader_document_8m_1a9c4719c9861c51f3d80f92a851c132ed" kind="variable"><name>_bookmarks</name></member>
+    <member refid="d3/dfb/_reader_document_8m_1af84710c8ffca4efe47502b31270c5783" kind="variable"><name>_fileName</name></member>
+    <member refid="d3/dfb/_reader_document_8m_1a6ae163208de62aa6f2598ccb01f9a070" kind="variable"><name>_password</name></member>
+    <member refid="d3/dfb/_reader_document_8m_1a44c360ac4a26f4e4fa04c9c8ca0ac81a" kind="variable"><name>_fileURL</name></member>
+  </compound>
+  <compound refid="d6/d79/_reader_document_outline_8h" kind="file"><name>ReaderDocumentOutline.h</name>
+  </compound>
+  <compound refid="d3/d2f/_reader_document_outline_8m" kind="file"><name>ReaderDocumentOutline.m</name>
+    <member refid="d3/d2f/_reader_document_outline_8m_1a1463141eaaccd4d84c1ce5a3954fdd0e" kind="define"><name>HIERARCHICAL_OUTLINE</name></member>
+    <member refid="d3/d2f/_reader_document_outline_8m_1a9fa35d29740af144c6c640dd1f5cad82" kind="variable"><name>_children</name></member>
+    <member refid="d3/d2f/_reader_document_outline_8m_1a78ece608a100f962201f4a1ed0487d60" kind="variable"><name>_title</name></member>
+    <member refid="d3/d2f/_reader_document_outline_8m_1a8319766446f49bad541e85562ff18476" kind="variable"><name>_target</name></member>
+  </compound>
+  <compound refid="d9/d69/_reader_main_pagebar_8h" kind="file"><name>ReaderMainPagebar.h</name>
+  </compound>
+  <compound refid="de/d08/_reader_main_pagebar_8m" kind="file"><name>ReaderMainPagebar.m</name>
+    <member refid="de/d08/_reader_main_pagebar_8m_1a180c94e132479bd2ba59e6c1885b9c89" kind="define"><name>THUMB_SMALL_GAP</name></member>
+    <member refid="de/d08/_reader_main_pagebar_8m_1a08ee0c339acdbfb35232cf30808f095b" kind="define"><name>THUMB_SMALL_WIDTH</name></member>
+    <member refid="de/d08/_reader_main_pagebar_8m_1aec5f13f9043470f9578f841af959bdfa" kind="define"><name>THUMB_SMALL_HEIGHT</name></member>
+    <member refid="de/d08/_reader_main_pagebar_8m_1a4693f1d651b875475204619a9bea49e6" kind="define"><name>THUMB_LARGE_WIDTH</name></member>
+    <member refid="de/d08/_reader_main_pagebar_8m_1a3afcd44650b9ed9d3ab19a3321034019" kind="define"><name>THUMB_LARGE_HEIGHT</name></member>
+    <member refid="de/d08/_reader_main_pagebar_8m_1aac10052e24bcffe9493c14b36de940e1" kind="define"><name>PAGE_NUMBER_WIDTH</name></member>
+    <member refid="de/d08/_reader_main_pagebar_8m_1aafb4d17bff3f03afc7db061ed29a9f66" kind="define"><name>PAGE_NUMBER_HEIGHT</name></member>
+    <member refid="de/d08/_reader_main_pagebar_8m_1a2677ea8745695182e419ab1045345c26" kind="define"><name>PAGE_NUMBER_SPACE</name></member>
+    <member refid="de/d08/_reader_main_pagebar_8m_1af2419bb02973efd46c8cd511d62a0e55" kind="variable"><name>trackControl</name></member>
+    <member refid="de/d08/_reader_main_pagebar_8m_1a6de392004fbeba7f1f705d936a59fbf2" kind="variable"><name>miniThumbViews</name></member>
+    <member refid="de/d08/_reader_main_pagebar_8m_1a29eefa5acf3247abd51e28129cf3ea03" kind="variable"><name>pageThumbView</name></member>
+    <member refid="de/d08/_reader_main_pagebar_8m_1a557956db9b02e362cd63fcd0e2b9178a" kind="variable"><name>pageNumberLabel</name></member>
+    <member refid="de/d08/_reader_main_pagebar_8m_1a8ce2239057b89357c1a2b8b4e6fd9d74" kind="variable"><name>pageNumberView</name></member>
+    <member refid="de/d08/_reader_main_pagebar_8m_1a636ed67b08c37d58cba31357d8c622c4" kind="variable"><name>enableTimer</name></member>
+    <member refid="de/d08/_reader_main_pagebar_8m_1a368689a42c8483d1519e91adf5a7cbe8" kind="variable"><name>trackTimer</name></member>
+  </compound>
+  <compound refid="db/d57/_reader_main_toolbar_8h" kind="file"><name>ReaderMainToolbar.h</name>
+  </compound>
+  <compound refid="dc/d5a/_reader_main_toolbar_8m" kind="file"><name>ReaderMainToolbar.m</name>
+    <member refid="dc/d5a/_reader_main_toolbar_8m_1aa00c852ab240ccfc4717b66f0dddeeb0" kind="define"><name>BUTTON_X</name></member>
+    <member refid="dc/d5a/_reader_main_toolbar_8m_1ae828609252069795563592f52c8f0ff1" kind="define"><name>BUTTON_Y</name></member>
+    <member refid="dc/d5a/_reader_main_toolbar_8m_1a8f1e10810c95f47c353b73f314285eac" kind="define"><name>BUTTON_SPACE</name></member>
+    <member refid="dc/d5a/_reader_main_toolbar_8m_1a94be6e055d514b19c7cb5f56f492f016" kind="define"><name>BUTTON_HEIGHT</name></member>
+    <member refid="dc/d5a/_reader_main_toolbar_8m_1af073b8929e9fb751d249916260bbca28" kind="define"><name>DONE_BUTTON_WIDTH</name></member>
+    <member refid="dc/d5a/_reader_main_toolbar_8m_1a47910ffb1aa9a71b761234762df10d1c" kind="define"><name>THUMBS_BUTTON_WIDTH</name></member>
+    <member refid="dc/d5a/_reader_main_toolbar_8m_1a5bdb2724f48d40c1b0c506a42e890f42" kind="define"><name>PRINT_BUTTON_WIDTH</name></member>
+    <member refid="dc/d5a/_reader_main_toolbar_8m_1a160e114c168fc3f89a1916fa95fe5761" kind="define"><name>EMAIL_BUTTON_WIDTH</name></member>
+    <member refid="dc/d5a/_reader_main_toolbar_8m_1a301de4b68716d736925373b4bc5aa4dc" kind="define"><name>MARK_BUTTON_WIDTH</name></member>
+    <member refid="dc/d5a/_reader_main_toolbar_8m_1aca66aeea7d75b42b8f410023f648964c" kind="define"><name>TITLE_HEIGHT</name></member>
+    <member refid="dc/d5a/_reader_main_toolbar_8m_1a0be688d5d461c865feb3bca482f6fd56" kind="variable"><name>markImageN</name></member>
+    <member refid="dc/d5a/_reader_main_toolbar_8m_1a0c7ea625f3f54ee83387ae2a68caa77a" kind="variable"><name>markImageY</name></member>
+  </compound>
+  <compound refid="d2/d4c/_reader_thumb_cache_8h" kind="file"><name>ReaderThumbCache.h</name>
+  </compound>
+  <compound refid="db/d21/_reader_thumb_cache_8m" kind="file"><name>ReaderThumbCache.m</name>
+    <member refid="db/d21/_reader_thumb_cache_8m_1a8a6befd630ea1c2ab260266f7466540c" kind="define"><name>CACHE_SIZE</name></member>
+  </compound>
+  <compound refid="dc/dbe/_reader_thumb_fetch_8h" kind="file"><name>ReaderThumbFetch.h</name>
+  </compound>
+  <compound refid="d5/de2/_reader_thumb_fetch_8m" kind="file"><name>ReaderThumbFetch.m</name>
+  </compound>
+  <compound refid="dd/d6f/_reader_thumb_queue_8h" kind="file"><name>ReaderThumbQueue.h</name>
+  </compound>
+  <compound refid="d2/d6b/_reader_thumb_queue_8m" kind="file"><name>ReaderThumbQueue.m</name>
+    <member refid="d2/d6b/_reader_thumb_queue_8m_1a3cda6bc4a6810340f04ac240fda06e92" kind="variable"><name>workQueue</name></member>
+  </compound>
+  <compound refid="db/dc3/_reader_thumb_render_8h" kind="file"><name>ReaderThumbRender.h</name>
+  </compound>
+  <compound refid="d8/da2/_reader_thumb_render_8m" kind="file"><name>ReaderThumbRender.m</name>
+  </compound>
+  <compound refid="d6/d40/_reader_thumb_request_8h" kind="file"><name>ReaderThumbRequest.h</name>
+  </compound>
+  <compound refid="dc/d88/_reader_thumb_request_8m" kind="file"><name>ReaderThumbRequest.m</name>
+    <member refid="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" kind="variable"><name>_guid</name></member>
+    <member refid="dc/d88/_reader_thumb_request_8m_1a6ae163208de62aa6f2598ccb01f9a070" kind="variable"><name>_password</name></member>
+    <member refid="dc/d88/_reader_thumb_request_8m_1a9305eb8e7fe03dd8cec29006874b9c49" kind="variable"><name>_cacheKey</name></member>
+    <member refid="dc/d88/_reader_thumb_request_8m_1a78f2707a6070bfc4495d6926fb16d9f2" kind="variable"><name>_thumbName</name></member>
+    <member refid="dc/d88/_reader_thumb_request_8m_1a01b22a1fc43d1c321b4a2f4ee61d1b93" kind="variable"><name>_thumbView</name></member>
+    <member refid="dc/d88/_reader_thumb_request_8m_1a70ff504e792fcc958a9e146ef05a79c6" kind="variable"><name>_targetTag</name></member>
+    <member refid="dc/d88/_reader_thumb_request_8m_1a046c75570ce55248736ec26b09b003ea" kind="variable"><name>_thumbPage</name></member>
+    <member refid="dc/d88/_reader_thumb_request_8m_1a887028d2956ad7bf7dd7b9a02f9f0bcf" kind="variable"><name>_thumbSize</name></member>
+    <member refid="dc/d88/_reader_thumb_request_8m_1abde0127852d885613d2412e4ab3ade5a" kind="variable"><name>_scale</name></member>
+  </compound>
+  <compound refid="d8/dce/_reader_thumbs_view_8h" kind="file"><name>ReaderThumbsView.h</name>
+  </compound>
+  <compound refid="db/d49/_reader_thumbs_view_8m" kind="file"><name>ReaderThumbsView.m</name>
+    <member refid="db/d49/_reader_thumbs_view_8m_1ac4edbb728b2af82a6a08f96e88be31f7" kind="variable"><name>touchedCell</name></member>
+    <member refid="db/d49/_reader_thumbs_view_8m_1ad1bff0b0f9407308a582b7f2e510aae7" kind="variable"><name>thumbCellsQueue</name></member>
+    <member refid="db/d49/_reader_thumbs_view_8m_1a265ca0a9638c515e11fe1e569ef1239f" kind="variable"><name>thumbCellsVisible</name></member>
+    <member refid="db/d49/_reader_thumbs_view_8m_1a44e47de5a49a4efdad6f56a933033b0b" kind="variable"><name>_thumbsX</name></member>
+    <member refid="db/d49/_reader_thumbs_view_8m_1a0fb38346829167a93169c0e82640dfb8" kind="variable"><name>_thumbsY</name></member>
+    <member refid="db/d49/_reader_thumbs_view_8m_1af6ab18bc507586014418e17810eda87d" kind="variable"><name>_thumbX</name></member>
+    <member refid="db/d49/_reader_thumbs_view_8m_1a887028d2956ad7bf7dd7b9a02f9f0bcf" kind="variable"><name>_thumbSize</name></member>
+    <member refid="db/d49/_reader_thumbs_view_8m_1a6f4010191494c2a6541d5d04b2c805ff" kind="variable"><name>_lastViewSize</name></member>
+    <member refid="db/d49/_reader_thumbs_view_8m_1ae943d1c77c2efc5951403202c79ba61f" kind="variable"><name>_thumbCount</name></member>
+    <member refid="db/d49/_reader_thumbs_view_8m_1a9a2a6c3f529e28b31b2e19ab4450db9b" kind="variable"><name>canUpdate</name></member>
+  </compound>
+  <compound refid="d6/d83/_reader_thumb_view_8h" kind="file"><name>ReaderThumbView.h</name>
+  </compound>
+  <compound refid="d7/dce/_reader_thumb_view_8m" kind="file"><name>ReaderThumbView.m</name>
+    <member refid="d7/dce/_reader_thumb_view_8m_1a70ff504e792fcc958a9e146ef05a79c6" kind="variable"><name>_targetTag</name></member>
+  </compound>
+  <compound refid="d2/dca/_reader_view_controller_8h" kind="file"><name>ReaderViewController.h</name>
+  </compound>
+  <compound refid="da/d57/_reader_view_controller_8m" kind="file"><name>ReaderViewController.m</name>
+    <member refid="da/d57/_reader_view_controller_8m_1a5280d888eb4e783a660e1fab109fd0ce" kind="define"><name>PAGING_VIEWS</name></member>
+    <member refid="da/d57/_reader_view_controller_8m_1a2f6f5ca2387ead23dcdfcec8360087ce" kind="define"><name>TOOLBAR_HEIGHT</name></member>
+    <member refid="da/d57/_reader_view_controller_8m_1a1ad01bf2aff9a7894bdf80d966f6c5dc" kind="define"><name>PAGEBAR_HEIGHT</name></member>
+    <member refid="da/d57/_reader_view_controller_8m_1a2200fe7bdd836fc656a65b767b1ffc19" kind="define"><name>TAP_AREA_SIZE</name></member>
+    <member refid="da/d57/_reader_view_controller_8m_1a26b3f142981df1c2060c9fe2975e292c" kind="variable"><name>theScrollView</name></member>
+    <member refid="da/d57/_reader_view_controller_8m_1ab4986c01722ed98cc120accb47922a4a" kind="variable"><name>mainToolbar</name></member>
+    <member refid="da/d57/_reader_view_controller_8m_1a784b120a3dba6d28c1a7ec26068be81a" kind="variable"><name>mainPagebar</name></member>
+    <member refid="da/d57/_reader_view_controller_8m_1a746ff8850587586606081d42d61421c8" kind="variable"><name>contentViews</name></member>
+    <member refid="da/d57/_reader_view_controller_8m_1a19134a5a48cfeb8bf28dcafd3d5817df" kind="variable"><name>printInteraction</name></member>
+    <member refid="da/d57/_reader_view_controller_8m_1a2a2c6697f5ae01721db7e4c15a72c6b1" kind="variable"><name>currentPage</name></member>
+    <member refid="da/d57/_reader_view_controller_8m_1a92f98c2888ea8f2a870d07900e4c4047" kind="variable"><name>lastAppearSize</name></member>
+    <member refid="da/d57/_reader_view_controller_8m_1aa8a6f45542aebe790a6e7d1dfd2fe4da" kind="variable"><name>lastHideTime</name></member>
+    <member refid="da/d57/_reader_view_controller_8m_1aec65890e2f31eaa6ca53c56b5ea79f76" kind="variable"><name>isVisible</name></member>
+  </compound>
+  <compound refid="d4/d40/_thumbs_main_toolbar_8h" kind="file"><name>ThumbsMainToolbar.h</name>
+  </compound>
+  <compound refid="d6/d82/_thumbs_main_toolbar_8m" kind="file"><name>ThumbsMainToolbar.m</name>
+    <member refid="d6/d82/_thumbs_main_toolbar_8m_1aa00c852ab240ccfc4717b66f0dddeeb0" kind="define"><name>BUTTON_X</name></member>
+    <member refid="d6/d82/_thumbs_main_toolbar_8m_1ae828609252069795563592f52c8f0ff1" kind="define"><name>BUTTON_Y</name></member>
+    <member refid="d6/d82/_thumbs_main_toolbar_8m_1a8f1e10810c95f47c353b73f314285eac" kind="define"><name>BUTTON_SPACE</name></member>
+    <member refid="d6/d82/_thumbs_main_toolbar_8m_1a94be6e055d514b19c7cb5f56f492f016" kind="define"><name>BUTTON_HEIGHT</name></member>
+    <member refid="d6/d82/_thumbs_main_toolbar_8m_1af073b8929e9fb751d249916260bbca28" kind="define"><name>DONE_BUTTON_WIDTH</name></member>
+    <member refid="d6/d82/_thumbs_main_toolbar_8m_1a79bea6cfde3660a4458408bb01571e6f" kind="define"><name>SHOW_CONTROL_WIDTH</name></member>
+    <member refid="d6/d82/_thumbs_main_toolbar_8m_1aca66aeea7d75b42b8f410023f648964c" kind="define"><name>TITLE_HEIGHT</name></member>
+  </compound>
+  <compound refid="d8/df0/_thumbs_view_controller_8h" kind="file"><name>ThumbsViewController.h</name>
+  </compound>
+  <compound refid="d3/d0f/_thumbs_view_controller_8m" kind="file"><name>ThumbsViewController.m</name>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1a2f6f5ca2387ead23dcdfcec8360087ce" kind="define"><name>TOOLBAR_HEIGHT</name></member>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1aee64ce469e56253e26100e37ae359664" kind="define"><name>PAGE_THUMB_SMALL</name></member>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1a3743fb19ca662d805f3189a296804910" kind="define"><name>PAGE_THUMB_LARGE</name></member>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1a3cde7c414f32ec6318a25dd6ab15838b" kind="define"><name>CONTENT_INSET</name></member>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1a85729931ae389a0d30bf72322105e782" kind="variable"><name>mainToolbar</name></member>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1a7b7b62f7d1be0e30925b1d57326fc41e" kind="variable"><name>theThumbsView</name></member>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1a964e0b4394e13dfbf22f75af703c3b49" kind="variable"><name>bookmarked</name></member>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1a465a35365e2be615adf95050bac711bd" kind="variable"><name>thumbsOffset</name></member>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1ae5f42e6aee7bf36fd176a61355d300a6" kind="variable"><name>markedOffset</name></member>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1a5c7a5dd591616a23cb4fd962d7f50925" kind="variable"><name>updateBookmarked</name></member>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1a17ff10d4b0df6958404e7c6dac3a56c3" kind="variable"><name>showBookmarked</name></member>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1a6c428d29cb6d0c3b04b1532229cb424e" kind="variable"><name>tintView</name></member>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1a21d969dcd3722a9fde2cba36b8cde218" kind="variable"><name>textLabel</name></member>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1a1beffcf65279226404237395792d11a8" kind="variable"><name>bookMark</name></member>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1af52ea7735401f6383756ed49b729c0d8" kind="variable"><name>maximumSize</name></member>
+    <member refid="d3/d0f/_thumbs_view_controller_8m_1a9ab93a37a1c99042027e3ba07bd5ad1b" kind="variable"><name>defaultRect</name></member>
+  </compound>
+  <compound refid="d4/dea/_u_i_x_toolbar_view_8h" kind="file"><name>UIXToolbarView.h</name>
+  </compound>
+  <compound refid="da/de8/_u_i_x_toolbar_view_8m" kind="file"><name>UIXToolbarView.m</name>
+    <member refid="da/de8/_u_i_x_toolbar_view_8m_1a0abf26892571bf692b782a1e6e0d0e45" kind="define"><name>SHADOW_HEIGHT</name></member>
+  </compound>
+  <compound refid="d4/d5d/md__h_i_s_t_o_r_y" kind="page"><name>md_HISTORY</name>
+  </compound>
+  <compound refid="d2/d35/md__l_i_c_e_n_s_e" kind="page"><name>md_LICENSE</name>
+  </compound>
+  <compound refid="d3/dcc/md__r_e_a_d_m_e" kind="page"><name>md_README</name>
+  </compound>
+  <compound refid="dir_0c68614ac8d8401edbf4146ded722294" kind="dir"><name>Classes</name>
+  </compound>
+  <compound refid="dir_937900b87e0c7a5fa01190c395fb83f7" kind="dir"><name>Sources</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dc/d88/_reader_thumb_request_8m" kind="file">
+    <compoundname>ReaderThumbRequest.m</compoundname>
+    <includes refid="d6/d40/_reader_thumb_request_8h" local="yes">ReaderThumbRequest.h</includes>
+    <includes refid="d6/d83/_reader_thumb_view_8h" local="yes">ReaderThumbView.h</includes>
+    <incdepgraph>
+      <node id="623">
+        <label>ReaderThumbRequest.h</label>
+        <link refid="d6/d40/_reader_thumb_request_8h"/>
+        <childnode refid="624" relation="include">
+        </childnode>
+      </node>
+      <node id="622">
+        <label>Sources/ReaderThumbRequest.m</label>
+        <link refid="ReaderThumbRequest.m"/>
+        <childnode refid="623" relation="include">
+        </childnode>
+        <childnode refid="625" relation="include">
+        </childnode>
+      </node>
+      <node id="624">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="625">
+        <label>ReaderThumbView.h</label>
+        <link refid="d6/d83/_reader_thumb_view_8h"/>
+        <childnode refid="624" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" prot="public" static="no" mutable="no">
+        <type>NSString *</type>
+        <definition>NSString* _guid</definition>
+        <argsstring></argsstring>
+        <name>_guid</name>
+        <initializer>{
+	NSURL *<ref refid="d3/dfb/_reader_document_8m_1a44c360ac4a26f4e4fa04c9c8ca0ac81a" kindref="member">_fileURL</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" line="33" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" bodystart="30" bodyend="-1"/>
+        <referencedby refid="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" compoundref="d3/dfb/_reader_document_8m" startline="197" endline="249">ReaderDocument::initWithFilePath:password:</referencedby>
+        <referencedby refid="d1/d35/interface_reader_thumb_operation_1ac842ce4ae99d560dec9449fb598996bf" compoundref="d2/d6b/_reader_thumb_queue_8m" startline="131" endline="139">ReaderThumbOperation::initWithGUID:</referencedby>
+        <referencedby refid="dc/dc5/interface_reader_thumb_request_1ab638dcd23e07bd9b88b5f149b789a91a" compoundref="dc/d88/_reader_thumb_request_8m" startline="74" endline="94">ReaderThumbRequest::initWithView:fileURL:password:guid:page:size:</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d88/_reader_thumb_request_8m_1a6ae163208de62aa6f2598ccb01f9a070" prot="public" static="no" mutable="no">
+        <type>NSString *</type>
+        <definition>NSString* _password</definition>
+        <argsstring></argsstring>
+        <name>_password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" line="35" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d88/_reader_thumb_request_8m_1a9305eb8e7fe03dd8cec29006874b9c49" prot="public" static="no" mutable="no">
+        <type>NSString *</type>
+        <definition>NSString* _cacheKey</definition>
+        <argsstring></argsstring>
+        <name>_cacheKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" line="37" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" bodystart="37" bodyend="-1"/>
+        <referencedby refid="dc/dc5/interface_reader_thumb_request_1ab638dcd23e07bd9b88b5f149b789a91a" compoundref="dc/d88/_reader_thumb_request_8m" startline="74" endline="94">ReaderThumbRequest::initWithView:fileURL:password:guid:page:size:</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d88/_reader_thumb_request_8m_1a78f2707a6070bfc4495d6926fb16d9f2" prot="public" static="no" mutable="no">
+        <type>NSString *</type>
+        <definition>NSString* _thumbName</definition>
+        <argsstring></argsstring>
+        <name>_thumbName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" line="39" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" bodystart="39" bodyend="-1"/>
+        <referencedby refid="dc/dc5/interface_reader_thumb_request_1ab638dcd23e07bd9b88b5f149b789a91a" compoundref="dc/d88/_reader_thumb_request_8m" startline="74" endline="94">ReaderThumbRequest::initWithView:fileURL:password:guid:page:size:</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d88/_reader_thumb_request_8m_1a01b22a1fc43d1c321b4a2f4ee61d1b93" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d25/interface_reader_thumb_view" kindref="compound">ReaderThumbView</ref> *</type>
+        <definition>ReaderThumbView* _thumbView</definition>
+        <argsstring></argsstring>
+        <name>_thumbView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" line="41" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" bodystart="41" bodyend="-1"/>
+        <referencedby refid="dc/dc5/interface_reader_thumb_request_1ab638dcd23e07bd9b88b5f149b789a91a" compoundref="dc/d88/_reader_thumb_request_8m" startline="74" endline="94">ReaderThumbRequest::initWithView:fileURL:password:guid:page:size:</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d88/_reader_thumb_request_8m_1a70ff504e792fcc958a9e146ef05a79c6" prot="public" static="no" mutable="no">
+        <type>NSUInteger</type>
+        <definition>NSUInteger _targetTag</definition>
+        <argsstring></argsstring>
+        <name>_targetTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" line="43" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" bodystart="43" bodyend="-1"/>
+        <referencedby refid="dc/dc5/interface_reader_thumb_request_1ab638dcd23e07bd9b88b5f149b789a91a" compoundref="dc/d88/_reader_thumb_request_8m" startline="74" endline="94">ReaderThumbRequest::initWithView:fileURL:password:guid:page:size:</referencedby>
+        <referencedby refid="d8/d25/interface_reader_thumb_view_1a747633c2aba05254b667d2e346e083e1" compoundref="d7/dce/_reader_thumb_view_8m" startline="84" endline="91">ReaderThumbView::reuse</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d88/_reader_thumb_request_8m_1a046c75570ce55248736ec26b09b003ea" prot="public" static="no" mutable="no">
+        <type>NSInteger</type>
+        <definition>NSInteger _thumbPage</definition>
+        <argsstring></argsstring>
+        <name>_thumbPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" line="45" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" bodystart="45" bodyend="-1"/>
+        <referencedby refid="dc/dc5/interface_reader_thumb_request_1ab638dcd23e07bd9b88b5f149b789a91a" compoundref="dc/d88/_reader_thumb_request_8m" startline="74" endline="94">ReaderThumbRequest::initWithView:fileURL:password:guid:page:size:</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d88/_reader_thumb_request_8m_1a887028d2956ad7bf7dd7b9a02f9f0bcf" prot="public" static="no" mutable="no">
+        <type>CGSize</type>
+        <definition>CGSize _thumbSize</definition>
+        <argsstring></argsstring>
+        <name>_thumbSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" line="47" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" bodystart="47" bodyend="-1"/>
+        <referencedby refid="dc/dc5/interface_reader_thumb_request_1ab638dcd23e07bd9b88b5f149b789a91a" compoundref="dc/d88/_reader_thumb_request_8m" startline="74" endline="94">ReaderThumbRequest::initWithView:fileURL:password:guid:page:size:</referencedby>
+        <referencedby refid="dd/df8/interface_reader_thumbs_view_1a3d0774973c3859073f9185d00d50dafc" compoundref="db/d49/_reader_thumbs_view_8m" startline="278" endline="287">ReaderThumbsView::setThumbSize:</referencedby>
+        <referencedby refid="dd/df8/interface_reader_thumbs_view_1adcc5f4050e6655a6da21b8f3423cbf3e" compoundref="db/d49/_reader_thumbs_view_8m" startline="289" endline="339">ReaderThumbsView::reloadThumbsCenterOnIndex:</referencedby>
+        <referencedby refid="dd/df8/interface_reader_thumbs_view_1ad4c9f141d7a0cbdb6120bd658ac4ca8a" compoundref="db/d49/_reader_thumbs_view_8m" startline="341" endline="389">ReaderThumbsView::reloadThumbsContentOffset:</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d88/_reader_thumb_request_8m_1abde0127852d885613d2412e4ab3ade5a" prot="public" static="no" mutable="no">
+        <type>CGFloat</type>
+        <definition>CGFloat _scale</definition>
+        <argsstring></argsstring>
+        <name>_scale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" line="49" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m" bodystart="49" bodyend="-1"/>
+        <referencedby refid="dc/dc5/interface_reader_thumb_request_1ab638dcd23e07bd9b88b5f149b789a91a" compoundref="dc/d88/_reader_thumb_request_8m" startline="74" endline="94">ReaderThumbRequest::initWithView:fileURL:password:guid:page:size:</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>ReaderThumbRequest.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Reader<sp/>v2.6.1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Julius<sp/>Oklamcak<sp/>on<sp/>2011-09-01.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2011-2012<sp/>Julius<sp/>Oklamcak.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell<sp/>copies</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in<sp/>all</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>OR<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="d6/d40/_reader_thumb_request_8h" kindref="compound">ReaderThumbRequest.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="d6/d83/_reader_thumb_view_8h" kindref="compound">ReaderThumbView.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="dc/dc5/interface_reader_thumb_request" kindref="compound">ReaderThumbRequest</ref></highlight></codeline>
+<codeline lineno="30" refid="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" refkind="member"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>NSURL<sp/>*<ref refid="d3/dfb/_reader_document_8m_1a44c360ac4a26f4e4fa04c9c8ca0ac81a" kindref="member">_fileURL</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*<ref refid="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" kindref="member">_guid</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="dc/d88/_reader_thumb_request_8m_1a6ae163208de62aa6f2598ccb01f9a070" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*<ref refid="d3/dfb/_reader_document_8m_1a6ae163208de62aa6f2598ccb01f9a070" kindref="member">_password</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="dc/d88/_reader_thumb_request_8m_1a9305eb8e7fe03dd8cec29006874b9c49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*<ref refid="dc/d88/_reader_thumb_request_8m_1a9305eb8e7fe03dd8cec29006874b9c49" kindref="member">_cacheKey</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="dc/d88/_reader_thumb_request_8m_1a78f2707a6070bfc4495d6926fb16d9f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*<ref refid="dc/d88/_reader_thumb_request_8m_1a78f2707a6070bfc4495d6926fb16d9f2" kindref="member">_thumbName</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="dc/d88/_reader_thumb_request_8m_1a01b22a1fc43d1c321b4a2f4ee61d1b93" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d25/interface_reader_thumb_view" kindref="compound">ReaderThumbView</ref><sp/>*<ref refid="dc/d88/_reader_thumb_request_8m_1a01b22a1fc43d1c321b4a2f4ee61d1b93" kindref="member">_thumbView</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="dc/d88/_reader_thumb_request_8m_1a70ff504e792fcc958a9e146ef05a79c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>NSUInteger<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a70ff504e792fcc958a9e146ef05a79c6" kindref="member">_targetTag</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="dc/d88/_reader_thumb_request_8m_1a046c75570ce55248736ec26b09b003ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>NSInteger<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a046c75570ce55248736ec26b09b003ea" kindref="member">_thumbPage</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="dc/d88/_reader_thumb_request_8m_1a887028d2956ad7bf7dd7b9a02f9f0bcf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>CGSize<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a887028d2956ad7bf7dd7b9a02f9f0bcf" kindref="member">_thumbSize</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="dc/d88/_reader_thumb_request_8m_1abde0127852d885613d2412e4ab3ade5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>CGFloat<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1abde0127852d885613d2412e4ab3ade5a" kindref="member">_scale</ref>;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Properties</highlight></codeline>
+<codeline lineno="53"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/dc5/interface_reader_thumb_request_1a5d8e0e0f2279f1de7554a7740c314626" kindref="member">guid</ref><sp/>=<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" kindref="member">_guid</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/dc5/interface_reader_thumb_request_1aa09c8d6a1a8361f0c9718d7a349abeb9" kindref="member">fileURL</ref><sp/>=<sp/><ref refid="d3/dfb/_reader_document_8m_1a44c360ac4a26f4e4fa04c9c8ca0ac81a" kindref="member">_fileURL</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/dc5/interface_reader_thumb_request_1a404e2e2b62add0bd182bcbcbc88bac19" kindref="member">password</ref><sp/>=<sp/><ref refid="d3/dfb/_reader_document_8m_1a6ae163208de62aa6f2598ccb01f9a070" kindref="member">_password</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/dc5/interface_reader_thumb_request_1ab188b120cf0ddaa698106bd5f0ba672d" kindref="member">thumbView</ref><sp/>=<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a01b22a1fc43d1c321b4a2f4ee61d1b93" kindref="member">_thumbView</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/dc5/interface_reader_thumb_request_1a34178f66256a286b1936cd5951979928" kindref="member">thumbPage</ref><sp/>=<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a046c75570ce55248736ec26b09b003ea" kindref="member">_thumbPage</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/dc5/interface_reader_thumb_request_1ab9dfcc6d38c38033127dd553b170435b" kindref="member">thumbSize</ref><sp/>=<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a887028d2956ad7bf7dd7b9a02f9f0bcf" kindref="member">_thumbSize</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/dc5/interface_reader_thumb_request_1acf28121ee63e65b1592485c1df30bac8" kindref="member">thumbName</ref><sp/>=<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a78f2707a6070bfc4495d6926fb16d9f2" kindref="member">_thumbName</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/dc5/interface_reader_thumb_request_1a177b60d5c03ad3407a82b3ca25f645ef" kindref="member">targetTag</ref><sp/>=<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a70ff504e792fcc958a9e146ef05a79c6" kindref="member">_targetTag</ref>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/dc5/interface_reader_thumb_request_1ac7a62d4e74ee6a35e068cab853b835ac" kindref="member">cacheKey</ref><sp/>=<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a9305eb8e7fe03dd8cec29006874b9c49" kindref="member">_cacheKey</ref>;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/dc5/interface_reader_thumb_request_1a3093e22180f1847ff7acf1de7f4401de" kindref="member">scale</ref><sp/>=<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1abde0127852d885613d2412e4ab3ade5a" kindref="member">_scale</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>ReaderThumbRequest<sp/>class<sp/>methods</highlight></codeline>
+<codeline lineno="66"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="dc/dc5/interface_reader_thumb_request_1aceedc8df03338e125e8e6872e46080bf" refkind="member"><highlight class="normal">+<sp/>(id)newForView:(<ref refid="d8/d25/interface_reader_thumb_view" kindref="compound">ReaderThumbView</ref><sp/>*)view<sp/>fileURL:(NSURL<sp/>*)url<sp/>password:(NSString<sp/>*)phrase<sp/>guid:(NSString<sp/>*)guid<sp/>page:(NSInteger)page<sp/>size:(CGSize)size</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[<ref refid="dc/dc5/interface_reader_thumb_request" kindref="compound">ReaderThumbRequest</ref><sp/>alloc]<sp/>initWithView:view<sp/>fileURL:url<sp/>password:phrase<sp/>guid:guid<sp/>page:page<sp/>size:size];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>ReaderThumbRequest<sp/>instance<sp/>methods</highlight></codeline>
+<codeline lineno="73"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="dc/dc5/interface_reader_thumb_request_1ab638dcd23e07bd9b88b5f149b789a91a" refkind="member"><highlight class="normal">-<sp/>(id)initWithView:(<ref refid="d8/d25/interface_reader_thumb_view" kindref="compound">ReaderThumbView</ref><sp/>*)view<sp/>fileURL:(NSURL<sp/>*)url<sp/>password:(NSString<sp/>*)phrase<sp/>guid:(NSString<sp/>*)guid<sp/>page:(NSInteger)page<sp/>size:(CGSize)size</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[super<sp/>init]))<sp/></highlight><highlight class="comment">//<sp/>Initialize<sp/>object</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSInteger<sp/>w<sp/>=<sp/>size.width;<sp/>NSInteger<sp/>h<sp/>=<sp/>size.height;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a01b22a1fc43d1c321b4a2f4ee61d1b93" kindref="member">_thumbView</ref><sp/>=<sp/>view;<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a046c75570ce55248736ec26b09b003ea" kindref="member">_thumbPage</ref><sp/>=<sp/>page;<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a887028d2956ad7bf7dd7b9a02f9f0bcf" kindref="member">_thumbSize</ref><sp/>=<sp/>size;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a44c360ac4a26f4e4fa04c9c8ca0ac81a" kindref="member">_fileURL</ref><sp/>=<sp/>[url<sp/>copy];<sp/><ref refid="d3/dfb/_reader_document_8m_1a6ae163208de62aa6f2598ccb01f9a070" kindref="member">_password</ref><sp/>=<sp/>[phrase<sp/>copy];<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" kindref="member">_guid</ref><sp/>=<sp/>[<ref refid="dc/dc5/interface_reader_thumb_request_1a5d8e0e0f2279f1de7554a7740c314626" kindref="member">guid</ref><sp/>copy];</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a78f2707a6070bfc4495d6926fb16d9f2" kindref="member">_thumbName</ref><sp/>=<sp/>[[NSString<sp/>alloc]<sp/>initWithFormat:@&quot;%07d-%04dx%04d&quot;,<sp/>page,<sp/>w,<sp/>h];</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a9305eb8e7fe03dd8cec29006874b9c49" kindref="member">_cacheKey</ref><sp/>=<sp/>[[NSString<sp/>alloc]<sp/>initWithFormat:@&quot;%@+%@&quot;,<sp/>_thumbName,<sp/>_guid];</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a70ff504e792fcc958a9e146ef05a79c6" kindref="member">_targetTag</ref><sp/>=<sp/>[_cacheKey<sp/>hash];<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a01b22a1fc43d1c321b4a2f4ee61d1b93" kindref="member">_thumbView</ref>.<ref refid="d8/d25/interface_reader_thumb_view_1a41943cc8db6fb12bc967c4ea6ec4e2c5" kindref="member">targetTag</ref><sp/>=<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1a70ff504e792fcc958a9e146ef05a79c6" kindref="member">_targetTag</ref>;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/d88/_reader_thumb_request_8m_1abde0127852d885613d2412e4ab3ade5a" kindref="member">_scale</ref><sp/>=<sp/>[[UIScreen<sp/>mainScreen]<sp/>scale];<sp/></highlight><highlight class="comment">//<sp/>Thumb<sp/>screen<sp/>scale</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRequest.m"/>
+  </compounddef>
+</doxygen>

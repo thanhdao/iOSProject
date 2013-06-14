@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d9/d22/protocol_reader_main_pagebar_delegate-p" kind="protocol" prot="public" abstract="yes">
+    <compoundname>ReaderMainPagebarDelegate-p</compoundname>
+    <basecompoundref refid="d0/d10/class_n_s_object-p" prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <derivedcompoundref refid="db/d1e/category_reader_view_controller_07_08" prot="public" virt="non-virtual">ReaderViewController()</derivedcompoundref>
+    <includes refid="d9/d69/_reader_main_pagebar_8h" local="no">ReaderMainPagebar.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d22/protocol_reader_main_pagebar_delegate-p_1ad3c540bd536a02775804a0f0a7fcecb4" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderMainPagebarDelegate-p::pagebar:gotoPage:</definition>
+        <argsstring>(ReaderMainPagebar *pagebar,[gotoPage] NSInteger page)</argsstring>
+        <name>pagebar:gotoPage:</name>
+        <param>
+          <type><ref refid="dc/d4a/interface_reader_main_pagebar" kindref="compound">ReaderMainPagebar</ref> *</type>
+          <declname>pagebar</declname>
+        </param>
+        <param>
+          <attributes>[gotoPage]</attributes>
+          <type>NSInteger</type>
+          <declname>page</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" line="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="532">
+        <label>ReaderViewController()</label>
+        <link refid="db/d1e/category_reader_view_controller_07_08"/>
+        <childnode refid="530" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="530">
+        <label>&lt;ReaderMainPagebarDelegate&gt;</label>
+        <link refid="d9/d22/protocol_reader_main_pagebar_delegate-p"/>
+        <childnode refid="531" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="531">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="533">
+        <label>&lt;ReaderMainPagebarDelegate&gt;</label>
+        <link refid="d9/d22/protocol_reader_main_pagebar_delegate-p"/>
+        <childnode refid="534" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="534">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" line="35" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" bodystart="35" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d9/d22/protocol_reader_main_pagebar_delegate-p_1ad3c540bd536a02775804a0f0a7fcecb4" prot="public" virt="virtual"><scope>ReaderMainPagebarDelegate-p</scope><name>pagebar:gotoPage:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

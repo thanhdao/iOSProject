@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="df/d6f/interface_reader_document_link" kind="class" prot="public">
+    <compoundname>ReaderDocumentLink</compoundname>
+    <basecompoundref refid="d7/dc4/class_n_s_object" prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <basecompoundref refid="d0/d10/class_n_s_object-p" prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <includes refid="de/d36/_reader_content_page_8h" local="no">ReaderContentPage.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="df/d6f/interface_reader_document_link_1a63794e1b80f39759586ad90fd0ad0514" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no" accessor="assign">
+        <type>CGRect</type>
+        <definition>CGRect ReaderDocumentLink::rect</definition>
+        <argsstring></argsstring>
+        <name>rect</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.h" line="44" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d6f/interface_reader_document_link_1a0e0677dc4ecc91a6a8436588a46c5ff1" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no" accessor="assign">
+        <type>CGPDFDictionaryRef</type>
+        <definition>CGPDFDictionaryRef ReaderDocumentLink::dictionary</definition>
+        <argsstring></argsstring>
+        <name>dictionary</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.h" line="46" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="df/d6f/interface_reader_document_link_1a0edf179eb392a5dbd9dce74550e7c8fb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ReaderDocumentLink::newWithRect:dictionary:</definition>
+        <argsstring>(CGRect linkRect,[dictionary] CGPDFDictionaryRef linkDictionary)</argsstring>
+        <name>newWithRect:dictionary:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>linkRect</declname>
+        </param>
+        <param>
+          <attributes>[dictionary]</attributes>
+          <type>CGPDFDictionaryRef</type>
+          <declname>linkDictionary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.h" line="48" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.m" bodystart="581" bodyend="584"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d6f/interface_reader_document_link_1aa11819cafba813f5d2f2eda55806d387" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ReaderDocumentLink::initWithRect:dictionary:</definition>
+        <argsstring>(CGRect linkRect,[dictionary] CGPDFDictionaryRef linkDictionary)</argsstring>
+        <name>initWithRect:dictionary:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>linkRect</declname>
+        </param>
+        <param>
+          <attributes>[dictionary]</attributes>
+          <type>CGPDFDictionaryRef</type>
+          <declname>linkDictionary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.h" line="50" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.m" bodystart="588" bodyend="598"/>
+        <references refid="d3/d15/_reader_content_page_8m_1a565bf633affc6b5982634237c859bb2f" compoundref="d3/d15/_reader_content_page_8m" startline="568">_rect</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="511">
+        <label>ReaderDocumentLink</label>
+        <link refid="df/d6f/interface_reader_document_link"/>
+        <childnode refid="512" relation="public-inheritance">
+        </childnode>
+        <childnode refid="513" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="513">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="512">
+        <label>NSObject</label>
+        <link refid="d7/dc4/class_n_s_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="517">
+        <label>CGPDFDictionaryRef</label>
+      </node>
+      <node id="518">
+        <label>CGRect</label>
+      </node>
+      <node id="514">
+        <label>ReaderDocumentLink</label>
+        <link refid="df/d6f/interface_reader_document_link"/>
+        <childnode refid="515" relation="public-inheritance">
+        </childnode>
+        <childnode refid="516" relation="public-inheritance">
+        </childnode>
+        <childnode refid="517" relation="usage">
+          <edgelabel>dictionary</edgelabel>
+        </childnode>
+        <childnode refid="518" relation="usage">
+          <edgelabel>rect</edgelabel>
+        </childnode>
+      </node>
+      <node id="516">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="515">
+        <label>NSObject</label>
+        <link refid="d7/dc4/class_n_s_object"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.h" line="42" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.h" bodystart="42" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="df/d6f/interface_reader_document_link_1a0e0677dc4ecc91a6a8436588a46c5ff1" prot="public" virt="non-virtual"><scope>ReaderDocumentLink</scope><name>dictionary</name></member>
+      <member refid="df/d6f/interface_reader_document_link_1aa11819cafba813f5d2f2eda55806d387" prot="public" virt="virtual"><scope>ReaderDocumentLink</scope><name>initWithRect:dictionary:</name></member>
+      <member refid="df/d6f/interface_reader_document_link_1a0edf179eb392a5dbd9dce74550e7c8fb" prot="public" virt="virtual"><scope>ReaderDocumentLink</scope><name>newWithRect:dictionary:</name></member>
+      <member refid="df/d6f/interface_reader_document_link_1a63794e1b80f39759586ad90fd0ad0514" prot="public" virt="non-virtual"><scope>ReaderDocumentLink</scope><name>rect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d7/dd9/protocol_reader_view_controller_delegate-p" kind="protocol" prot="public" abstract="yes">
+    <compoundname>ReaderViewControllerDelegate-p</compoundname>
+    <basecompoundref refid="d0/d10/class_n_s_object-p" prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <derivedcompoundref refid="d2/d8f/category_reader_book_delegate_07_08" prot="public" virt="non-virtual">ReaderBookDelegate()</derivedcompoundref>
+    <derivedcompoundref refid="d8/d29/category_reader_demo_controller_07_08" prot="public" virt="non-virtual">ReaderDemoController()</derivedcompoundref>
+    <includes refid="d2/dca/_reader_view_controller_8h" local="no">ReaderViewController.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/dd9/protocol_reader_view_controller_delegate-p_1a0c87991187c0e23da37e7b807ea56d40" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderViewControllerDelegate-p::dismissReaderViewController:</definition>
+        <argsstring>(ReaderViewController *viewController)</argsstring>
+        <name>dismissReaderViewController:</name>
+        <param>
+          <type><ref refid="d5/dfd/interface_reader_view_controller" kindref="compound">ReaderViewController</ref> *</type>
+          <declname>viewController</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderViewController.h" line="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="667">
+        <label>ReaderBookDelegate()</label>
+        <link refid="d2/d8f/category_reader_book_delegate_07_08"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="668">
+        <label>ReaderDemoController()</label>
+        <link refid="d8/d29/category_reader_demo_controller_07_08"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="666">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="665">
+        <label>&lt;ReaderViewControllerDelegate&gt;</label>
+        <link refid="d7/dd9/protocol_reader_view_controller_delegate-p"/>
+        <childnode refid="666" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="670">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="669">
+        <label>&lt;ReaderViewControllerDelegate&gt;</label>
+        <link refid="d7/dd9/protocol_reader_view_controller_delegate-p"/>
+        <childnode refid="670" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderViewController.h" line="32" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderViewController.h" bodystart="32" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d7/dd9/protocol_reader_view_controller_delegate-p_1a0c87991187c0e23da37e7b807ea56d40" prot="public" virt="virtual"><scope>ReaderViewControllerDelegate-p</scope><name>dismissReaderViewController:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

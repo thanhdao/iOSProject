@@ -1,0 +1,20 @@
+<map id="&lt;NSObject&gt;" name="&lt;NSObject&gt;">
+<area shape="rect" id="node2" href="$de/da0/interface_document_outline_entry.html" title="DocumentOutlineEntry" alt="" coords="182,5,338,33"/>
+<area shape="rect" id="node3" href="$d5/d7d/protocol_reader_content_view_delegate-p.html" title="\&lt;ReaderContentViewDelegate\&gt;" alt="" coords="155,57,365,85"/>
+<area shape="rect" id="node5" href="$dc/d78/interface_reader_document.html" title="ReaderDocument" alt="" coords="197,109,323,137"/>
+<area shape="rect" id="node6" href="$df/d6f/interface_reader_document_link.html" title="ReaderDocumentLink" alt="" coords="185,161,335,189"/>
+<area shape="rect" id="node7" href="$d6/d28/interface_reader_document_outline.html" title="ReaderDocumentOutline" alt="" coords="176,213,344,241"/>
+<area shape="rect" id="node8" href="$d9/d22/protocol_reader_main_pagebar_delegate-p.html" title="\&lt;ReaderMainPagebarDelegate\&gt;" alt="" coords="153,265,367,293"/>
+<area shape="rect" id="node9" href="$dd/db6/protocol_reader_main_toolbar_delegate-p.html" title="\&lt;ReaderMainToolbarDelegate\&gt;" alt="" coords="157,317,363,345"/>
+<area shape="rect" id="node10" href="$da/d97/interface_reader_thumb_cache.html" title="ReaderThumbCache" alt="" coords="187,369,333,397"/>
+<area shape="rect" id="node11" href="$df/d91/interface_reader_thumb_queue.html" title="ReaderThumbQueue" alt="" coords="187,421,333,449"/>
+<area shape="rect" id="node12" href="$dc/dc5/interface_reader_thumb_request.html" title="ReaderThumbRequest" alt="" coords="182,473,338,501"/>
+<area shape="rect" id="node13" href="$d9/d3a/protocol_reader_thumbs_view_delegate-p.html" title="\&lt;ReaderThumbsViewDelegate\&gt;" alt="" coords="155,577,365,605"/>
+<area shape="rect" id="node15" href="$d7/dd9/protocol_reader_view_controller_delegate-p.html" title="\&lt;ReaderViewControllerDelegate\&gt;" alt="" coords="150,681,370,709"/>
+<area shape="rect" id="node18" href="$dc/d59/protocol_thumbs_main_toolbar_delegate-p.html" title="\&lt;ThumbsMainToolbarDelegate\&gt;" alt="" coords="154,629,366,657"/>
+<area shape="rect" id="node19" href="$db/d4e/protocol_thumbs_view_controller_delegate-p.html" title="\&lt;ThumbsViewControllerDelegate\&gt;" alt="" coords="148,525,372,553"/>
+<area shape="rect" id="node4" href="$db/d1e/category_reader_view_controller_07_08.html" title="ReaderViewController()" alt="" coords="425,291,586,319"/>
+<area shape="rect" id="node14" href="$d3/d8f/category_thumbs_view_controller_07_08.html" title="ThumbsViewController()" alt="" coords="423,590,588,618"/>
+<area shape="rect" id="node16" href="$d2/d8f/category_reader_book_delegate_07_08.html" title="ReaderBookDelegate()" alt="" coords="426,654,584,682"/>
+<area shape="rect" id="node17" href="$d8/d29/category_reader_demo_controller_07_08.html" title="ReaderDemoController()" alt="" coords="422,706,589,734"/>
+</map>

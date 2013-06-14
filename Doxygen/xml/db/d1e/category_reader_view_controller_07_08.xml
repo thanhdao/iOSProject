@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="db/d1e/category_reader_view_controller_07_08" kind="category" prot="public">
+    <compoundname>ReaderViewController()</compoundname>
+    <basecompoundref refid="d6/dde/class_u_i_scroll_view_delegate-p" prot="public" virt="non-virtual">&lt;UIScrollViewDelegate&gt;</basecompoundref>
+    <basecompoundref refid="dc/d81/class_u_i_gesture_recognizer_delegate-p" prot="public" virt="non-virtual">&lt;UIGestureRecognizerDelegate&gt;</basecompoundref>
+    <basecompoundref refid="d5/dab/class_m_f_mail_compose_view_controller_delegate-p" prot="public" virt="non-virtual">&lt;MFMailComposeViewControllerDelegate&gt;</basecompoundref>
+    <basecompoundref refid="dd/db6/protocol_reader_main_toolbar_delegate-p" prot="public" virt="non-virtual">&lt;ReaderMainToolbarDelegate&gt;</basecompoundref>
+    <basecompoundref refid="d9/d22/protocol_reader_main_pagebar_delegate-p" prot="public" virt="non-virtual">&lt;ReaderMainPagebarDelegate&gt;</basecompoundref>
+    <basecompoundref refid="d5/d7d/protocol_reader_content_view_delegate-p" prot="public" virt="non-virtual">&lt;ReaderContentViewDelegate&gt;</basecompoundref>
+    <basecompoundref refid="db/d4e/protocol_thumbs_view_controller_delegate-p" prot="public" virt="non-virtual">&lt;ThumbsViewControllerDelegate&gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="651">
+        <label>&lt;ReaderMainToolbarDelegate&gt;</label>
+        <link refid="dd/db6/protocol_reader_main_toolbar_delegate-p"/>
+        <childnode refid="652" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="648">
+        <label>&lt;UIScrollViewDelegate&gt;</label>
+        <link refid="d6/dde/class_u_i_scroll_view_delegate-p"/>
+      </node>
+      <node id="650">
+        <label>&lt;MFMailComposeViewControllerDelegate&gt;</label>
+        <link refid="d5/dab/class_m_f_mail_compose_view_controller_delegate-p"/>
+      </node>
+      <node id="647">
+        <label>ReaderViewController()</label>
+        <link refid="db/d1e/category_reader_view_controller_07_08"/>
+        <childnode refid="648" relation="public-inheritance">
+        </childnode>
+        <childnode refid="649" relation="public-inheritance">
+        </childnode>
+        <childnode refid="650" relation="public-inheritance">
+        </childnode>
+        <childnode refid="651" relation="public-inheritance">
+        </childnode>
+        <childnode refid="653" relation="public-inheritance">
+        </childnode>
+        <childnode refid="654" relation="public-inheritance">
+        </childnode>
+        <childnode refid="655" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="655">
+        <label>&lt;ThumbsViewControllerDelegate&gt;</label>
+        <link refid="db/d4e/protocol_thumbs_view_controller_delegate-p"/>
+        <childnode refid="652" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="649">
+        <label>&lt;UIGestureRecognizerDelegate&gt;</label>
+        <link refid="dc/d81/class_u_i_gesture_recognizer_delegate-p"/>
+      </node>
+      <node id="653">
+        <label>&lt;ReaderMainPagebarDelegate&gt;</label>
+        <link refid="d9/d22/protocol_reader_main_pagebar_delegate-p"/>
+        <childnode refid="652" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="652">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="654">
+        <label>&lt;ReaderContentViewDelegate&gt;</label>
+        <link refid="d5/d7d/protocol_reader_content_view_delegate-p"/>
+        <childnode refid="652" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="660">
+        <label>&lt;ReaderMainToolbarDelegate&gt;</label>
+        <link refid="dd/db6/protocol_reader_main_toolbar_delegate-p"/>
+        <childnode refid="661" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="657">
+        <label>&lt;UIScrollViewDelegate&gt;</label>
+        <link refid="d6/dde/class_u_i_scroll_view_delegate-p"/>
+      </node>
+      <node id="659">
+        <label>&lt;MFMailComposeViewControllerDelegate&gt;</label>
+        <link refid="d5/dab/class_m_f_mail_compose_view_controller_delegate-p"/>
+      </node>
+      <node id="656">
+        <label>ReaderViewController()</label>
+        <link refid="db/d1e/category_reader_view_controller_07_08"/>
+        <childnode refid="657" relation="public-inheritance">
+        </childnode>
+        <childnode refid="658" relation="public-inheritance">
+        </childnode>
+        <childnode refid="659" relation="public-inheritance">
+        </childnode>
+        <childnode refid="660" relation="public-inheritance">
+        </childnode>
+        <childnode refid="662" relation="public-inheritance">
+        </childnode>
+        <childnode refid="663" relation="public-inheritance">
+        </childnode>
+        <childnode refid="664" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="664">
+        <label>&lt;ThumbsViewControllerDelegate&gt;</label>
+        <link refid="db/d4e/protocol_thumbs_view_controller_delegate-p"/>
+        <childnode refid="661" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="658">
+        <label>&lt;UIGestureRecognizerDelegate&gt;</label>
+        <link refid="dc/d81/class_u_i_gesture_recognizer_delegate-p"/>
+      </node>
+      <node id="662">
+        <label>&lt;ReaderMainPagebarDelegate&gt;</label>
+        <link refid="d9/d22/protocol_reader_main_pagebar_delegate-p"/>
+        <childnode refid="661" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="661">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="663">
+        <label>&lt;ReaderContentViewDelegate&gt;</label>
+        <link refid="d5/d7d/protocol_reader_content_view_delegate-p"/>
+        <childnode refid="661" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderViewController.m" line="38" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderViewController.m" bodystart="37" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d5/d7d/protocol_reader_content_view_delegate-p_1a096f2e2552c7fdf9f8bb5481994ebe48" prot="public" virt="virtual"><scope>ReaderViewController()</scope><name>contentView:touchesBegan:</name></member>
+      <member refid="db/d4e/protocol_thumbs_view_controller_delegate-p_1a8520af536c2045525c5ce832d19d72dd" prot="public" virt="virtual"><scope>ReaderViewController()</scope><name>dismissThumbsViewController:</name></member>
+      <member refid="d9/d22/protocol_reader_main_pagebar_delegate-p_1ad3c540bd536a02775804a0f0a7fcecb4" prot="public" virt="virtual"><scope>ReaderViewController()</scope><name>pagebar:gotoPage:</name></member>
+      <member refid="dd/db6/protocol_reader_main_toolbar_delegate-p_1ac6e6634e74e67393ce7d855bcb0ef503" prot="public" virt="virtual"><scope>ReaderViewController()</scope><name>tappedInToolbar:doneButton:</name></member>
+      <member refid="dd/db6/protocol_reader_main_toolbar_delegate-p_1aa89d3fbf056cd9a35d08d5f2f3d7c704" prot="public" virt="virtual"><scope>ReaderViewController()</scope><name>tappedInToolbar:emailButton:</name></member>
+      <member refid="dd/db6/protocol_reader_main_toolbar_delegate-p_1ad5091069cb05ce63825ffdcef02e93a7" prot="public" virt="virtual"><scope>ReaderViewController()</scope><name>tappedInToolbar:markButton:</name></member>
+      <member refid="dd/db6/protocol_reader_main_toolbar_delegate-p_1a385d12621b90bff7ea6320656aa20e37" prot="public" virt="virtual"><scope>ReaderViewController()</scope><name>tappedInToolbar:printButton:</name></member>
+      <member refid="dd/db6/protocol_reader_main_toolbar_delegate-p_1aadd3af1a2dd465ca3dce248572fee3a3" prot="public" virt="virtual"><scope>ReaderViewController()</scope><name>tappedInToolbar:thumbsButton:</name></member>
+      <member refid="db/d4e/protocol_thumbs_view_controller_delegate-p_1a54bb19fb8038c4598e3a5a05dd9710a7" prot="public" virt="virtual"><scope>ReaderViewController()</scope><name>thumbsViewController:gotoPage:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

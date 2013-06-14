@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="db/d3e/interface_reader_pagebar_shadow" kind="class" prot="public">
+    <compoundname>ReaderPagebarShadow</compoundname>
+    <basecompoundref refid="db/d6b/class_u_i_view" prot="public" virt="non-virtual">UIView</basecompoundref>
+    <includes refid="d9/d69/_reader_main_pagebar_8h" local="no">ReaderMainPagebar.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="547">
+        <label>ReaderPagebarShadow</label>
+        <link refid="db/d3e/interface_reader_pagebar_shadow"/>
+        <childnode refid="548" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="548">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="549">
+        <label>ReaderPagebarShadow</label>
+        <link refid="db/d3e/interface_reader_pagebar_shadow"/>
+        <childnode refid="550" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="550">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" line="87" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" bodystart="86" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

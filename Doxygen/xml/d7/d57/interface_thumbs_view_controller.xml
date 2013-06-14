@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d7/d57/interface_thumbs_view_controller" kind="class" prot="public">
+    <compoundname>ThumbsViewController</compoundname>
+    <basecompoundref refid="d7/d7e/class_u_i_view_controller" prot="public" virt="non-virtual">UIViewController</basecompoundref>
+    <includes refid="d8/df0/_thumbs_view_controller_8h" local="no">ThumbsViewController.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d7/d57/interface_thumbs_view_controller_1a7db40dd3f35d2160b4aac4299d5bedc1" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>id&lt; <ref refid="db/d4e/protocol_thumbs_view_controller_delegate-p" kindref="compound">ThumbsViewControllerDelegate</ref> &gt;</type>
+        <definition>id&lt;ThumbsViewControllerDelegate&gt; ThumbsViewController::delegate</definition>
+        <argsstring></argsstring>
+        <name>delegate</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.h" line="46" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d57/interface_thumbs_view_controller_1af9aab69c12fd6e29af00d55e2fcecb9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ThumbsViewController::initWithReaderDocument:</definition>
+        <argsstring>(ReaderDocument *object)</argsstring>
+        <name>initWithReaderDocument:</name>
+        <param>
+          <type><ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.h" line="48" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.m" bodystart="68" bodyend="85"/>
+        <references refid="d3/d0f/_thumbs_view_controller_8m_1a5c7a5dd591616a23cb4fd962d7f50925" compoundref="d3/d0f/_thumbs_view_controller_8m" startline="51">updateBookmarked</references>
+        <references refid="d3/d0f/_thumbs_view_controller_8m_1a964e0b4394e13dfbf22f75af703c3b49" compoundref="d3/d0f/_thumbs_view_controller_8m" startline="46">bookmarked</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="693">
+        <label>UIViewController</label>
+        <link refid="d7/d7e/class_u_i_view_controller"/>
+      </node>
+      <node id="692">
+        <label>ThumbsViewController</label>
+        <link refid="d7/d57/interface_thumbs_view_controller"/>
+        <childnode refid="693" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="695">
+        <label>UIViewController</label>
+        <link refid="d7/d7e/class_u_i_view_controller"/>
+      </node>
+      <node id="696">
+        <label>id&lt; ThumbsViewControllerDelegate-p &gt;</label>
+      </node>
+      <node id="694">
+        <label>ThumbsViewController</label>
+        <link refid="d7/d57/interface_thumbs_view_controller"/>
+        <childnode refid="695" relation="public-inheritance">
+        </childnode>
+        <childnode refid="696" relation="usage">
+          <edgelabel>delegate</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.h" line="45" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsViewController.h" bodystart="44" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d7/d57/interface_thumbs_view_controller_1a7db40dd3f35d2160b4aac4299d5bedc1" prot="public" virt="non-virtual"><scope>ThumbsViewController</scope><name>delegate</name></member>
+      <member refid="d7/d57/interface_thumbs_view_controller_1af9aab69c12fd6e29af00d55e2fcecb9a" prot="public" virt="virtual"><scope>ThumbsViewController</scope><name>initWithReaderDocument:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

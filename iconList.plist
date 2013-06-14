@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>ananas_512.png</string>
+	<string>apple_pie_512.png</string>
+	<string>birthday_cake_512.png</string>
+	<string>black_forest_pastry_512.png</string>
+	<string>bread_512.png</string>
+	<string>buns_512.png</string>
+	<string>butter_scotch_ice_cream_512.png</string>
+	<string>canned_food_512.png</string>
+	<string>caramel_apple_512.png</string>
+	<string>chocolate_cookies_512.png</string>
+	<string>chocolate_glaze_512.png</string>
+	<string>chocolate_ice_cream_bar_512.png</string>
+	<string>chocolate_mousse_512.png</string>
+	<string>chocolate_muffins_512.png</string>
+	<string>choux_pastry_512.png</string>
+	<string>cone_ice_cream_512.png</string>
+	<string>cotton_candy_512.png</string>
+	<string>cutlet_512.png</string>
+	<string>egg_512.png</string>
+	<string>flour_512.png</string>
+	<string>french_fries_512.png</string>
+	<string>fudgesicle_512.png</string>
+	<string>green_apple_512.png</string>
+	<string>hamburguer_512.png</string>
+	<string>ice_cream_shake_512.png</string>
+	<string>ice_pop_512.png</string>
+	<string>macaroons_512.png</string>
+	<string>muffin_512.png</string>
+	<string>mustard_512.png</string>
+	<string>nuts_cake_512.png</string>
+	<string>pepper_512.png</string>
+	<string>pickle_512.png</string>
+	<string>pizza_512.png</string>
+	<string>plum_cake_512.png</string>
+	<string>popsicle_512.png</string>
+	<string>red_apple_512.png</string>
+	<string>roll_cake_512.png</string>
+	<string>soft_cream_512.png</string>
+	<string>soft_drinks_512.png</string>
+	<string>squash_512.png</string>
+	<string>sundae_512.png</string>
+	<string>tutti_frutti_ice_cream_512.png</string>
+	<string>vanilla_ice_cream_512.png</string>
+</array>
+</plist>

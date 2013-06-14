@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7371B07617375A0400314CD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7371B07517375A0400314CD0 /* UIKit.framework */; };
+		7371B07817375A0400314CD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7371B07717375A0400314CD0 /* Foundation.framework */; };
+		7371B07A17375A0400314CD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7371B07917375A0400314CD0 /* CoreGraphics.framework */; };
+		7371B08017375A0400314CD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7371B07E17375A0400314CD0 /* InfoPlist.strings */; };
+		7371B08217375A0400314CD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7371B08117375A0400314CD0 /* main.m */; };
+		7371B08617375A0400314CD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7371B08517375A0400314CD0 /* AppDelegate.m */; };
+		7371B08817375A0400314CD0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7371B08717375A0400314CD0 /* Default.png */; };
+		7371B08A17375A0400314CD0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7371B08917375A0400314CD0 /* Default@2x.png */; };
+		7371B08C17375A0400314CD0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7371B08B17375A0400314CD0 /* Default-568h@2x.png */; };
+		7371B09517375E9D00314CD0 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7371B09317375E9D00314CD0 /* PDFViewController.m */; };
+		7371B09617375E9D00314CD0 /* PDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7371B09417375E9D00314CD0 /* PDFViewController.xib */; };
+		7371B09817376B6100314CD0 /* ObjC.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7371B09717376B6100314CD0 /* ObjC.pdf */; };
+		73E2662C173DF3F500187784 /* Murphy R. English Grammar in Use. 2012 4-ed..pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73E2662B173DF3F500187784 /* Murphy R. English Grammar in Use. 2012 4-ed..pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7371B07217375A0400314CD0 /* PDFReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7371B07517375A0400314CD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7371B07717375A0400314CD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7371B07917375A0400314CD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7371B07D17375A0400314CD0 /* PDFReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PDFReader-Info.plist"; sourceTree = "<group>"; };
+		7371B07F17375A0400314CD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7371B08117375A0400314CD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7371B08317375A0400314CD0 /* PDFReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PDFReader-Prefix.pch"; sourceTree = "<group>"; };
+		7371B08417375A0400314CD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7371B08517375A0400314CD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7371B08717375A0400314CD0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7371B08917375A0400314CD0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7371B08B17375A0400314CD0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7371B09217375E9D00314CD0 /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		7371B09317375E9D00314CD0 /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		7371B09417375E9D00314CD0 /* PDFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDFViewController.xib; sourceTree = "<group>"; };
+		7371B09717376B6100314CD0 /* ObjC.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ObjC.pdf; sourceTree = "<group>"; };
+		73E2662B173DF3F500187784 /* Murphy R. English Grammar in Use. 2012 4-ed..pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Murphy R. English Grammar in Use. 2012 4-ed..pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7371B06F17375A0400314CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7371B07617375A0400314CD0 /* UIKit.framework in Frameworks */,
+				7371B07817375A0400314CD0 /* Foundation.framework in Frameworks */,
+				7371B07A17375A0400314CD0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7371B06917375A0400314CD0 = {
+			isa = PBXGroup;
+			children = (
+				73E2662B173DF3F500187784 /* Murphy R. English Grammar in Use. 2012 4-ed..pdf */,
+				7371B09717376B6100314CD0 /* ObjC.pdf */,
+				7371B07B17375A0400314CD0 /* PDFReader */,
+				7371B07417375A0400314CD0 /* Frameworks */,
+				7371B07317375A0400314CD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7371B07317375A0400314CD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7371B07217375A0400314CD0 /* PDFReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7371B07417375A0400314CD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7371B07517375A0400314CD0 /* UIKit.framework */,
+				7371B07717375A0400314CD0 /* Foundation.framework */,
+				7371B07917375A0400314CD0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7371B07B17375A0400314CD0 /* PDFReader */ = {
+			isa = PBXGroup;
+			children = (
+				7371B08417375A0400314CD0 /* AppDelegate.h */,
+				7371B08517375A0400314CD0 /* AppDelegate.m */,
+				7371B07C17375A0400314CD0 /* Supporting Files */,
+				7371B09217375E9D00314CD0 /* PDFViewController.h */,
+				7371B09317375E9D00314CD0 /* PDFViewController.m */,
+				7371B09417375E9D00314CD0 /* PDFViewController.xib */,
+			);
+			path = PDFReader;
+			sourceTree = "<group>";
+		};
+		7371B07C17375A0400314CD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7371B07D17375A0400314CD0 /* PDFReader-Info.plist */,
+				7371B07E17375A0400314CD0 /* InfoPlist.strings */,
+				7371B08117375A0400314CD0 /* main.m */,
+				7371B08317375A0400314CD0 /* PDFReader-Prefix.pch */,
+				7371B08717375A0400314CD0 /* Default.png */,
+				7371B08917375A0400314CD0 /* Default@2x.png */,
+				7371B08B17375A0400314CD0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7371B07117375A0400314CD0 /* PDFReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7371B08F17375A0400314CD0 /* Build configuration list for PBXNativeTarget "PDFReader" */;
+			buildPhases = (
+				7371B06E17375A0400314CD0 /* Sources */,
+				7371B06F17375A0400314CD0 /* Frameworks */,
+				7371B07017375A0400314CD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFReader;
+			productName = PDFReader;
+			productReference = 7371B07217375A0400314CD0 /* PDFReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7371B06A17375A0400314CD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Thanh Dao";
+			};
+			buildConfigurationList = 7371B06D17375A0400314CD0 /* Build configuration list for PBXProject "PDFReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7371B06917375A0400314CD0;
+			productRefGroup = 7371B07317375A0400314CD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7371B07117375A0400314CD0 /* PDFReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7371B07017375A0400314CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7371B08017375A0400314CD0 /* InfoPlist.strings in Resources */,
+				7371B08817375A0400314CD0 /* Default.png in Resources */,
+				7371B08A17375A0400314CD0 /* Default@2x.png in Resources */,
+				7371B08C17375A0400314CD0 /* Default-568h@2x.png in Resources */,
+				7371B09617375E9D00314CD0 /* PDFViewController.xib in Resources */,
+				7371B09817376B6100314CD0 /* ObjC.pdf in Resources */,
+				73E2662C173DF3F500187784 /* Murphy R. English Grammar in Use. 2012 4-ed..pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7371B06E17375A0400314CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7371B08217375A0400314CD0 /* main.m in Sources */,
+				7371B08617375A0400314CD0 /* AppDelegate.m in Sources */,
+				7371B09517375E9D00314CD0 /* PDFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7371B07E17375A0400314CD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7371B07F17375A0400314CD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7371B08D17375A0400314CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7371B08E17375A0400314CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7371B09017375A0400314CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDFReader/PDFReader-Prefix.pch";
+				INFOPLIST_FILE = "PDFReader/PDFReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7371B09117375A0400314CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDFReader/PDFReader-Prefix.pch";
+				INFOPLIST_FILE = "PDFReader/PDFReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7371B06D17375A0400314CD0 /* Build configuration list for PBXProject "PDFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7371B08D17375A0400314CD0 /* Debug */,
+				7371B08E17375A0400314CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7371B08F17375A0400314CD0 /* Build configuration list for PBXNativeTarget "PDFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7371B09017375A0400314CD0 /* Debug */,
+				7371B09117375A0400314CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7371B06A17375A0400314CD0 /* Project object */;
+}

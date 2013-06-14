@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d8/da2/_reader_thumb_render_8m" kind="file">
+    <compoundname>ReaderThumbRender.m</compoundname>
+    <includes refid="db/dc3/_reader_thumb_render_8h" local="yes">ReaderThumbRender.h</includes>
+    <includes refid="d2/d4c/_reader_thumb_cache_8h" local="yes">ReaderThumbCache.h</includes>
+    <includes refid="d6/d83/_reader_thumb_view_8h" local="yes">ReaderThumbView.h</includes>
+    <includes refid="d0/db1/_c_g_p_d_f_document_8h" local="yes">CGPDFDocument.h</includes>
+    <includes local="no">ImageIO/ImageIO.h</includes>
+    <incdepgraph>
+      <node id="604">
+        <label>ReaderThumbRequest.h</label>
+        <link refid="d6/d40/_reader_thumb_request_8h"/>
+        <childnode refid="603" relation="include">
+        </childnode>
+      </node>
+      <node id="603">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="602">
+        <label>ReaderThumbCache.h</label>
+        <link refid="d2/d4c/_reader_thumb_cache_8h"/>
+        <childnode refid="603" relation="include">
+        </childnode>
+        <childnode refid="604" relation="include">
+        </childnode>
+      </node>
+      <node id="601">
+        <label>ReaderThumbQueue.h</label>
+        <link refid="dd/d6f/_reader_thumb_queue_8h"/>
+        <childnode refid="600" relation="include">
+        </childnode>
+      </node>
+      <node id="608">
+        <label>ImageIO/ImageIO.h</label>
+      </node>
+      <node id="606">
+        <label>CGPDFDocument.h</label>
+        <link refid="d0/db1/_c_g_p_d_f_document_8h"/>
+        <childnode refid="600" relation="include">
+        </childnode>
+        <childnode refid="607" relation="include">
+        </childnode>
+      </node>
+      <node id="600">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="605">
+        <label>ReaderThumbView.h</label>
+        <link refid="d6/d83/_reader_thumb_view_8h"/>
+        <childnode refid="603" relation="include">
+        </childnode>
+      </node>
+      <node id="607">
+        <label>QuartzCore/QuartzCore.h</label>
+      </node>
+      <node id="599">
+        <label>ReaderThumbRender.h</label>
+        <link refid="db/dc3/_reader_thumb_render_8h"/>
+        <childnode refid="600" relation="include">
+        </childnode>
+        <childnode refid="601" relation="include">
+        </childnode>
+      </node>
+      <node id="598">
+        <label>Sources/ReaderThumbRender.m</label>
+        <link refid="ReaderThumbRender.m"/>
+        <childnode refid="599" relation="include">
+        </childnode>
+        <childnode refid="602" relation="include">
+        </childnode>
+        <childnode refid="605" relation="include">
+        </childnode>
+        <childnode refid="606" relation="include">
+        </childnode>
+        <childnode refid="608" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>ReaderThumbRender.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Reader<sp/>v2.6.1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Julius<sp/>Oklamcak<sp/>on<sp/>2011-09-01.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2011-2012<sp/>Julius<sp/>Oklamcak.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell<sp/>copies</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in<sp/>all</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>OR<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="db/dc3/_reader_thumb_render_8h" kindref="compound">ReaderThumbRender.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="d2/d4c/_reader_thumb_cache_8h" kindref="compound">ReaderThumbCache.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="d6/d83/_reader_thumb_view_8h" kindref="compound">ReaderThumbView.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="d0/db1/_c_g_p_d_f_document_8h" kindref="compound">CGPDFDocument.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;ImageIO/ImageIO.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="d1/dcd/interface_reader_thumb_render" kindref="compound">ReaderThumbRender</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/dc5/interface_reader_thumb_request" kindref="compound">ReaderThumbRequest</ref><sp/>*request;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>ReaderThumbRender<sp/>instance<sp/>methods</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="d1/dcd/interface_reader_thumb_render_1a7935b2f01f7b98d02549bfdc4886f171" refkind="member"><highlight class="normal">-<sp/>(id)initWithRequest:(<ref refid="dc/dc5/interface_reader_thumb_request" kindref="compound">ReaderThumbRequest</ref><sp/>*)options</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[super<sp/>initWithGUID:options.<ref refid="dc/dc5/interface_reader_thumb_request_1a5d8e0e0f2279f1de7554a7740c314626" kindref="member">guid</ref>]))</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>request<sp/>=<sp/>options;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">-<sp/>(void)cancel</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>cancel];<sp/></highlight><highlight class="comment">//<sp/>Cancel<sp/>the<sp/>operation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>request.<ref refid="dc/dc5/interface_reader_thumb_request_1ab188b120cf0ddaa698106bd5f0ba672d" kindref="member">thumbView</ref>.<ref refid="d8/d25/interface_reader_thumb_view_1aac43edee2217f11ec4a4d62e3e8dac0e" kindref="member">operation</ref><sp/>=<sp/>nil;<sp/></highlight><highlight class="comment">//<sp/>Break<sp/>retain<sp/>loop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>request.thumbView<sp/>=<sp/>nil;<sp/></highlight><highlight class="comment">//<sp/>Release<sp/>target<sp/>thumb<sp/>view<sp/>on<sp/>cancel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>[[<ref refid="da/d97/interface_reader_thumb_cache" kindref="compound">ReaderThumbCache</ref><sp/><ref refid="da/d97/interface_reader_thumb_cache_1a5254f54ac18877ab24f532abedf47e6e" kindref="member">sharedInstance</ref>]<sp/><ref refid="da/d97/interface_reader_thumb_cache_1a83f2dc15c3ae0f6dc0726066094d8283" kindref="member">removeNullForKey</ref>:request.cacheKey];</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">-<sp/>(NSURL<sp/>*)thumbFileURL</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>NSFileManager<sp/>*fileManager<sp/>=<sp/>[NSFileManager<sp/>new];<sp/></highlight><highlight class="comment">//<sp/>File<sp/>manager<sp/>instance</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*cachePath<sp/>=<sp/>[<ref refid="da/d97/interface_reader_thumb_cache" kindref="compound">ReaderThumbCache</ref><sp/><ref refid="da/d97/interface_reader_thumb_cache_1a612df97f8366c742529535f6d6e88fe0" kindref="member">thumbCachePathForGUID</ref>:request.guid];<sp/></highlight><highlight class="comment">//<sp/>Thumb<sp/>cache<sp/>path</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>[fileManager<sp/>createDirectoryAtPath:cachePath<sp/>withIntermediateDirectories:NO<sp/>attributes:nil<sp/>error:NULL];</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*fileName<sp/>=<sp/>[NSString<sp/>stringWithFormat:@&quot;%@.png&quot;,<sp/>request.thumbName];<sp/></highlight><highlight class="comment">//<sp/>Thumb<sp/>file<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSURL<sp/>fileURLWithPath:[cachePath<sp/>stringByAppendingPathComponent:fileName]];<sp/></highlight><highlight class="comment">//<sp/>File<sp/>URL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">-<sp/>(void)<ref refid="d8/dd9/main_8m_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>NSInteger<sp/>page<sp/>=<sp/>request.thumbPage;<sp/>NSString<sp/>*password<sp/>=<sp/>request.password;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>CGImageRef<sp/>imageRef<sp/>=<sp/>NULL;<sp/>CFURLRef<sp/>fileURL<sp/>=<sp/>(__bridge<sp/>CFURLRef)request.fileURL;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>CGPDFDocumentRef<sp/>thePDFDocRef<sp/>=<sp/><ref refid="d0/db1/_c_g_p_d_f_document_8h_1a29e26388c8323c906c5b3160d32cb5f1" kindref="member">CGPDFDocumentCreateX</ref>(fileURL,<sp/>password);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(thePDFDocRef<sp/>!=<sp/>NULL)<sp/></highlight><highlight class="comment">//<sp/>Check<sp/>for<sp/>non-NULL<sp/>CGPDFDocumentRef</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGPDFPageRef<sp/>thePDFPageRef<sp/>=<sp/>CGPDFDocumentGetPage(thePDFDocRef,<sp/>page);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(thePDFPageRef<sp/>!=<sp/>NULL)<sp/></highlight><highlight class="comment">//<sp/>Check<sp/>for<sp/>non-NULL<sp/>CGPDFPageRef</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>thumb_w<sp/>=<sp/>request.thumbSize.width;<sp/></highlight><highlight class="comment">//<sp/>Maximum<sp/>thumb<sp/>width</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>thumb_h<sp/>=<sp/>request.thumbSize.height;<sp/></highlight><highlight class="comment">//<sp/>Maximum<sp/>thumb<sp/>height</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGRect<sp/>cropBoxRect<sp/>=<sp/>CGPDFPageGetBoxRect(thePDFPageRef,<sp/>kCGPDFCropBox);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGRect<sp/>mediaBoxRect<sp/>=<sp/>CGPDFPageGetBoxRect(thePDFPageRef,<sp/>kCGPDFMediaBox);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGRect<sp/>effectiveRect<sp/>=<sp/>CGRectIntersection(cropBoxRect,<sp/>mediaBoxRect);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSInteger<sp/>pageRotate<sp/>=<sp/>CGPDFPageGetRotationAngle(thePDFPageRef);<sp/></highlight><highlight class="comment">//<sp/>Angle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>page_w<sp/>=<sp/>0.0f;<sp/>CGFloat<sp/>page_h<sp/>=<sp/>0.0f;<sp/></highlight><highlight class="comment">//<sp/>Rotated<sp/>page<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(pageRotate)<sp/></highlight><highlight class="comment">//<sp/>Page<sp/>rotation<sp/>(in<sp/>degrees)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:<sp/></highlight><highlight class="comment">//<sp/>Default<sp/>case</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:<sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>180:<sp/></highlight><highlight class="comment">//<sp/>0<sp/>and<sp/>180<sp/>degrees</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>page_w<sp/>=<sp/>effectiveRect.size.width;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>page_h<sp/>=<sp/>effectiveRect.size.height;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>90:<sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>270:<sp/></highlight><highlight class="comment">//<sp/>90<sp/>and<sp/>270<sp/>degrees</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>page_h<sp/>=<sp/>effectiveRect.size.width;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>page_w<sp/>=<sp/>effectiveRect.size.height;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>scale_w<sp/>=<sp/>(thumb_w<sp/>/<sp/>page_w);<sp/></highlight><highlight class="comment">//<sp/>Width<sp/>scale</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>scale_h<sp/>=<sp/>(thumb_h<sp/>/<sp/>page_h);<sp/></highlight><highlight class="comment">//<sp/>Height<sp/>scale</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGFloat<sp/>scale<sp/>=<sp/>0.0f;<sp/></highlight><highlight class="comment">//<sp/>Page<sp/>to<sp/>target<sp/>thumb<sp/>size<sp/>scale</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(page_h<sp/>&gt;<sp/>page_w)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scale<sp/>=<sp/>((thumb_h<sp/>&gt;<sp/>thumb_w)<sp/>?<sp/>scale_w<sp/>:<sp/>scale_h);<sp/></highlight><highlight class="comment">//<sp/>Portrait</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scale<sp/>=<sp/>((thumb_h<sp/>&lt;<sp/>thumb_w)<sp/>?<sp/>scale_h<sp/>:<sp/>scale_w);<sp/></highlight><highlight class="comment">//<sp/>Landscape</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSInteger<sp/>target_w<sp/>=<sp/>(page_w<sp/>*<sp/>scale);<sp/></highlight><highlight class="comment">//<sp/>Integer<sp/>target<sp/>thumb<sp/>width</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSInteger<sp/>target_h<sp/>=<sp/>(page_h<sp/>*<sp/>scale);<sp/></highlight><highlight class="comment">//<sp/>Integer<sp/>target<sp/>thumb<sp/>height</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(target_w<sp/>%<sp/>2)<sp/>target_w--;<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(target_h<sp/>%<sp/>2)<sp/>target_h--;<sp/></highlight><highlight class="comment">//<sp/>Even</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>target_w<sp/>*=<sp/>request.scale;<sp/>target_h<sp/>*=<sp/>request.scale;<sp/></highlight><highlight class="comment">//<sp/>Screen<sp/>scale</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGColorSpaceRef<sp/>rgb<sp/>=<sp/>CGColorSpaceCreateDeviceRGB();<sp/></highlight><highlight class="comment">//<sp/>RGB<sp/>color<sp/>space</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGBitmapInfo<sp/>bmi<sp/>=<sp/>(kCGBitmapByteOrder32Little<sp/>|<sp/>kCGImageAlphaNoneSkipFirst);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGContextRef<sp/>context<sp/>=<sp/>CGBitmapContextCreate(NULL,<sp/>target_w,<sp/>target_h,<sp/>8,<sp/>0,<sp/>rgb,<sp/>bmi);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(context<sp/>!=<sp/>NULL)<sp/></highlight><highlight class="comment">//<sp/>Must<sp/>have<sp/>a<sp/>valid<sp/>custom<sp/>CGBitmap<sp/>context<sp/>to<sp/>draw<sp/>into</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGRect<sp/>thumbRect<sp/>=<sp/>CGRectMake(0.0f,<sp/>0.0f,<sp/>target_w,<sp/>target_h);<sp/></highlight><highlight class="comment">//<sp/>Target<sp/>thumb<sp/>rect</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGContextSetRGBFillColor(context,<sp/>1.0f,<sp/>1.0f,<sp/>1.0f,<sp/>1.0f);<sp/>CGContextFillRect(context,<sp/>thumbRect);<sp/></highlight><highlight class="comment">//<sp/>White<sp/>fill</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGContextConcatCTM(context,<sp/>CGPDFPageGetDrawingTransform(thePDFPageRef,<sp/>kCGPDFCropBox,<sp/>thumbRect,<sp/>0,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">));<sp/></highlight><highlight class="comment">//<sp/>Fit<sp/>rect</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//CGContextSetRenderingIntent(context,<sp/>kCGRenderingIntentDefault);<sp/>CGContextSetInterpolationQuality(context,<sp/>kCGInterpolationDefault);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGContextDrawPDFPage(context,<sp/>thePDFPageRef);<sp/></highlight><highlight class="comment">//<sp/>Render<sp/>the<sp/>PDF<sp/>page<sp/>into<sp/>the<sp/>custom<sp/>CGBitmap<sp/>context</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imageRef<sp/>=<sp/>CGBitmapContextCreateImage(context);<sp/></highlight><highlight class="comment">//<sp/>Create<sp/>CGImage<sp/>from<sp/>custom<sp/>CGBitmap<sp/>context</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGContextRelease(context);<sp/></highlight><highlight class="comment">//<sp/>Release<sp/>custom<sp/>CGBitmap<sp/>context<sp/>reference</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGColorSpaceRelease(rgb);<sp/></highlight><highlight class="comment">//<sp/>Release<sp/>device<sp/>RGB<sp/>color<sp/>space<sp/>reference</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGPDFDocumentRelease(thePDFDocRef);<sp/></highlight><highlight class="comment">//<sp/>Release<sp/>CGPDFDocumentRef<sp/>reference</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(imageRef<sp/>!=<sp/>NULL)<sp/></highlight><highlight class="comment">//<sp/>Create<sp/>UIImage<sp/>from<sp/>CGImage<sp/>and<sp/>show<sp/>it,<sp/>then<sp/>save<sp/>thumb<sp/>as<sp/>PNG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UIImage<sp/>*image<sp/>=<sp/>[UIImage<sp/>imageWithCGImage:imageRef<sp/>scale:request.scale<sp/>orientation:UIImageOrientationUp];</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[<ref refid="da/d97/interface_reader_thumb_cache" kindref="compound">ReaderThumbCache</ref><sp/><ref refid="da/d97/interface_reader_thumb_cache_1a5254f54ac18877ab24f532abedf47e6e" kindref="member">sharedInstance</ref>]<sp/><ref refid="da/d97/interface_reader_thumb_cache_1abc66626fe85d5be6439e98eae9c22aa0" kindref="member">setObject</ref>:image<sp/><ref refid="da/d97/interface_reader_thumb_cache_1abc66626fe85d5be6439e98eae9c22aa0" kindref="member">forKey</ref>:request.cacheKey];<sp/></highlight><highlight class="comment">//<sp/>Update<sp/>cache</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">self</highlight><highlight class="normal">.isCancelled<sp/>==<sp/>NO)<sp/></highlight><highlight class="comment">//<sp/>Show<sp/>the<sp/>image<sp/>in<sp/>the<sp/>target<sp/>thumb<sp/>view<sp/>on<sp/>the<sp/>main<sp/>thread</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d8/d25/interface_reader_thumb_view" kindref="compound">ReaderThumbView</ref><sp/>*thumbView<sp/>=<sp/>request.thumbView;<sp/></highlight><highlight class="comment">//<sp/>Target<sp/>thumb<sp/>view<sp/>for<sp/>image<sp/>show</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSUInteger<sp/>targetTag<sp/>=<sp/>request.<ref refid="d8/d25/interface_reader_thumb_view_1a41943cc8db6fb12bc967c4ea6ec4e2c5" kindref="member">targetTag</ref>;<sp/></highlight><highlight class="comment">//<sp/>Target<sp/>reference<sp/>tag<sp/>for<sp/>image<sp/>show</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch_async(dispatch_get_main_queue(),<sp/></highlight><highlight class="comment">//<sp/>Queue<sp/>image<sp/>show<sp/>on<sp/>main<sp/>thread</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>^{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(thumbView.<ref refid="d8/d25/interface_reader_thumb_view_1a41943cc8db6fb12bc967c4ea6ec4e2c5" kindref="member">targetTag</ref><sp/>==<sp/>targetTag)<sp/>[thumbView<sp/>showImage:image];</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CFURLRef<sp/>thumbURL<sp/>=<sp/>(__bridge<sp/>CFURLRef)[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>thumbFileURL];<sp/></highlight><highlight class="comment">//<sp/>Thumb<sp/>cache<sp/>path<sp/>with<sp/>PNG<sp/>file<sp/>name<sp/>URL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGImageDestinationRef<sp/>thumbRef<sp/>=<sp/>CGImageDestinationCreateWithURL(thumbURL,<sp/>(CFStringRef)</highlight><highlight class="stringliteral">@&quot;public.png&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>NULL);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(thumbRef<sp/>!=<sp/>NULL)<sp/></highlight><highlight class="comment">//<sp/>Write<sp/>the<sp/>thumb<sp/>image<sp/>file<sp/>out<sp/>to<sp/>the<sp/>thumb<sp/>cache<sp/>directory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGImageDestinationAddImage(thumbRef,<sp/>imageRef,<sp/>NULL);<sp/></highlight><highlight class="comment">//<sp/>Add<sp/>the<sp/>image</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGImageDestinationFinalize(thumbRef);<sp/></highlight><highlight class="comment">//<sp/>Finalize<sp/>the<sp/>image<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CFRelease(thumbRef);<sp/></highlight><highlight class="comment">//<sp/>Release<sp/>CGImageDestination<sp/>reference</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGImageRelease(imageRef);<sp/></highlight><highlight class="comment">//<sp/>Release<sp/>CGImage<sp/>reference</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>No<sp/>image<sp/>-<sp/>so<sp/>remove<sp/>the<sp/>placeholder<sp/>object<sp/>from<sp/>the<sp/>cache</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[<ref refid="da/d97/interface_reader_thumb_cache" kindref="compound">ReaderThumbCache</ref><sp/><ref refid="da/d97/interface_reader_thumb_cache_1a5254f54ac18877ab24f532abedf47e6e" kindref="member">sharedInstance</ref>]<sp/><ref refid="da/d97/interface_reader_thumb_cache_1a83f2dc15c3ae0f6dc0726066094d8283" kindref="member">removeNullForKey</ref>:request.cacheKey];</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>request.thumbView.operation<sp/>=<sp/>nil;<sp/></highlight><highlight class="comment">//<sp/>Break<sp/>retain<sp/>loop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbRender.m"/>
+  </compounddef>
+</doxygen>

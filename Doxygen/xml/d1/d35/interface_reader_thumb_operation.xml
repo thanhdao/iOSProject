@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d1/d35/interface_reader_thumb_operation" kind="class" prot="public">
+    <compoundname>ReaderThumbOperation</compoundname>
+    <basecompoundref refid="dc/df8/class_n_s_operation" prot="public" virt="non-virtual">NSOperation</basecompoundref>
+    <derivedcompoundref refid="dd/d32/interface_reader_thumb_fetch" prot="public" virt="non-virtual">ReaderThumbFetch</derivedcompoundref>
+    <derivedcompoundref refid="d1/dcd/interface_reader_thumb_render" prot="public" virt="non-virtual">ReaderThumbRender</derivedcompoundref>
+    <includes refid="dd/d6f/_reader_thumb_queue_8h" local="no">ReaderThumbQueue.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d1/d35/interface_reader_thumb_operation_1a00d9e3c5b3f57b2e6ff5de0deebfc3ec" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* ReaderThumbOperation::guid</definition>
+        <argsstring></argsstring>
+        <name>guid</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.h" line="50" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.h" bodystart="50" bodyend="-1"/>
+        <referencedby refid="d1/d35/interface_reader_thumb_operation_1ac842ce4ae99d560dec9449fb598996bf" compoundref="d2/d6b/_reader_thumb_queue_8m" startline="131" endline="139">initWithGUID:</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d35/interface_reader_thumb_operation_1ac842ce4ae99d560dec9449fb598996bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ReaderThumbOperation::initWithGUID:</definition>
+        <argsstring>(NSString *guid)</argsstring>
+        <name>initWithGUID:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>guid</declname>
+        </param>
+        <initializer>{
+	NSString *<ref refid="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" kindref="member">_guid</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.h" line="52" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.m" bodystart="131" bodyend="139"/>
+        <references refid="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" compoundref="dc/d88/_reader_thumb_request_8m" startline="30">_guid</references>
+        <references refid="d1/d35/interface_reader_thumb_operation_1a00d9e3c5b3f57b2e6ff5de0deebfc3ec" compoundref="dd/d6f/_reader_thumb_queue_8h" startline="50">guid</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="575">
+        <label>ReaderThumbFetch</label>
+        <link refid="dd/d32/interface_reader_thumb_fetch"/>
+        <childnode refid="573" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="573">
+        <label>ReaderThumbOperation</label>
+        <link refid="d1/d35/interface_reader_thumb_operation"/>
+        <childnode refid="574" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="576">
+        <label>ReaderThumbRender</label>
+        <link refid="d1/dcd/interface_reader_thumb_render"/>
+        <childnode refid="573" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="574">
+        <label>NSOperation</label>
+        <link refid="dc/df8/class_n_s_operation"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="579">
+        <label>NSString *</label>
+      </node>
+      <node id="577">
+        <label>ReaderThumbOperation</label>
+        <link refid="d1/d35/interface_reader_thumb_operation"/>
+        <childnode refid="578" relation="public-inheritance">
+        </childnode>
+        <childnode refid="579" relation="usage">
+          <edgelabel>guid</edgelabel>
+        </childnode>
+      </node>
+      <node id="578">
+        <label>NSOperation</label>
+        <link refid="dc/df8/class_n_s_operation"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.h" line="49" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.h" bodystart="48" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d1/d35/interface_reader_thumb_operation_1a00d9e3c5b3f57b2e6ff5de0deebfc3ec" prot="public" virt="non-virtual"><scope>ReaderThumbOperation</scope><name>guid</name></member>
+      <member refid="d1/d35/interface_reader_thumb_operation_1ac842ce4ae99d560dec9449fb598996bf" prot="public" virt="virtual"><scope>ReaderThumbOperation</scope><name>initWithGUID:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

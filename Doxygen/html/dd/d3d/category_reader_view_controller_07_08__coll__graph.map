@@ -1,0 +1,10 @@
+<map id="ReaderViewController()" name="ReaderViewController()">
+<area shape="rect" id="node2" href="$d6/dde/class_u_i_scroll_view_delegate-p.html" title="\&lt;UIScrollViewDelegate\&gt;" alt="" coords="177,5,343,33"/>
+<area shape="rect" id="node3" href="$dc/d81/class_u_i_gesture_recognizer_delegate-p.html" title="\&lt;UIGestureRecognizerDelegate\&gt;" alt="" coords="151,57,369,85"/>
+<area shape="rect" id="node4" href="$d5/dab/class_m_f_mail_compose_view_controller_delegate-p.html" title="\&lt;MFMailComposeViewController\lDelegate\&gt;" alt="" coords="152,109,368,153"/>
+<area shape="rect" id="node5" href="$dd/db6/protocol_reader_main_toolbar_delegate-p.html" title="\&lt;ReaderMainToolbarDelegate\&gt;" alt="" coords="157,177,363,205"/>
+<area shape="rect" id="node6" href="$d0/d10/class_n_s_object-p.html" title="\&lt;NSObject\&gt;" alt="" coords="5,255,99,283"/>
+<area shape="rect" id="node7" href="$d9/d22/protocol_reader_main_pagebar_delegate-p.html" title="\&lt;ReaderMainPagebarDelegate\&gt;" alt="" coords="153,229,367,257"/>
+<area shape="rect" id="node8" href="$d5/d7d/protocol_reader_content_view_delegate-p.html" title="\&lt;ReaderContentViewDelegate\&gt;" alt="" coords="155,281,365,309"/>
+<area shape="rect" id="node9" href="$db/d4e/protocol_thumbs_view_controller_delegate-p.html" title="\&lt;ThumbsViewControllerDelegate\&gt;" alt="" coords="148,333,372,361"/>
+</map>

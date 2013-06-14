@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="df/d91/interface_reader_thumb_queue" kind="class" prot="public">
+    <compoundname>ReaderThumbQueue</compoundname>
+    <basecompoundref refid="d7/dc4/class_n_s_object" prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <basecompoundref refid="d0/d10/class_n_s_object-p" prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <includes refid="dd/d6f/_reader_thumb_queue_8h" local="no">ReaderThumbQueue.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="df/d91/interface_reader_thumb_queue_1aa2f63348dc3b018a4a54f6346653edb8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="df/d91/interface_reader_thumb_queue" kindref="compound">ReaderThumbQueue</ref> *</type>
+        <definition>ReaderThumbQueue * ReaderThumbQueue::sharedInstance</definition>
+        <argsstring>()</argsstring>
+        <name>sharedInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.h" line="30" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.m" bodystart="37" bodyend="46"/>
+        <referencedby refid="da/d97/interface_reader_thumb_cache_1a4471faa4bdb367b02aeed4da49af7e4b" compoundref="db/d21/_reader_thumb_cache_8m" startline="164" endline="187">ReaderThumbCache::thumbRequest:priority:</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d91/interface_reader_thumb_queue_1affdfe9694365536fa7976c23b9ba01ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbQueue::addLoadOperation:</definition>
+        <argsstring>(NSOperation *operation)</argsstring>
+        <name>addLoadOperation:</name>
+        <param>
+          <type><ref refid="dc/df8/class_n_s_operation" kindref="compound">NSOperation</ref> *</type>
+          <declname>operation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.h" line="32" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.m" bodystart="70" bodyend="76"/>
+        <referencedby refid="da/d97/interface_reader_thumb_cache_1a4471faa4bdb367b02aeed4da49af7e4b" compoundref="db/d21/_reader_thumb_cache_8m" startline="164" endline="187">ReaderThumbCache::thumbRequest:priority:</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d91/interface_reader_thumb_queue_1a5c975c0c3cf61853ca558464d34d57f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbQueue::addWorkOperation:</definition>
+        <argsstring>(NSOperation *operation)</argsstring>
+        <name>addWorkOperation:</name>
+        <param>
+          <type><ref refid="dc/df8/class_n_s_operation" kindref="compound">NSOperation</ref> *</type>
+          <declname>operation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.h" line="34" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.m" bodystart="78" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d91/interface_reader_thumb_queue_1a3b145bafbf743ce8b075674cebe46ce2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbQueue::cancelOperationsWithGUID:</definition>
+        <argsstring>(NSString *guid)</argsstring>
+        <name>cancelOperationsWithGUID:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.h" line="36" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.m" bodystart="86" bodyend="107"/>
+        <references refid="d2/d6b/_reader_thumb_queue_8m_1a3cda6bc4a6810340f04ac240fda06e92" compoundref="d2/d6b/_reader_thumb_queue_8m" startline="29">workQueue</references>
+      </memberdef>
+      <memberdef kind="function" id="df/d91/interface_reader_thumb_queue_1af2de8a71b5112302278a513c2a897e01" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbQueue::cancelAllOperations</definition>
+        <argsstring>()</argsstring>
+        <name>cancelAllOperations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.h" line="38" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.m" bodystart="109" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="580">
+        <label>ReaderThumbQueue</label>
+        <link refid="df/d91/interface_reader_thumb_queue"/>
+        <childnode refid="581" relation="public-inheritance">
+        </childnode>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="582">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="581">
+        <label>NSObject</label>
+        <link refid="d7/dc4/class_n_s_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="583">
+        <label>ReaderThumbQueue</label>
+        <link refid="df/d91/interface_reader_thumb_queue"/>
+        <childnode refid="584" relation="public-inheritance">
+        </childnode>
+        <childnode refid="585" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="585">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="584">
+        <label>NSObject</label>
+        <link refid="d7/dc4/class_n_s_object"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.h" line="28" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbQueue.h" bodystart="28" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="df/d91/interface_reader_thumb_queue_1affdfe9694365536fa7976c23b9ba01ed" prot="public" virt="virtual"><scope>ReaderThumbQueue</scope><name>addLoadOperation:</name></member>
+      <member refid="df/d91/interface_reader_thumb_queue_1a5c975c0c3cf61853ca558464d34d57f2" prot="public" virt="virtual"><scope>ReaderThumbQueue</scope><name>addWorkOperation:</name></member>
+      <member refid="df/d91/interface_reader_thumb_queue_1af2de8a71b5112302278a513c2a897e01" prot="public" virt="virtual"><scope>ReaderThumbQueue</scope><name>cancelAllOperations</name></member>
+      <member refid="df/d91/interface_reader_thumb_queue_1a3b145bafbf743ce8b075674cebe46ce2" prot="public" virt="virtual"><scope>ReaderThumbQueue</scope><name>cancelOperationsWithGUID:</name></member>
+      <member refid="df/d91/interface_reader_thumb_queue_1aa2f63348dc3b018a4a54f6346653edb8" prot="public" virt="virtual"><scope>ReaderThumbQueue</scope><name>sharedInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

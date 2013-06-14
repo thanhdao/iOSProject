@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d3/dfb/_reader_document_8m" kind="file">
+    <compoundname>ReaderDocument.m</compoundname>
+    <includes refid="d9/db4/_reader_document_8h" local="yes">ReaderDocument.h</includes>
+    <includes refid="d0/db1/_c_g_p_d_f_document_8h" local="yes">CGPDFDocument.h</includes>
+    <includes local="no">fcntl.h</includes>
+    <incdepgraph>
+      <node id="498">
+        <label>fcntl.h</label>
+      </node>
+      <node id="496">
+        <label>CGPDFDocument.h</label>
+        <link refid="d0/db1/_c_g_p_d_f_document_8h"/>
+        <childnode refid="495" relation="include">
+        </childnode>
+        <childnode refid="497" relation="include">
+        </childnode>
+      </node>
+      <node id="495">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="494">
+        <label>ReaderDocument.h</label>
+        <link refid="d9/db4/_reader_document_8h"/>
+        <childnode refid="495" relation="include">
+        </childnode>
+      </node>
+      <node id="493">
+        <label>Sources/ReaderDocument.m</label>
+        <link refid="ReaderDocument.m"/>
+        <childnode refid="494" relation="include">
+        </childnode>
+        <childnode refid="496" relation="include">
+        </childnode>
+        <childnode refid="498" relation="include">
+        </childnode>
+      </node>
+      <node id="497">
+        <label>QuartzCore/QuartzCore.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="d3/dfb/_reader_document_8m_1a280582bf94c845a6b2b1172b47985bb9" prot="public" static="no" mutable="no">
+        <type>NSDate *</type>
+        <definition>NSDate* _fileDate</definition>
+        <argsstring></argsstring>
+        <name>_fileDate</name>
+        <initializer>{
+	NSString *<ref refid="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" kindref="member">_guid</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" line="34" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" bodystart="31" bodyend="-1"/>
+        <referencedby refid="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" compoundref="d3/dfb/_reader_document_8m" startline="197" endline="249">ReaderDocument::initWithFilePath:password:</referencedby>
+        <referencedby refid="dc/d78/interface_reader_document_1abaa0f925596750005438de7667b115a9" compoundref="d3/dfb/_reader_document_8m" startline="280" endline="304">ReaderDocument::updateProperties</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d3/dfb/_reader_document_8m_1a58a038479c757187e233a0ea71d54dbe" prot="public" static="no" mutable="no">
+        <type>NSDate *</type>
+        <definition>NSDate* _lastOpen</definition>
+        <argsstring></argsstring>
+        <name>_lastOpen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" line="36" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" bodystart="36" bodyend="-1"/>
+        <referencedby refid="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" compoundref="d3/dfb/_reader_document_8m" startline="197" endline="249">ReaderDocument::initWithFilePath:password:</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d3/dfb/_reader_document_8m_1aadbe3726ec4d6dbd8227fb5af7325ec8" prot="public" static="no" mutable="no">
+        <type>NSNumber *</type>
+        <definition>NSNumber* _fileSize</definition>
+        <argsstring></argsstring>
+        <name>_fileSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" line="38" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" bodystart="38" bodyend="-1"/>
+        <referencedby refid="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" compoundref="d3/dfb/_reader_document_8m" startline="197" endline="249">ReaderDocument::initWithFilePath:password:</referencedby>
+        <referencedby refid="dc/d78/interface_reader_document_1abaa0f925596750005438de7667b115a9" compoundref="d3/dfb/_reader_document_8m" startline="280" endline="304">ReaderDocument::updateProperties</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d3/dfb/_reader_document_8m_1a768e662987b3edbf2688848b45bea3da" prot="public" static="no" mutable="no">
+        <type>NSNumber *</type>
+        <definition>NSNumber* _pageCount</definition>
+        <argsstring></argsstring>
+        <name>_pageCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" line="40" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" bodystart="40" bodyend="-1"/>
+        <referencedby refid="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" compoundref="d3/dfb/_reader_document_8m" startline="197" endline="249">ReaderDocument::initWithFilePath:password:</referencedby>
+        <referencedby refid="dc/d78/interface_reader_document_1abaa0f925596750005438de7667b115a9" compoundref="d3/dfb/_reader_document_8m" startline="280" endline="304">ReaderDocument::updateProperties</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d3/dfb/_reader_document_8m_1a6181e4abb2165c889e8f788bd29caedb" prot="public" static="no" mutable="no">
+        <type>NSNumber *</type>
+        <definition>NSNumber* _pageNumber</definition>
+        <argsstring></argsstring>
+        <name>_pageNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" line="42" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" bodystart="42" bodyend="-1"/>
+        <referencedby refid="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" compoundref="d3/dfb/_reader_document_8m" startline="197" endline="249">ReaderDocument::initWithFilePath:password:</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d3/dfb/_reader_document_8m_1a9c4719c9861c51f3d80f92a851c132ed" prot="public" static="no" mutable="no">
+        <type>NSMutableIndexSet *</type>
+        <definition>NSMutableIndexSet* _bookmarks</definition>
+        <argsstring></argsstring>
+        <name>_bookmarks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" line="44" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" bodystart="44" bodyend="-1"/>
+        <referencedby refid="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" compoundref="d3/dfb/_reader_document_8m" startline="197" endline="249">ReaderDocument::initWithFilePath:password:</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d3/dfb/_reader_document_8m_1af84710c8ffca4efe47502b31270c5783" prot="public" static="no" mutable="no">
+        <type>NSString *</type>
+        <definition>NSString* _fileName</definition>
+        <argsstring></argsstring>
+        <name>_fileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" line="46" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" bodystart="46" bodyend="-1"/>
+        <referencedby refid="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" compoundref="d3/dfb/_reader_document_8m" startline="197" endline="249">ReaderDocument::initWithFilePath:password:</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d3/dfb/_reader_document_8m_1a6ae163208de62aa6f2598ccb01f9a070" prot="public" static="no" mutable="no">
+        <type>NSString *</type>
+        <definition>NSString* _password</definition>
+        <argsstring></argsstring>
+        <name>_password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" line="48" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" bodystart="48" bodyend="-1"/>
+        <referencedby refid="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" compoundref="d3/dfb/_reader_document_8m" startline="197" endline="249">ReaderDocument::initWithFilePath:password:</referencedby>
+        <referencedby refid="dc/dc5/interface_reader_thumb_request_1ab638dcd23e07bd9b88b5f149b789a91a" compoundref="dc/d88/_reader_thumb_request_8m" startline="74" endline="94">ReaderThumbRequest::initWithView:fileURL:password:guid:page:size:</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d3/dfb/_reader_document_8m_1a44c360ac4a26f4e4fa04c9c8ca0ac81a" prot="public" static="no" mutable="no">
+        <type>NSURL *</type>
+        <definition>NSURL* _fileURL</definition>
+        <argsstring></argsstring>
+        <name>_fileURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" line="50" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" bodystart="50" bodyend="-1"/>
+        <referencedby refid="dc/dc5/interface_reader_thumb_request_1ab638dcd23e07bd9b88b5f149b789a91a" compoundref="dc/d88/_reader_thumb_request_8m" startline="74" endline="94">ReaderThumbRequest::initWithView:fileURL:password:guid:page:size:</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>ReaderDocument.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Reader<sp/>v2.6.1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Julius<sp/>Oklamcak<sp/>on<sp/>2011-07-01.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2011-2012<sp/>Julius<sp/>Oklamcak.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell<sp/>copies</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in<sp/>all</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>OR<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="d9/db4/_reader_document_8h" kindref="compound">ReaderDocument.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="d0/db1/_c_g_p_d_f_document_8h" kindref="compound">CGPDFDocument.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;fcntl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref></highlight></codeline>
+<codeline lineno="31" refid="d3/dfb/_reader_document_8m_1a280582bf94c845a6b2b1172b47985bb9" refkind="member"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*<ref refid="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" kindref="member">_guid</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDate<sp/>*<ref refid="d3/dfb/_reader_document_8m_1a280582bf94c845a6b2b1172b47985bb9" kindref="member">_fileDate</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="d3/dfb/_reader_document_8m_1a58a038479c757187e233a0ea71d54dbe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDate<sp/>*<ref refid="d3/dfb/_reader_document_8m_1a58a038479c757187e233a0ea71d54dbe" kindref="member">_lastOpen</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="d3/dfb/_reader_document_8m_1aadbe3726ec4d6dbd8227fb5af7325ec8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumber<sp/>*<ref refid="d3/dfb/_reader_document_8m_1aadbe3726ec4d6dbd8227fb5af7325ec8" kindref="member">_fileSize</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="d3/dfb/_reader_document_8m_1a768e662987b3edbf2688848b45bea3da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumber<sp/>*<ref refid="d3/dfb/_reader_document_8m_1a768e662987b3edbf2688848b45bea3da" kindref="member">_pageCount</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="d3/dfb/_reader_document_8m_1a6181e4abb2165c889e8f788bd29caedb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>NSNumber<sp/>*<ref refid="d3/dfb/_reader_document_8m_1a6181e4abb2165c889e8f788bd29caedb" kindref="member">_pageNumber</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="d3/dfb/_reader_document_8m_1a9c4719c9861c51f3d80f92a851c132ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>NSMutableIndexSet<sp/>*<ref refid="d3/dfb/_reader_document_8m_1a9c4719c9861c51f3d80f92a851c132ed" kindref="member">_bookmarks</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="d3/dfb/_reader_document_8m_1af84710c8ffca4efe47502b31270c5783" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*<ref refid="d3/dfb/_reader_document_8m_1af84710c8ffca4efe47502b31270c5783" kindref="member">_fileName</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="d3/dfb/_reader_document_8m_1a6ae163208de62aa6f2598ccb01f9a070" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*<ref refid="d3/dfb/_reader_document_8m_1a6ae163208de62aa6f2598ccb01f9a070" kindref="member">_password</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="d3/dfb/_reader_document_8m_1a44c360ac4a26f4e4fa04c9c8ca0ac81a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>NSURL<sp/>*<ref refid="d3/dfb/_reader_document_8m_1a44c360ac4a26f4e4fa04c9c8ca0ac81a" kindref="member">_fileURL</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Properties</highlight></codeline>
+<codeline lineno="54"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/d78/interface_reader_document_1a1d10bceac39442fdd660c1696edf2573" kindref="member">guid</ref><sp/>=<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" kindref="member">_guid</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/d78/interface_reader_document_1adb6d224fb441a753e3f90baf4477c884" kindref="member">fileDate</ref><sp/>=<sp/><ref refid="d3/dfb/_reader_document_8m_1a280582bf94c845a6b2b1172b47985bb9" kindref="member">_fileDate</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/d78/interface_reader_document_1a4c9221246aa089f1471bb9f58022629d" kindref="member">fileSize</ref><sp/>=<sp/><ref refid="d3/dfb/_reader_document_8m_1aadbe3726ec4d6dbd8227fb5af7325ec8" kindref="member">_fileSize</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/d78/interface_reader_document_1ac41f9c6f4b2b8c109ef03971eaa64225" kindref="member">pageCount</ref><sp/>=<sp/><ref refid="d3/dfb/_reader_document_8m_1a768e662987b3edbf2688848b45bea3da" kindref="member">_pageCount</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/d78/interface_reader_document_1a5604d89843047aadab52a61f92837c4b" kindref="member">pageNumber</ref><sp/>=<sp/><ref refid="d3/dfb/_reader_document_8m_1a6181e4abb2165c889e8f788bd29caedb" kindref="member">_pageNumber</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/d78/interface_reader_document_1aeb8333eda0eee2c0a48a43e2766ae31a" kindref="member">bookmarks</ref><sp/>=<sp/><ref refid="d3/dfb/_reader_document_8m_1a9c4719c9861c51f3d80f92a851c132ed" kindref="member">_bookmarks</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/d78/interface_reader_document_1a9c51a6e373b8657337a0924ab0f19cb8" kindref="member">lastOpen</ref><sp/>=<sp/><ref refid="d3/dfb/_reader_document_8m_1a58a038479c757187e233a0ea71d54dbe" kindref="member">_lastOpen</ref>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/><ref refid="dc/d78/interface_reader_document_1a782c81876b82fa2f840f4bef6709ec4d" kindref="member">password</ref><sp/>=<sp/><ref refid="d3/dfb/_reader_document_8m_1a6ae163208de62aa6f2598ccb01f9a070" kindref="member">_password</ref>;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">@dynamic<sp/><ref refid="dc/d78/interface_reader_document_1a1c95075453d9fde3a66ac3238496a8cb" kindref="member">fileName</ref>,<sp/><ref refid="dc/d78/interface_reader_document_1a76f21379e86bce6c49b5e7469494fdbc" kindref="member">fileURL</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>ReaderDocument<sp/>class<sp/>methods</highlight></codeline>
+<codeline lineno="66"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">+<sp/>(NSString<sp/>*)GUID</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>CFUUIDRef<sp/>theUUID<sp/>=<sp/>CFUUIDCreate(NULL);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>CFStringRef<sp/>theString<sp/>=<sp/>CFUUIDCreateString(NULL,<sp/>theUUID);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*unique<sp/>=<sp/>[NSString<sp/>stringWithString:(__bridge<sp/>id)theString];</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>CFRelease(theString);<sp/>CFRelease(theUUID);<sp/></highlight><highlight class="comment">//<sp/>Cleanup<sp/>CF<sp/>objects</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>unique;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">+<sp/>(NSString<sp/>*)documentsPath</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*documentsPaths<sp/>=<sp/>NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,<sp/>NSUserDomainMask,<sp/>YES);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[documentsPaths<sp/>objectAtIndex:0];<sp/></highlight><highlight class="comment">//<sp/>Path<sp/>to<sp/>the<sp/>application&apos;s<sp/>&quot;~/Documents&quot;<sp/>directory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">+<sp/>(NSString<sp/>*)applicationPath</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*documentsPaths<sp/>=<sp/>NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,<sp/>NSUserDomainMask,<sp/>YES);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[documentsPaths<sp/>objectAtIndex:0]<sp/>stringByDeletingLastPathComponent];<sp/></highlight><highlight class="comment">//<sp/>Strip<sp/>&quot;Documents&quot;<sp/>component</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">+<sp/>(NSString<sp/>*)applicationSupportPath</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>NSFileManager<sp/>*fileManager<sp/>=<sp/>[NSFileManager<sp/>new];<sp/></highlight><highlight class="comment">//<sp/>File<sp/>manager<sp/>instance</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>NSURL<sp/>*pathURL<sp/>=<sp/>[fileManager<sp/>URLForDirectory:NSApplicationSupportDirectory<sp/>inDomain:NSUserDomainMask<sp/>appropriateForURL:nil<sp/>create:YES<sp/>error:NULL];</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[pathURL<sp/>path];<sp/></highlight><highlight class="comment">//<sp/>Path<sp/>to<sp/>the<sp/>application&apos;s<sp/>&quot;~/Library/Application<sp/>Support&quot;<sp/>directory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">+<sp/>(NSString<sp/>*)relativeFilePath:(NSString<sp/>*)fullFilePath</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(fullFilePath<sp/>!=<sp/>nil);<sp/></highlight><highlight class="comment">//<sp/>Ensure<sp/>that<sp/>the<sp/>full<sp/>file<sp/>path<sp/>is<sp/>not<sp/>nil</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*applicationPath<sp/>=<sp/>[<ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/>applicationPath];<sp/></highlight><highlight class="comment">//<sp/>Get<sp/>the<sp/>application<sp/>path</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>NSRange<sp/>range<sp/>=<sp/>[fullFilePath<sp/>rangeOfString:applicationPath];<sp/></highlight><highlight class="comment">//<sp/>Look<sp/>for<sp/>the<sp/>application<sp/>path</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(range.location<sp/>!=<sp/>NSNotFound);<sp/></highlight><highlight class="comment">//<sp/>Ensure<sp/>that<sp/>the<sp/>application<sp/>path<sp/>is<sp/>in<sp/>the<sp/>full<sp/>file<sp/>path</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[fullFilePath<sp/>stringByReplacingCharactersInRange:range<sp/>withString:@&quot;&quot;];<sp/></highlight><highlight class="comment">//<sp/>Strip<sp/>it<sp/>out</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">+<sp/>(NSString<sp/>*)archiveFilePath:(NSString<sp/>*)filename</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(filename<sp/>!=<sp/>nil);<sp/></highlight><highlight class="comment">//<sp/>Ensure<sp/>that<sp/>the<sp/>archive<sp/>file<sp/>name<sp/>is<sp/>not<sp/>nil</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//NSString<sp/>*archivePath<sp/>=<sp/>[ReaderDocument<sp/>documentsPath];<sp/>//<sp/>Application&apos;s<sp/>&quot;~/Documents&quot;<sp/>path</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*archivePath<sp/>=<sp/>[<ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/>applicationSupportPath];<sp/></highlight><highlight class="comment">//<sp/>Application&apos;s<sp/>&quot;~/Library/Application<sp/>Support&quot;<sp/>path</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*archiveName<sp/>=<sp/>[[filename<sp/>stringByDeletingPathExtension]<sp/>stringByAppendingPathExtension:@&quot;plist&quot;];</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[archivePath<sp/>stringByAppendingPathComponent:archiveName];<sp/></highlight><highlight class="comment">//<sp/>&quot;{archivePath}/&apos;filename&apos;.plist&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="dc/d78/interface_reader_document_1a3567d59bbbccc7c57f079e651d13c364" refkind="member"><highlight class="normal">+<sp/>(<ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/>*)unarchiveFromFileName:(NSString<sp/>*)filename<sp/>password:(NSString<sp/>*)phrase</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/>*document<sp/>=<sp/>nil;<sp/></highlight><highlight class="comment">//<sp/>ReaderDocument<sp/>object</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*withName<sp/>=<sp/>[filename<sp/>lastPathComponent];<sp/></highlight><highlight class="comment">//<sp/>File<sp/>name<sp/>only</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*archiveFilePath<sp/>=<sp/>[<ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/>archiveFilePath:withName];</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">@try</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>Unarchive<sp/>an<sp/>archived<sp/>ReaderDocument<sp/>object<sp/>from<sp/>its<sp/>property<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>document<sp/>=<sp/>[NSKeyedUnarchiver<sp/>unarchiveObjectWithFile:archiveFilePath];</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((document<sp/>!=<sp/>nil)<sp/>&amp;&amp;<sp/>(phrase<sp/>!=<sp/>nil))<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>document<sp/>password</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[document<sp/>setValue:[phrase<sp/>copy]<sp/>forKey:@&quot;password&quot;];</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">@catch</highlight><highlight class="normal"><sp/>(NSException<sp/>*exception)<sp/></highlight><highlight class="comment">//<sp/>Exception<sp/>handling<sp/>(just<sp/>in<sp/>case<sp/>O_o)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#ifdef<sp/>DEBUG</highlight></codeline>
+<codeline lineno="149"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSLog(</highlight><highlight class="stringliteral">@&quot;%s<sp/>Caught<sp/>%@:<sp/>%@&quot;</highlight><highlight class="normal">,<sp/>__FUNCTION__,<sp/>[exception<sp/>name],<sp/>[exception<sp/>reason]);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endif</highlight></codeline>
+<codeline lineno="151"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>document;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="dc/d78/interface_reader_document_1a45e97f0c02ba91018b7ccac3b8b5d255" refkind="member"><highlight class="normal">+<sp/>(<ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/>*)withDocumentFilePath:(NSString<sp/>*)filePath<sp/>password:(NSString<sp/>*)phrase</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/>*document<sp/>=<sp/>nil;<sp/></highlight><highlight class="comment">//<sp/>ReaderDocument<sp/>object</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>document<sp/>=<sp/>[<ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/><ref refid="dc/d78/interface_reader_document_1a3567d59bbbccc7c57f079e651d13c364" kindref="member">unarchiveFromFileName</ref>:filePath<sp/><ref refid="dc/d78/interface_reader_document_1a3567d59bbbccc7c57f079e651d13c364" kindref="member">password</ref>:phrase];</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(document<sp/>==<sp/>nil)<sp/></highlight><highlight class="comment">//<sp/>Unarchive<sp/>failed<sp/>so<sp/>we<sp/>create<sp/>a<sp/>new<sp/>ReaderDocument<sp/>object</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>document<sp/>=<sp/>[[<ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/>alloc]<sp/>initWithFilePath:filePath<sp/>password:phrase];</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>document;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal">+<sp/>(BOOL)isPDF:(NSString<sp/>*)filePath</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/>state<sp/>=<sp/>NO;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(filePath<sp/>!=<sp/>nil)<sp/></highlight><highlight class="comment">//<sp/>Must<sp/>have<sp/>a<sp/>file<sp/>path</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path<sp/>=<sp/>[filePath<sp/>fileSystemRepresentation];</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd<sp/>=<sp/>open(path,<sp/>O_RDONLY);<sp/></highlight><highlight class="comment">//<sp/>Open<sp/>the<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fd<sp/>&gt;<sp/>0)<sp/></highlight><highlight class="comment">//<sp/>We<sp/>have<sp/>a<sp/>valid<sp/>file<sp/>descriptor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>sig[1024];<sp/></highlight><highlight class="comment">//<sp/>File<sp/>signature<sp/>buffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ssize_t<sp/>len<sp/>=<sp/>read(fd,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)&amp;sig,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(sig));</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>state<sp/>=<sp/>(strnstr(sig,<sp/></highlight><highlight class="stringliteral">&quot;%PDF&quot;</highlight><highlight class="normal">,<sp/>len)<sp/>!=<sp/>NULL);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>close(fd);<sp/></highlight><highlight class="comment">//<sp/>Close<sp/>the<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>state;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>ReaderDocument<sp/>instance<sp/>methods</highlight></codeline>
+<codeline lineno="196"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" refkind="member"><highlight class="normal">-<sp/>(id)initWithFilePath:(NSString<sp/>*)fullFilePath<sp/>password:(NSString<sp/>*)phrase</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>=<sp/>nil;<sp/></highlight><highlight class="comment">//<sp/>ReaderDocument<sp/>object</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>([<ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/>isPDF:fullFilePath]<sp/>==<sp/>YES)<sp/></highlight><highlight class="comment">//<sp/>File<sp/>must<sp/>exist</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[super<sp/>init]))<sp/></highlight><highlight class="comment">//<sp/>Initialize<sp/>superclass<sp/>object<sp/>first</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" kindref="member">_guid</ref><sp/>=<sp/>[<ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/>GUID];<sp/></highlight><highlight class="comment">//<sp/>Create<sp/>a<sp/>document<sp/>GUID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a6ae163208de62aa6f2598ccb01f9a070" kindref="member">_password</ref><sp/>=<sp/>[phrase<sp/>copy];<sp/></highlight><highlight class="comment">//<sp/>Keep<sp/>copy<sp/>of<sp/>any<sp/>document<sp/>password</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a9c4719c9861c51f3d80f92a851c132ed" kindref="member">_bookmarks</ref><sp/>=<sp/>[NSMutableIndexSet<sp/>new];<sp/></highlight><highlight class="comment">//<sp/>Bookmarked<sp/>pages<sp/>index<sp/>set</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a6181e4abb2165c889e8f788bd29caedb" kindref="member">_pageNumber</ref><sp/>=<sp/>[NSNumber<sp/>numberWithInteger:1];<sp/></highlight><highlight class="comment">//<sp/>Start<sp/>on<sp/>page<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1af84710c8ffca4efe47502b31270c5783" kindref="member">_fileName</ref><sp/>=<sp/>[<ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/>relativeFilePath:fullFilePath];<sp/></highlight><highlight class="comment">//<sp/>File<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CFURLRef<sp/>docURLRef<sp/>=<sp/>(__bridge<sp/>CFURLRef)[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="dc/d78/interface_reader_document_1a76f21379e86bce6c49b5e7469494fdbc" kindref="member">fileURL</ref>];<sp/></highlight><highlight class="comment">//<sp/>CFURLRef<sp/>from<sp/>NSURL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGPDFDocumentRef<sp/>thePDFDocRef<sp/>=<sp/><ref refid="d0/db1/_c_g_p_d_f_document_8h_1a29e26388c8323c906c5b3160d32cb5f1" kindref="member">CGPDFDocumentCreateX</ref>(docURLRef,<sp/><ref refid="d3/dfb/_reader_document_8m_1a6ae163208de62aa6f2598ccb01f9a070" kindref="member">_password</ref>);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(thePDFDocRef<sp/>!=<sp/>NULL)<sp/></highlight><highlight class="comment">//<sp/>Get<sp/>the<sp/>number<sp/>of<sp/>pages<sp/>in<sp/>the<sp/>document</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSInteger<sp/><ref refid="dc/d78/interface_reader_document_1ac41f9c6f4b2b8c109ef03971eaa64225" kindref="member">pageCount</ref><sp/>=<sp/>CGPDFDocumentGetNumberOfPages(thePDFDocRef);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a768e662987b3edbf2688848b45bea3da" kindref="member">_pageCount</ref><sp/>=<sp/>[NSNumber<sp/>numberWithInteger:pageCount];</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGPDFDocumentRelease(thePDFDocRef);<sp/></highlight><highlight class="comment">//<sp/>Cleanup</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>Cupertino,<sp/>we<sp/>have<sp/>a<sp/>problem<sp/>with<sp/>the<sp/>document</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSAssert(NO,<sp/></highlight><highlight class="stringliteral">@&quot;CGPDFDocumentRef<sp/>==<sp/>NULL&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSFileManager<sp/>*fileManager<sp/>=<sp/>[NSFileManager<sp/>new];<sp/></highlight><highlight class="comment">//<sp/>File<sp/>manager<sp/>instance</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a58a038479c757187e233a0ea71d54dbe" kindref="member">_lastOpen</ref><sp/>=<sp/>[NSDate<sp/>dateWithTimeIntervalSinceReferenceDate:0.0];<sp/></highlight><highlight class="comment">//<sp/>Last<sp/>opened</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSDictionary<sp/>*fileAttributes<sp/>=<sp/>[fileManager<sp/>attributesOfItemAtPath:fullFilePath<sp/>error:NULL];</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a280582bf94c845a6b2b1172b47985bb9" kindref="member">_fileDate</ref><sp/>=<sp/>[fileAttributes<sp/>objectForKey:NSFileModificationDate];<sp/></highlight><highlight class="comment">//<sp/>File<sp/>date</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1aadbe3726ec4d6dbd8227fb5af7325ec8" kindref="member">_fileSize</ref><sp/>=<sp/>[fileAttributes<sp/>objectForKey:NSFileSize];<sp/></highlight><highlight class="comment">//<sp/>File<sp/>size<sp/>(bytes)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="dc/d78/interface_reader_document_1a4566989b0714e4a959806ab6b81b4c61" kindref="member">saveReaderDocument</ref>];<sp/></highlight><highlight class="comment">//<sp/>Save<sp/>the<sp/>ReaderDocument<sp/>object</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Return<sp/>initialized<sp/>ReaderDocument<sp/>object</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>object;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal">-<sp/>(NSString<sp/>*)<ref refid="dc/d78/interface_reader_document_1a1c95075453d9fde3a66ac3238496a8cb" kindref="member">fileName</ref></highlight></codeline>
+<codeline lineno="252"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[_fileName<sp/>lastPathComponent];</highlight></codeline>
+<codeline lineno="254"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal">-<sp/>(NSURL<sp/>*)<ref refid="dc/d78/interface_reader_document_1a76f21379e86bce6c49b5e7469494fdbc" kindref="member">fileURL</ref></highlight></codeline>
+<codeline lineno="257"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d3/dfb/_reader_document_8m_1a44c360ac4a26f4e4fa04c9c8ca0ac81a" kindref="member">_fileURL</ref><sp/>==<sp/>nil)<sp/></highlight><highlight class="comment">//<sp/>Create<sp/>and<sp/>keep<sp/>the<sp/>file<sp/>URL<sp/>the<sp/>first<sp/>time<sp/>it<sp/>is<sp/>requested</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSString<sp/>*fullFilePath<sp/>=<sp/>[[<ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/>applicationPath]<sp/>stringByAppendingPathComponent:_fileName];</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a44c360ac4a26f4e4fa04c9c8ca0ac81a" kindref="member">_fileURL</ref><sp/>=<sp/>[[NSURL<sp/>alloc]<sp/>initFileURLWithPath:fullFilePath<sp/>isDirectory:NO];<sp/></highlight><highlight class="comment">//<sp/>File<sp/>URL<sp/>from<sp/>full<sp/>file<sp/>path</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d3/dfb/_reader_document_8m_1a44c360ac4a26f4e4fa04c9c8ca0ac81a" kindref="member">_fileURL</ref>;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal">-<sp/>(BOOL)archiveWithFileName:(NSString<sp/>*)filename</highlight></codeline>
+<codeline lineno="269"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*archiveFilePath<sp/>=<sp/>[<ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/>archiveFilePath:filename];</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[NSKeyedArchiver<sp/>archiveRootObject:self<sp/>toFile:archiveFilePath];</highlight></codeline>
+<codeline lineno="273"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="dc/d78/interface_reader_document_1a4566989b0714e4a959806ab6b81b4c61" refkind="member"><highlight class="normal">-<sp/>(void)<ref refid="dc/d78/interface_reader_document_1a4566989b0714e4a959806ab6b81b4c61" kindref="member">saveReaderDocument</ref></highlight></codeline>
+<codeline lineno="276"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>archiveWithFileName:[</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/><ref refid="dc/d78/interface_reader_document_1a1c95075453d9fde3a66ac3238496a8cb" kindref="member">fileName</ref>]];</highlight></codeline>
+<codeline lineno="278"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280" refid="dc/d78/interface_reader_document_1abaa0f925596750005438de7667b115a9" refkind="member"><highlight class="normal">-<sp/>(void)<ref refid="dc/d78/interface_reader_document_1abaa0f925596750005438de7667b115a9" kindref="member">updateProperties</ref></highlight></codeline>
+<codeline lineno="281"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/>CFURLRef<sp/>docURLRef<sp/>=<sp/>(__bridge<sp/>CFURLRef)</highlight><highlight class="keyword">self</highlight><highlight class="normal">.<ref refid="dc/d78/interface_reader_document_1a76f21379e86bce6c49b5e7469494fdbc" kindref="member">fileURL</ref>;<sp/></highlight><highlight class="comment">//<sp/>File<sp/>URL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>CGPDFDocumentRef<sp/>thePDFDocRef<sp/>=<sp/>CGPDFDocumentCreateWithURL(docURLRef);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(thePDFDocRef<sp/>!=<sp/>NULL)<sp/></highlight><highlight class="comment">//<sp/>Get<sp/>the<sp/>number<sp/>of<sp/>pages<sp/>in<sp/>the<sp/>document</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSInteger<sp/><ref refid="dc/d78/interface_reader_document_1ac41f9c6f4b2b8c109ef03971eaa64225" kindref="member">pageCount</ref><sp/>=<sp/>CGPDFDocumentGetNumberOfPages(thePDFDocRef);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a768e662987b3edbf2688848b45bea3da" kindref="member">_pageCount</ref><sp/>=<sp/>[NSNumber<sp/>numberWithInteger:pageCount];</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CGPDFDocumentRelease(thePDFDocRef);<sp/></highlight><highlight class="comment">//<sp/>Cleanup</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*fullFilePath<sp/>=<sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.fileURL<sp/>path];<sp/></highlight><highlight class="comment">//<sp/>Full<sp/>file<sp/>path</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>NSFileManager<sp/>*fileManager<sp/>=<sp/>[NSFileManager<sp/>new];<sp/></highlight><highlight class="comment">//<sp/>File<sp/>manager<sp/>instance</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/>NSDictionary<sp/>*fileAttributes<sp/>=<sp/>[fileManager<sp/>attributesOfItemAtPath:fullFilePath<sp/>error:NULL];</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a280582bf94c845a6b2b1172b47985bb9" kindref="member">_fileDate</ref><sp/>=<sp/>[fileAttributes<sp/>objectForKey:NSFileModificationDate];<sp/></highlight><highlight class="comment">//<sp/>File<sp/>date</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1aadbe3726ec4d6dbd8227fb5af7325ec8" kindref="member">_fileSize</ref><sp/>=<sp/>[fileAttributes<sp/>objectForKey:NSFileSize];<sp/></highlight><highlight class="comment">//<sp/>File<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>NSCoding<sp/>protocol<sp/>methods</highlight></codeline>
+<codeline lineno="307"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal">-<sp/>(void)encodeWithCoder:(NSCoder<sp/>*)encoder</highlight></codeline>
+<codeline lineno="309"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/>[encoder<sp/>encodeObject:_guid<sp/>forKey:@&quot;FileGUID&quot;];</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>[encoder<sp/>encodeObject:_fileName<sp/>forKey:@&quot;FileName&quot;];</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>[encoder<sp/>encodeObject:_fileDate<sp/>forKey:@&quot;FileDate&quot;];</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/>[encoder<sp/>encodeObject:_pageCount<sp/>forKey:@&quot;PageCount&quot;];</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/>[encoder<sp/>encodeObject:_pageNumber<sp/>forKey:@&quot;PageNumber&quot;];</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/>[encoder<sp/>encodeObject:_bookmarks<sp/>forKey:@&quot;Bookmarks&quot;];</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/>[encoder<sp/>encodeObject:_fileSize<sp/>forKey:@&quot;FileSize&quot;];</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/>[encoder<sp/>encodeObject:_lastOpen<sp/>forKey:@&quot;LastOpen&quot;];</highlight></codeline>
+<codeline lineno="325"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal">-<sp/>(id)initWithCoder:(NSCoder<sp/>*)decoder</highlight></codeline>
+<codeline lineno="328"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((</highlight><highlight class="keyword">self</highlight><highlight class="normal"><sp/>=<sp/>[super<sp/>init]))<sp/></highlight><highlight class="comment">//<sp/>Superclass<sp/>init</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" kindref="member">_guid</ref><sp/>=<sp/>[decoder<sp/>decodeObjectForKey:@&quot;FileGUID&quot;];</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1af84710c8ffca4efe47502b31270c5783" kindref="member">_fileName</ref><sp/>=<sp/>[decoder<sp/>decodeObjectForKey:@&quot;FileName&quot;];</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a280582bf94c845a6b2b1172b47985bb9" kindref="member">_fileDate</ref><sp/>=<sp/>[decoder<sp/>decodeObjectForKey:@&quot;FileDate&quot;];</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a768e662987b3edbf2688848b45bea3da" kindref="member">_pageCount</ref><sp/>=<sp/>[decoder<sp/>decodeObjectForKey:@&quot;PageCount&quot;];</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a6181e4abb2165c889e8f788bd29caedb" kindref="member">_pageNumber</ref><sp/>=<sp/>[decoder<sp/>decodeObjectForKey:@&quot;PageNumber&quot;];</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a9c4719c9861c51f3d80f92a851c132ed" kindref="member">_bookmarks</ref><sp/>=<sp/>[decoder<sp/>decodeObjectForKey:@&quot;Bookmarks&quot;];</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1aadbe3726ec4d6dbd8227fb5af7325ec8" kindref="member">_fileSize</ref><sp/>=<sp/>[decoder<sp/>decodeObjectForKey:@&quot;FileSize&quot;];</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a58a038479c757187e233a0ea71d54dbe" kindref="member">_lastOpen</ref><sp/>=<sp/>[decoder<sp/>decodeObjectForKey:@&quot;LastOpen&quot;];</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" kindref="member">_guid</ref><sp/>==<sp/>nil)<sp/><ref refid="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" kindref="member">_guid</ref><sp/>=<sp/>[<ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/>GUID];</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d3/dfb/_reader_document_8m_1a9c4719c9861c51f3d80f92a851c132ed" kindref="member">_bookmarks</ref><sp/>!=<sp/>nil)</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a9c4719c9861c51f3d80f92a851c132ed" kindref="member">_bookmarks</ref><sp/>=<sp/>[_bookmarks<sp/>mutableCopy];</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/dfb/_reader_document_8m_1a9c4719c9861c51f3d80f92a851c132ed" kindref="member">_bookmarks</ref><sp/>=<sp/>[NSMutableIndexSet<sp/>new];</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="356"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m"/>
+  </compounddef>
+</doxygen>

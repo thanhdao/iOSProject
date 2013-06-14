@@ -50,7 +50,8 @@ typedef enum {
     //[_backGroundView.image ]
     //[_backGroundView a];
     //[self.view addSubview: _backGroundView];
-    
+    NSString *documentsDirectory = [NSSearchPathForDirectoriesInDomains(NSDocumentationDirectory, NSUserDomainMask, YES) lastObject];
+    NSLog(@"%@",documentsDirectory);
     // Choi nhac
     gStatus = WAIT;
     [self playSound];

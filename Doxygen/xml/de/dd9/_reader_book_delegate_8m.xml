@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="de/dd9/_reader_book_delegate_8m" kind="file">
+    <compoundname>ReaderBookDelegate.m</compoundname>
+    <includes refid="d3/d5d/_reader_book_delegate_8h" local="yes">ReaderBookDelegate.h</includes>
+    <includes refid="d2/dca/_reader_view_controller_8h" local="yes">ReaderViewController.h</includes>
+    <incdepgraph>
+      <node id="386">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="385">
+        <label>ReaderBookDelegate.h</label>
+        <link refid="d3/d5d/_reader_book_delegate_8h"/>
+        <childnode refid="386" relation="include">
+        </childnode>
+      </node>
+      <node id="384">
+        <label>Classes/ReaderBookDelegate.m</label>
+        <link refid="ReaderBookDelegate.m"/>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="387" relation="include">
+        </childnode>
+      </node>
+      <node id="387">
+        <label>ReaderViewController.h</label>
+        <link refid="d2/dca/_reader_view_controller_8h"/>
+        <childnode refid="386" relation="include">
+        </childnode>
+        <childnode refid="388" relation="include">
+        </childnode>
+      </node>
+      <node id="389">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="388">
+        <label>ReaderDocument.h</label>
+        <link refid="d9/db4/_reader_document_8h"/>
+        <childnode refid="389" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d2/d8f/category_reader_book_delegate_07_08" prot="public">ReaderBookDelegate()</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="de/dd9/_reader_book_delegate_8m_1add564bf71ff7d4c853227ebcfa5ad8df" prot="public" static="no" mutable="no">
+        <type><ref refid="d5/dfd/interface_reader_view_controller" kindref="compound">ReaderViewController</ref> *</type>
+        <definition>ReaderViewController* readerViewController</definition>
+        <argsstring></argsstring>
+        <name>readerViewController</name>
+        <initializer>{
+	UIWindow *mainWindow</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderBookDelegate.m" line="37" bodyfile="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderBookDelegate.m" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>ReaderBookDelegate.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Reader<sp/>v2.6.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Julius<sp/>Oklamcak<sp/>on<sp/>2011-09-01.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2011-2012<sp/>Julius<sp/>Oklamcak.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell<sp/>copies</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in<sp/>all</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>OR<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="d3/d5d/_reader_book_delegate_8h" kindref="compound">ReaderBookDelegate.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="d2/dca/_reader_view_controller_8h" kindref="compound">ReaderViewController.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="d2/d8f/category_reader_book_delegate_07_08" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="d1/dfc/interface_reader_book_delegate" kindref="compound">ReaderBookDelegate</ref><sp/>()<sp/>&lt;<ref refid="d7/dd9/protocol_reader_view_controller_delegate-p" kindref="compound">ReaderViewControllerDelegate</ref>&gt;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="d1/dfc/interface_reader_book_delegate" kindref="compound">ReaderBookDelegate</ref></highlight></codeline>
+<codeline lineno="34" refid="de/dd9/_reader_book_delegate_8m_1add564bf71ff7d4c853227ebcfa5ad8df" refkind="member"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>UIWindow<sp/>*mainWindow;<sp/></highlight><highlight class="comment">//<sp/>Main<sp/>App<sp/>Window</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dfd/interface_reader_view_controller" kindref="compound">ReaderViewController</ref><sp/>*<ref refid="de/dd9/_reader_book_delegate_8m_1add564bf71ff7d4c853227ebcfa5ad8df" kindref="member">readerViewController</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>UIApplicationDelegate<sp/>methods</highlight></codeline>
+<codeline lineno="41"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">-<sp/>(BOOL)application:(UIApplication<sp/>*)application<sp/>handleOpenURL:(NSURL<sp/>*)url</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">-<sp/>(BOOL)application:(UIApplication<sp/>*)application<sp/>didFinishLaunchingWithOptions:(NSDictionary<sp/>*)launchOptions</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>mainWindow<sp/>=<sp/>[[UIWindow<sp/>alloc]<sp/>initWithFrame:[UIScreen<sp/>mainScreen].bounds];<sp/></highlight><highlight class="comment">//<sp/>Main<sp/>application<sp/>window</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>mainWindow.backgroundColor<sp/>=<sp/>[UIColor<sp/>scrollViewTexturedBackgroundColor];<sp/></highlight><highlight class="comment">//<sp/>Window<sp/>background<sp/>color</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*phrase<sp/>=<sp/>nil;<sp/></highlight><highlight class="comment">//<sp/>Document<sp/>password<sp/>(for<sp/>unlocking<sp/>most<sp/>encrypted<sp/>PDF<sp/>files)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>NSArray<sp/>*pdfs<sp/>=<sp/>[[NSBundle<sp/>mainBundle]<sp/>pathsForResourcesOfType:@&quot;pdf&quot;<sp/>inDirectory:nil];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>NSString<sp/>*filePath<sp/>=<sp/>[pdfs<sp/>lastObject];<sp/>assert(filePath<sp/>!=<sp/>nil);<sp/></highlight><highlight class="comment">//<sp/>Path<sp/>to<sp/>last<sp/>PDF<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/>*document<sp/>=<sp/>[<ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref><sp/><ref refid="dc/d78/interface_reader_document_1a45e97f0c02ba91018b7ccac3b8b5d255" kindref="member">withDocumentFilePath</ref>:filePath<sp/><ref refid="dc/d78/interface_reader_document_1a45e97f0c02ba91018b7ccac3b8b5d255" kindref="member">password</ref>:phrase];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(document<sp/>!=<sp/>nil)<sp/></highlight><highlight class="comment">//<sp/>Must<sp/>have<sp/>a<sp/>valid<sp/>ReaderDocument<sp/>object<sp/>in<sp/>order<sp/>to<sp/>proceed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dd9/_reader_book_delegate_8m_1add564bf71ff7d4c853227ebcfa5ad8df" kindref="member">readerViewController</ref><sp/>=<sp/>[[<ref refid="d5/dfd/interface_reader_view_controller" kindref="compound">ReaderViewController</ref><sp/>alloc]<sp/>initWithReaderDocument:document];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dd9/_reader_book_delegate_8m_1add564bf71ff7d4c853227ebcfa5ad8df" kindref="member">readerViewController</ref>.<ref refid="d5/dfd/interface_reader_view_controller_1ab90e46fc4dbc3417344a6ac78b1516fc" kindref="member">delegate</ref><sp/>=<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>ReaderViewController<sp/>delegate<sp/>to<sp/>self</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mainWindow.rootViewController<sp/>=<sp/><ref refid="de/dd9/_reader_book_delegate_8m_1add564bf71ff7d4c853227ebcfa5ad8df" kindref="member">readerViewController</ref>;<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>root<sp/>view<sp/>controller</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>[mainWindow<sp/>makeKeyAndVisible];</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">-<sp/>(void)applicationWillResignActive:(UIApplication<sp/>*)application</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Sent<sp/>when<sp/>the<sp/>application<sp/>is<sp/>about<sp/>to<sp/>move<sp/>from<sp/>active<sp/>to<sp/>inactive<sp/>state.<sp/>This<sp/>can<sp/>occur<sp/>for<sp/>certain<sp/>types<sp/>of</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>temporary<sp/>interruptions<sp/>(such<sp/>as<sp/>an<sp/>incoming<sp/>phone<sp/>call<sp/>or<sp/>SMS<sp/>message)<sp/>or<sp/>when<sp/>the<sp/>user<sp/>quits<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>it<sp/>begins<sp/>the<sp/>transition<sp/>to<sp/>the<sp/>background<sp/>state.<sp/>Use<sp/>this<sp/>method<sp/>to<sp/>pause<sp/>ongoing<sp/>tasks,<sp/>disable<sp/>timers,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>throttle<sp/>down<sp/>OpenGL<sp/>ES<sp/>frame<sp/>rates.<sp/>Games<sp/>should<sp/>use<sp/>this<sp/>method<sp/>to<sp/>pause<sp/>the<sp/>game.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">-<sp/>(void)applicationDidEnterBackground:(UIApplication<sp/>*)application</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Use<sp/>this<sp/>method<sp/>to<sp/>release<sp/>shared<sp/>resources,<sp/>save<sp/>user<sp/>data,<sp/>invalidate<sp/>timers,<sp/>and<sp/>store<sp/>enough</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>application<sp/>state<sp/>information<sp/>to<sp/>restore<sp/>your<sp/>application<sp/>to<sp/>its<sp/>current<sp/>state<sp/>in<sp/>case<sp/>it<sp/>is<sp/>terminated<sp/>later.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>your<sp/>application<sp/>supports<sp/>background<sp/>execution,<sp/>called<sp/>instead<sp/>of<sp/>applicationWillTerminate:<sp/>when<sp/>the<sp/>user<sp/>quits.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">-<sp/>(void)applicationWillEnterForeground:(UIApplication<sp/>*)application</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Called<sp/>as<sp/>part<sp/>of<sp/>transition<sp/>from<sp/>the<sp/>background<sp/>to<sp/>the<sp/>inactive<sp/>state:<sp/>here<sp/>you<sp/>can<sp/>undo<sp/>many</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>of<sp/>the<sp/>changes<sp/>made<sp/>on<sp/>entering<sp/>the<sp/>background.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">-<sp/>(void)applicationDidBecomeActive:(UIApplication<sp/>*)application</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Restart<sp/>any<sp/>tasks<sp/>that<sp/>were<sp/>paused<sp/>(or<sp/>not<sp/>yet<sp/>started)<sp/>while<sp/>the<sp/>application<sp/>was<sp/>inactive.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>application<sp/>was<sp/>previously<sp/>in<sp/>the<sp/>background,<sp/>optionally<sp/>refresh<sp/>the<sp/>user<sp/>interface.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">-<sp/>(void)applicationWillTerminate:(UIApplication<sp/>*)application</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Called<sp/>when<sp/>the<sp/>application<sp/>is<sp/>about<sp/>to<sp/>terminate.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>See<sp/>also<sp/>applicationDidEnterBackground:.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal">-<sp/>(void)applicationDidReceiveMemoryWarning:(UIApplication<sp/>*)application</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Free<sp/>up<sp/>as<sp/>much<sp/>memory<sp/>as<sp/>possible<sp/>by<sp/>purging<sp/>cached<sp/>data<sp/>objects<sp/>that<sp/>can<sp/>be<sp/>recreated</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>(or<sp/>reloaded<sp/>from<sp/>disk)<sp/>later.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>ReaderViewControllerDelegate<sp/>methods</highlight></codeline>
+<codeline lineno="115"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">-<sp/>(void)dismissReaderViewController:(<ref refid="d5/dfd/interface_reader_view_controller" kindref="compound">ReaderViewController</ref><sp/>*)viewController</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Do<sp/>nothing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderBookDelegate.m"/>
+  </compounddef>
+</doxygen>

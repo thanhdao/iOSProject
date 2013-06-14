@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d4/dec/interface_reader_content_tile" kind="class" prot="public">
+    <compoundname>ReaderContentTile</compoundname>
+    <basecompoundref refid="dd/dbf/class_c_a_tiled_layer" prot="public" virt="non-virtual">CATiledLayer</basecompoundref>
+    <includes refid="d9/d98/_reader_content_tile_8h" local="no">ReaderContentTile.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="473">
+        <label>CATiledLayer</label>
+        <link refid="dd/dbf/class_c_a_tiled_layer"/>
+      </node>
+      <node id="472">
+        <label>ReaderContentTile</label>
+        <link refid="d4/dec/interface_reader_content_tile"/>
+        <childnode refid="473" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="475">
+        <label>CATiledLayer</label>
+        <link refid="dd/dbf/class_c_a_tiled_layer"/>
+      </node>
+      <node id="474">
+        <label>ReaderContentTile</label>
+        <link refid="d4/dec/interface_reader_content_tile"/>
+        <childnode refid="475" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentTile.h" line="30" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentTile.h" bodystart="29" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

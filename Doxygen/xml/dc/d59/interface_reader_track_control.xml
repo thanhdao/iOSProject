@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dc/d59/interface_reader_track_control" kind="class" prot="public">
+    <compoundname>ReaderTrackControl</compoundname>
+    <basecompoundref refid="de/dbf/class_u_i_control" prot="public" virt="non-virtual">UIControl</basecompoundref>
+    <includes refid="d9/d69/_reader_main_pagebar_8h" local="no">ReaderMainPagebar.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="dc/d59/interface_reader_track_control_1a2a91dd40b3e8d4757ac201fe8a3b9829" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no" accessor="assign">
+        <type>CGFloat</type>
+        <definition>CGFloat ReaderTrackControl::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" line="64" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="638">
+        <label>UIControl</label>
+        <link refid="de/dbf/class_u_i_control"/>
+      </node>
+      <node id="637">
+        <label>ReaderTrackControl</label>
+        <link refid="dc/d59/interface_reader_track_control"/>
+        <childnode refid="638" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="640">
+        <label>UIControl</label>
+        <link refid="de/dbf/class_u_i_control"/>
+      </node>
+      <node id="641">
+        <label>CGFloat</label>
+      </node>
+      <node id="639">
+        <label>ReaderTrackControl</label>
+        <link refid="dc/d59/interface_reader_track_control"/>
+        <childnode refid="640" relation="public-inheritance">
+        </childnode>
+        <childnode refid="641" relation="usage">
+          <edgelabel>value</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" line="63" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainPagebar.h" bodystart="62" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="dc/d59/interface_reader_track_control_1a2a91dd40b3e8d4757ac201fe8a3b9829" prot="public" virt="non-virtual"><scope>ReaderTrackControl</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

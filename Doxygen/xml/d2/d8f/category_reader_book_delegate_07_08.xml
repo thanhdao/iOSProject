@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d2/d8f/category_reader_book_delegate_07_08" kind="category" prot="public">
+    <compoundname>ReaderBookDelegate()</compoundname>
+    <basecompoundref refid="d7/dd9/protocol_reader_view_controller_delegate-p" prot="public" virt="non-virtual">&lt;ReaderViewControllerDelegate&gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="453">
+        <label>ReaderBookDelegate()</label>
+        <link refid="d2/d8f/category_reader_book_delegate_07_08"/>
+        <childnode refid="454" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="455">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="454">
+        <label>&lt;ReaderViewControllerDelegate&gt;</label>
+        <link refid="d7/dd9/protocol_reader_view_controller_delegate-p"/>
+        <childnode refid="455" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="456">
+        <label>ReaderBookDelegate()</label>
+        <link refid="d2/d8f/category_reader_book_delegate_07_08"/>
+        <childnode refid="457" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="458">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="457">
+        <label>&lt;ReaderViewControllerDelegate&gt;</label>
+        <link refid="d7/dd9/protocol_reader_view_controller_delegate-p"/>
+        <childnode refid="458" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderBookDelegate.m" line="29" bodyfile="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderBookDelegate.m" bodystart="29" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d7/dd9/protocol_reader_view_controller_delegate-p_1a0c87991187c0e23da37e7b807ea56d40" prot="public" virt="virtual"><scope>ReaderBookDelegate()</scope><name>dismissReaderViewController:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

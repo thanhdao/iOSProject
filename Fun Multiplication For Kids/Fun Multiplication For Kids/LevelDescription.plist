@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Level 1</string>
+	<string>Level 2 - Novice</string>
+	<string>Level 3 - Warrior</string>
+	<string>Level 4 - Captain</string>
+	<string>Level 5 - Expert</string>
+	<string>Level 6 - Master</string>
+	<string>Level 7 - Champion</string>
+	<string>Level 8 - Wizard</string>
+	<string>Level 9 - Genius</string>
+	<string>Level 10</string>
+	<string>Level 11</string>
+</array>
+</plist>

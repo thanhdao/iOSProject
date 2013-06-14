@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d4/df0/interface_reader_content_thumb" kind="class" prot="public">
+    <compoundname>ReaderContentThumb</compoundname>
+    <basecompoundref refid="d8/d25/interface_reader_thumb_view" prot="public" virt="non-virtual">ReaderThumbView</basecompoundref>
+    <includes refid="da/dd6/_reader_content_view_8h" local="no">ReaderContentView.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="464">
+        <label>ReaderThumbView</label>
+        <link refid="d8/d25/interface_reader_thumb_view"/>
+        <childnode refid="465" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="463">
+        <label>ReaderContentThumb</label>
+        <link refid="d4/df0/interface_reader_content_thumb"/>
+        <childnode refid="464" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="465">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="471">
+        <label>UIImageView *</label>
+      </node>
+      <node id="467">
+        <label>ReaderThumbView</label>
+        <link refid="d8/d25/interface_reader_thumb_view"/>
+        <childnode refid="468" relation="public-inheritance">
+        </childnode>
+        <childnode refid="469" relation="usage">
+          <edgelabel>targetTag</edgelabel>
+        </childnode>
+        <childnode refid="470" relation="usage">
+          <edgelabel>operation</edgelabel>
+        </childnode>
+        <childnode refid="471" relation="usage">
+          <edgelabel>imageView</edgelabel>
+        </childnode>
+      </node>
+      <node id="469">
+        <label>NSUInteger</label>
+      </node>
+      <node id="466">
+        <label>ReaderContentThumb</label>
+        <link refid="d4/df0/interface_reader_content_thumb"/>
+        <childnode refid="467" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="470">
+        <label>NSOperation *</label>
+      </node>
+      <node id="468">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" line="65" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" bodystart="64" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d8/d25/interface_reader_thumb_view_1a533ff56283d349d1e397116ea6a3c7d1" prot="protected" virt="non-virtual"><scope>ReaderContentThumb</scope><name>imageView</name></member>
+      <member refid="d8/d25/interface_reader_thumb_view_1aac43edee2217f11ec4a4d62e3e8dac0e" prot="public" virt="non-virtual"><scope>ReaderContentThumb</scope><name>operation</name></member>
+      <member refid="d8/d25/interface_reader_thumb_view_1a747633c2aba05254b667d2e346e083e1" prot="public" virt="virtual"><scope>ReaderContentThumb</scope><name>reuse</name></member>
+      <member refid="d8/d25/interface_reader_thumb_view_1a1e9c86de1b2fb76e3c56f2f5d7cfb953" prot="public" virt="virtual"><scope>ReaderContentThumb</scope><name>showImage:</name></member>
+      <member refid="d8/d25/interface_reader_thumb_view_1aacce43068c79a55abcbda4ef7188c3ba" prot="public" virt="virtual"><scope>ReaderContentThumb</scope><name>showTouched:</name></member>
+      <member refid="d8/d25/interface_reader_thumb_view_1a41943cc8db6fb12bc967c4ea6ec4e2c5" prot="public" virt="non-virtual"><scope>ReaderContentThumb</scope><name>targetTag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

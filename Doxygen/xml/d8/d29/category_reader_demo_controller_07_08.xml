@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d8/d29/category_reader_demo_controller_07_08" kind="category" prot="public">
+    <compoundname>ReaderDemoController()</compoundname>
+    <basecompoundref refid="d7/dd9/protocol_reader_view_controller_delegate-p" prot="public" virt="non-virtual">&lt;ReaderViewControllerDelegate&gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="492">
+        <label>ReaderDemoController()</label>
+        <link refid="d8/d29/category_reader_demo_controller_07_08"/>
+        <childnode refid="493" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="494">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="493">
+        <label>&lt;ReaderViewControllerDelegate&gt;</label>
+        <link refid="d7/dd9/protocol_reader_view_controller_delegate-p"/>
+        <childnode refid="494" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="495">
+        <label>ReaderDemoController()</label>
+        <link refid="d8/d29/category_reader_demo_controller_07_08"/>
+        <childnode refid="496" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="497">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="496">
+        <label>&lt;ReaderViewControllerDelegate&gt;</label>
+        <link refid="d7/dd9/protocol_reader_view_controller_delegate-p"/>
+        <childnode refid="497" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderDemoController.m" line="29" bodyfile="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderDemoController.m" bodystart="29" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d7/dd9/protocol_reader_view_controller_delegate-p_1a0c87991187c0e23da37e7b807ea56d40" prot="public" virt="virtual"><scope>ReaderDemoController()</scope><name>dismissReaderViewController:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d2/dad/interface_reader_content_page" kind="class" prot="public">
+    <compoundname>ReaderContentPage</compoundname>
+    <basecompoundref refid="db/d6b/class_u_i_view" prot="public" virt="non-virtual">UIView</basecompoundref>
+    <includes refid="de/d36/_reader_content_page_8h" local="no">ReaderContentPage.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/dad/interface_reader_content_page_1a9189b3f021220df23b6ee0ba0511910d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ReaderContentPage::initWithURL:page:password:</definition>
+        <argsstring>(NSURL *fileURL,[page] NSInteger page,[password] NSString *phrase)</argsstring>
+        <name>initWithURL:page:password:</name>
+        <param>
+          <type>NSURL *</type>
+          <declname>fileURL</declname>
+        </param>
+        <param>
+          <attributes>[page]</attributes>
+          <type>NSInteger</type>
+          <declname>page</declname>
+        </param>
+        <param>
+          <attributes>[password]</attributes>
+          <type>NSString *</type>
+          <declname>phrase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.h" line="30" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.m" bodystart="430" bodyend="509"/>
+        <references refid="d3/d15/_reader_content_page_8m_1afde627706f908e1a2006f0654e478695" compoundref="d3/d15/_reader_content_page_8m" startline="32">_PDFDocRef</references>
+        <references refid="d0/db1/_c_g_p_d_f_document_8h_1a29e26388c8323c906c5b3160d32cb5f1" compoundref="d8/dac/_c_g_p_d_f_document_8m" startline="32" endline="80">CGPDFDocumentCreateX</references>
+        <references refid="d3/d15/_reader_content_page_8m_1ad73c5a1305715113a5725011a29a0b7c" compoundref="d3/d15/_reader_content_page_8m" startline="37">_PDFPageRef</references>
+        <references refid="d3/d15/_reader_content_page_8m_1ac71fb248bcdf7365c8d03652dcc0265e" compoundref="d3/d15/_reader_content_page_8m" startline="39">_pageAngle</references>
+        <references refid="d3/d15/_reader_content_page_8m_1afaee0eb60985ed0b9c8d9a361acee6fb" compoundref="d3/d15/_reader_content_page_8m" startline="41">_pageWidth</references>
+        <references refid="d3/d15/_reader_content_page_8m_1a2acd052a4094e9819788a244872e525a" compoundref="d3/d15/_reader_content_page_8m" startline="42">_pageHeight</references>
+        <references refid="d3/d15/_reader_content_page_8m_1a1a8b8427a6b8cb04dfa0002c9f5ae822" compoundref="d3/d15/_reader_content_page_8m" startline="44">_pageOffsetX</references>
+        <references refid="d3/d15/_reader_content_page_8m_1a867fe189119d622784921bf5851a7470" compoundref="d3/d15/_reader_content_page_8m" startline="45">_pageOffsetY</references>
+      </memberdef>
+      <memberdef kind="function" id="d2/dad/interface_reader_content_page_1ac3bf445eb3b43536fc1276061744c7f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ReaderContentPage::processSingleTap:</definition>
+        <argsstring>(UITapGestureRecognizer *recognizer)</argsstring>
+        <name>processSingleTap:</name>
+        <param>
+          <type>UITapGestureRecognizer *</type>
+          <declname>recognizer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.h" line="32" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.m" bodystart="380" bodyend="401"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="459">
+        <label>ReaderContentPage</label>
+        <link refid="d2/dad/interface_reader_content_page"/>
+        <childnode refid="460" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="460">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="461">
+        <label>ReaderContentPage</label>
+        <link refid="d2/dad/interface_reader_content_page"/>
+        <childnode refid="462" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="462">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.h" line="29" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentPage.h" bodystart="28" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d2/dad/interface_reader_content_page_1a9189b3f021220df23b6ee0ba0511910d" prot="public" virt="virtual"><scope>ReaderContentPage</scope><name>initWithURL:page:password:</name></member>
+      <member refid="d2/dad/interface_reader_content_page_1ac3bf445eb3b43536fc1276061744c7f0" prot="public" virt="virtual"><scope>ReaderContentPage</scope><name>processSingleTap:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,7 @@
+<map id="&#45;[ReaderContentView showPageThumb:page:password:guid:]" name="&#45;[ReaderContentView showPageThumb:page:password:guid:]">
+<area shape="rect" id="node2" href="$dc/dc5/interface_reader_thumb_request.html#aceedc8df03338e125e8e6872e46080bf" title="+[ReaderThumbRequest\l newForView:fileURL:password\l:guid:page:size:]" alt="" coords="217,5,423,65"/>
+<area shape="rect" id="node3" href="$da/d97/interface_reader_thumb_cache.html#a5254f54ac18877ab24f532abedf47e6e" title="+[ReaderThumbCache\l sharedInstance]" alt="" coords="242,89,398,133"/>
+<area shape="rect" id="node4" href="$da/d97/interface_reader_thumb_cache.html#a4471faa4bdb367b02aeed4da49af7e4b" title="&#45;[ReaderThumbCache\l thumbRequest:priority:]" alt="" coords="239,157,401,201"/>
+<area shape="rect" id="node5" href="$df/d91/interface_reader_thumb_queue.html#aa2f63348dc3b018a4a54f6346653edb8" title="+[ReaderThumbQueue\l sharedInstance]" alt="" coords="473,122,631,166"/>
+<area shape="rect" id="node6" href="$df/d91/interface_reader_thumb_queue.html#affdfe9694365536fa7976c23b9ba01ed" title="&#45;[ReaderThumbQueue\l addLoadOperation:]" alt="" coords="475,190,629,234"/>
+</map>

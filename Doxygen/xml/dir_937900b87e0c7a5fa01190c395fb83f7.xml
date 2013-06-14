@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dir_937900b87e0c7a5fa01190c395fb83f7" kind="dir">
+    <compoundname>Sources</compoundname>
+    <innerfile refid="d0/db1/_c_g_p_d_f_document_8h">CGPDFDocument.h</innerfile>
+    <innerfile refid="d8/dac/_c_g_p_d_f_document_8m">CGPDFDocument.m</innerfile>
+    <innerfile refid="d9/dca/_reader_constants_8h">ReaderConstants.h</innerfile>
+    <innerfile refid="d4/dd2/_reader_constants_8m">ReaderConstants.m</innerfile>
+    <innerfile refid="de/d36/_reader_content_page_8h">ReaderContentPage.h</innerfile>
+    <innerfile refid="d3/d15/_reader_content_page_8m">ReaderContentPage.m</innerfile>
+    <innerfile refid="d9/d98/_reader_content_tile_8h">ReaderContentTile.h</innerfile>
+    <innerfile refid="d2/d3f/_reader_content_tile_8m">ReaderContentTile.m</innerfile>
+    <innerfile refid="da/dd6/_reader_content_view_8h">ReaderContentView.h</innerfile>
+    <innerfile refid="d0/dfc/_reader_content_view_8m">ReaderContentView.m</innerfile>
+    <innerfile refid="d9/db4/_reader_document_8h">ReaderDocument.h</innerfile>
+    <innerfile refid="d3/dfb/_reader_document_8m">ReaderDocument.m</innerfile>
+    <innerfile refid="d6/d79/_reader_document_outline_8h">ReaderDocumentOutline.h</innerfile>
+    <innerfile refid="d3/d2f/_reader_document_outline_8m">ReaderDocumentOutline.m</innerfile>
+    <innerfile refid="d9/d69/_reader_main_pagebar_8h">ReaderMainPagebar.h</innerfile>
+    <innerfile refid="de/d08/_reader_main_pagebar_8m">ReaderMainPagebar.m</innerfile>
+    <innerfile refid="db/d57/_reader_main_toolbar_8h">ReaderMainToolbar.h</innerfile>
+    <innerfile refid="dc/d5a/_reader_main_toolbar_8m">ReaderMainToolbar.m</innerfile>
+    <innerfile refid="d2/d4c/_reader_thumb_cache_8h">ReaderThumbCache.h</innerfile>
+    <innerfile refid="db/d21/_reader_thumb_cache_8m">ReaderThumbCache.m</innerfile>
+    <innerfile refid="dc/dbe/_reader_thumb_fetch_8h">ReaderThumbFetch.h</innerfile>
+    <innerfile refid="d5/de2/_reader_thumb_fetch_8m">ReaderThumbFetch.m</innerfile>
+    <innerfile refid="dd/d6f/_reader_thumb_queue_8h">ReaderThumbQueue.h</innerfile>
+    <innerfile refid="d2/d6b/_reader_thumb_queue_8m">ReaderThumbQueue.m</innerfile>
+    <innerfile refid="db/dc3/_reader_thumb_render_8h">ReaderThumbRender.h</innerfile>
+    <innerfile refid="d8/da2/_reader_thumb_render_8m">ReaderThumbRender.m</innerfile>
+    <innerfile refid="d6/d40/_reader_thumb_request_8h">ReaderThumbRequest.h</innerfile>
+    <innerfile refid="dc/d88/_reader_thumb_request_8m">ReaderThumbRequest.m</innerfile>
+    <innerfile refid="d8/dce/_reader_thumbs_view_8h">ReaderThumbsView.h</innerfile>
+    <innerfile refid="db/d49/_reader_thumbs_view_8m">ReaderThumbsView.m</innerfile>
+    <innerfile refid="d6/d83/_reader_thumb_view_8h">ReaderThumbView.h</innerfile>
+    <innerfile refid="d7/dce/_reader_thumb_view_8m">ReaderThumbView.m</innerfile>
+    <innerfile refid="d2/dca/_reader_view_controller_8h">ReaderViewController.h</innerfile>
+    <innerfile refid="da/d57/_reader_view_controller_8m">ReaderViewController.m</innerfile>
+    <innerfile refid="d4/d40/_thumbs_main_toolbar_8h">ThumbsMainToolbar.h</innerfile>
+    <innerfile refid="d6/d82/_thumbs_main_toolbar_8m">ThumbsMainToolbar.m</innerfile>
+    <innerfile refid="d8/df0/_thumbs_view_controller_8h">ThumbsViewController.h</innerfile>
+    <innerfile refid="d3/d0f/_thumbs_view_controller_8m">ThumbsViewController.m</innerfile>
+    <innerfile refid="d4/dea/_u_i_x_toolbar_view_8h">UIXToolbarView.h</innerfile>
+    <innerfile refid="da/de8/_u_i_x_toolbar_view_8m">UIXToolbarView.m</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/"/>
+  </compounddef>
+</doxygen>

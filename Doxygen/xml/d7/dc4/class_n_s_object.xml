@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d7/dc4/class_n_s_object" kind="class" prot="public">
+    <compoundname>NSObject</compoundname>
+    <derivedcompoundref refid="de/da0/interface_document_outline_entry" prot="public" virt="non-virtual">DocumentOutlineEntry</derivedcompoundref>
+    <derivedcompoundref refid="d5/d15/interface_reader_app_delegate" prot="public" virt="non-virtual">ReaderAppDelegate</derivedcompoundref>
+    <derivedcompoundref refid="d1/dfc/interface_reader_book_delegate" prot="public" virt="non-virtual">ReaderBookDelegate</derivedcompoundref>
+    <derivedcompoundref refid="dc/d78/interface_reader_document" prot="public" virt="non-virtual">ReaderDocument</derivedcompoundref>
+    <derivedcompoundref refid="df/d6f/interface_reader_document_link" prot="public" virt="non-virtual">ReaderDocumentLink</derivedcompoundref>
+    <derivedcompoundref refid="d6/d28/interface_reader_document_outline" prot="public" virt="non-virtual">ReaderDocumentOutline</derivedcompoundref>
+    <derivedcompoundref refid="da/d97/interface_reader_thumb_cache" prot="public" virt="non-virtual">ReaderThumbCache</derivedcompoundref>
+    <derivedcompoundref refid="df/d91/interface_reader_thumb_queue" prot="public" virt="non-virtual">ReaderThumbQueue</derivedcompoundref>
+    <derivedcompoundref refid="dc/dc5/interface_reader_thumb_request" prot="public" virt="non-virtual">ReaderThumbRequest</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="409">
+        <label>ReaderDocument</label>
+        <link refid="dc/d78/interface_reader_document"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="407">
+        <label>ReaderAppDelegate</label>
+        <link refid="d5/d15/interface_reader_app_delegate"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="406">
+        <label>DocumentOutlineEntry</label>
+        <link refid="de/da0/interface_document_outline_entry"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="411">
+        <label>ReaderDocumentOutline</label>
+        <link refid="d6/d28/interface_reader_document_outline"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="412">
+        <label>ReaderThumbCache</label>
+        <link refid="da/d97/interface_reader_thumb_cache"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="410">
+        <label>ReaderDocumentLink</label>
+        <link refid="df/d6f/interface_reader_document_link"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="413">
+        <label>ReaderThumbQueue</label>
+        <link refid="df/d91/interface_reader_thumb_queue"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>ReaderThumbRequest</label>
+        <link refid="dc/dc5/interface_reader_thumb_request"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="405">
+        <label>NSObject</label>
+        <link refid="d7/dc4/class_n_s_object"/>
+      </node>
+      <node id="408">
+        <label>ReaderBookDelegate</label>
+        <link refid="d1/dfc/interface_reader_book_delegate"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="28"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dd/df8/interface_reader_thumbs_view" kind="class" prot="public">
+    <compoundname>ReaderThumbsView</compoundname>
+    <basecompoundref refid="d0/dd4/class_u_i_scroll_view" prot="public" virt="non-virtual">UIScrollView</basecompoundref>
+    <includes refid="d8/dce/_reader_thumbs_view_8h" local="no">ReaderThumbsView.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="dd/df8/interface_reader_thumbs_view_1a3d99b34c398496b2a7668305c50e0a1c" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>id&lt; <ref refid="d9/d3a/protocol_reader_thumbs_view_delegate-p" kindref="compound">ReaderThumbsViewDelegate</ref> &gt;</type>
+        <definition>id&lt;ReaderThumbsViewDelegate&gt; ReaderThumbsView::delegate</definition>
+        <argsstring></argsstring>
+        <name>delegate</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" line="54" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" bodystart="54" bodyend="-1"/>
+        <referencedby refid="dd/df8/interface_reader_thumbs_view_1adcc5f4050e6655a6da21b8f3423cbf3e" compoundref="db/d49/_reader_thumbs_view_8m" startline="289" endline="339">reloadThumbsCenterOnIndex:</referencedby>
+        <referencedby refid="dd/df8/interface_reader_thumbs_view_1ad4c9f141d7a0cbdb6120bd658ac4ca8a" compoundref="db/d49/_reader_thumbs_view_8m" startline="341" endline="389">reloadThumbsContentOffset:</referencedby>
+        <referencedby refid="dd/df8/interface_reader_thumbs_view_1a0e2464767a0c8166c77574fa8a5eeb32" compoundref="db/d49/_reader_thumbs_view_8m" startline="391" endline="405">refreshThumbWithIndex:</referencedby>
+        <referencedby refid="dd/df8/interface_reader_thumbs_view_1a33f466315ed3e5193336ba13d188beb6" compoundref="db/d49/_reader_thumbs_view_8m" startline="407" endline="416">refreshVisibleThumbs</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/df8/interface_reader_thumbs_view_1a3d0774973c3859073f9185d00d50dafc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbsView::setThumbSize:</definition>
+        <argsstring>(CGSize thumbSize)</argsstring>
+        <name>setThumbSize:</name>
+        <param>
+          <type>CGSize</type>
+          <declname>thumbSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" line="56" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.m" bodystart="278" bodyend="287"/>
+        <references refid="dc/d88/_reader_thumb_request_8m_1a887028d2956ad7bf7dd7b9a02f9f0bcf" compoundref="dc/d88/_reader_thumb_request_8m" startline="47">_thumbSize</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/df8/interface_reader_thumbs_view_1adcc5f4050e6655a6da21b8f3423cbf3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbsView::reloadThumbsCenterOnIndex:</definition>
+        <argsstring>(NSInteger index)</argsstring>
+        <name>reloadThumbsCenterOnIndex:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" line="58" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.m" bodystart="289" bodyend="339"/>
+        <references refid="dd/df8/interface_reader_thumbs_view_1a3d99b34c398496b2a7668305c50e0a1c" compoundref="d8/dce/_reader_thumbs_view_8h" startline="54">delegate</references>
+        <references refid="dc/d88/_reader_thumb_request_8m_1a887028d2956ad7bf7dd7b9a02f9f0bcf" compoundref="dc/d88/_reader_thumb_request_8m" startline="47">_thumbSize</references>
+        <references refid="db/d49/_reader_thumbs_view_8m_1ae943d1c77c2efc5951403202c79ba61f" compoundref="db/d49/_reader_thumbs_view_8m" startline="46">_thumbCount</references>
+        <references refid="db/d49/_reader_thumbs_view_8m_1a44e47de5a49a4efdad6f56a933033b0b" compoundref="db/d49/_reader_thumbs_view_8m" startline="42">_thumbsX</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/df8/interface_reader_thumbs_view_1ad4c9f141d7a0cbdb6120bd658ac4ca8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbsView::reloadThumbsContentOffset:</definition>
+        <argsstring>(CGPoint newContentOffset)</argsstring>
+        <name>reloadThumbsContentOffset:</name>
+        <param>
+          <type>CGPoint</type>
+          <declname>newContentOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" line="60" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.m" bodystart="341" bodyend="389"/>
+        <references refid="dd/df8/interface_reader_thumbs_view_1a3d99b34c398496b2a7668305c50e0a1c" compoundref="d8/dce/_reader_thumbs_view_8h" startline="54">delegate</references>
+        <references refid="dc/d88/_reader_thumb_request_8m_1a887028d2956ad7bf7dd7b9a02f9f0bcf" compoundref="dc/d88/_reader_thumb_request_8m" startline="47">_thumbSize</references>
+        <references refid="db/d49/_reader_thumbs_view_8m_1ae943d1c77c2efc5951403202c79ba61f" compoundref="db/d49/_reader_thumbs_view_8m" startline="46">_thumbCount</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/df8/interface_reader_thumbs_view_1a0e2464767a0c8166c77574fa8a5eeb32" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbsView::refreshThumbWithIndex:</definition>
+        <argsstring>(NSInteger index)</argsstring>
+        <name>refreshThumbWithIndex:</name>
+        <param>
+          <type>NSInteger</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" line="62" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.m" bodystart="391" bodyend="405"/>
+        <references refid="dd/df8/interface_reader_thumbs_view_1a3d99b34c398496b2a7668305c50e0a1c" compoundref="d8/dce/_reader_thumbs_view_8h" startline="54">delegate</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/df8/interface_reader_thumbs_view_1a33f466315ed3e5193336ba13d188beb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbsView::refreshVisibleThumbs</definition>
+        <argsstring>()</argsstring>
+        <name>refreshVisibleThumbs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" line="64" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.m" bodystart="407" bodyend="416"/>
+        <references refid="dd/df8/interface_reader_thumbs_view_1a3d99b34c398496b2a7668305c50e0a1c" compoundref="d8/dce/_reader_thumbs_view_8h" startline="54">delegate</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/df8/interface_reader_thumbs_view_1aa4e7bf554dcde3287d27185e7c0d346b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>CGPoint</type>
+        <definition>CGPoint ReaderThumbsView::insetContentOffset</definition>
+        <argsstring>()</argsstring>
+        <name>insetContentOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" line="66" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.m" bodystart="418" bodyend="425"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="610">
+        <label>UIScrollView</label>
+        <link refid="d0/dd4/class_u_i_scroll_view"/>
+      </node>
+      <node id="609">
+        <label>ReaderThumbsView</label>
+        <link refid="dd/df8/interface_reader_thumbs_view"/>
+        <childnode refid="610" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="613">
+        <label>id&lt; ReaderThumbsViewDelegate-p &gt;</label>
+      </node>
+      <node id="612">
+        <label>UIScrollView</label>
+        <link refid="d0/dd4/class_u_i_scroll_view"/>
+      </node>
+      <node id="611">
+        <label>ReaderThumbsView</label>
+        <link refid="dd/df8/interface_reader_thumbs_view"/>
+        <childnode refid="612" relation="public-inheritance">
+        </childnode>
+        <childnode refid="613" relation="usage">
+          <edgelabel>delegate</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" line="53" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" bodystart="52" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="dd/df8/interface_reader_thumbs_view_1a3d99b34c398496b2a7668305c50e0a1c" prot="public" virt="non-virtual"><scope>ReaderThumbsView</scope><name>delegate</name></member>
+      <member refid="dd/df8/interface_reader_thumbs_view_1aa4e7bf554dcde3287d27185e7c0d346b" prot="public" virt="virtual"><scope>ReaderThumbsView</scope><name>insetContentOffset</name></member>
+      <member refid="dd/df8/interface_reader_thumbs_view_1a0e2464767a0c8166c77574fa8a5eeb32" prot="public" virt="virtual"><scope>ReaderThumbsView</scope><name>refreshThumbWithIndex:</name></member>
+      <member refid="dd/df8/interface_reader_thumbs_view_1a33f466315ed3e5193336ba13d188beb6" prot="public" virt="virtual"><scope>ReaderThumbsView</scope><name>refreshVisibleThumbs</name></member>
+      <member refid="dd/df8/interface_reader_thumbs_view_1adcc5f4050e6655a6da21b8f3423cbf3e" prot="public" virt="virtual"><scope>ReaderThumbsView</scope><name>reloadThumbsCenterOnIndex:</name></member>
+      <member refid="dd/df8/interface_reader_thumbs_view_1ad4c9f141d7a0cbdb6120bd658ac4ca8a" prot="public" virt="virtual"><scope>ReaderThumbsView</scope><name>reloadThumbsContentOffset:</name></member>
+      <member refid="dd/df8/interface_reader_thumbs_view_1a3d0774973c3859073f9185d00d50dafc" prot="public" virt="virtual"><scope>ReaderThumbsView</scope><name>setThumbSize:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

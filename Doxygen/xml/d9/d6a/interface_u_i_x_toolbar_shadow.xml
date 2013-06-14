@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d9/d6a/interface_u_i_x_toolbar_shadow" kind="class" prot="public">
+    <compoundname>UIXToolbarShadow</compoundname>
+    <basecompoundref refid="db/d6b/class_u_i_view" prot="public" virt="non-virtual">UIView</basecompoundref>
+    <includes refid="d4/dea/_u_i_x_toolbar_view_8h" local="no">UIXToolbarView.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="752">
+        <label>UIXToolbarShadow</label>
+        <link refid="d9/d6a/interface_u_i_x_toolbar_shadow"/>
+        <childnode refid="753" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="753">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="754">
+        <label>UIXToolbarShadow</label>
+        <link refid="d9/d6a/interface_u_i_x_toolbar_shadow"/>
+        <childnode refid="755" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="755">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/UIXToolbarView.h" line="39" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/UIXToolbarView.h" bodystart="38" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

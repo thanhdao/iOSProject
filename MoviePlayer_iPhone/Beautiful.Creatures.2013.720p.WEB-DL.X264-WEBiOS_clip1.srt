@@ -1,0 +1,6562 @@
+﻿1
+00:00:27,610 --> 00:00:29,610
+Phụ đề dịch bởi Unknow. Subteam 2pi.vn
+
+2
+00:00:29,610 --> 00:00:32,700
+<i>Vẫn là giấc mơ đó hằng đêm
+trong nhiều tháng nay.</i>
+
+3
+00:00:35,610 --> 00:00:38,620
+<i>Tôi không thấy gương mặt cô ấy,
+nhưng tôi biết người này.</i>
+
+4
+00:00:38,780 --> 00:00:40,870
+<i>Như thể tôi đã biết cô cả đời mình.</i>
+
+5
+00:00:41,450 --> 00:00:45,210
+<i>Và cảm giác như điều rất khủng khiếp
+sẽ xảy ra nếu tôi chạm vào cô.</i>
+
+6
+00:00:45,370 --> 00:00:48,340
+<i>Nhưng cùng lúc, tôi không hề sợ hãi.</i>
+
+7
+00:00:48,960 --> 00:00:50,460
+<i>Tôi muốn cô...</i>
+
+8
+00:00:50,630 --> 00:00:52,550
+<i>... dù có chuyện gì xảy đến.</i>
+
+9
+00:00:52,720 --> 00:00:54,130
+<i>Nhưng tôi không bao giờ đến với cô được.</i>
+
+10
+00:00:54,630 --> 00:00:55,630
+<i>Và sau đó tôi chết.</i>
+
+11
+00:00:59,850 --> 00:01:02,810
+<i>Lúc đầu tôi sợ rằng mình đã mất trí.</i>
+
+12
+00:01:02,980 --> 00:01:05,060
+<i>Cho đến khi tôi nhận ra chẳng mất mát gì nhiều.</i>
+
+13
+00:01:05,230 --> 00:01:09,440
+<i>Ngày mai tôi bắt đầu năm thứ hai,
+vì vậy có phát điên cũng là không tránh khỏi.</i>
+
+14
+00:01:10,400 --> 00:01:12,940
+<i>Tệ hơn là việc phải thức dậy mỗi đêm...</i>
+
+15
+00:01:13,110 --> 00:01:15,910
+<i>...khao khát người tôi chưa từng gặp...</i>
+
+16
+00:01:16,070 --> 00:01:19,280
+<i>...phải lòng một cô gái không hề tồn tại.</i>
+
+17
+00:01:34,010 --> 00:01:36,550
+<i>Cả đời tôi đã chôn chân ở Gatling...</i>
+
+18
+00:01:36,720 --> 00:01:39,050
+<i>...nơi không-đâu-cả nổi tiếng nhất Nam Carolina.</i>
+
+19
+00:01:39,220 --> 00:01:41,970
+<i>Đến khi có phim chiếu rạp,
+nó đã có bản DVD.</i>
+
+20
+00:01:42,140 --> 00:01:44,230
+<i>Và rạp chiếu phim ở đây
+luôn viết tựa đề sai.</i>
+
+21
+00:01:46,020 --> 00:01:50,040
+<i>Chúng tôi ở quá xa Charleston
+để uống Starbucks. Thế có tệ không cơ chứ?</i>
+
+22
+00:01:59,120 --> 00:02:01,640
+<i>Chúng tôi có 12 nhà thờ và một thư viện...</i>
+
+23
+00:02:01,700 --> 00:02:04,500
+<i>...với nhiều sách bị cấm hơn
+số được phép đọc.</i>
+
+24
+00:02:04,660 --> 00:02:07,960
+<i>Những gia đình chết tiệt
+đã sống ở đây đến hàng thế hệ.</i>
+
+25
+00:02:08,120 --> 00:02:11,630
+<i>Họ cứ diễn đi diễn lại cái thời Nội Chiến
+như thể nó sẽ thành ra khác đi ấy.</i>
+
+26
+00:02:11,790 --> 00:02:15,130
+<i>Mẹ thường nói chỉ có hai loại người ở Gatlin:</i>
+
+27
+00:02:15,300 --> 00:02:19,640
+<i>Loại quá ngu để chuyển đi
+và loại quá ỳ để chuyển đi.</i>
+
+28
+00:02:22,260 --> 00:02:24,720
+<i>Bố không rời khỏi phòng từ khi mẹ mất.</i>
+
+29
+00:02:25,560 --> 00:02:27,730
+<i>Mọi người nói đó là ý Chúa.</i>
+
+30
+00:02:27,890 --> 00:02:31,060
+<i>Tôi nghĩ đó là cách duy nhất người ta
+có thể rời khỏi nơi này.</i>
+
+31
+00:02:32,690 --> 00:02:36,400
+<i>Tôi có thể hiểu tại sao
+thanh niên lại ghi danh đi Nội Chiến.</i>
+
+32
+00:02:36,570 --> 00:02:39,070
+<i>Bất cứ thứ gì cũng tốt hơn
+cuộc sống dậm chân tại chỗ.</i>
+
+33
+00:02:47,370 --> 00:02:50,750
+<i>Nhưng tôi nghĩ thậm chí cái chết cũng ở lại Gatlin.</i>
+
+34
+00:02:50,920 --> 00:02:55,380
+<i>Thi thoảng nghe rất điên, nhưng đôi lúc tôi
+tưởng tượng mình thuộc bọn họ...</i>
+
+35
+00:02:55,550 --> 00:02:58,010
+<i>...chiến đấu vì lý tưởng
+trên đồi Mật ong gần Greenbrier.</i>
+
+36
+00:02:59,680 --> 00:03:01,390
+Ethan!
+
+37
+00:03:25,240 --> 00:03:28,120
+<i>Gần đây tôi tưởng tượng ra đủ thứ.</i>
+
+38
+00:03:29,660 --> 00:03:30,710
+<i>Đôi khi...</i>
+
+39
+00:03:30,870 --> 00:03:32,330
+<i>...Tôi là Billy Pilgrim...</i>
+
+40
+00:03:32,500 --> 00:03:35,590
+<i>...từ cuốn sách bị cấm của Vonnegut
+Lò mổ-Phần năm.</i>
+
+41
+00:03:35,750 --> 00:03:39,970
+<i>"Để khỏi bị kẹt về thời gian,
+trong một trạng thái liên tục của nỗi sợ sân khấu...</i>
+
+42
+00:03:40,130 --> 00:03:44,390
+<i>...không bao giờ biết phần nào của đời mình
+tôi phải diễn tiếp theo đây."</i>
+
+43
+00:03:44,550 --> 00:03:46,560
+<i>Câu đó nghe rất hay.</i>
+
+44
+00:03:49,140 --> 00:03:50,680
+Bố?
+
+45
+00:03:51,980 --> 00:03:53,690
+Bố?
+
+46
+00:03:54,560 --> 00:03:56,770
+Con làm bữa sáng rồi.
+
+47
+00:04:01,700 --> 00:04:06,450
+Ugh. Chúng ta mặc thứ này vào
+ngày đầu tiên đến trường hả?
+
+48
+00:04:07,080 --> 00:04:11,330
+Con học năm hai rồi, Amma.
+Nếu ăn mặc chỉnh tề, con sẽ mất tín nhiệm.
+
+49
+00:04:12,000 --> 00:04:13,750
+Dì tưởng con đi cắt tóc.
+
+50
+00:04:13,920 --> 00:04:15,500
+- Ai nói vậy?
+- Dì.
+
+51
+00:04:16,250 --> 00:04:18,750
+Để ý những ngày
+được đánh dấu trên mấy cái hộp.
+
+52
+00:04:18,920 --> 00:04:21,760
+- Cám ơn nhé, Amma.
+- Con đã chọn trường đại học nào chưa?
+
+53
+00:04:21,920 --> 00:04:24,930
+Tất cả, miễn là chúng
+cách xa đây vạn dặm.
+
+54
+00:04:25,090 --> 00:04:26,430
+Cầu Chúa cho điều đó.
+
+55
+00:04:26,600 --> 00:04:29,060
+- Đêm qua con đi chạy à?
+- Vâng.
+
+56
+00:04:29,220 --> 00:04:33,020
+- Giúp con ngủ được chút nào không?
+- Con ghen tị những người bị hôn mê.
+
+57
+00:04:33,640 --> 00:04:35,310
+Bố con ra ngoài rồi hả?
+
+58
+00:04:36,270 --> 00:04:37,770
+Không.
+
+59
+00:04:40,610 --> 00:04:43,450
+Dối trá là hành động ghê tởm trước Chúa.
+
+60
+00:04:43,610 --> 00:04:47,870
+Giờ khi một kẻ tội lỗi chết đi,
+những kỳ vọng của hắn ta sẽ tàn lụi.
+
+61
+00:04:48,030 --> 00:04:51,870
+Và hi vọng của những kẻ
+bất chính khác cũng tiêu tan theo.
+
+62
+00:04:52,040 --> 00:04:52,850
+Ái!
+
+63
+00:04:52,850 --> 00:04:56,100
+- Cậu kia đi đi! Nhanh lên!
+- Thôi nào, con phải đưa nó đến trường!
+
+64
+00:04:56,100 --> 00:04:59,420
+- Chúng ta phải kết thúc. Làm vào tối nay.
+- Mẹ, mẹ biết chuyện gì xảy ra--
+
+65
+00:04:59,590 --> 00:05:02,630
+Wesley, con đi đâu mà chưa
+hôn tạm biệt mẹ con hả?
+
+66
+00:05:02,800 --> 00:05:05,130
+Con sao vậy, cậu bé?
+
+67
+00:05:05,300 --> 00:05:07,470
+Ngoan nhé.
+
+68
+00:05:07,640 --> 00:05:10,560
+- Bác ấy có hôn giỏi không?
+- Im đi!
+
+69
+00:05:10,720 --> 00:05:14,390
+Mẹ tớ đã chính thức chìm đắm
+vào mấy thứ cực đoan đó từ khi bố mất.
+
+70
+00:05:14,750 --> 00:05:18,270
+Giờ bà ấy nghĩ tận cùng thế giới sắp đến
+vì mấy thứ động đất trên bản tin.
+
+71
+00:05:18,440 --> 00:05:21,550
+Như kiểu, làm sao mà Jesus kính yêu
+lại khiến người đàn bà đó điên thế?
+
+72
+00:05:22,650 --> 00:05:26,200
+Bà ấy nguyền rủa bố xuống địa ngục rất nhiều,
+tớ đoán là ông ấy nốc rượu vào để xuống đó nhanh hơn.
+
+73
+00:05:26,360 --> 00:05:30,160
+Bố tớ hành xử như ông già
+Ravenwood. Họ đều rất cực đoan.
+
+74
+00:05:30,330 --> 00:05:33,700
+Này, cậu có nghe nói cô bé mới đến
+là người nhà Ravenwood không?
+
+75
+00:05:33,870 --> 00:05:36,350
+Tớ tưởng ông già Ravenwood
+sống trong ngôi nhà đó một mình.
+
+76
+00:05:36,350 --> 00:05:38,920
+Phải. Nhưng đây là cháu gái ông ấy.
+Cô ấy chuyển từ ngoài thành phố về đây.
+
+77
+00:05:39,080 --> 00:05:41,270
+- Sao lại có ai muốn chuyển đến đây nhỉ?
+- Tớ chịu thôi.
+
+78
+00:05:41,300 --> 00:05:45,260
+Đó sẽ là người nhà Ravenwood mọi người
+thấy ở Gatling trong gần 20 năm qua.
+
+79
+00:05:48,050 --> 00:05:49,760
+Mùa hè thế nào, cưng?
+
+80
+00:05:50,640 --> 00:05:53,680
+- Tốt, Emily. Còn cậu?
+- Tuyệt vời.
+
+81
+00:05:53,850 --> 00:05:57,270
+Sao cậu không đến lễ hội ngày Lao Động?
+Lúc đó rất vui.
+
+82
+00:05:57,770 --> 00:05:59,270
+Tôi không hứng lắm.
+
+83
+00:05:59,900 --> 00:06:02,610
+Tớ không hiểu đã
+xảy ra chuyện gì.
+
+84
+00:06:02,780 --> 00:06:05,280
+Tôi biết cậu không hiểu. Tôi xin lỗi.
+
+85
+00:06:05,440 --> 00:06:08,160
+Cậu bảo hãy cho cậu mùa hè,
+và tớ đã làm như vậy.
+
+86
+00:06:08,320 --> 00:06:11,990
+Tớ không hề nghe tin gì từ cậu,
+nhưng tớ là cô gái tốt.
+
+87
+00:06:12,160 --> 00:06:13,740
+Tớ không gọi.
+
+88
+00:06:13,910 --> 00:06:15,620
+Nhưng tớ rất nhớ cậu.
+
+89
+00:06:16,790 --> 00:06:20,000
+Này, chuyện nhỏ thôi, nhỉ?
+
+90
+00:06:20,170 --> 00:06:22,460
+Hay cậu và tớ đi xem phim hay làm gì đó?
+
+91
+00:06:22,630 --> 00:06:24,880
+Chỉ hai ta. Ôi đúng là thiên đường.
+
+92
+00:06:25,480 --> 00:06:26,220
+Chắc chắn rồi.
+
+93
+00:06:27,720 --> 00:06:29,720
+Mọi người, ổn định chỗ ngồi.
+
+94
+00:06:29,890 --> 00:06:32,510
+Ethan, tớ ước cậu sẽ thôi
+đọc mấy thể loại sách đó.
+
+95
+00:06:32,680 --> 00:06:34,810
+Chúng có hại cho trí óc cậu.
+
+96
+00:06:41,480 --> 00:06:44,110
+Là yêu cầu của khóa học...
+
+97
+00:06:44,270 --> 00:06:47,570
+...các em sẽ phải lựa chọn một
+chủ đề cho bài luận cuối kỳ...
+
+98
+00:06:47,740 --> 00:06:51,300
+...dựa trên tài liệu
+từ chương 12...
+
+99
+00:06:51,320 --> 00:06:54,160
+Phải cô ta không?
+Chắc vậy. Cô ta mặc cái gì thế?
+
+100
+00:06:54,330 --> 00:06:57,750
+Cô ta trông như thần Chết ăn bánh quy vậy.
+
+101
+00:06:57,910 --> 00:07:01,960
+Ngồi chỗ nào cũng được, em...?
+
+102
+00:07:02,130 --> 00:07:05,090
+Ravenwood. Phải không?
+
+103
+00:07:05,250 --> 00:07:09,720
+Mẹ nói không ai thấy ông già Ravenwood
+rời khỏi ngôi nhà ghê rợn đó hằng năm trời.
+
+104
+00:07:09,880 --> 00:07:13,430
+- Mẹ nói vì ông ta thờ quỷ.
+Thật ra là Duchannes.
+
+105
+00:07:14,720 --> 00:07:17,890
+À, cái đó là lời nói dóc thôi.
+
+106
+00:07:17,890 --> 00:07:21,520
+Tôi tình cờ biết cậu là cháu gái Macon Ravenwood.
+
+107
+00:07:23,190 --> 00:07:27,650
+Cầu chúc cho trái tim của cưng.
+Cậu hẳn là đứa đầu tiên trong lứa của mình.
+
+108
+00:07:27,820 --> 00:07:29,700
+Ồ...
+
+109
+00:07:30,860 --> 00:07:34,620
+Mẹ nói bọn thờ quỷ ghét không khí
+trong lành. Làm chúng bị nghẹn.
+
+110
+00:07:34,780 --> 00:07:36,560
+Giờ chúng ta đều biết cái gì làm cậu nghẹn rồi.
+
+111
+00:07:37,700 --> 00:07:39,120
+Đủ rồi đấy, cậu Lincoln.
+
+112
+00:07:39,290 --> 00:07:42,370
+- Và cái mũ đó trông sẽ rất đẹp trên con mèo của tôi.
+- Cậu ta là đồ ngốc!
+
+113
+00:07:42,370 --> 00:07:47,360
+Năm nay, các em sẽ tham gia
+vào cuộc tái hiện hàng năm..
+
+114
+00:07:47,710 --> 00:07:50,050
+...chiến thắng vẻ vang của chúng ta:
+
+115
+00:07:50,260 --> 00:07:53,200
+Trận chiến trên đồi Mật ong.
+
+116
+00:07:53,490 --> 00:07:54,360
+Ethan?
+
+117
+00:07:54,360 --> 00:07:58,720
+Cuộc tái hiện sẽ diễn ra
+vào đúng ngày trận đánh, 21/12.
+
+118
+00:07:58,890 --> 00:08:01,310
+Mặc dù đúng vào dịp nghỉ lễ Giáng Sinh...
+
+119
+00:08:01,480 --> 00:08:05,650
+...hi vọng các em sẽ tham gia nhiệt tình.
+
+120
+00:08:08,000 --> 00:08:10,780
+<i>Bị ốm, rồi khỏe lại, chơi khắp căn nhà nghỉ</i>
+
+121
+00:08:10,940 --> 00:08:13,550
+<i>Chuông ngân, khó mà nói
+Nếu bán được thứ gì</i>
+
+122
+00:08:13,570 --> 00:08:14,620
+<i>Cố hết sức</i>
+
+123
+00:08:25,080 --> 00:08:26,920
+Cậu bị điên à? Suýt nữa cậu giết tôi rồi!
+
+124
+00:08:27,090 --> 00:08:29,270
+Thế cậu đứng giữa đường để làm gì?
+
+125
+00:08:29,340 --> 00:08:31,760
+Tôi cần giúp đỡ, thiên tài ạ!
+
+126
+00:08:31,920 --> 00:08:34,590
+- Thôi quên đi!
+- Khoan đã!
+
+127
+00:08:34,760 --> 00:08:37,100
+Tôi xin lỗi! Nghe này, vào xe đi!
+
+128
+00:08:37,260 --> 00:08:40,470
+Đây là đường tắt, không ai
+đi lối này cả. Cậu sẽ kẹt--
+
+129
+00:08:40,640 --> 00:08:44,230
+- Đây là xe của ông Ravenwood hả?
+- Cậu cũng là một trong số họ phải không?
+
+130
+00:08:44,230 --> 00:08:48,940
+Cậu là cái gì?
+Ngôi sao thể thao Mỹ điển hình, vua dạ hội...
+
+131
+00:08:49,110 --> 00:08:52,280
+- Đồ dớ dẩn?
+- Cậu có thể lăng mạ tôi trong xe được không?
+
+132
+00:08:52,440 --> 00:08:55,110
+Ngoài này bắt đầu hơi giống Titanic rồi đấy.
+
+133
+00:08:58,700 --> 00:09:01,620
+Tôi không bao giờ hiểu được
+tại sao đoạn cuối Leo phải chết.
+
+134
+00:09:01,790 --> 00:09:03,120
+Tại sao họ không thay phiên nhau?
+
+135
+00:09:03,290 --> 00:09:07,080
+"Em trèo lên chiếc ván gỗ 10 phút,
+rồi anh trèo lên 10 phút."
+
+136
+00:09:07,250 --> 00:09:10,800
+Cô ta cứ nói, "em không bao giờ buông tay, không bao giờ"
+và sau đó cô ta vẫn buông tay!
+
+137
+00:09:10,960 --> 00:09:14,700
+Nếu tôi vào xe, sẽ có thêm
+cuộc trò chuyện thú vị thế này chứ?
+
+138
+00:09:14,700 --> 00:09:16,680
+Vì tôi thà chết đuối còn hơn.
+
+139
+00:09:22,980 --> 00:09:24,690
+Không, tôi để tạp phẩm đằng sau đấy.
+
+140
+00:09:24,850 --> 00:09:27,560
+Tôi không tin nổi việc
+cậu lại đi kể đoạn kết Titanic.
+
+141
+00:09:27,730 --> 00:09:30,360
+- Cậu chưa xem bao giờ?
+- Chưa.
+
+142
+00:09:32,820 --> 00:09:34,820
+Cậu thật sự từ rừng về đấy.
+
+143
+00:09:41,030 --> 00:09:42,370
+này.
+
+144
+00:09:43,080 --> 00:09:44,450
+Cám ơn.
+
+145
+00:09:47,250 --> 00:09:48,670
+Cậu biết mình đang đi đâu?
+
+146
+00:09:50,250 --> 00:09:51,630
+Hiếm khi.
+
+147
+00:09:53,670 --> 00:09:56,840
+Tôi xin lỗi vì mấy trò sáo rỗng trong lớp,
+nhưng tôi không phải bọn họ.
+
+148
+00:09:57,010 --> 00:09:58,050
+"Trò sáo rỗng"?
+
+149
+00:09:58,220 --> 00:10:02,910
+Bọn con gái từng là người thường, nhưng đã
+thối nát hoàn toàn vì quá nổi tiếng.
+
+150
+00:10:02,910 --> 00:10:07,440
+Cá là cậu rất tự hào vì đã nghĩ ra câu đó.
+Có khi cậu từng hẹn hò một đứa trong số đấy.
+
+151
+00:10:09,690 --> 00:10:13,150
+- Cậu đáp trả Emily ra trò .
+Hàng năm trời làm việc với virut "quỷ cái".
+
+152
+00:10:13,320 --> 00:10:16,110
+- Chưa có thuốc chữa hử?
+- Tiếp tục nghiên cứu và hi vọng.
+
+153
+00:10:16,280 --> 00:10:18,950
+- Cậu học nhiều trường rồi hả?
+- Phải.
+
+154
+00:10:19,110 --> 00:10:22,030
+- Thích nhỉ. Tôi thì chỉ sống ở đây.
+- Thích nhỉ.
+
+155
+00:10:24,870 --> 00:10:26,200
+Nhà cậu sống ở đâu?
+
+156
+00:10:26,370 --> 00:10:29,290
+Gần như tất cả các bang ly khai khỏi Liên Đoàn.
+
+157
+00:10:29,460 --> 00:10:32,380
+Di chuyển khắp nơi từ khi tôi lên 4,
+sau khi bố mẹ tôi mất.
+
+158
+00:10:32,540 --> 00:10:35,460
+Tôi chỉ còn bố, mẹ tôi mất mùa xuân
+năm ngoái. Chuyện gì đã xảy ra?
+
+159
+00:10:36,760 --> 00:10:40,010
+- Chết cháy.
+- Chết tai nạn.
+
+160
+00:10:43,220 --> 00:10:47,680
+Thật là một cuộc đối thoại đi vào ngõ cụt
+trên đường đi tới nơi vô định.
+
+161
+00:10:47,850 --> 00:10:50,230
+Hẳn là tôi vừa bỏ lỡ lối thoát ra chỗ "thú vị, "
+
+162
+00:10:52,900 --> 00:10:54,610
+Cậu...
+
+163
+00:10:55,150 --> 00:10:57,360
+Bukowski? Ông ấy--? Ông ấy tốt không?
+
+164
+00:10:59,360 --> 00:11:00,860
+Định nghĩa "tốt".
+
+165
+00:11:08,000 --> 00:11:10,150
+Tôi có thể chở cậu vào tận cửa.
+Thế này được rồi.
+
+166
+00:11:10,150 --> 00:11:13,250
+Tôi không ngại đâu.
+- Nghe này, tôi biết ơn vì cậu cho đi nhờ...
+
+167
+00:11:13,420 --> 00:11:16,510
+...nhưng tôi không thích làm
+ngôi nhà ma thu hút khách hôm nay.
+
+168
+00:11:16,670 --> 00:11:20,050
+Không, tôi-- Thế là hơi thô lỗ
+và không đúng tí nào đâu.
+
+169
+00:11:20,220 --> 00:11:23,100
+Có lẽ vì chúng ta chưa tự giới thiệu ra hồn.
+
+170
+00:11:23,260 --> 00:11:24,850
+Tôi là Ethan Wate.
+
+171
+00:11:25,010 --> 00:11:27,890
+- Cậu là Ethan Wate?
+- Phải.
+
+172
+00:11:28,060 --> 00:11:30,730
+Ôi trời, ý cậu là
+Ethan Wate vừa đưa tôi về nhà?
+
+173
+00:11:30,890 --> 00:11:33,230
+- Cậu biết tôi à?
+- Không.
+
+174
+00:11:34,860 --> 00:11:36,610
+Tôi thích chiếc vòng cổ
+dễ thương của cậu.
+
+175
+00:11:36,780 --> 00:11:40,780
+Và...hình xăm của cậu nữa.
+Ý tôi là...cũng thích nữa.
+
+176
+00:11:41,930 --> 00:11:42,660
+Cám ơn.
+
+177
+00:11:46,120 --> 00:11:48,540
+<i>Có vài người không bao giờ nổi điên.</i>
+
+178
+00:11:48,700 --> 00:11:51,710
+<i>Chắc họ phải sống cuộc đời kinh khủng lắm.</i>
+
+179
+00:11:51,870 --> 00:11:55,040
+<i>Những người nhàm chán chết tiệt.
+Nhan nhản trên Trái đất.</i>
+
+180
+00:11:55,210 --> 00:11:59,550
+<i>Sinh sôi thêm những người nhàm chán.
+Thật là một buổi diễn kinh dị.</i>
+
+181
+00:11:59,720 --> 00:12:02,590
+<i>Trái đất nhung nhúc những kẻ như thế."</i>
+
+182
+00:12:03,970 --> 00:12:06,510
+Ông này đúng là thần.
+
+183
+00:12:27,490 --> 00:12:31,200
+Là tên gọi của Chúa
+mang đến sự cứu rỗi.
+
+184
+00:12:31,370 --> 00:12:35,830
+Là tên của Jesus ban cho ta
+quyền năng vượt lên quỷ dữ.
+
+185
+00:12:37,460 --> 00:12:39,090
+- Chuyện gì vậy?
+- Đây, cứ đợi đi.
+
+186
+00:12:39,250 --> 00:12:41,970
+Bảo vệ chúng ta khỏi quỷ dữ,
+đương lúc ta cảm thấy hắng đang tới.
+
+187
+00:12:42,130 --> 00:12:43,550
+Vì chúng ta cảm thấy hắn tới tìm ta...
+
+188
+00:12:44,550 --> 00:12:46,570
+- Sét đánh đúng một điểm hàng đêm rồi.
+- Từ bao giờ?
+
+189
+00:12:46,570 --> 00:12:50,810
+Từ khi Lena Duchannes đến đây.
+Mẹ tớ nghe nói cô ta đến từ một viện tâm thần.
+
+190
+00:12:50,810 --> 00:12:53,060
+Hơn nữa cô ta còn giết
+một cậu bé trên chuyến tàu đi Atlanta.
+
+191
+00:12:53,060 --> 00:12:54,440
+- Ôi, vớ vẩn.
+- Vớ vẩn.
+
+192
+00:12:54,600 --> 00:12:55,650
+Cẩn thận cái mồm cậu đấy!
+
+193
+00:12:55,810 --> 00:12:59,860
+Mẹ tớ nói mẹ cô ta đã giết bố cô ta
+rồi cứ thế bỏ xứ mà đi.
+
+194
+00:12:59,860 --> 00:13:02,280
+Im cái miệng cậu đi, Emily!
+
+195
+00:13:03,200 --> 00:13:06,200
+Ethan Wate, tớ nói chuyện với
+cậu một chút được không?
+
+196
+00:13:06,360 --> 00:13:08,030
+Ngay bây giờ?
+
+197
+00:13:09,870 --> 00:13:11,200
+Cậu làm sao thế?
+
+198
+00:13:11,370 --> 00:13:15,040
+Chỉ là tôi phát ớn với việc mấy người ở đây
+coi rẻ ai đó họ không hề biết.
+
+199
+00:13:15,460 --> 00:13:19,540
+Vậy cậu biết Lena Duchannes?
+
+200
+00:13:20,210 --> 00:13:22,420
+Ý cậu là vậy hả, Ethan?
+
+201
+00:13:22,880 --> 00:13:26,840
+Xin lỗi, nhưng tôi nghĩ mình không đi
+xem phim với cậu cuối tuần này được rồi.
+
+202
+00:13:27,010 --> 00:13:29,220
+Tôi nghĩ chúng ta cần có thời gian riêng tư.
+
+203
+00:13:29,390 --> 00:13:31,560
+Và tôi xin lỗi vì làm tổn thương cậu.
+
+204
+00:13:32,810 --> 00:13:34,310
+Đi thôi.
+
+205
+00:13:35,310 --> 00:13:38,690
+Chẳng phải tôi đã nói thế với cô ta
+hồi cuối năm thứ nhất rồi sao?
+
+206
+00:13:38,860 --> 00:13:41,610
+Này, vài cô như chó điên vậy, con trai à.
+
+207
+00:13:41,780 --> 00:13:44,900
+Cậu chỉ có thể bỏ chạy hoặc bắn bỏ.
+
+208
+00:13:52,790 --> 00:13:55,080
+
+Ethan? Ethan.
+
+209
+00:13:55,250 --> 00:13:57,420
+Tớ nói chuyện với cậu
+về cái này được chứ?
+
+210
+00:13:57,580 --> 00:13:59,250
+Tớ muốn cậu biết điều này
+
+211
+00:13:59,420 --> 00:14:02,170
+Tớ vẫn rất quan tâm tới cậu như một người bạn.
+
+212
+00:14:02,340 --> 00:14:05,760
+Và tớ cầu nguyện hằng đêm rằng
+cậu không rơi thẳng xuống địa ngục.
+
+213
+00:14:05,920 --> 00:14:11,600
+Tôi sẽ không đi thẳng tới đó đâu, Emily.
+Tôi muốn dừng ở New York trước cơ.
+
+214
+00:14:14,930 --> 00:14:17,100
+Được rồi các em, ổn định chỗ ngồi đi.
+
+215
+00:14:17,270 --> 00:14:19,810
+Chào em, rất vui khi gặp lại em.
+Mẹ em thế nào rồi?
+
+216
+00:14:19,980 --> 00:14:22,610
+Các cậu. Billy, ngồi xuống.
+
+217
+00:14:22,610 --> 00:14:26,780
+Được rồi, chắc các em đã
+đọc cuốn này vào mùa hè.
+
+218
+00:14:27,150 --> 00:14:30,780
+Chúng ta sẽ bắt đầu bằng việc
+thảo luận về nhân vật Boo Radley.
+
+219
+00:14:30,950 --> 00:14:33,620
+Thành phố biệt lập với một quá khứ bí ẩn.
+
+220
+00:14:33,790 --> 00:14:35,830
+- Ý cô là Macon Ravenwood ạ?
+- Savannah.
+
+221
+00:14:36,000 --> 00:14:37,370
+Em xin lỗi?
+
+222
+00:14:37,540 --> 00:14:40,790
+Mẹ em bảo em không nên đọc cuốn sách này.
+
+223
+00:14:41,080 --> 00:14:43,420
+- Cuốn này bị cấm.
+- À, phải rồi...
+
+224
+00:14:43,590 --> 00:14:46,880
+...Tôi được sự đồng ý từ ban giám hiệu
+để thử nghiệm nó trong một học kỳ.
+
+225
+00:14:46,880 --> 00:14:49,300
+Em sẽ không đọc bất cứ thứ gì bị nhà thờ cấm.
+
+226
+00:14:49,470 --> 00:14:52,180
+- Em cũng thế.
+- Mẹ em còn nói...
+
+227
+00:14:53,180 --> 00:14:55,970
+...em không nên ở chung một lớp
+với một đứa nhà Ravenwood.
+
+228
+00:14:56,140 --> 00:14:58,850
+Bà nói thật không phải khi để họ ở chung với những người theo Đạo Thiên Chúa như chúng em.
+
+229
+00:14:59,020 --> 00:15:01,810
+- Emily, im đi.
+- Mẹ tới cũng nói vậy.
+
+230
+00:15:01,980 --> 00:15:04,440
+Mẹ nói cả nhà nó theo đạo Sa-tăng.
+
+231
+00:15:04,610 --> 00:15:07,650
+- Họ cầu Sa-tăng khi trần như nhộng.
+- Kính Chúa...
+
+232
+00:15:07,820 --> 00:15:10,740
+Emily, em làm cái gì thế?
+Em không được cầu nguyện trong lớp.
+
+233
+00:15:11,010 --> 00:15:12,030
+Cầu Chúa...
+
+234
+00:15:12,200 --> 00:15:14,830
+- Dừng lại ngay.
+-...Con xin người hãy bảo vệ chúng con khỏi quỷ dữ.
+
+235
+00:15:14,830 --> 00:15:18,330
+Cô nói em dừng lại ngay!
+- Có những thứ dị thường quanh đây...
+
+236
+00:15:18,500 --> 00:15:23,080
+Tôi không biết em nghĩ gì.
+Tôi sẽ đưa em lên văn phòng hiệu trưởng.
+
+237
+00:15:23,250 --> 00:15:24,900
+Bảo vệ chúng con khỏi quỷ dữ....
+
+238
+00:15:30,260 --> 00:15:32,840
+- Nó làm đó!
+- Chính là nó!
+
+239
+00:15:33,010 --> 00:15:34,680
+Nó làm vỡ cửa sổ!
+
+240
+00:15:34,850 --> 00:15:37,720
+Sao nó có thể làm như thế?
+
+241
+00:15:39,180 --> 00:15:40,940
+Cậu có sao không?
+
+242
+00:15:46,900 --> 00:15:48,690
+Cái quái gì vậy nhỉ?
+
+243
+00:17:17,410 --> 00:17:18,830
+Lena?
+
+244
+00:17:20,700 --> 00:17:22,200
+Xin chào?
+
+245
+00:18:07,710 --> 00:18:09,460
+Cậu làm gì ở đây?
+
+246
+00:18:10,000 --> 00:18:13,630
+Tôi chỉ qua xem cậu có ổn không.
+
+247
+00:18:13,800 --> 00:18:15,340
+Để làm gì?
+
+248
+00:18:15,510 --> 00:18:16,970
+Tôi không biết.
+
+249
+00:18:17,800 --> 00:18:20,180
+- Cậu ổn không?
+- Ổn.
+
+250
+00:18:20,600 --> 00:18:23,770
+- Được rồi.
+- Cậu đi được rồi.
+
+251
+00:18:28,270 --> 00:18:30,610
+- Đi đi.
+- Không.
+
+252
+00:18:30,770 --> 00:18:32,150
+Đúng đấy.
+
+253
+00:18:32,400 --> 00:18:33,440
+- Không.
+- Đi!
+
+254
+00:18:33,610 --> 00:18:35,940
+- Không.
+- Đồ tồi!
+
+255
+00:18:58,720 --> 00:19:01,390
+Xin lỗi vụ Emily nhé.
+Cô ta có thể xấu tính cực kỳ.
+
+256
+00:19:01,550 --> 00:19:03,140
+Không hiểu nổi câu nói đó...
+
+257
+00:19:03,300 --> 00:19:05,220
+Phải, tôi cũng vậy.
+
+258
+00:19:06,220 --> 00:19:08,390
+Giờ tôi nên biết rõ hơn mới phải.
+
+259
+00:19:09,060 --> 00:19:11,060
+Họ luôn ghét tôi, bất kể đi đến đâu.
+
+260
+00:19:11,230 --> 00:19:15,070
+Họ là một đám ngốc.
+Cậu quan tâm làm gì?
+
+261
+00:19:15,320 --> 00:19:18,240
+Chưa bao giờ cậu là kẻ đứng ngoài, phải không?
+
+262
+00:19:21,300 --> 00:19:23,740
+Để xem tôi có nhớ không nào.
+
+263
+00:19:24,160 --> 00:19:26,490
+Là Bukowski. E hèm.
+
+264
+00:19:26,660 --> 00:19:29,330
+"Vài người mất đi tâm hồn.
+
+265
+00:19:29,500 --> 00:19:31,250
+- Vài người mất đi lý trí...
+
+266
+00:19:31,400 --> 00:19:35,340
+...và tchỉ còn tâm hồn, thật điên rồ".
+
+267
+00:19:35,630 --> 00:19:37,920
+Vài người mất hết...
+
+268
+00:19:38,090 --> 00:19:39,260
+...tâm trí..."
+
+269
+00:19:40,050 --> 00:19:43,820
+Từ từ đã. "Vài người mất đi tâm hồn và chỉ còn lý trí."
+
+270
+00:19:44,260 --> 00:19:46,510
+"Vài người mất đi lý trí và chỉ còn tâm hồn."
+
+271
+00:19:46,680 --> 00:19:50,560
+Giời ạ, tôi học thuộc hết mớ đó
+chỉ để gây ấn tượng với cậu. Khỉ thật.
+
+272
+00:19:50,730 --> 00:19:53,270
+- Cậu không ngừng được.
+- Cái gì?
+
+273
+00:19:54,560 --> 00:19:57,690
+Thích nghi với mọi nơi, vung vãi cái duyên của cậu.
+
+274
+00:19:57,860 --> 00:20:01,110
+Tôi chẳng bao giờ biết liệu cậu
+có đang lăng mạ tôi hay không.
+
+275
+00:20:01,280 --> 00:20:04,570
+- Tôi xin lỗi.
+- Không sao. Tôi thích thế.
+
+276
+00:20:04,740 --> 00:20:06,450
+Cậu biết đấy?
+
+277
+00:20:06,620 --> 00:20:08,910
+Nếu điều đó làm mọi thứ khác đi...
+
+278
+00:20:09,080 --> 00:20:10,790
+...tôi rất thích cậu.
+
+279
+00:20:10,960 --> 00:20:13,120
+Sau này có khi cậu không nghĩ thế đâu.
+
+280
+00:20:13,290 --> 00:20:16,960
+Cậu không thể phàn nàn về việc không có bạn....
+
+281
+00:20:16,960 --> 00:20:19,940
+...và làm người ta khốn khổ thế này để làm bạn với cậu.
+
+282
+00:20:21,470 --> 00:20:24,300
+Trừ phi cậu thật sự nghĩ tôi là đồ tồi.
+Thế thì tôi sẽ rút lui.
+
+283
+00:20:24,470 --> 00:20:26,260
+Chạy đi mà kể với đám bạn
+của cậu về đứa quái dị này.
+
+284
+00:20:27,640 --> 00:20:30,310
+Cậu thật sự nghĩ tôi là người như thế sao?
+
+285
+00:20:34,350 --> 00:20:35,690
+Không.
+
+286
+00:20:36,980 --> 00:20:38,320
+Được rồi.
+
+287
+00:20:40,360 --> 00:20:42,320
+Tôi nên quay về thôi.
+
+288
+00:20:45,410 --> 00:20:48,620
+Cậu có đọc những chương đó
+trong cuốn <i>Giết con chim nhại chưa?</i>
+
+289
+00:20:48,790 --> 00:20:50,700
+Rồi, tôi đọc những hai lần.
+
+290
+00:20:50,870 --> 00:20:53,540
+- Hay nhỉ?
+- Ừ.
+
+291
+00:20:53,710 --> 00:20:55,670
+- Cậu xem phim chưa?
+- Chưa.
+
+292
+00:20:55,670 --> 00:20:58,710
+Cũng hay lắm.
+Chúng ta nên đi xem, thật đấy.
+
+293
+00:20:58,880 --> 00:21:01,630
+- Cậu đọc cuốn nào của Vonnegut chưa?
+- Chưa.
+
+294
+00:21:01,800 --> 00:21:05,220
+<i>Kurt Vonnegut?</i>
+
+295
+00:21:05,390 --> 00:21:07,850
+Ông ấy tuyệt lắm. Thật ra cũng bị cấm.
+
+296
+00:21:08,010 --> 00:21:11,140
+Cậu chỉ đọc sách cấm thôi hả?
+- Tôi không chỉ đọc sách cấm thôi đâu.
+
+297
+00:21:11,310 --> 00:21:13,520
+Nhưng, tôi không biết, chỉ là...
+
+298
+00:21:14,190 --> 00:21:18,860
+Loại sách mà họ cho phép
+đọc lại khá nhàm, đoán vậy.
+
+299
+00:21:19,020 --> 00:21:20,650
+Cám ơn nhé. Xin lỗi vì tôi...
+
+300
+00:21:20,820 --> 00:21:23,610
+Không sao đâu.
+
+301
+00:21:24,490 --> 00:21:28,070
+Cậu nên đi đi. Bác tôi không thích có
+người lạ lảng vảng quanh nhà.
+
+302
+00:21:28,070 --> 00:21:30,200
+Tôi biết. Chỉ là...
+
+303
+00:21:30,370 --> 00:21:32,080
+...tôi cứ đi vào thôi.
+
+304
+00:21:32,250 --> 00:21:34,040
+Cậu đi vào nhà?
+
+305
+00:21:34,210 --> 00:21:35,870
+Tôi không cố ý. Tôi chỉ...
+
+306
+00:21:36,040 --> 00:21:37,330
+Tôi hiểu rồi.
+
+307
+00:21:37,500 --> 00:21:42,710
+Mọi người nghĩ ông ấy đáng sợ,
+nhưng ông ấy chỉ là Boo Radley hay thẹn thôi, nhỉ?
+
+308
+00:21:43,380 --> 00:21:44,840
+Được rồi.
+
+309
+00:21:45,300 --> 00:21:47,800
+Này...
+
+310
+00:21:48,550 --> 00:21:52,970
+Tôi có thứ này đại khái là quà
+"Chào mừng tới Gatling dở tệ" cho cậu.
+
+311
+00:21:54,560 --> 00:21:58,060
+Tôi nghĩ cậu có thể đeo lên vòng cổ.
+
+312
+00:21:58,980 --> 00:22:00,730
+
+Lena?
+
+313
+00:22:01,900 --> 00:22:03,400
+Chúng ta có khách à?
+
+314
+00:22:03,570 --> 00:22:05,700
+- Cậu ấy sắp đi rồi.
+- Chào bác.
+
+315
+00:22:05,860 --> 00:22:07,740
+Lễ phép nhỉ? Hay đấy.
+
+316
+00:22:07,910 --> 00:22:09,570
+Cháu học cùng Lena.
+
+317
+00:22:09,570 --> 00:22:12,240
+Cháu là Ethan Wate.
+Hân hạnh làm quen với bác.
+
+318
+00:22:12,410 --> 00:22:14,410
+Con nhà Lila Evers hả?
+
+319
+00:22:15,660 --> 00:22:17,250
+Vâng, thưa bác.
+
+320
+00:22:17,420 --> 00:22:18,540
+Bác biết mẹ cháu?
+
+321
+00:22:20,000 --> 00:22:23,420
+Lena, sao con không mời bạn vào uống trà?
+
+322
+00:22:23,960 --> 00:22:27,180
+- Nói với bác ấy là cậu không thể.
+- Cháu rất thích. Cám ơn bác.
+
+323
+00:22:27,340 --> 00:22:28,930
+Bác ấy có đáng sợ đâu.
+
+324
+00:22:31,510 --> 00:22:34,020
+Cậu Wate, cứ thoải mái nhé.
+
+325
+00:22:38,560 --> 00:22:42,020
+Cháu xin lỗi vì lúc nãy tự tiện vào nhà.
+
+326
+00:22:42,020 --> 00:22:43,980
+Không hề gì.
+
+327
+00:22:44,570 --> 00:22:49,110
+Rất hiếm khi chúng tôi có khách từ...
+
+328
+00:22:49,280 --> 00:22:50,620
+...thị trấn Gatling đáng mến.
+
+329
+00:22:50,780 --> 00:22:55,620
+Đừng hợm hĩnh vậy chứ bác. Có phải lỗi của họ đâu.
+Bác chẳng bao giờ nói chuyện với ai.
+
+330
+00:22:55,790 --> 00:23:00,380
+Và cũng không phải lỗi của ta khi ta
+có thiên hướng dòng dõi cao quý...
+
+331
+00:23:00,540 --> 00:23:05,130
+...trí thông minh khá khẩm,
+và vệ sinh cá nhân chấp nhận được.
+
+332
+00:23:07,220 --> 00:23:14,010
+Nhưng vì gia đình ta lập nên thị trấn này,
+ta không có chọn lựa gọi nó là nhà.
+
+333
+00:23:15,810 --> 00:23:17,140
+Vì vậy...
+
+334
+00:23:18,640 --> 00:23:20,770
+...chúng ta đều ở đây rồi.
+
+335
+00:23:22,060 --> 00:23:24,270
+Chiến đàn dương cầm đẹp quá!
+
+336
+00:23:24,440 --> 00:23:26,780
+Phải đó. Cháu biết chơi không?
+
+337
+00:23:26,940 --> 00:23:28,150
+Không ạ.
+
+338
+00:23:28,320 --> 00:23:29,650
+<i>Hmm.</i>
+
+339
+00:23:30,320 --> 00:23:32,820
+Lena, sao con không chơi gì đó cho khách?
+
+340
+00:23:32,990 --> 00:23:34,910
+Vì chúng ta có đang trong
+tiểu thuyết của Jane Austen đâu.
+
+341
+00:23:36,830 --> 00:23:39,160
+Vậy sao con không đi pha trà đi nhỉ?
+
+342
+00:23:39,160 --> 00:23:41,290
+Lại nữa, nhầm thế kỷ rồi ạ.
+
+343
+00:23:42,580 --> 00:23:46,210
+Vậy thì liệu có phiền các cô cậu nếu ta...
+
+344
+00:23:46,380 --> 00:23:49,220
+...ra lướt phím đàn chút đỉnh không?
+
+345
+00:23:49,760 --> 00:23:51,510
+Ta thấy nó rất hiệu nghiệm.
+
+346
+00:23:51,510 --> 00:23:54,350
+Bác bực mình rồi. Nhà trường gọi.
+
+347
+00:23:54,510 --> 00:23:57,640
+Tôi bị thử thách một thời gian
+cho đến khi vụ cửa sổ được điều tra.
+
+348
+00:23:57,810 --> 00:24:00,770
+Điên thế. Đâu phải lỗi của cậu.
+
+349
+00:24:00,770 --> 00:24:04,770
+Lời nói lý trí giữa một thị trấn
+toàn những đầu óc bã đậu.
+
+350
+00:24:04,940 --> 00:24:07,360
+Lena, ta có thể thích bạn của con đấy.
+
+351
+00:24:07,530 --> 00:24:10,990
+Ý tôi là, giống như việc đổ lỗi cho cậu
+về vụ sét đánh trên đồi Mật ong ấy.
+
+352
+00:24:11,150 --> 00:24:13,200
+À, phải rồi, ta đã nghe về vụ sét đánh.
+
+353
+00:24:13,360 --> 00:24:15,200
+Trên thực tế, một sự kiện tương tự
+
+354
+00:24:15,200 --> 00:24:18,870
+...diễn ra ở Venezuela nhiều năm liền tại hồ Maracaibo.
+
+355
+00:24:19,660 --> 00:24:22,870
+- Cháu có thể tìm trên Google.
+- Bác rất mê Google.
+
+356
+00:24:23,040 --> 00:24:25,500
+Trong bất cứ sự kiện nào,
+ta sẽ làm rõ với nhà trường.
+
+357
+00:24:25,670 --> 00:24:28,050
+Nhưng ta hiểu sự phẫn nộ của cháu, Ethan ạ.
+
+358
+00:24:28,050 --> 00:24:32,880
+Thời gian thử thách. Ám chỉ nhà chức trách.
+Lấy nguồn ở đâu ra vậy?
+
+359
+00:24:33,050 --> 00:24:36,010
+Một đám bà nội trợ chán nản, khát tình...
+
+360
+00:24:36,180 --> 00:24:39,520
+...với trí khôn tí tẹo
+và những cái lưng khổng lồ.
+
+361
+00:24:42,810 --> 00:24:46,230
+Không, chỉ có hai loại người ở Gatling:
+
+362
+00:24:46,400 --> 00:24:50,990
+Loại quá ngu để chuyển đi
+và loại quá ỳ để chuyển đi.
+
+363
+00:24:51,780 --> 00:24:54,030
+Mẹ cháu cũng từng nói điều giống hệt.
+
+364
+00:24:54,200 --> 00:24:55,870
+Vậy hả?
+
+365
+00:24:56,030 --> 00:24:58,780
+Mẹ cháu là một phụ nữ đáng yêu.
+
+366
+00:24:59,580 --> 00:25:02,000
+Ta rất tiếc khi nghe tin bà ấy qua đời.
+
+367
+00:25:02,710 --> 00:25:04,830
+Tất nhiên, ta chỉ biết bà ấy qua những trang sách.
+
+368
+00:25:05,000 --> 00:25:07,840
+Ta đọc mọi thứ bà ấy viết
+về những đồn điền phương Nam.
+
+369
+00:25:08,000 --> 00:25:11,210
+- Cháu có dự định làm nhà văn không?
+- Cháu chưa biết. Có thể.
+
+370
+00:25:11,380 --> 00:25:13,930
+- Giá như ta có chiếc đũa thần...
+- Macon.
+
+371
+00:25:14,090 --> 00:25:16,930
+...và ta có thể cho cháu xem trước
+toàn bộ tương lai của mình?
+
+372
+00:25:18,100 --> 00:25:19,930
+Sẽ thế nào nhỉ?
+
+373
+00:25:20,220 --> 00:25:22,930
+Và đừng chia sẻ với ta
+những chi tiết máu me nhé.
+
+374
+00:25:23,430 --> 00:25:25,100
+Thưa bác, cháu không chắc lắm.
+
+375
+00:25:25,270 --> 00:25:30,230
+Một điều cháu dám chắc là đại học.
+Cháu chắc chắn sẽ đi học đại học.
+
+376
+00:25:30,400 --> 00:25:33,400
+Thế à? Cháu nộp đơn vào đâu?
+
+377
+00:25:33,570 --> 00:25:37,820
+Tất cả. Miễn là không quá xa nhà.
+
+378
+00:25:38,780 --> 00:25:42,120
+Ý cháu là, miễn là trường ở địa phương...
+
+379
+00:25:42,950 --> 00:25:44,210
+Uh...
+
+380
+00:25:44,370 --> 00:25:46,040
+Để cháu có thể ở với bố.
+
+381
+00:25:46,210 --> 00:25:51,630
+Cháu sẽ lấy bằng sư phạm,
+và có thể dạy tại trường trung học.
+
+382
+00:25:51,800 --> 00:25:55,550
+Hoặc có thể cháu sẽ
+tiếp quản thư viện từ dì Amma.
+
+383
+00:25:56,300 --> 00:25:59,470
+Cháu sẽ cưới Emily Asher
+và có hai đứa con.
+
+384
+00:25:59,640 --> 00:26:04,140
+Nhưng cháu sẽ không bao giờ kiếm
+đủ tiền cho cô ta, nên cháu bắt đầu uống rượu...
+
+385
+00:26:05,770 --> 00:26:07,650
+...nhận ba vé phạt và mất việc.
+
+386
+00:26:07,810 --> 00:26:11,980
+Và thi thoảng qua lại với Savannah Snow cho tới tuổi 49.
+
+387
+00:26:11,980 --> 00:26:15,110
+Bọn trẻ sẽ sống với mẹ chúng
+sau khi bọn cháu li dị.
+
+388
+00:26:15,280 --> 00:26:19,410
+Sau đó vào năm 52 tuổi, cháu bị đau tim
+lần đầu tiên, một cú nữa năm 63 tuổi.
+
+389
+00:26:19,570 --> 00:26:22,910
+Cháu sẽ chuyển lên một căn hộ
+phía trên quán "Con chó bướng bỉnh"...
+
+390
+00:26:22,910 --> 00:26:26,500
+...và giúp họ dọn dẹp để uống rượu miễn phí.
+
+391
+00:26:26,660 --> 00:26:29,670
+Và đến khi 64 tuổi, cháu sẽ treo cổ tự vẫn.
+
+392
+00:26:29,830 --> 00:26:30,840
+Um...
+
+393
+00:26:31,000 --> 00:26:32,880
+Nhưng họ sẽ không tìm thấy xác ngay.
+
+394
+00:26:33,050 --> 00:26:35,300
+Cho tới khi xác cháu bốc mùi.
+
+395
+00:26:35,510 --> 00:26:38,430
+Cháu đã tính hết rồi cơ đấy.
+
+396
+00:26:39,090 --> 00:26:40,510
+Tốt cho cháu.
+
+397
+00:26:40,680 --> 00:26:42,430
+- Ethan, cậu ổn chứ?
+Ừ.
+
+398
+00:26:42,600 --> 00:26:46,700
+Thứ lỗi cho tôi.
+Gần đây tôi ngủ không ngon lắm.
+
+399
+00:26:55,780 --> 00:26:57,530
+Bác đã làm gì cậu ấy?
+
+400
+00:26:57,700 --> 00:27:02,660
+Ta đã đồng ý cho con đi học,
+nhưng không có kết bạn gì hết.
+
+401
+00:27:02,830 --> 00:27:05,700
+Ít nhất bác hãy để con giả vờ cho tới sinh nhật chứ?
+
+402
+00:27:05,870 --> 00:27:08,370
+Con có nhớ chuyện xảy ra ở trường trước không?
+
+403
+00:27:08,540 --> 00:27:11,380
+Cửa sổ vỡ chỉ là khởi đầu thôi.
+
+404
+00:27:11,880 --> 00:27:15,710
+Thằng bé đó là mối họa cho con.
+Đừng mời nó tới đây nữa.
+
+405
+00:27:15,880 --> 00:27:19,180
+Con không phải lo đâu.
+Con chắc cậu ấy sẽ không quay lại nữa.
+
+406
+00:28:15,190 --> 00:28:18,210
+- Cậu quay lại.
+- Ừ. Tôi xin lỗi...
+
+407
+00:28:18,210 --> 00:28:21,570
+- Tôi không biết chuyện quái gì xảy ra lúc đó.
+- Không phải lỗi của cậu.
+
+408
+00:28:34,920 --> 00:28:38,420
+Tôi mong điều này nghe không kì cục lắm,
+nhưng tôi nghĩ mình đã mơ về cậu...
+
+409
+00:28:38,590 --> 00:28:39,800
+...hằng đêm trong nhiều tháng nay.
+
+410
+00:28:41,530 --> 00:28:46,220
+Nghe không ghê bằng việc tôi...
+
+411
+00:28:46,390 --> 00:28:49,180
+trong đầu tôi ấy.
+Cậu có thể quên những gì tôi nói không?
+
+412
+00:28:49,350 --> 00:28:51,180
+- Chắc chắn.
+- Được rồi.
+
+413
+00:28:51,930 --> 00:28:53,600
+Um...
+
+414
+00:28:53,980 --> 00:28:55,620
+Quà của cậu...
+
+415
+00:28:55,620 --> 00:28:57,730
+- Phải. Tuyệt. Món quà.
+- Lý do tôi quay lại.
+
+416
+00:28:57,900 --> 00:29:02,610
+Nó mở được này. Thấy không?
+
+417
+00:29:03,740 --> 00:29:06,070
+"E-C-W, G-K-D.
+
+418
+00:29:06,240 --> 00:29:09,540
+21 tháng 12, 1863."
+
+419
+00:29:09,700 --> 00:29:11,410
+21 tháng 12?
+
+420
+00:29:11,580 --> 00:29:13,000
+Ừ.
+
+421
+00:29:15,920 --> 00:29:17,290
+Có sao không?
+
+422
+00:29:18,500 --> 00:29:20,840
+Sinh nhật tôi. Tôi sắp tròn 16 tuổi.
+
+423
+00:29:21,010 --> 00:29:23,010
+Wow, thật là...
+
+424
+00:29:23,170 --> 00:29:24,880
+Tuyệt quá.
+
+425
+00:29:25,180 --> 00:29:27,680
+Tôi thường không tin vào các dấu hiệu...
+
+426
+00:29:27,850 --> 00:29:31,020
+...nhưng đó có vẻ là dấu hiệu hơi bị được đấy.
+
+427
+00:29:33,350 --> 00:29:36,350
+Cậu 15 tuổi mà đã học năm hai rồi?
+
+428
+00:29:36,520 --> 00:29:38,440
+Cậu... phải thông minh lắm nhỉ.
+
+429
+00:29:38,610 --> 00:29:41,440
+- Cậu học vượt lớp?
+- Ừ.
+
+430
+00:29:41,610 --> 00:29:43,940
+Tính cả cái này...
+
+431
+00:29:44,110 --> 00:29:45,610
+...món quà sớm...
+
+432
+00:29:45,780 --> 00:29:48,160
+...mừng sinh nhật tuổi 16 ngọt ngào.
+
+433
+00:30:01,670 --> 00:30:02,840
+
+Genevieve! Không!
+
+434
+00:30:04,380 --> 00:30:06,090
+
+Ethan!
+
+435
+00:30:15,180 --> 00:30:16,730
+Bố!
+
+436
+00:30:18,100 --> 00:30:19,560
+Bố?
+
+437
+00:30:20,270 --> 00:30:22,070
+Amma, dì làm gì ở đây?
+
+438
+00:30:22,230 --> 00:30:25,110
+Dì đang tìm mấy cuốn sách mẹ con giữ
+để trả về thư viện.
+
+439
+00:30:25,280 --> 00:30:27,530
+- Con ổn không?
+- Con về nhà bằng cách nào?
+
+440
+00:30:27,530 --> 00:30:29,870
+Khi dì về nhà thì con đã đang nằm ngủ rồi.
+
+441
+00:30:30,030 --> 00:30:32,740
+- Dì vui vì con chợp mắt được một chút.
+- Amma! Con về đây bằng cách nào?
+
+442
+00:30:32,910 --> 00:30:35,120
+- Sao con lại hét lên thế?
+- Con xin lỗi.
+
+443
+00:30:36,750 --> 00:30:38,790
+Nghe nói con gặp rắc rối ở trường hôm nay.
+
+444
+00:30:38,960 --> 00:30:42,500
+Cha ta nói rắc rối đeo bám
+cái gia đình đó như ruồi vậy.
+
+445
+00:30:42,670 --> 00:30:45,840
+- Con nên tránh xa con bé đó.
+- Dì không cần lo cho bọn con, Amma.
+
+446
+00:30:46,010 --> 00:30:49,220
+- Ta đã hứa với mẹ con và ta muốn vậy.
+- Không, con sẽ... Amma.
+
+447
+00:30:49,390 --> 00:30:51,850
+Con xin lỗi, con chỉ...
+
+448
+00:30:52,760 --> 00:30:54,770
+Con không nghĩ đó là việc của dì.
+
+449
+00:30:56,430 --> 00:30:57,600
+Con lấy cái đó ở đâu?
+
+450
+00:30:59,650 --> 00:31:01,360
+- Con không biết.
+- Đừng nói dối ta.
+
+451
+00:31:01,520 --> 00:31:02,900
+Sao vậy?
+
+452
+00:31:04,280 --> 00:31:06,070
+Con nghe đây
+
+453
+00:31:06,240 --> 00:31:09,280
+Con mang đi chôn ở Greenbrier
+và hãy quên việc tìm được nó.
+
+454
+00:31:11,120 --> 00:31:13,510
+Con chưa từng nói con đã tới Greenbrier, Amma.
+
+455
+00:33:22,410 --> 00:33:25,920
+Gia đình tôi rất khác biệt.
+
+456
+00:33:26,080 --> 00:33:28,170
+Khác ra sao?
+
+457
+00:33:28,340 --> 00:33:30,590
+Chúng tôi làm những việc...
+
+458
+00:33:31,460 --> 00:33:33,550
+Chúng tôi làm được những việc khác người.
+
+459
+00:33:33,720 --> 00:33:36,220
+Kiểu như là, cậu đến từ châu Âu hả?
+
+460
+00:33:45,100 --> 00:33:49,310
+Có gia đình có khiếu âm nhạc,
+có gia đình có tiền.
+
+461
+00:33:49,480 --> 00:33:51,730
+Chúng tôi có sức mạnh.
+
+462
+00:33:53,030 --> 00:33:54,530
+Sức mạnh?
+
+463
+00:33:55,240 --> 00:33:56,660
+Phải.
+
+464
+00:34:03,200 --> 00:34:04,710
+Ngoài kia là thứ gì?
+
+465
+00:34:04,870 --> 00:34:08,130
+Là Macon. Bác ấy rào quanh ngôi nhà.
+
+466
+00:34:08,290 --> 00:34:10,670
+Đó là một bùa ếm bảo vệ tôi
+khi bác ấy không ở nhà.
+
+467
+00:34:10,840 --> 00:34:11,880
+Bùa?
+
+468
+00:34:12,050 --> 00:34:14,970
+- Phải. Sẽ không xảy ra nữa đâu.
+- Được rồi.
+
+469
+00:34:15,130 --> 00:34:16,630
+Lena này
+
+470
+00:34:18,010 --> 00:34:19,220
+...cậu là phù thủy đúng không?
+
+471
+00:34:19,390 --> 00:34:20,430
+Không.
+
+472
+00:34:25,100 --> 00:34:28,480
+Gọi chúng tôi là "phù thủy" giống như việc gọi
+những đứa thông minh là "mọt sách"...
+
+473
+00:34:28,480 --> 00:34:30,020
+...hoặc gọi hội vận động viên là lũ" vai u thịt bắp"
+
+474
+00:34:30,190 --> 00:34:32,150
+Chúng tôi thích cụm từ "Người làm phép."
+
+475
+00:34:33,070 --> 00:34:36,650
+Tôi không cố ý đập vỡ cửa kính.
+Sức mạnh của tôi ngày càng tăng lên.
+
+476
+00:34:37,240 --> 00:34:39,780
+Không phải lúc nào tôi
+cũng kiểm soát được.
+
+477
+00:34:41,120 --> 00:34:43,240
+Trông cậu ghê quá.
+
+478
+00:34:43,950 --> 00:34:46,620
+Cậu muốn ăn bánh quy không? Đường có ích đấy.
+
+479
+00:34:46,790 --> 00:34:49,000
+Tối qua tôi làm chúng.
+
+480
+00:34:50,580 --> 00:34:52,210
+Từ máy làm bánh quy.
+
+481
+00:34:55,920 --> 00:34:57,340
+Thế còn thứ này?
+
+482
+00:34:57,510 --> 00:34:59,090
+Tôi chịu.
+
+483
+00:34:59,300 --> 00:35:00,510
+Cậu không biết?
+
+484
+00:35:00,890 --> 00:35:02,810
+Không phải tôi.
+
+485
+00:35:03,640 --> 00:35:07,270
+Ý tôi là có thứ gì khác.
+Điều gì đó xảy ra khi chúng ta cùng chạm vào.
+
+486
+00:35:07,430 --> 00:35:08,640
+Đợi một chút
+
+487
+00:35:09,190 --> 00:35:12,110
+Sa-tăng không liên quan tới nhà cậu, đúng không?
+
+488
+00:35:12,690 --> 00:35:14,980
+Quả là một điều tầm thường khi nói ra.
+
+489
+00:35:16,650 --> 00:35:19,360
+- Trời.
+- Có quỷ dữ đấy, Lena.
+
+490
+00:35:19,530 --> 00:35:22,370
+Phải, và có bọn quỷ làm phép nữa, Ethan.
+
+491
+00:35:22,530 --> 00:35:25,830
+Cậu đang có nói là
+không có quỷ hiện hình hả?
+
+492
+00:35:26,620 --> 00:35:30,830
+Chỉ khác là, người ta bịa ra ai đó
+để đổ tội cho họ.
+
+493
+00:35:37,300 --> 00:35:39,090
+Tôi chỉ đang cố hiểu thôi.
+
+494
+00:35:39,260 --> 00:35:42,260
+Vậy cậu có sức mạnh?
+Cậu làm được gì nữa?
+
+495
+00:35:51,270 --> 00:35:53,560
+Tôi sưu tầm thơ.
+
+496
+00:36:15,500 --> 00:36:18,420
+Tôi không được phép cho người thường
+thấy những thứ này.
+
+497
+00:36:18,590 --> 00:36:21,380
+-Không sao đâu.
+- Tôi không được làm thế.
+
+498
+00:36:25,140 --> 00:36:27,970
+Tôi ghét việc phải che giấu suốt như vậy.
+
+499
+00:36:29,180 --> 00:36:32,270
+Cảm giác mọi người thì thầm to nhỏ về mình.
+
+500
+00:36:33,600 --> 00:36:37,110
+Sợ hãi nếu người ta phát hiện ra
+tôi là đứa quái dị đó.
+
+501
+00:36:39,110 --> 00:36:41,450
+Đôi khi, cậu chỉ muốn làm người bình thường.
+
+502
+00:36:46,450 --> 00:36:48,120
+Cậu cười gì thế?
+
+503
+00:36:48,290 --> 00:36:53,250
+Lena, cậu là một điều kỳ diệu.
+Tại sao cậu lại muốn bình thường cơ chứ?
+
+504
+00:37:07,720 --> 00:37:09,140
+Anh không như em nghĩ.
+
+505
+00:37:09,310 --> 00:37:10,810
+Ý em là sao?
+
+506
+00:37:10,970 --> 00:37:13,810
+Đừng nổi cáu,
+nhưng em cũng mơ về anh.
+
+507
+00:37:15,310 --> 00:37:17,730
+Em không nghĩ là anh có thật.
+
+508
+00:37:18,320 --> 00:37:20,650
+Lena?
+- Là Macon đấy. Anh phải đi thôi.
+
+509
+00:37:20,820 --> 00:37:22,650
+Sao em không nói với anh?
+
+510
+00:37:22,820 --> 00:37:24,660
+Điều đó làm em sợ.
+
+511
+00:37:25,320 --> 00:37:26,490
+Nó không làm anh sợ à?
+
+512
+00:37:27,160 --> 00:37:28,950
+Em muốn hẹn hò với anh không?
+
+513
+00:37:33,160 --> 00:37:35,290
+Khoan, anh ra bằng lối cửa sổ hả?
+
+514
+00:37:45,130 --> 00:37:47,050
+Oa, em làm cái gì lớn lên cũng được à?
+
+515
+00:37:47,220 --> 00:37:49,390
+Lena?
+- Ra ngay.
+
+516
+00:37:52,850 --> 00:37:55,730
+- Thứ sáu thì sao, xem phim?
+- Thứ sáu không được, đó là ngày lễ.
+
+517
+00:37:55,890 --> 00:37:57,060
+Ngày lễ gì?
+
+518
+00:37:57,230 --> 00:37:59,690
+Ngày hội mùa thôi, gia đình tụ tập đến từ ngoài thị trấn.
+
+519
+00:37:59,860 --> 00:38:01,400
+- Rồi, thứ bảy nhé.
+Lena!
+
+520
+00:38:01,570 --> 00:38:04,280
+- Em không biết, nhanh lên.
+- Nói đồng ý đi.
+
+521
+00:38:04,440 --> 00:38:05,860
+Đồng ý.
+
+522
+00:38:06,410 --> 00:38:08,240
+Ngày mai anh gặp em được chứ?
+
+523
+00:38:08,410 --> 00:38:11,740
+- Em không biết. Đi ngay đi!
+- Được rồi.
+
+524
+00:38:18,040 --> 00:38:19,330
+
+Ethan?
+
+525
+00:38:19,500 --> 00:38:20,710
+Ừ?
+
+526
+00:38:20,880 --> 00:38:24,880
+Hứa với em nó sẽ là một cái hẹn kiểu
+thiếu niên bình thường gượng gạo thôi.
+
+527
+00:38:25,050 --> 00:38:27,050
+Anh hứa. Sau đó anh sẽ
+không thèm gọi cho em luôn.
+
+528
+00:38:27,220 --> 00:38:29,640
+- Đồ tồi.
+- Đồ phù thủy.
+
+529
+00:38:29,800 --> 00:38:31,810
+- Vai u thịt bắp.
+
+530
+00:38:33,810 --> 00:38:35,520
+Hẹn mai nhé.
+
+531
+00:38:38,770 --> 00:38:41,270
+Em nên biến ra một cái thang.
+
+532
+00:39:52,390 --> 00:39:54,300
+Hãy giữ khoảng cách.
+
+533
+00:39:56,680 --> 00:40:00,980
+Rất cám ơn vì sự đón tiếp nhã nhặn của bà.
+
+534
+00:40:01,810 --> 00:40:03,980
+Tôi cảm thấy có chuyện đêm nay.
+
+535
+00:40:04,150 --> 00:40:07,070
+Thấy có chuyện mỗi đêm
+từ khi ông mang con bé đó đến đây.
+
+536
+00:40:07,230 --> 00:40:09,950
+Đó là nơi duy nhất còn lại để tôi bảo vệ con bé.
+
+537
+00:40:10,110 --> 00:40:12,780
+Vậy là ông đã mang bóng đêm tới thị trấn này.
+
+538
+00:40:13,320 --> 00:40:16,830
+Tôi cảm giác như có bàn tay đang
+vặn xoắn ruột gan mình.
+
+539
+00:40:16,990 --> 00:40:18,290
+Không phải do Lena.
+
+540
+00:40:19,830 --> 00:40:21,460
+Sarafine?
+
+541
+00:40:22,420 --> 00:40:24,330
+Ông nói cô ta đã đi xa luôn rồi mà.
+
+542
+00:40:24,500 --> 00:40:29,300
+Phải. Chúng tôi--
+Đúng là chúng tôi đã thỏa thuận, nhưng...
+
+543
+00:40:29,760 --> 00:40:33,340
+...cô ta đã ám ảnh Lena cả năm qua.
+
+544
+00:40:33,720 --> 00:40:36,260
+Và có vài tai nạn đã xảy ra.
+
+545
+00:40:36,430 --> 00:40:39,810
+Macon, nguy hiểm không được đụng đến thằng bé
+chỉ vì những người giống như ông.
+
+546
+00:40:39,980 --> 00:40:42,440
+Vậy bà hãy kiểm soát nó chặt vào!
+
+547
+00:40:43,350 --> 00:40:46,190
+- Đã có chuyện gì ở Greenbrier?
+- Tôi không biết.
+
+548
+00:40:46,360 --> 00:40:47,860
+Lena bị quá khích.
+
+549
+00:40:48,020 --> 00:40:51,030
+Thằng bé bị bất tỉnh.
+Tôi đưa nó về, gọi cho bà.
+
+550
+00:40:51,190 --> 00:40:53,530
+Bà làNgười tiên tri, bà nói cho tôi biết đi.
+
+551
+00:40:53,700 --> 00:40:57,240
+Chốn này là nơi linh thiêng của tổ tiên tôi.
+Ông nghe chưa?
+
+552
+00:40:57,410 --> 00:40:59,660
+Ông muốn có câu trả lời thì
+hãy tôn trọng tôi chút đi.
+
+553
+00:40:59,830 --> 00:41:02,870
+Rồi, ...tôi xin lỗi.
+
+554
+00:41:04,540 --> 00:41:08,300
+Ethan có chút năng lực.
+Nó có sức mạnh nhà Duchannes.
+
+555
+00:41:08,460 --> 00:41:10,510
+Chắc phải là Sarafine.
+
+556
+00:41:11,260 --> 00:41:14,970
+Có thể cô ta dùng ma thuật
+để tiếp cận Lena thông qua thằng bé.
+
+557
+00:41:15,140 --> 00:41:17,640
+Bà phải nói với chúng rằng tôi cần biết
+Sarafine đang mưu tính chuyện gì.
+
+558
+00:41:17,800 --> 00:41:21,020
+Sẽ không làm mất mặt ông đâu
+nếu cầu xin trợ giúp thay vì cứ ngồi đợi đấy.
+
+559
+00:41:21,180 --> 00:41:24,850
+Như cách gia đình ông vẫn làm nhiều năm qua.
+Đừng có trợn mắt lên với tôi.
+
+560
+00:41:25,020 --> 00:41:30,190
+Vậy làm ơn hãy vui lòng hỏi họ xem
+Sarafine đang âm mưu gì.
+
+561
+00:41:31,030 --> 00:41:33,740
+Mang đồ ưu thích của ông ra đây, bác Abner.
+
+562
+00:41:33,950 --> 00:41:36,200
+Tôm và sỏi.
+
+563
+00:41:36,740 --> 00:41:38,740
+Lườn gà khô.
+
+564
+00:41:40,290 --> 00:41:42,290
+Và bánh dừa.
+
+565
+00:41:42,450 --> 00:41:45,210
+Hmm. Chả trách ông ấy không còn đây với chúng ta.
+
+566
+00:41:45,370 --> 00:41:47,920
+Mặc kệ ông ấy đi bác.
+
+567
+00:41:58,970 --> 00:42:03,270
+Bác Abner,
+chúng con cần sự chỉ dạy của người.
+
+568
+00:42:03,770 --> 00:42:06,270
+Cùng với cô Ida và dì May...
+
+569
+00:42:07,060 --> 00:42:09,650
+...con xin nhún nhường mời hồn người về đây
+
+570
+00:42:18,620 --> 00:42:20,490
+Họ nói gì?
+
+571
+00:42:22,120 --> 00:42:24,790
+Chưa có gì.
+
+572
+00:42:24,960 --> 00:42:28,540
+Hãy nói là họ phải giúp chúng ta ngăn cản Sarafine.
+
+573
+00:42:31,170 --> 00:42:33,590
+Có những thứ không thể ngăn cản.
+
+574
+00:43:35,650 --> 00:43:39,030
+Đây là chỗ ưu thích của anh à?
+Tất cả về những dấu hiệu.
+
+575
+00:43:39,200 --> 00:43:41,870
+- Em thấy chỗ trên đó chứ?
+- Ừ.
+
+576
+00:43:42,030 --> 00:43:44,030
+Đó là con đường đến tự do.
+
+577
+00:43:44,580 --> 00:43:47,540
+Mẹ anh từng nói,
+"Hãy thoát khỏi đây càng sớm càng tốt",
+
+578
+00:43:47,700 --> 00:43:52,880
+Hãy đi tìm hiểu mọi người sống và nghĩ ra sao
+trước khi con tìm được một nơi cho riêng mình."
+
+579
+00:43:53,040 --> 00:43:57,550
+Và anh nói, "Mẹ, con mới 9 tuổi. Làm sao con làm được?"
+
+580
+00:43:57,710 --> 00:43:59,380
+Ethan bé bỏng.
+
+581
+00:44:01,130 --> 00:44:03,760
+Đó là lúc mẹ đưa anh tới thư viện.
+
+582
+00:44:03,930 --> 00:44:07,060
+Và, bà nói:
+
+583
+00:44:07,220 --> 00:44:09,390
+"Ethan, đây là nhà thờ của mẹ.
+
+584
+00:44:09,560 --> 00:44:14,020
+Đây là nơi gia đình ta đến
+ca tụng những gì linh thiêng.
+
+585
+00:44:14,190 --> 00:44:15,900
+Những ý tưởng."
+
+586
+00:44:17,440 --> 00:44:20,280
+Ôi, xin lỗi nhé.
+
+587
+00:44:20,450 --> 00:44:22,780
+Không biết từ đâu nó vọt ra nữa.
+
+588
+00:44:26,330 --> 00:44:28,120
+Ước gì em biết bà ấy.
+
+589
+00:44:29,580 --> 00:44:32,750
+Đi khỏi đây thôi. Nào.
+
+590
+00:44:32,960 --> 00:44:34,750
+- Đi đâu?
+- Đâu cũng được.
+
+591
+00:44:35,880 --> 00:44:39,760
+Lena, hầu hết mọi người sống gần trọn quãng đời...
+
+592
+00:44:39,920 --> 00:44:43,890
+...chờ đợi một thời khắc sẽ thay đổi tất cả.
+Nó không bao giờ xảy ra.
+
+593
+00:44:44,050 --> 00:44:46,600
+Chúng ta có thể bắt đầu sống,
+ngay bây giờ, được chứ?
+
+594
+00:44:46,760 --> 00:44:51,060
+Chúng ta chỉ cần nói có,
+chỉ cần leo lên xe, rồi đi.
+
+595
+00:44:51,520 --> 00:44:54,400
+- Em không thể.
+- Tại sao?
+
+596
+00:44:55,610 --> 00:45:00,570
+Khi tròn 16 tuổi, có lẽ em sẽ không
+còn là em như bây giờ nữa.
+
+597
+00:45:01,190 --> 00:45:02,780
+Tại sao? Cái gì--?
+
+598
+00:45:02,950 --> 00:45:05,780
+Chuyện gì có thể xảy ra ngoài
+việc bị say rượu lần đầu tiên chứ?
+
+599
+00:45:10,700 --> 00:45:15,460
+Khi một người làm phép nữ tròn 16 tuổi
+bọn em sẽ phải đối mặt với cái họ gọi là "Sự tự thú".
+
+600
+00:45:15,630 --> 00:45:19,460
+Sức mạnh của em sẽ phải
+nghiêng về Ánh sáng hoặc Bóng tối...
+
+601
+00:45:19,630 --> 00:45:22,380
+...dựa trên bản chất thật của mình.
+
+602
+00:45:23,090 --> 00:45:25,430
+Theo số phận đã định đoạt.
+
+603
+00:45:25,970 --> 00:45:28,760
+Đó...là lý do tại sao Macon đưa em tới đây.
+
+604
+00:45:28,930 --> 00:45:30,810
+Khoan, Macon là gì?
+
+605
+00:45:30,970 --> 00:45:34,810
+Ông ấy là một người làm phép Bóng tối,
+nhưng giờ ông chọn theo Ánh sáng vì em.
+
+606
+00:45:35,310 --> 00:45:37,440
+Ông ấy có thể chọn?
+Vậy sao em không thể?
+
+607
+00:45:37,610 --> 00:45:42,570
+Họ nói rằng bản chất thật của
+một người làm phép nữ sẽ chọn cho cô ta.
+
+608
+00:45:43,320 --> 00:45:45,490
+Em không hiểu vì sao.
+
+609
+00:45:45,990 --> 00:45:47,410
+Từ từ, đợi đã
+
+610
+00:45:47,570 --> 00:45:52,040
+Em sợ rằng khi tròn 16 tuổi,
+em sẽ trở thành quỷ dữ
+
+611
+00:45:52,200 --> 00:45:55,000
+...phù thủy quỷ cái?
+
+612
+00:45:55,170 --> 00:45:57,630
+Em còn 75 ngày thôi, Ethan.
+
+613
+00:46:01,500 --> 00:46:03,590
+Em không biết mình sẽ thành ra cái gì.
+
+614
+00:46:05,760 --> 00:46:08,510
+Em không biết trong
+sâu thẳm mình là gì.
+
+615
+00:46:09,850 --> 00:46:14,730
+Trong ba năm qua, Lena Duchannes
+đã học qua ba trường khác nhau..
+
+616
+00:46:14,890 --> 00:46:16,190
+...ở ba thành phố khác nhau.
+
+617
+00:46:16,350 --> 00:46:20,610
+Tôi kiểm tra rồi. Và từng trường trong số đó, tai nạn...
+
+618
+00:46:20,770 --> 00:46:23,360
+...thời tiết dị thường, rồi thì...
+
+619
+00:46:23,530 --> 00:46:25,030
+Có cả chết người.
+
+620
+00:46:26,860 --> 00:46:29,160
+Tôi có một kiến nghị ở đây...
+
+621
+00:46:29,320 --> 00:46:33,160
+...được ký bởi 300 bậc
+phụ huynh ở Gatling, yêu cầu...
+
+622
+00:46:33,330 --> 00:46:35,710
+- đuổi học Lena Duchannes...
+- Làm ơn cho qua.
+
+623
+00:46:35,870 --> 00:46:37,750
+...và hơn nữa là gia sản nhà Ravenwood--
+
+624
+00:46:37,920 --> 00:46:39,460
+Xin lỗi
+
+625
+00:46:47,340 --> 00:46:48,550
+Ôi chúa ơi, mẹ ơi...
+
+626
+00:46:48,720 --> 00:46:52,470
+Xin thứ lỗi vì sự can thiệp không đúng lúc.
+
+627
+00:46:54,220 --> 00:46:56,230
+Hiệu trưởng Herbert.
+
+628
+00:46:57,230 --> 00:46:58,730
+Thị trưởng Snow.
+
+629
+00:46:59,560 --> 00:47:01,610
+Và Stephens đáng kính.
+
+630
+00:47:01,770 --> 00:47:04,280
+<i>- Phải, thưa ngài.
+- Hmm.</i>
+
+631
+00:47:06,320 --> 00:47:08,320
+Bà Lincoln.
+
+632
+00:47:08,910 --> 00:47:12,910
+Sao ông dám bước chân vào
+ngôi nhà của Chúa?
+
+633
+00:47:13,080 --> 00:47:16,040
+Vì nó được xây trên đất nhà tôi.
+
+634
+00:47:16,960 --> 00:47:21,250
+Và tôi hiểu đây là dịp cho tất cả
+các thành viên trong cộng đồng
+
+635
+00:47:22,340 --> 00:47:26,460
+Tôi chắc các vị đều có những việc hay hơn
+để làm vào một ngày đẹp trời như thế này
+
+636
+00:47:26,630 --> 00:47:28,760
+...nên tôi sẽ ngắn gọn thôi.
+
+637
+00:47:28,930 --> 00:47:33,760
+Những cáo buộc chống lại
+cháu gái tôi đều là giả dối
+
+638
+00:47:33,930 --> 00:47:39,060
+Vì, theo như Kênh thời tiết,
+và các vị có thể xác minh bằng Google...
+
+639
+00:47:39,230 --> 00:47:42,400
+...đã có những đợt gió trái mùa từ phía Đông...
+
+640
+00:47:42,560 --> 00:47:47,440
+...gây ra những thiệt hại bất ngờ
+dọc bờ biển Nam Carolina.
+
+641
+00:47:47,610 --> 00:47:52,120
+Vì vậy cháu gái tôi sẽ quay lại trường
+
+642
+00:47:52,280 --> 00:47:54,450
+...nơi mà Gatling tự cho là mang tính giáo dục.
+
+643
+00:47:54,620 --> 00:47:57,200
+Và con bé sẽ không còn bị hành hạ thêm nữa.
+
+644
+00:47:58,120 --> 00:48:01,540
+Tôi cám ơn sự hợp tác của các vị.
+
+645
+00:48:03,040 --> 00:48:05,960
+Ông không có quyền ra lệnh cho chúng tôi.
+
+646
+00:48:06,130 --> 00:48:08,670
+Không cần biết ông có bao nhiêu tiền.
+
+647
+00:48:08,840 --> 00:48:12,680
+Ôi, bà Lincoln, đúng rồi đấy.
+
+648
+00:48:12,840 --> 00:48:15,970
+Sự giàu sang của tôi không
+cho tôi lợi thế nào cả.
+
+649
+00:48:16,140 --> 00:48:20,270
+Tuy nhiên, vì tổ tiên nhà tôi đã lập nên Gatling...
+
+650
+00:48:20,440 --> 00:48:23,350
+...số cổ phần của tôi có giúp đỡ đôi chút
+
+651
+00:48:23,650 --> 00:48:27,110
+Ví dụ như, nếu tôi hiến tặng
+chiếc cối xay gió cũ
+
+652
+00:48:27,280 --> 00:48:31,400
+...cho một trung tâm cai nghiện thì sao nhỉ?
+
+653
+00:48:32,780 --> 00:48:34,120
+Ôi Chúa ơi
+
+654
+00:48:34,320 --> 00:48:38,040
+Vậy đấy, tôi sở hữu khu đất có nhà nghỉ
+"Con chó bướng bỉnh" tọa lạc trên đó
+
+655
+00:48:38,200 --> 00:48:42,330
+Việc nó đóng cửa sẽ gây ra ít phiền hà cho
+một vài quý ông ở đây.
+
+656
+00:48:42,500 --> 00:48:45,460
+Các vị sẽ phải ra hẳn ngoài thị trấn
+để gặp bạn tình...
+
+657
+00:48:45,630 --> 00:48:50,170
+...khi vợ các vị còn nghĩ
+các vị lại đang dự một cuộc họp
+
+658
+00:48:50,340 --> 00:48:53,010
+... nữa của hội tái diễn Nội chiến.
+
+659
+00:48:53,720 --> 00:48:59,140
+Vậy tôi xin phép được kết luận
+rằng vấn đề này...
+
+660
+00:48:59,310 --> 00:49:00,770
+...đã vào dĩ vãng rồi chứ?
+
+661
+00:49:02,440 --> 00:49:04,690
+Tôi không hề sợ ông
+hay dòng giống quỷ dữ nhà ông
+
+662
+00:49:04,850 --> 00:49:08,610
+Chúa đấng sáng tạo sẽ trục xuất ông
+vào lửa địa ngục cùng lũ khủng bố...
+
+663
+00:49:08,780 --> 00:49:13,820
+...bọn vô thần, lũ đồng tính,
+bọn đảng Dân chủ, đảng Tự do, xã hội chủ nghĩa...
+
+664
+00:49:13,990 --> 00:49:17,870
+...Hòa bình Xanh và tất cả những lũ dị hợm tởm lợm.
+
+665
+00:49:18,030 --> 00:49:20,620
+Bà Lincoln thân mến
+
+666
+00:49:20,790 --> 00:49:24,460
+Nếu là bà, tôi sẽ chào đón
+mọi thể loại lửa
+
+667
+00:49:24,620 --> 00:49:29,670
+có khi lại cho bà cơ hội để đốt phéng
+chiếc mũ xui xẻo bà đang đội kia
+
+668
+00:49:43,730 --> 00:49:45,560
+Sarafine.
+
+669
+00:49:49,150 --> 00:49:53,740
+Tôi ngỡ phải gặp cô trong bộ dạng
+nào đó sang trọng hơn mới phải.
+
+670
+00:49:53,900 --> 00:49:56,700
+Thôi nào, Macon.
+
+671
+00:49:56,860 --> 00:50:00,990
+Bà ta thật hoàn hảo.
+Là trụ cột của cộng đồng đấy.
+
+672
+00:50:01,160 --> 00:50:04,120
+Ông đúng về cái mũ.
+Bất hạnh nhỉ?
+
+673
+00:50:04,290 --> 00:50:07,290
+Nhưng nếu đã mượn xác
+thì phải mượn luôn cả đồ
+
+674
+00:50:07,460 --> 00:50:12,380
+...và cưng à, chắc ông nghĩ phụ nữ
+đã phát minh ra áo choàng.
+
+675
+00:50:16,180 --> 00:50:18,590
+Để xem nào.
+
+676
+00:50:19,050 --> 00:50:20,680
+Ông có nhớ cô em gái nhỏ của mình không?
+
+677
+00:50:20,850 --> 00:50:22,470
+Không.
+
+678
+00:50:23,180 --> 00:50:24,600
+<i>Hmm.</i>
+
+679
+00:50:24,770 --> 00:50:29,730
+Đừng xấu tính thế. Ông từng thích
+chơi trong Bóng tối lắm mà.
+
+680
+00:50:30,360 --> 00:50:31,940
+Nhớ không?
+
+681
+00:50:33,780 --> 00:50:36,780
+Tôi có thể cảm thấy
+năng lượng của ông uể oải.
+
+682
+00:50:36,950 --> 00:50:42,870
+Hmm, buồn ghê. Chúng đang tan biến đi,
+và ông biết tại sao.
+
+683
+00:50:43,450 --> 00:50:48,670
+Do ông đang giả vờ
+thành thứ mình không phải vậy.
+
+684
+00:50:50,130 --> 00:50:51,290
+Ôi
+
+685
+00:50:51,460 --> 00:50:53,880
+Kẹp ca-vát của bố. Ngọt ngào làm sao.
+
+686
+00:50:54,800 --> 00:50:57,930
+Lời nguyền sẽ vận vào nó, Macon.
+
+687
+00:51:01,140 --> 00:51:03,430
+Nhưng bà vẫn chưa chắc lắm, đúng không?
+
+688
+00:51:04,810 --> 00:51:06,140
+
+Hmm.
+
+689
+00:51:06,310 --> 00:51:09,600
+Nếu bà chắc chắn, sao còn
+kéo thằng bé vào chuyện này?
+
+690
+00:51:09,770 --> 00:51:12,150
+Tôi không kéo nó vào chuyện này.
+
+691
+00:51:12,320 --> 00:51:14,780
+Tình yêu đã kéo nó vào.
+
+692
+00:51:15,400 --> 00:51:18,990
+Lena và thằng bé người thường đó
+đã tìm đến nhau từ ngày chúng ra đời.
+
+693
+00:51:19,160 --> 00:51:22,580
+Chúng có cái thứ kinh khủng đó, "định mệnh."
+Kể cả Lila của ông còn đánh hơi được.
+
+694
+00:51:22,740 --> 00:51:27,080
+Và ông biết luật lệ của Người làm phép :
+"không được yêu người thường"
+
+695
+00:51:27,580 --> 00:51:30,540
+Phiền ông, nó không thể tốt hơn được
+nếu là tôi lên kế hoạch
+
+696
+00:51:30,710 --> 00:51:33,840
+Ôi tình đầu...
+
+697
+00:51:34,000 --> 00:51:35,760
+Sao lại hân hoan
+
+698
+00:51:35,920 --> 00:51:38,010
+đẹp đẽ thế
+
+699
+00:51:38,170 --> 00:51:41,140
+Và đau đớn đầu tiên
+
+700
+00:51:42,100 --> 00:51:43,850
+Thật cay đắng
+
+701
+00:51:44,680 --> 00:51:46,430
+Thật đau đớn
+
+702
+00:51:46,600 --> 00:51:49,100
+Thế cũng đủ để biến
+mọi cô gái thành Bóng tối
+
+703
+00:51:49,640 --> 00:51:51,730
+...người thường hay Người làm phép.
+
+704
+00:51:53,110 --> 00:51:54,520
+Tôi rất phấn khởi.
+
+705
+00:51:54,690 --> 00:51:59,400
+Sinh nhật Lena sẽ rơi đúng ngày Đông chí
+mạnh nhất trong 5000 năm qua
+
+706
+00:51:59,570 --> 00:52:03,870
+Năng lượng phát ra sẽ lớn hơn bao giờ hết
+trước khi Trái đất quay hết một vòng
+
+707
+00:52:04,030 --> 00:52:08,290
+Cô bé sẽ mạnh hơn ai hết, Macon,
+và cô bé sẽ dẫn dắt chúng ta
+
+708
+00:52:08,830 --> 00:52:10,210
+Đến cái gì?
+
+709
+00:52:10,370 --> 00:52:13,000
+Một thời đại không cần che giấu.
+
+710
+00:52:14,630 --> 00:52:16,800
+Tôi...
+
+711
+00:52:18,590 --> 00:52:21,050
+...quá mệt mỏi vì giấu diếm rồi!
+
+712
+00:52:21,720 --> 00:52:26,060
+Những kẻ ăn bám này đã nhởn nhơ
+quá lâu rồi, phải không nào?
+
+713
+00:52:26,220 --> 00:52:31,730
+Ô, có trò vui đây.
+Hãy đặt tên cho loài mà ông sẽ nhớ.
+
+714
+00:52:31,890 --> 00:52:33,810
+Thấy chưa? Ông không thể.
+
+715
+00:52:33,980 --> 00:52:38,650
+Vì bọn người thường không
+làm gì ngoài lãng phí và hủy hoại
+
+716
+00:52:39,070 --> 00:52:41,450
+Chúng nghĩ ra những ý tưởng...
+
+717
+00:52:41,740 --> 00:52:46,160
+...về Chúa, và tình yêu, và sự công bằng...
+
+718
+00:52:46,330 --> 00:52:50,120
+...và chúng dùng chính những ý tưởng đó
+để giết chết ai bất đồng quan điểm
+
+719
+00:52:50,290 --> 00:52:53,080
+Ông thật sự muốn chơi
+với lũ ấy lắm hả?
+
+720
+00:52:53,250 --> 00:52:56,750
+Chúng cầu nguyện mà không thực tin tưởng
+rồi lại tự hỏi tại sao phép màu không xảy đến
+
+721
+00:52:56,920 --> 00:52:59,340
+Chúng còn chẳng thèm quý trọng
+cuộc sống nhỏ bé của bản thân
+
+722
+00:52:59,510 --> 00:53:01,840
+...cho đến ngay giây phút bị tước đoạt khỏi nó
+
+723
+00:53:02,010 --> 00:53:03,430
+Tội nghiệp.
+
+724
+00:53:03,930 --> 00:53:05,850
+Đến lượt chúng ta rồi, Macon.
+
+725
+00:53:06,010 --> 00:53:07,930
+Anh yêu, quay lại đi.
+
+726
+00:53:08,510 --> 00:53:10,020
+Hãy quay về.
+
+727
+00:53:10,180 --> 00:53:12,890
+- Lena sẽ kết liễu chúng.
+- Không.
+
+728
+00:53:13,560 --> 00:53:16,860
+Lena sẽ không nghiêng về Bóng tối.
+Con bé quá mạnh mẽ.
+
+729
+00:53:17,020 --> 00:53:21,110
+Con bé không có chọn lựa đâu, cưng à.
+
+730
+00:53:21,280 --> 00:53:24,030
+Lời nguyền đã bắt đầu rồi.
+
+731
+00:53:24,450 --> 00:53:26,950
+Không. Dối trá!
+
+732
+00:53:30,540 --> 00:53:32,120
+Dối trá gì vậy, ông Ravenwood?
+
+733
+00:53:33,920 --> 00:53:35,460
+Tôi xin lỗi.
+
+734
+00:53:36,790 --> 00:53:38,460
+Lena sẽ quay lại trường.
+
+735
+00:53:39,130 --> 00:53:41,460
+Và thế thôi.
+
+736
+00:53:50,640 --> 00:53:52,430
+Oa, cậu và Lena Duchannes.
+
+737
+00:53:52,600 --> 00:53:54,810
+Ừ, đừng nói với ai.
+
+738
+00:53:54,980 --> 00:53:58,980
+Ôi, thôi nào, và lỡ mất cơ hội
+thấy Emily "đi" ra cả móng tay?
+
+739
+00:53:59,150 --> 00:54:01,030
+Tớ cá Lena có thể làm thế.
+
+740
+00:54:01,190 --> 00:54:02,240
+Gì cơ?
+
+741
+00:54:36,390 --> 00:54:39,650
+Ai trong hai cậu là Ethan Wate?
+
+742
+00:54:43,320 --> 00:54:44,360
+Hả?
+
+743
+00:54:44,860 --> 00:54:47,360
+Ai trong hai cậu có cái lưỡi quyền lực?
+
+744
+00:54:47,530 --> 00:54:50,660
+Là...tôi. Tôi là-- tôi Ethan.
+
+745
+00:54:51,200 --> 00:54:52,990
+Ethan!
+
+746
+00:54:56,410 --> 00:54:58,330
+- Tôi biết chị à?
+- Không hề.
+
+747
+00:54:58,500 --> 00:55:01,920
+- Tôi là Ridley Duchannes. Theo tôi nào.
+Chị là họ hàng của Lena?
+
+748
+00:55:02,090 --> 00:55:04,840
+Cưng à, cậu đang nhìn vào
+người họ hàng ấy đấy.
+
+749
+00:55:05,010 --> 00:55:08,550
+- À, đây là bạn tôi, Link.
+- Cực kỳ hân hạnh, Link.
+
+750
+00:55:08,720 --> 00:55:11,300
+Ờ, ...tôi...cái gì...
+
+751
+00:55:11,470 --> 00:55:13,720
+- Vào đi.
+Ôi, tôi không được mời.
+
+752
+00:55:13,890 --> 00:55:16,390
+Tôi không nghĩ bác cô ấy thích...
+
+753
+00:55:16,560 --> 00:55:20,310
+Tin ta đi, cả nhà đang rất muốn gặp cậu.
+
+754
+00:55:42,710 --> 00:55:44,050
+Ravenwood.
+
+755
+00:55:44,880 --> 00:55:46,170
+Lâu quá rồi.
+
+756
+00:55:49,680 --> 00:55:52,390
+Lena và chị giống chị em ruột
+hơn là chị em họ.
+
+757
+00:55:52,550 --> 00:55:54,600
+Chị ngạc nhiên vì nó không nhắc tới chị.
+
+758
+00:55:54,760 --> 00:55:59,270
+Nhưng rồi, chị cũng không dám tin
+Lena lại nhắc đến ngần ấy chuyện.
+
+759
+00:56:02,060 --> 00:56:04,690
+Ôi, cám ơn em.
+
+760
+00:56:04,860 --> 00:56:06,730
+Trông chị ổn không?
+
+761
+00:56:06,900 --> 00:56:09,900
+Lúc nào cũng bồn chồn khi gặp gia đình.
+
+762
+00:56:10,740 --> 00:56:12,530
+Em có đôi mắt đẹp lắm.
+
+763
+00:56:13,120 --> 00:56:14,580
+Mm.
+
+764
+00:56:14,990 --> 00:56:16,950
+Môi cũng đẹp luôn.
+
+765
+00:56:17,120 --> 00:56:18,790
+Chị có thể?
+
+766
+00:56:19,120 --> 00:56:21,250
+Mm. Cũng ra dáng quý ông đấy.
+
+767
+00:56:25,750 --> 00:56:27,300
+Chào mẹ.
+
+768
+00:56:27,460 --> 00:56:29,220
+Ridley. Ôi!
+
+769
+00:56:30,590 --> 00:56:32,130
+Ta đã bảo con tránh xa cơ mà.
+
+770
+00:56:32,300 --> 00:56:35,720
+Sao nào, làm sao con lại bỏ lỡ
+dịp lễ với gia đình được, mẹ nhỉ?
+
+771
+00:56:35,890 --> 00:56:38,060
+Ồ...
+
+772
+00:56:38,220 --> 00:56:42,230
+Ridley thân yêu.
+Thật là bất ngờ không mấy thú vị.
+
+773
+00:56:42,400 --> 00:56:45,650
+Bác Macon. Trông bác già yếu quá thể.
+
+774
+00:56:45,820 --> 00:56:48,900
+- Ta đặc biệt quên không mời cháu.
+
+775
+00:56:49,070 --> 00:56:51,990
+Và ta đã bảo cậu đừng
+bao giờ bước qua ngưỡng cửa nhà ta nữa!
+
+776
+00:56:54,490 --> 00:56:55,910
+Sao?
+
+777
+00:56:56,660 --> 00:57:00,160
+- Cháu đã làm gì nó?
+- Mời cậu ấy tới ăn tối thôi.
+
+778
+00:57:00,830 --> 00:57:02,420
+À...
+
+779
+00:57:02,830 --> 00:57:07,590
+Sao cháu không dẫn người bạn
+ăn mặc tuềnh toàng này tới phòng ăn nhỉ?
+
+780
+00:57:10,840 --> 00:57:12,260
+Tôi đâu có...
+
+781
+00:57:12,430 --> 00:57:13,680
+Del.
+- Cái--?
+
+782
+00:57:18,510 --> 00:57:20,180
+Chào cô em họ.
+
+783
+00:57:21,350 --> 00:57:23,850
+- Trông em mới xinh làm sao.
+- Ethan?
+
+784
+00:57:24,020 --> 00:57:26,060
+- Ư--
+- Ôi.
+
+785
+00:57:26,230 --> 00:57:29,530
+Dễ thương nhỉ? Cậu ta nghẹn lời rồi.
+
+786
+00:57:29,690 --> 00:57:31,860
+- Tình yêu chăng.
+- Ôi.
+
+787
+00:57:32,030 --> 00:57:33,490
+- Macon.
+Không sao, Lena.
+
+788
+00:57:33,650 --> 00:57:35,780
+Con bé không thể làm gì có hại ở đây.
+
+789
+00:57:35,950 --> 00:57:38,870
+- Bác chắc không, Macon?
+- Đừng hỗn với bác!
+
+790
+00:57:39,030 --> 00:57:42,370
+Del, sao bà không dọn thêm hai phần
+ăn cho các vị khách không mời này?
+
+791
+00:57:42,540 --> 00:57:43,790
+- Ồ.
+Cám ơn.
+
+792
+00:57:43,960 --> 00:57:46,210
+Cậu sẽ ngồi cạnh chị, cưng nhé.
+
+793
+00:57:46,380 --> 00:57:48,670
+Ngồi ngay đây.
+
+794
+00:57:50,210 --> 00:57:52,050
+Chị?
+Larkin.
+
+795
+00:57:52,210 --> 00:57:54,840
+Ethan, đây là em trai chị Larkin.
+
+796
+00:57:55,010 --> 00:57:57,470
+Em không nghĩ sẽ gặp chị ở đây.
+
+797
+00:57:57,640 --> 00:58:00,560
+- Và ai ngồi cứng đờ ở đây?
+Larkin, hãy gặp Ethan Wate.
+
+798
+00:58:00,720 --> 00:58:01,970
+Á à...
+
+799
+00:58:03,560 --> 00:58:07,060
+Và đâu là bà ngoại đáng yêu của chúng ta...
+
+800
+00:58:07,230 --> 00:58:09,730
+...người mà chúng ta
+yêu chết đi được.
+
+801
+00:58:10,900 --> 00:58:13,570
+Chúng ta không đợi con.
+
+802
+00:58:13,740 --> 00:58:15,400
+Để ta ngắm con nào.
+
+803
+00:58:16,740 --> 00:58:18,450
+Tại sao hả, Ridley...
+
+804
+00:58:18,620 --> 00:58:23,040
+...khi ta nhìn vào mắt con,
+ta chỉ toàn thấy nét của cô ta?
+
+805
+00:58:23,200 --> 00:58:25,830
+Hai đứa đúng là phường trộm cắp, nhỉ?
+
+806
+00:58:26,000 --> 00:58:27,420
+Mẹ!
+
+807
+00:58:33,590 --> 00:58:35,510
+Hãy mở một chút nhạc...
+
+808
+00:58:35,670 --> 00:58:39,430
+...và chúng ta cùng ngồi xuống thư giãn nhỉ?
+
+809
+00:58:39,600 --> 00:58:41,560
+Và nhấp chút rượu.
+
+810
+00:58:43,020 --> 00:58:44,560
+Có đồ uống không?
+
+811
+00:58:54,110 --> 00:58:55,780
+Đây, cho phép ta.
+
+812
+00:58:56,280 --> 00:58:58,450
+A. Bánh xốp tự làm của mẹ.
+
+813
+00:58:58,610 --> 00:59:00,120
+Ôi!
+
+814
+00:59:00,280 --> 00:59:01,780
+Tôi nhớ những thứ này!
+
+815
+00:59:01,950 --> 00:59:06,540
+Vậy, em họ, có kế hoạch gì hoành tráng
+cho lễ sinh nhật chưa?
+
+816
+00:59:06,710 --> 00:59:10,460
+Không có gì khiến chị phải bận tâm.
+Chị sẽ không được mời đâu, chị họ ạ.
+
+817
+00:59:10,630 --> 00:59:14,260
+Lena, cưng ơi, em nên mời chị.
+
+818
+00:59:15,170 --> 00:59:17,970
+Bận tâm chứ.
+Sinh nhật quan trọng như vậy.
+
+819
+00:59:18,130 --> 00:59:19,300
+Đủ rồi đấy, Ridley.
+
+820
+00:59:19,470 --> 00:59:24,770
+Ta hi vọng chúng ta sẽ có một bữa ăn
+ngày lễ mà tất cả đều sống sót sau đó.
+
+821
+00:59:24,930 --> 00:59:26,480
+Chị muốn gì?
+
+822
+00:59:26,640 --> 00:59:29,350
+Chỉ muốn quây quần bên gia đình thôi, em họ.
+
+823
+00:59:29,520 --> 00:59:31,310
+Cháu đã thuộc về phe Bóng tối.
+
+824
+00:59:32,020 --> 00:59:34,070
+Cháu không còn là người nhà này nữa.
+
+825
+00:59:34,230 --> 00:59:38,450
+Ridley, cưng à, ta không làm gì cho con được nữa. Ta xin lỗi.
+
+826
+00:59:38,610 --> 00:59:40,910
+Không ghét bỏ gì đâu, mẹ ạ
+
+827
+00:59:41,410 --> 00:59:43,160
+Nhưng Lena và con cùng một giuộc thôi.
+
+828
+00:59:43,330 --> 00:59:46,290
+Con tự hỏi, khi nó về phe Bóng tối...
+
+829
+00:59:47,450 --> 00:59:50,290
+-...mọi người cũng sẽ tống cổ nó?
+- Đủ rồi đấy.
+
+830
+00:59:50,460 --> 00:59:53,750
+Bác nghĩ mình có thể giữ Lena
+mãi tốt đẹp, ngây thơ hả?
+
+831
+00:59:54,550 --> 00:59:56,670
+Chẳng phải cháu cũng thế trước "lễ tự thú" sao?
+
+832
+00:59:56,840 --> 00:59:59,970
+Theo như ta nhớ, cháu đã là một đứa trẻ
+được nuông chiều đến hư hỏng từ lúc lọt lòng.
+
+833
+01:00:00,130 --> 01:00:01,180
+Có lẽ cháu không được yêu quý.
+
+834
+01:00:01,340 --> 01:00:02,850
+Ugh. Ta đã làm hết sức mình rồi.
+
+835
+01:00:03,010 --> 01:00:05,510
+Và nhìn con bây giờ đi.
+
+836
+01:00:06,060 --> 01:00:07,680
+À, đúng rồi. Cứ đổ lỗi cho mẹ.
+
+837
+01:00:07,850 --> 01:00:11,690
+Các người nghĩ giờ Lena là đứa bé ngoan.
+Nhưng sẽ không ích gì đâu.
+
+838
+01:00:11,850 --> 01:00:15,360
+Ngay cả khi bản chất của nó không theo Bóng tối,
+lời nguyền sẽ bắt nó phải theo.
+
+839
+01:00:15,520 --> 01:00:16,650
+Đã bắt đầu rồi.
+
+840
+01:00:16,820 --> 01:00:18,280
+- Ta cảnh cáo cháu.
+- Lời nguyền gì?
+
+841
+01:00:18,440 --> 01:00:21,490
+Đừng để ý đến lời nói dối của nó.
+- Bác biết đó là sự thật.
+
+842
+01:00:22,360 --> 01:00:23,700
+Ôi!
+
+843
+01:00:23,870 --> 01:00:25,700
+Xem phép tắc của cháu kìa!
+
+844
+01:00:25,870 --> 01:00:29,200
+Đây, cưng. Để chị thiết đãi em.
+
+845
+01:00:30,040 --> 01:00:32,000
+Tránh xa cậu ấy ra!
+
+846
+01:00:34,540 --> 01:00:36,300
+Thật đấy hả, em họ?
+
+847
+01:00:46,220 --> 01:00:48,140
+Lena, con thôi đi được không?
+
+848
+01:00:50,600 --> 01:00:51,640
+Dừng lại!
+
+849
+01:00:55,150 --> 01:00:58,070
+Ôi, chỉ là thêm một đứa con gái
+ngoan thành hư thôi mà.
+
+850
+01:00:58,230 --> 01:01:00,860
+Lena, con ơi, không cần thiết phải vậy.
+
+851
+01:01:01,030 --> 01:01:02,490
+Con có dừng lại ngay không?
+
+852
+01:01:04,370 --> 01:01:07,330
+Đập vỡ cửa sổ lên những đứa
+người thường nhỏ bé, đáng thương.
+
+853
+01:01:07,490 --> 01:01:10,040
+Chưa gì nó đã gần Bóng tối
+hơn cả cháu ngày xưa!
+
+854
+01:01:10,200 --> 01:01:12,920
+- Con biết đó là lời dối trá mà!
+- Tôi muốn chị cút khỏi đây.
+
+855
+01:01:15,460 --> 01:01:17,710
+
+Ridley, đừng bắt mẹ phải ra khỏi cái bàn này!
+
+856
+01:01:24,930 --> 01:01:28,510
+Tao phát ngán việc mọi người
+đối xử như thể mày là thứ gì đặc biệt lắm!
+
+857
+01:01:28,680 --> 01:01:30,890
+Chẳng có gì đặc biệt ở mày cả!
+
+858
+01:01:31,060 --> 01:01:35,400
+Thôi nào, bác nói với nó đi Macon!
+Bác biết nó sẽ biến thành cái gì!
+
+859
+01:01:35,560 --> 01:01:38,360
+Tôi bảo tránh xa bạn trai tôi ra,
+đồ phù thủy.
+
+860
+01:01:47,450 --> 01:01:48,660
+Ối!
+
+861
+01:01:50,370 --> 01:01:52,290
+Ôi trời!
+
+862
+01:02:02,300 --> 01:02:04,340
+Bạn trai hả?
+
+863
+01:02:06,680 --> 01:02:08,640
+Anh ấy sẽ ổn chứ?
+
+864
+01:02:09,260 --> 01:02:11,060
+Nó sẽ ổn thôi.
+
+865
+01:02:12,520 --> 01:02:14,480
+Ridley nói về lời nguyền nào vậy bà?
+
+866
+01:02:14,640 --> 01:02:19,230
+Ridley chỉ bịa chuyện để làm cháu nổi điên
+và mất kiểm soát thôi.
+
+867
+01:02:19,400 --> 01:02:21,280
+Cháu không được để nó làm thế.
+
+868
+01:02:23,320 --> 01:02:26,200
+Larkin, giúp chị đưa anh ấy về phòng.
+
+869
+01:02:26,360 --> 01:02:29,990
+Ôi, nó sẽ làm ngay.
+
+870
+01:02:32,370 --> 01:02:36,620
+Ngồi đấy mà ăn giữa cuộc cuộc đấu như đồ chết nhát vậy!
+
+871
+01:02:36,790 --> 01:02:40,090
+Nên còn bánh kẹp khi con quay lại đấy.
+Con vẫn đói lắm.
+
+872
+01:02:40,250 --> 01:02:43,010
+Con có thấy cách con bé nhìn cậu ta không?
+
+873
+01:02:43,170 --> 01:02:45,760
+Không gì có thể xen vào giữa hai đứa.
+
+874
+01:02:46,220 --> 01:02:48,470
+Vậy là nó đã bắt đầu rồi.
+
+875
+01:03:03,980 --> 01:03:05,530
+Này...
+
+876
+01:03:07,950 --> 01:03:09,820
+Anh thấy sao?
+
+877
+01:03:11,120 --> 01:03:15,200
+Như vừa ở giữa một cơn lốc trong phòng ăn.
+Nhằm nhò gì.
+
+878
+01:03:16,040 --> 01:03:19,630
+Em rất tiếc về Ridley.
+Không hiểu sao cô ta quay lại nữa.
+
+879
+01:03:19,790 --> 01:03:23,300
+Ừ. Cô ta như con quỷ cái ấy, nhỉ?
+
+880
+01:03:23,460 --> 01:03:25,550
+Cô ta là một tiên cá.
+
+881
+01:03:26,090 --> 01:03:30,720
+Cô ta có thể làm người thường
+nhìn, nghĩ hay làm việc gì cô ta muốn...
+
+882
+01:03:30,890 --> 01:03:32,890
+...đặc biệt là đàn ông.
+
+883
+01:03:33,720 --> 01:03:36,060
+Nó chẳng phải là
+định nghĩa về "quỷ cái" sao?
+
+884
+01:03:38,270 --> 01:03:40,560
+Không phải lúc nào cô ta cũng như vậy.
+
+885
+01:03:42,230 --> 01:03:45,440
+Chúng em từng như chị em vậy...
+
+886
+01:03:45,610 --> 01:03:49,910
+Đi du lịch cùng nhau nhiều đến nỗi
+chúng em dùng chung luôn cả va li.
+
+887
+01:03:50,740 --> 01:03:55,540
+Làm bài tập, xem Disney.
+Chúng em chỉ là con nít.
+
+888
+01:03:57,830 --> 01:04:01,250
+<i>Cái đêm Ridley bước sang tuổi 16, chị ấy bỏ trốn.</i>
+
+889
+01:04:01,420 --> 01:04:04,590
+<i>Chị ấy nói có thể cảm nhận mình sẽ về phe Bóng tối.</i>
+
+890
+01:04:05,420 --> 01:04:09,470
+<i>Chị ấy nói phải trốn đi
+trước khi có thể làm hại người chị ấy yêu quý.</i>
+
+891
+01:04:09,630 --> 01:04:11,800
+<i>Trước khi chị ấy làm hại em.</i>
+
+892
+01:04:12,340 --> 01:04:14,100
+<i>Em đã đi theo chị ấy.</i>
+
+893
+01:04:15,430 --> 01:04:17,270
+<i>Rồi nó xảy ra.</i>
+
+894
+01:04:55,850 --> 01:04:58,970
+Tốt hơn rồi đấy.
+Có thế chứ!
+
+895
+01:05:00,180 --> 01:05:01,980
+Các cậu, chờ chút!
+
+896
+01:05:02,140 --> 01:05:03,810
+Không, tôi phải đi giải quyết.
+Thôi nào.
+
+897
+01:05:17,330 --> 01:05:19,410
+<i>Em đã thấy hết.</i>
+
+898
+01:05:54,780 --> 01:05:56,740
+Chị ấy yêu quí em.
+
+899
+01:05:56,950 --> 01:05:58,030
+Em biết vậy.
+
+900
+01:05:58,200 --> 01:06:00,040
+Chuyện xảy ra với chị ấy
+thật không công bằng.
+
+901
+01:06:00,790 --> 01:06:02,660
+Và điều tương tự có thể
+xảy ra với em.
+
+902
+01:06:02,830 --> 01:06:04,040
+Sẽ không như vậy.
+
+903
+01:06:04,210 --> 01:06:06,670
+Anh đã thấy em tối nay chưa?
+
+904
+01:06:06,830 --> 01:06:08,130
+Em không kiềm chế được.
+
+905
+01:06:08,290 --> 01:06:13,340
+Lena, anh không tin rằng mình chỉ
+có một số phận và không có chọn lựa.
+
+906
+01:06:13,720 --> 01:06:16,130
+Chúng ta tạo ra cuộc đời
+cho riêng mình.
+
+907
+01:06:19,550 --> 01:06:22,270
+
+Hai, làm ơn. Cám ơn. Đây là Lena. Lena.
+
+908
+01:06:22,430 --> 01:06:23,890
+Chào, Lena.
+Chào.
+
+909
+01:06:24,060 --> 01:06:27,350
+- Đây, anh phải đưa em tiền rồi.
+
+910
+01:06:27,520 --> 01:06:29,730
+Trả cậu tiền thừa này.
+- Cám ơn.
+
+911
+01:06:30,270 --> 01:06:32,150
+Được rồi đấy.
+
+912
+01:06:32,860 --> 01:06:34,900
+Ổn không? Các cậu ổn không?
+Ừ.
+
+913
+01:06:35,070 --> 01:06:36,570
+Tốt.
+
+914
+01:06:38,660 --> 01:06:40,240
+Có vé chưa?
+
+915
+01:06:41,700 --> 01:06:42,910
+Chào.
+
+916
+01:06:43,080 --> 01:06:44,120
+Đủ chưa.
+
+917
+01:06:47,830 --> 01:06:51,250
+Cậu có thể lừa được Ethan
+nhưng không lừa được tôi đâu.
+
+918
+01:06:51,420 --> 01:06:52,800
+Ôi khiếp!
+
+919
+01:06:52,960 --> 01:06:56,260
+E hèm. Thôi nào các cô. Thôi nào.
+
+920
+01:07:04,140 --> 01:07:05,850
+Thấy cái bản mặt nó chưa?
+- Ha, ha.
+
+921
+01:07:06,020 --> 01:07:07,770
+Tớ nhìn thấu nó luôn.
+
+922
+01:07:07,940 --> 01:07:10,610
+Chào. Chỉ...một vé thôi, làm ơn.
+
+923
+01:07:10,770 --> 01:07:12,400
+Được rồi.
+
+924
+01:07:14,610 --> 01:07:16,150
+Của cậu đây.
+
+925
+01:07:50,560 --> 01:07:53,650
+Đừng để bọn họ làm phiền mình, nhé?
+
+926
+01:08:01,320 --> 01:08:04,330
+<i>Vâng, tôi đã dậy từ 5h. Thấy khá tốt.</i>
+
+927
+01:08:05,080 --> 01:08:07,120
+Này. Em muốn ăn kẹo Chocolat sữa không?
+
+928
+01:08:07,290 --> 01:08:09,160
+Sao anh lại để trong túi áo?
+
+929
+01:08:09,330 --> 01:08:13,170
+Anh phải giấu một ít cho mình,
+vì Link không chia cho anh bao giờ.
+
+930
+01:08:13,590 --> 01:08:16,130
+<i>Được rồi. Ý tôi là, tôi đã khá hơn...</i>
+
+931
+01:08:17,550 --> 01:08:22,090
+Ôi, anh xin lỗi.
+Anh không nhận ra là mình giữ nó.
+
+932
+01:08:24,010 --> 01:08:25,930
+Không sao đâu.
+
+933
+01:08:26,180 --> 01:08:27,680
+Em muốn xem.
+
+934
+01:08:27,850 --> 01:08:29,640
+<i>Ra ngay đây.</i>
+
+935
+01:08:44,450 --> 01:08:46,370
+<i>
+Phải đấy, thứ gì tìm được!</i>
+
+936
+01:08:47,540 --> 01:08:50,040
+<i>Có vàng trong này, cả bạc nữa, lấy hết đi!</i>
+
+937
+01:09:04,890 --> 01:09:07,470
+<i>Ôi chúa ơi! Genevieve!</i>
+
+938
+01:09:08,560 --> 01:09:09,680
+<i>
+Ethan!</i>
+
+939
+01:09:11,560 --> 01:09:13,060
+<i>
+Ethan.</i>
+
+940
+01:09:14,730 --> 01:09:17,150
+Anh đừng có mà đi đâu.
+
+941
+01:09:17,320 --> 01:09:20,070
+Thách anh đấy, Ethan Carter Wate!
+
+942
+01:09:21,320 --> 01:09:24,280
+Quay về đi. Đợi đã, Ethan.
+
+943
+01:09:35,040 --> 01:09:37,710
+Thể xác cùng thể xác, tâm trí và tri kỷ...
+
+944
+01:09:37,880 --> 01:09:40,590
+<i>...linh hồn tới linh hồn, rằng buộc về tinh thần...</i>
+
+945
+01:09:40,760 --> 01:09:43,010
+<i>...dòng máu từ trái tim, thủy triều, mặt trăng của tôi..</i>
+
+946
+01:09:43,180 --> 01:09:46,890
+...dòng máu từ trái tim, sự cứu rỗi, sự diệt vong của tôi!
+
+947
+01:09:51,140 --> 01:09:52,810
+Genevieve.
+
+948
+01:09:53,810 --> 01:09:55,940
+Anh bị trúng đạn à?
+
+949
+01:09:56,100 --> 01:09:57,690
+Mắt em sao vậy?
+
+950
+01:10:29,050 --> 01:10:30,220
+Xếp hàng, cả đội!
+
+951
+01:10:30,390 --> 01:10:31,720
+Sẵn sàng!
+
+952
+01:10:31,890 --> 01:10:32,970
+Khai hỏa!
+
+953
+01:10:37,190 --> 01:10:41,820
+<i> Ôi Lena cưng ơi, giờ cưng đã biết
+mình sẽ biến thành gì chưa?</i>
+
+954
+01:10:41,980 --> 01:10:44,780
+<i>Chúng ta là con cháu của Genevieve.</i>
+
+955
+01:10:44,950 --> 01:10:48,030
+<i>Sức mạnh Bóng tối của bà
+chảy trong huyết quản chúng ta.</i>
+
+956
+01:10:48,200 --> 01:10:50,990
+<i>Ôi, mẹ nhớ con biết bao, con gái yêu.</i>
+
+957
+01:10:51,740 --> 01:10:54,960
+<i>Mẹ con, Sarafine,
+đã về nhà với con đây.</i>
+
+958
+01:10:57,460 --> 01:10:59,790
+Đoán là Sa-tăng cũng ghét phim phần tiếp theo.
+
+959
+01:11:11,810 --> 01:11:13,390
+Qua rồi.
+
+960
+01:11:19,770 --> 01:11:20,940
+Không còn gì nữa.
+
+961
+01:11:21,860 --> 01:11:23,690
+Nó đã hoàn thành nhiệm vụ.
+
+962
+01:11:26,820 --> 01:11:27,950
+
+Lena?
+
+963
+01:11:28,110 --> 01:11:30,700
+Lời nguyền bắt đầu từ bà cố tổ của con.
+
+964
+01:11:30,870 --> 01:11:33,330
+Genevieve Katherine Duchannes.
+
+965
+01:11:33,490 --> 01:11:36,870
+Bà cả gan yêu một người thường...
+
+966
+01:11:37,290 --> 01:11:39,750
+...tổ tiên của cháu, Ethan Carter Wate.
+
+967
+01:11:39,920 --> 01:11:44,170
+In 1864, ông ấy đã đào ngũ.
+Tìm về với Genevieve.
+
+968
+01:11:44,550 --> 01:11:47,510
+Nhưng ông ấy bị giết ngay trước mắt bà,
+bởi lính Liên Bang...
+
+969
+01:11:47,670 --> 01:11:51,050
+...những kẻ cướp phá Greenbrier
+trong suốt trận chiến trên đồi Mật ong.
+
+970
+01:11:51,590 --> 01:11:57,810
+Và trong cơn điên, trong nỗi đau khổ,
+bà ấy đã sử dụng một bùa chú cấm kỵ.
+
+971
+01:11:57,980 --> 01:11:59,560
+Để làm ông ấy sống lại.
+
+972
+01:12:00,730 --> 01:12:02,810
+Một câu thần chú để lại lời nguyền?
+
+973
+01:12:02,980 --> 01:12:04,980
+Không Người làm phép nào
+có thể đảo ngược cái chết.
+
+974
+01:12:05,150 --> 01:12:08,950
+Vì vậy bà ấy đã đánh mất linh hồn,
+đắm chìm trong Bóng tối mãi mãi.
+
+975
+01:12:09,110 --> 01:12:12,240
+Nhưng lời nguyền có tác dụng.
+Nếu Genevieve yêu ông ấy, sao lại giết ông ấy?
+
+976
+01:12:12,410 --> 01:12:16,370
+Trong thứ bóng tối đó, thậm chí không có
+chút ký ức về tình yêu, chỉ có sức mạnh.
+
+977
+01:12:16,540 --> 01:12:19,580
+Cái gì cũng có giá của nó.
+
+978
+01:12:35,350 --> 01:12:37,890
+Bác bảo mẹ con đã qua đời.
+
+979
+01:12:38,060 --> 01:12:40,810
+Bác nói dối. Tại sao? Tại sao?
+
+980
+01:12:40,980 --> 01:12:42,900
+Lena! Lời lẽ, ngôn ngữ...
+
+981
+01:12:43,060 --> 01:12:46,780
+...không thể giải thích tất cả. Có những cách khác
+để người ta có thể hi sinh vì chúng ta.
+
+982
+01:12:46,940 --> 01:12:48,070
+Không, tôi sẽ nói.
+
+983
+01:12:48,230 --> 01:12:53,740
+Mẹ của con, Sarafine, là người làm phép
+Bóng tối mạnh nhất trong bọn ta.
+
+984
+01:12:54,530 --> 01:12:57,290
+Bà ấy sống trong bóng tối.
+
+985
+01:12:57,450 --> 01:13:00,790
+Nếu bà ấy có xuất hiện,
+đều là trong lốt người khác.
+
+986
+01:13:00,960 --> 01:13:03,380
+Bà ấy không hề yêu thương con.
+
+987
+01:13:03,540 --> 01:13:05,670
+Ta đang bảo vệ con khỏi thứ đó.
+
+988
+01:13:05,840 --> 01:13:08,130
+Vậy con sẽ về phe Bóng tối,
+dù thế nào đi nữa?
+
+989
+01:13:08,300 --> 01:13:10,300
+Không nhất thiết phải vậy.
+
+990
+01:13:10,470 --> 01:13:13,130
+Ta biết bản chất của con, nó rất mạnh mẽ.
+
+991
+01:13:13,300 --> 01:13:16,810
+Sarafine cũng nhận ra điều đó.
+Bà ta biết rằng nếu không có lời nguyền...
+
+992
+01:13:16,970 --> 01:13:20,230
+...bản chất của con sẽ hướng về Ánh sáng.
+
+993
+01:13:20,390 --> 01:13:22,810
+Ta tin lời nguyền có thể bị phá vỡ.
+
+994
+01:13:23,310 --> 01:13:28,150
+Nhưng con cần có một ý trí mạnh tới mức
+con có thể kiểm soát được bản chất thật của mình.
+
+995
+01:13:28,320 --> 01:13:31,070
+- Cháu cũng bảo cô ấy như vậy.
+- Việc đầu tiên là rời bỏ nó.
+
+996
+01:13:31,240 --> 01:13:33,150
+- Khoan, cái gì?
+- Sarafine đang lợi dụng con.
+
+997
+01:13:33,320 --> 01:13:35,070
+- Không đúng.
+Nghe ta đây, Lena.
+
+998
+01:13:35,240 --> 01:13:37,280
+- Không, nghe anh đây--
+-Ethan, Mason đúng đấy.
+
+999
+01:13:37,450 --> 01:13:40,830
+Nếu con muốn phá vỡ lời nguyền,
+con phải kiềm chế cảm xúc của mình.
+
+1000
+01:13:41,000 --> 01:13:43,710
+Và yêu cậu ta sẽ khiến con gặp nguy hiểm khôn lường!
+
+1001
+01:13:43,870 --> 01:13:46,420
+Làm sao bác biết?
+Bác đã bao giờ yêu ai đâu.
+
+1002
+01:13:46,580 --> 01:13:48,500
+Bác khinh rẻ người thường.
+
+1003
+01:13:48,670 --> 01:13:53,170
+Bác chưa từng có bạn,
+ngay cả trong giới chúng ta. Làm sao bác biết?
+
+1004
+01:13:56,590 --> 01:14:00,720
+Ta biết rằng yêu người thường sẽ không hay ho gì.
+
+1005
+01:14:02,930 --> 01:14:06,690
+Lena, nghe anh này. Phải có cách chứ,
+cách khác để phá lời nguyền.
+
+1006
+01:14:06,860 --> 01:14:08,440
+
+Macon!
+
+1007
+01:14:08,610 --> 01:14:10,940
+- Đừng có nghĩ vậy, chàng trai!
+- Không!
+
+1008
+01:14:11,650 --> 01:14:15,530
+Cậu sẽ khiến cả hai đứa mất mạng.
+Hãy biến khỏi cuộc đời nó.
+
+1009
+01:14:15,700 --> 01:14:17,700
+Cậu nghe tôi không?
+
+1010
+01:14:20,740 --> 01:14:24,660
+Lena, nói lời tạm biệt đi.
+
+1011
+01:14:32,380 --> 01:14:34,630
+<i>
+Macon giữ chân Lena ở Ravenwood.</i>
+
+1012
+01:14:34,800 --> 01:14:36,470
+<i>Ông ấy không cho tôi gặp em.</i>
+
+1013
+01:14:36,630 --> 01:14:39,800
+<i>Ông ấy nghĩ tách chúng tôi ra
+là điều tốt nhất cho cô ấy.</i>
+
+1014
+01:14:39,970 --> 01:14:42,390
+<i>Nhưng ông ấy sai rồi. Tôi hiểu Lena.</i>
+
+1015
+01:14:43,270 --> 01:14:45,350
+<i>Tôi hiểu em như hiểu chính bản thân mình.</i>
+
+1016
+01:14:45,520 --> 01:14:50,400
+<i>Và tôi có thể cảm nhận cô ấy đang trượt đi
+đến nơi mà tôi không với tới được.</i>
+
+1017
+01:15:04,000 --> 01:15:09,290
+<i>Đi đi! Đi đi! Đi đi!</i>
+
+1018
+01:15:17,550 --> 01:15:18,640
+- Chào cưng.
+Ôi.
+
+1019
+01:15:18,800 --> 01:15:22,100
+- Xin chào, cô Lincoln. Đợi chút.
+Chào con.
+
+1020
+01:15:24,930 --> 01:15:26,600
+Ôi cưng ơi,
+
+1021
+01:15:27,140 --> 01:15:28,730
+Hình như cửa bị kẹt rồi.
+
+1022
+01:15:28,900 --> 01:15:31,270
+Nhà cũ là vậy.
+Thật phiền hà.
+
+1023
+01:15:31,440 --> 01:15:32,940
+- Đúng vậy.
+- Chúng bị vênh.
+
+1024
+01:15:33,110 --> 01:15:35,610
+- Link không ở đây.
+- Ừ, cô biết rồi.
+
+1025
+01:15:35,780 --> 01:15:38,860
+Nó đang ở bữa tiệc của Savannah Snow,
+chỗ tất cả bọn trẻ đều đang ở.
+
+1026
+01:15:39,030 --> 01:15:41,780
+Cô phải gọi kha khá cú điện thoại
+
+1027
+01:15:41,950 --> 01:15:44,580
+...để xin giấy mời thay mặt cho...
+
+1028
+01:15:44,740 --> 01:15:47,750
+À, thay mặt cho tình bạn giữa hai đứa.
+
+1029
+01:15:47,910 --> 01:15:50,960
+Ôi, cháu rất tiếc vì cô gặp rắc rối.
+
+1030
+01:15:51,130 --> 01:15:53,250
+Cháu nên đến bữa tiệc, Ethan...
+
+1031
+01:15:53,420 --> 01:15:58,170
+...qua lại với những người bạn thật sự,
+với lũ trẻ thuộc về nơi này.
+
+1032
+01:15:58,340 --> 01:16:00,340
+Tối nay cháu không muốn đi tiệc lắm, thưa cô.
+
+1033
+01:16:00,510 --> 01:16:02,180
+Ôi, tiếc quá!
+
+1034
+01:16:02,350 --> 01:16:04,970
+Này, ta làm cho cháu ít bánh chocolat hạnh nhân.
+
+1035
+01:16:05,140 --> 01:16:09,600
+Ta nghĩ mình có thể vào nhà
+và nói chuyện một chút.
+
+1036
+01:16:09,770 --> 01:16:11,480
+Ta không đấu tranh với cháu, con trại ạ.
+
+1037
+01:16:11,650 --> 01:16:13,980
+Không phải. Chưa từng.
+
+1038
+01:16:14,150 --> 01:16:16,820
+Chỉ là con bé đó với
+sự vụng về đầy cám dỗ...
+
+1039
+01:16:16,990 --> 01:16:19,150
+...và cháu thì không có mẹ.
+
+1040
+01:16:19,320 --> 01:16:21,570
+Ta vào được chứ?
+
+1041
+01:16:24,740 --> 01:16:27,160
+Không, thưa cô.
+Cháu không nghĩ vậy đâu.
+
+1042
+01:16:28,540 --> 01:16:31,960
+Có phải ta vừa nghe cháu nói vậy không, Ethan?
+
+1043
+01:16:32,130 --> 01:16:36,500
+Ta có phải hỏi lại lần nữa không?
+Ta có thể vào nhà được không?
+
+1044
+01:16:36,960 --> 01:16:39,130
+Không, thưa cô, không được.
+
+1045
+01:16:39,300 --> 01:16:41,840
+Nhưng ta đã làm bánh chocolat hạnh nhân cho cháu.
+
+1046
+01:16:42,010 --> 01:16:45,640
+Ta đã làm bánh hạt nhân từ mấy đồ bỏ đi.
+
+1047
+01:16:50,140 --> 01:16:53,940
+Ôi, khốn kiếp!
+
+1048
+01:16:55,900 --> 01:17:00,320
+Lena đã rào quanh nhà cậu. Dễ thương thật.
+
+1049
+01:17:02,320 --> 01:17:04,740
+CỨ làm như thể...
+
+1050
+01:17:04,910 --> 01:17:06,280
+<i>
+Ta ở phe cháu mà, con trai.</i>
+
+1051
+01:17:06,450 --> 01:17:09,500
+<i>Lời nguyền đó có là gì
+trước tình yêu thật sự?</i>
+
+1052
+01:17:09,660 --> 01:17:13,370
+<i>Ai cũng thấy rằng Lena và cậu là để dành cho nhau...</i>
+
+1053
+01:17:13,540 --> 01:17:15,630
+<i>...cho đến khi cái chết chia lìa.</i>
+
+1054
+01:18:06,430 --> 01:18:07,890
+Lena?
+
+1055
+01:18:13,770 --> 01:18:16,060
+Cút ra khỏi đây.
+
+1056
+01:18:17,440 --> 01:18:18,730
+Lena.
+
+1057
+01:18:20,610 --> 01:18:22,360
+Tránh xa con bé.
+
+1058
+01:18:23,740 --> 01:18:25,280
+
+Lena.
+
+1059
+01:18:26,780 --> 01:18:30,030
+Lena, chúng ta có thể ra ngoài nói chuyện
+một chút được không? Anh cần--
+
+1060
+01:18:30,200 --> 01:18:31,790
+Cút ngay!
+- Không!
+
+1061
+01:18:31,950 --> 01:18:33,910
+Làm ơn đi, con trai. Vì tốt cho cậu thôi.
+
+1062
+01:18:35,710 --> 01:18:37,790
+Anh thật sự nên nghe lời họ.
+
+1063
+01:18:37,960 --> 01:18:39,460
+Không!
+
+1064
+01:18:40,750 --> 01:18:43,460
+Anh chán phải nghe lời gia đình em rồi...
+
+1065
+01:18:43,630 --> 01:18:47,470
+Anh đã bị rượt đuổi, quay tròn, thôi miên...
+
+1066
+01:18:47,640 --> 01:18:50,470
+...làm tê liệt, và ôi khỉ suýt nữa
+bị giết chết vì gia đình em
+
+1067
+01:18:50,640 --> 01:18:53,100
+Anh đã mất trí trong hai tuần vừa qua
+
+1068
+01:18:53,270 --> 01:18:56,940
+Giờ mẹ em lù lù xuất hiện ở cửa nhà anh
+và gần như làm anh bị lên cơn đau tim
+
+1069
+01:18:57,100 --> 01:19:00,400
+Nhưng em biết không?
+Anh không quan tâm, về họ hay lời nguyền.
+
+1070
+01:19:00,570 --> 01:19:03,280
+Em sẽ không theo Bóng tối và
+sẽ không mất anh đâu.
+
+1071
+01:19:03,440 --> 01:19:07,070
+Dù em có làm gì, họ có làm gì em, anh vẫn ở đây.
+
+1072
+01:19:07,240 --> 01:19:09,120
+Thế nó nói gì với em?
+
+1073
+01:19:11,830 --> 01:19:15,580
+Làm sao cậu ta phá bỏ lời nguyền được.
+Cậu ta đâu có sức mạnh.
+
+1074
+01:19:16,790 --> 01:19:21,130
+Giờ không phải chúng ta bảo vệ con bé, là cậu ta đấy.
+
+1075
+01:19:28,550 --> 01:19:29,840
+Amma, chúng con cần dì giúp.
+
+1076
+01:19:32,310 --> 01:19:33,680
+Sao lại tới tìm ta?
+
+1077
+01:19:33,850 --> 01:19:37,850
+Cách mà dì nói về chiếc mề đây, về lời nguyền.
+
+1078
+01:19:38,020 --> 01:19:41,860
+Thứ lỗi cho con, dì Amma,
+nhưng con nghĩ dì biết nhiều hơn thế.
+
+1079
+01:19:43,780 --> 01:19:46,110
+Làm ơn đi mà, Amma.
+
+1080
+01:19:49,360 --> 01:19:52,330
+Đây không phải nơi cô cậu tìm được thứ mình cần.
+
+1081
+01:19:52,490 --> 01:19:54,120
+Gặp ta ở sân sau.
+
+1082
+01:20:25,400 --> 01:20:27,400
+Nơi này phải chạy xuyên lòng thị trấn.
+
+1083
+01:20:27,570 --> 01:20:32,370
+Cả nước ý chứ.
+Gatling như là trung tâm của Người làm phép tại Mỹ vậy.
+
+1084
+01:20:32,530 --> 01:20:36,450
+Nó từng nằm dưới thủ đô Washington, D.C.
+cho tới khi Nancy Reagan bắt họ chuyển đi.
+
+1085
+01:20:36,620 --> 01:20:39,080
+Bà ta là người thường duy nhất họ từng sợ.
+
+1086
+01:20:55,600 --> 01:20:57,600
+Họ biết có Người làm phép ở đây.
+
+1087
+01:20:59,770 --> 01:21:02,100
+Amma, sao dì không nói với bọn con?
+
+1088
+01:21:02,270 --> 01:21:04,690
+Một Người canh giữ phải được hỏi.
+
+1089
+01:21:05,150 --> 01:21:07,730
+Người canh giữ, tức là dì là...?
+
+1090
+01:21:07,900 --> 01:21:13,450
+Thư viện của Người làm phép đã chịu trách nhiệm
+về những Người tiên tri như ta trong nhiều thế hệ.
+
+1091
+01:21:15,780 --> 01:21:19,450
+Thứ mà ta không được lựa chọn.
+
+1092
+01:21:20,120 --> 01:21:24,790
+Những cuốn sách này nắm giữ lịch sử
+của những Người làm phép vòng quanh thế giới...
+
+1093
+01:21:24,960 --> 01:21:27,920
+...luật lệ giữ cân bằng giữa Ánh sáng và Bóng tối.
+
+1094
+01:21:28,090 --> 01:21:30,300
+Này! Tránh ra đi!
+
+1095
+01:21:31,300 --> 01:21:35,760
+Macon đến đây hàng ngày và đọc
+mọi cuốn sách để tìm Câu thần chú Cấm kỵ.
+
+1096
+01:21:36,220 --> 01:21:38,310
+- Bác ấy không tìm thấy gì?
+Mm-mm.
+
+1097
+01:21:40,020 --> 01:21:41,810
+Nhưng con có thể.
+
+1098
+01:21:42,940 --> 01:21:47,110
+Chúa trao cho ta những gì trong khả năng,
+ngay cả khi ta không tin chính mình.
+
+1099
+01:21:49,820 --> 01:21:51,440
+Nhắm mắt lại.
+
+1100
+01:21:53,030 --> 01:21:57,780
+Nhìn như thể con đang nhìn vào thứ con đã tìm được
+
+1101
+01:22:09,210 --> 01:22:10,670
+Ta biết mà.
+
+1102
+01:22:14,680 --> 01:22:15,930
+<i>Cuốn sách Mặt trăng.</i>
+
+1103
+01:22:16,090 --> 01:22:18,180
+Cuốn sách quyền năng nhất
+của Cõi kia.
+
+1104
+01:22:18,350 --> 01:22:22,020
+Nó vẫn sống giữa chúng ta. Nắm giữ những
+câu thần chú mạnh nhất, dù xấu hay tốt.
+
+1105
+01:22:22,180 --> 01:22:24,440
+- Macon đã xem qua chưa?
+- Chưa, ông ấy không thể.
+
+1106
+01:22:24,600 --> 01:22:28,020
+Cuốn sách lựa chọn người đọc .
+Đó là điều luật "Những thứ giống nhau thì thu hút nhau".
+
+1107
+01:22:33,360 --> 01:22:35,860
+Nó... trắng trơn.
+
+1108
+01:22:36,030 --> 01:22:37,870
+Nó không lộ diện dễ dàng vậy đâu.
+
+1109
+01:22:38,030 --> 01:22:43,580
+Lời nguyền đen tối đến vậy sẽ mất thời gian để lộ ra.
+Bóng tối sẽ thử thách cháu.
+
+1110
+01:22:44,080 --> 01:22:45,370
+Đừng lo, em sẽ tìm ra thôi.
+
+1111
+01:22:45,540 --> 01:22:48,290
+Cứ tìm tựa đề
+"Làm sao để không biến thành mẹ mình."
+
+1112
+01:22:54,340 --> 01:22:57,300
+Cố lên. Cố lên nào.
+
+1113
+01:23:24,250 --> 01:23:28,120
+<i>Tôi đã đưa Lena tới thư viện
+của Người làm phép nhiều tuần qua.</i>
+
+1114
+01:23:32,040 --> 01:23:34,510
+<i>Nhưng Lena đang trở nên chán nản.</i>
+
+1115
+01:23:34,760 --> 01:23:38,430
+<i>Càng để lâu,
+tôi càng thấy cô ấy thay đổi.</i>
+
+1116
+01:24:00,110 --> 01:24:01,780
+Chúng ta sẽ tìm ra cách, được chứ?
+
+1117
+01:24:01,950 --> 01:24:04,290
+Anh chỉ là người thường, sao anh biết được?
+
+1118
+01:24:04,450 --> 01:24:06,750
+Này, anh có thể tạo gió được.
+Có thể không phải bão tố gì--
+
+1119
+01:24:06,910 --> 01:24:10,670
+-Tại sao chúng ta không thừa nhận?
+- Thừa nhận cái gì?
+
+1120
+01:24:10,830 --> 01:24:14,300
+Nó đã bắt đầu rồi. Em đang trở thành
+một con khốn Bóng tối, em cảm nhận được.
+
+1121
+01:24:14,460 --> 01:24:17,970
+Không, Lena, em căng thẳng thôi. Không phải--
+
+1122
+01:24:18,130 --> 01:24:21,090
+Không quan trọng nguyên nhân là gì,
+
+1123
+01:24:21,260 --> 01:24:24,260
+em đang biến đổi và anh quá ngốc để nhận ra.
+
+1124
+01:24:25,470 --> 01:24:27,310
+Được rồi, giờ em là con quỷ cái.
+
+1125
+01:24:36,980 --> 01:24:39,280
+Thật hả? Có cần thiết không?
+
+1126
+01:24:40,320 --> 01:24:42,320
+Anh đang đồng tình với em mà.
+
+1127
+01:24:42,490 --> 01:24:45,620
+Thôi được, anh chỉ là một tên người thường
+đần độn không biết làm ra sấm sét
+
+1128
+01:24:45,790 --> 01:24:47,950
+Nhưng anh biết sẽ không đời nào chúng ta tìm ra cách...
+
+1129
+01:24:48,120 --> 01:24:50,540
+...trừ phi em dừng việc tự trách mình suốt như thế!
+
+1130
+01:24:52,210 --> 01:24:55,670
+Tiếp tục đi! Làm ra cả động đất ấy,
+xem nó dẫn em tới đâu.
+
+1131
+01:24:55,840 --> 01:24:58,460
+Ai cũng phải đối mặt với trắc trở trong đời, Lena ạ.
+
+1132
+01:24:58,630 --> 01:25:00,090
+Anh hét lên với em làm gì?
+
+1133
+01:25:01,010 --> 01:25:04,680
+Em muốn làm người bình thường hả?
+Em nghĩ nó là cái gì?
+
+1134
+01:25:04,850 --> 01:25:07,930
+Chúng ta không có sức mạnh
+để cứ thay đổi mọi việc theo ý muốn
+
+1135
+01:25:08,100 --> 01:25:12,020
+Làm người là phải cảm thấy tồi tệ,
+tức giận.
+
+1136
+01:25:12,190 --> 01:25:15,190
+Là thấy sợ và
+không có khả năng làm gì...
+
+1137
+01:25:15,360 --> 01:25:19,150
+...đến khi không còn thấy thế nữa,
+đến khi thấy lối thoát.
+
+1138
+01:25:19,320 --> 01:25:21,400
+Và anh hét lên với em vì anh quan tâm tới em!
+
+1139
+01:25:21,570 --> 01:25:24,450
+Đó là việc người thường vẫn làm,
+khi họ yêu nhau..
+
+1140
+01:25:24,620 --> 01:25:27,370
+...khi một người hành xử như trẻ con!
+
+1141
+01:25:27,540 --> 01:25:29,870
+Em thôi đừng làm mưa lên anh nữa được không?
+
+1142
+01:26:00,480 --> 01:26:02,190
+Em xin lỗi.
+
+1143
+01:26:05,070 --> 01:26:07,700
+Anh hãy tránh xa em ra.
+
+1144
+01:26:09,830 --> 01:26:13,080
+Em không biết việc mình làm,
+nó cứ xảy ra thôi.
+
+1145
+01:26:13,250 --> 01:26:15,710
+Em vẫn không hiểu, phải không?
+
+1146
+01:26:16,250 --> 01:26:19,500
+Anh không hề muốn xa em hơn lúc này
+
+1147
+01:26:19,670 --> 01:26:21,760
+...hay lúc khác
+
+1148
+01:26:23,130 --> 01:26:26,090
+Em sợ mình sẽ làm hại anh.
+
+1149
+01:26:26,590 --> 01:26:29,390
+Yêu là liều mà.
+
+1150
+01:26:29,720 --> 01:26:32,350
+Ý em là, làm hại kiểu "giết anh" ấy.
+
+1151
+01:26:32,520 --> 01:26:34,190
+Tiếp tục đi.
+
+1152
+01:26:34,770 --> 01:26:36,560
+Giết anh đi.
+
+1153
+01:27:12,430 --> 01:27:14,100
+Ối da!
+
+1154
+01:27:14,270 --> 01:27:18,520
+Con không hiểu phần nào trong
+"Phải là Người làm phép thì mới được chạm vào" hả?
+
+1155
+01:27:22,070 --> 01:27:24,280
+Có Người làm phép từ thời Nội chiến ạ?
+
+1156
+01:27:24,440 --> 01:27:28,320
+Họ đã chiến đấu bên con người hàng thế kỷ, mỗi trận chiến, mỗi bên.
+
+1157
+01:27:28,490 --> 01:27:31,410
+Năng lực siêu nhiên không làm họ thông minh hơn đâu.
+
+1158
+01:27:31,580 --> 01:27:33,540
+Dì này, cái con không hiểu...
+
+1159
+01:27:33,700 --> 01:27:36,790
+-...là việc dì đi lễ mỗi Chủ nhật.
+- Mm-hm.
+
+1160
+01:27:36,960 --> 01:27:39,500
+Làm sao dì có thể tin hết chuyện này
+mà vẫn tin vào Chúa?
+
+1161
+01:27:39,670 --> 01:27:41,380
+Chúa sáng tạo ra tất cả, phải không nào?
+
+1162
+01:27:41,540 --> 01:27:44,630
+Chỉ có con người mới đi xem cái nào là nhầm lẫn thôi.
+
+1163
+01:27:52,010 --> 01:27:54,430
+Mẹ con đã tới đây rồi, phải không?
+
+1164
+01:27:59,190 --> 01:28:00,810
+Với Macon?
+
+1165
+01:28:04,440 --> 01:28:06,940
+Họ gặp nhau ở đây nhiều lần.
+
+1166
+01:28:07,110 --> 01:28:09,700
+Macon rất thích dạy cho bà ấy về thế giới của mình.
+
+1167
+01:28:17,620 --> 01:28:19,960
+Macon yêu bà ấy, đúng không?
+
+1168
+01:28:20,250 --> 01:28:22,920
+Không ai biết Macon có thể và không thể
+cảm nhận gì, nhưng...
+
+1169
+01:28:23,090 --> 01:28:24,710
+...Lila chắc chắn đã gần biết.
+
+1170
+01:28:26,380 --> 01:28:27,920
+Ethan?
+
+1171
+01:28:29,220 --> 01:28:31,050
+Bà ấy yêu bố con.
+
+1172
+01:28:46,320 --> 01:28:48,280
+Cậu đi đâu hả?
+
+1173
+01:28:48,440 --> 01:28:52,870
+Chỗ nào có Lena. Kể cả là Gatling.
+
+1174
+01:28:53,910 --> 01:28:56,410
+- Bác làm gì ở đây?
+- Tôi không biết...
+
+1175
+01:28:56,580 --> 01:28:59,910
+...cậu có sức mạnh gì lên Lena, nhưng...
+
+1176
+01:29:00,830 --> 01:29:03,170
+...tôi đến để xin cậu...
+
+1177
+01:29:03,460 --> 01:29:04,500
+...buông tha cho con bé.
+
+1178
+01:29:04,670 --> 01:29:06,960
+Cháu không có sức mạnh gì cả, Macon.
+
+1179
+01:29:07,130 --> 01:29:08,420
+Cháu yêu cô ấy thôi.
+
+1180
+01:29:08,590 --> 01:29:11,180
+Vậy hãy chấm dứt đi.
+
+1181
+01:29:12,630 --> 01:29:13,720
+Cháu không thể.
+
+1182
+01:29:13,890 --> 01:29:18,720
+Ngay cả khi có nghĩa là sẽ
+hủy hoại Lena mà cậu yêu?
+
+1183
+01:29:18,890 --> 01:29:22,440
+Không thể, vì không đời nào
+cảm xúc cháu và Lena dành cho nhau...
+
+1184
+01:29:22,600 --> 01:29:26,150
+...lại thành ra sai trái hay xấu xa.
+
+1185
+01:29:26,320 --> 01:29:27,610
+Không đời nào.
+
+1186
+01:29:28,280 --> 01:29:31,030
+Chừng nào còn sống, tôi vẫn không
+hiểu nổi thứ sinh vật các cậu
+
+1187
+01:29:31,610 --> 01:29:34,200
+Cậu không có chút sức mạnh nào.
+
+1188
+01:29:34,780 --> 01:29:37,950
+Cậu sống dựa trên sự thương xót
+của những thế lực ngoài tầm kiểm soát.
+
+1189
+01:29:39,040 --> 01:29:43,040
+Và vậy mà, cậu tin rằng cảm xúc của mình...
+
+1190
+01:29:43,210 --> 01:29:45,790
+... sẽ làm mọi chuyện ổn thỏa bằng cách nào đó.
+
+1191
+01:29:46,040 --> 01:29:48,630
+Phải có niềm tin chứ, bác Macon.
+
+1192
+01:30:56,700 --> 01:30:58,160
+Lena?
+
+1193
+01:30:58,450 --> 01:31:00,080
+Em sao không?
+
+1194
+01:31:04,200 --> 01:31:05,580
+Lena?
+
+1195
+01:31:12,210 --> 01:31:13,380
+- Lena?
+- Vâng?
+
+1196
+01:31:13,550 --> 01:31:15,920
+- Có gì không ổn à?
+- Không.
+
+1197
+01:31:16,090 --> 01:31:19,140
+- Em nghĩ mình tìm ra thứ gì đó.
+- Thế hả?
+
+1198
+01:31:19,300 --> 01:31:21,220
+Là gì vậy? Cho anh xem.
+
+1199
+01:31:21,390 --> 01:31:24,310
+À, phải đọc rất nhiều, và...
+
+1200
+01:31:24,480 --> 01:31:28,400
+...phải tiếp thu rất nhiều,
+và em thật sự cần tập trung.
+
+1201
+01:31:29,020 --> 01:31:30,360
+Được rồi.
+
+1202
+01:31:31,230 --> 01:31:33,530
+Em tự hỏi là...
+
+1203
+01:31:35,900 --> 01:31:38,700
+Em phải tự mình làm lấy
+
+1204
+01:31:38,860 --> 01:31:42,030
+Anh ở đây chỉ làm em sao nhãng.
+
+1205
+01:31:42,200 --> 01:31:45,540
+Và em không biết liệu anh có nên về nhà bây giờ không.
+
+1206
+01:31:45,700 --> 01:31:49,460
+Và sau khi xong việc, em sẽ gọi cho anh.
+
+1207
+01:31:52,590 --> 01:31:54,050
+Thế có được không?
+
+1208
+01:31:55,050 --> 01:31:56,510
+Tất nhiên.
+
+1209
+01:31:57,670 --> 01:31:59,590
+Em muốn gì cũng được, nhé?
+
+1210
+01:32:00,760 --> 01:32:02,220
+Cám ơn anh.
+
+1211
+01:32:03,390 --> 01:32:05,020
+Anh yêu em.
+
+1212
+01:32:07,600 --> 01:32:09,810
+Được rồi, nói chuyện với em sau nhé.
+
+1213
+01:32:26,750 --> 01:32:29,040
+
+Lena? Cậu ấy đi rồi.
+
+1214
+01:32:40,090 --> 01:32:41,260
+Ổn rồi.
+
+1215
+01:32:44,140 --> 01:32:45,560
+Thôi nào.
+
+1216
+01:32:45,850 --> 01:32:47,180
+Thôi nào.
+
+1217
+01:32:50,730 --> 01:32:52,310
+Ngồi xuống đi. Chuyện gì vậy?
+
+1218
+01:32:52,480 --> 01:32:54,020
+Thôi nào.
+
+1219
+01:32:55,230 --> 01:32:56,780
+Nói với dì.
+
+1220
+01:32:57,480 --> 01:32:58,610
+Lena.
+
+1221
+01:33:03,870 --> 01:33:07,290
+Chỉ có một cách để phá bỏ lời nguyền.
+
+1222
+01:33:08,450 --> 01:33:12,000
+Genevieve đã dùng Câu thần chú Cấm kỵ...
+
+1223
+01:33:12,790 --> 01:33:16,130
+...để làm người yêu sống lại.
+
+1224
+01:33:16,880 --> 01:33:22,050
+Để phá vỡ lời nguyền,
+người con yêu sẽ phải chết.
+
+1225
+01:33:22,680 --> 01:33:24,510
+Ôi chúa ơi.
+
+1226
+01:33:26,220 --> 01:33:28,220
+Chúng ta sẽ làm sao đây?
+
+1227
+01:33:32,100 --> 01:33:34,310
+Con sẽ không làm hại Ethan.
+
+1228
+01:33:34,860 --> 01:33:36,480
+Không bao giờ.
+
+1229
+01:33:38,440 --> 01:33:40,690
+Chỉ là trong thế giới của chúng ta thôi, Amma.
+
+1230
+01:33:41,190 --> 01:33:44,160
+Họ không thể giải thích hết được.
+
+1231
+01:33:44,780 --> 01:33:49,450
+Có nhiều cách để người mình yêu thương phải chết.
+
+1232
+01:33:51,580 --> 01:33:53,580
+Cuốn sách nói vậy thôi à?
+Vâng.
+
+1233
+01:33:53,750 --> 01:33:57,590
+Nó chỉ nói để phá bỏ lời nguyền,
+em cần làm những nghi lễ nhất định...
+
+1234
+01:33:57,750 --> 01:34:01,340
+...Những thứ của Người làm phép,
+cả ngày lẫn đêm cho tới "Lễ tự thú".
+
+1235
+01:34:01,510 --> 01:34:03,970
+- Và việc gì xảy đến thì cứ xảy đến thôi.
+Này.
+
+1236
+01:34:04,130 --> 01:34:06,470
+Chúng ta biết việc gì sẽ xảy đến.
+
+1237
+01:34:06,800 --> 01:34:08,810
+Em muốn anh làm việc này cho em.
+
+1238
+01:34:08,970 --> 01:34:12,230
+Từ bây giờ tới sinh nhật,
+em không muốn nghĩ về "Lễ tự thú" nữa.
+
+1239
+01:34:12,390 --> 01:34:14,390
+Thấy không? Không có hình xăm gì nữa.
+
+1240
+01:34:14,900 --> 01:34:18,860
+Em chỉ muốn ở bên anh và làm những thứ
+các cặp đôi bình thường hay làm.
+
+1241
+01:34:19,020 --> 01:34:20,070
+- Tuyệt.
+
+1242
+01:34:20,230 --> 01:34:23,860
+Thế tối nay,
+có khiêu vũ Giáng Sinh và...
+
+1243
+01:34:24,030 --> 01:34:25,660
+...em có thể là bạn nhảy của anh.
+
+1244
+01:34:25,820 --> 01:34:30,080
+Ethan Wate đang mời tôi đi khiêu vũ phải không?
+Ôi trời đất!
+
+1245
+01:34:30,240 --> 01:34:31,290
+Anh đang nghĩ thế thôi.
+
+1246
+01:34:33,370 --> 01:34:37,380
+Không, họ có trò đấm bốc, có các bà
+đứng gác lối cầu thang
+
+1247
+01:34:37,540 --> 01:34:40,460
+Ôi trời-khủng-khiếp lắm.
+
+1248
+01:34:40,630 --> 01:34:42,710
+Nghe thật hoàn hảo.
+
+1249
+01:34:48,180 --> 01:34:50,930
+- Em vẫn không biết mua quà gì cho anh.
+- Hả?
+
+1250
+01:34:51,100 --> 01:34:53,680
+Chúng ta không ăn mừng Giáng Sinh.
+
+1251
+01:34:53,850 --> 01:34:55,270
+Ồ.
+
+1252
+01:34:56,810 --> 01:35:00,940
+Hằng năm anh ước điều gì
+mà không bao giờ có được?
+
+1253
+01:35:07,490 --> 01:35:08,740
+Ồ không đâu.
+
+1254
+01:35:10,120 --> 01:35:12,490
+Không, không phải-- em sẽ nghĩ là anh không tuyệt tý nào.
+
+1255
+01:35:12,660 --> 01:35:14,960
+Không sao, giờ em cũng không nghĩ là anh tuyệt đâu.
+
+1256
+01:35:18,710 --> 01:35:20,710
+Um...
+
+1257
+01:35:24,630 --> 01:35:26,220
+Tuyết.
+
+1258
+01:35:27,380 --> 01:35:29,140
+- Thật hả?
+- Ha, ha, ừ.
+
+1259
+01:35:29,300 --> 01:35:34,270
+À thì, anh chỉ muốn giống như
+mấy bộ phim Giáng Sinh tuyết trắng.
+
+1260
+01:35:34,430 --> 01:35:38,150
+Nhìn chỗ này xem. Thật là thảm hại.
+Đây không phải Giáng Sinh.
+
+1261
+01:35:38,310 --> 01:35:42,020
+- Anh biết dựng cảnh đó quá dễ mà.
+- Ừ, anh biết.
+
+1262
+01:35:43,150 --> 01:35:45,360
+Anh thật sự muốn thế à?
+
+1263
+01:36:07,260 --> 01:36:10,550
+Làm sao anh sống nổi một đời
+toàn bị em làm cho bất ngờ?
+
+1264
+01:36:26,360 --> 01:36:28,450
+Thấy yên lặng không?
+
+1265
+01:36:39,790 --> 01:36:42,210
+Vĩnh biệt, Ethan.
+
+1266
+01:36:57,770 --> 01:36:59,390
+
+Ethan?
+
+1267
+01:37:02,270 --> 01:37:04,060
+Ethan!
+
+1268
+01:37:07,070 --> 01:37:09,070
+Hôm qua con đi khiêu vũ về muộn hả?
+
+1269
+01:37:09,240 --> 01:37:10,280
+
+Um...
+
+1270
+01:37:10,450 --> 01:37:12,320
+Con bỏ gà tây ra khỏi tủ lạnh giúp dì với?
+
+1271
+01:37:12,490 --> 01:37:13,660
+Vâng.
+
+1272
+01:37:13,820 --> 01:37:18,750
+Con không...nhớ.
+Chắc con mệt quá.
+
+1273
+01:37:18,910 --> 01:37:21,750
+Nhưng con đã ngủ rất ngon lần đầu tiên
+trong một thời gian dài.
+
+1274
+01:37:21,920 --> 01:37:23,420
+Hay quá.
+
+1275
+01:37:23,580 --> 01:37:26,380
+Lena sẽ qua đón Giáng Sinh chứ?
+Chúng ta có đủ thức ăn đấy.
+
+1276
+01:37:26,550 --> 01:37:28,090
+Lena?
+
+1277
+01:37:28,920 --> 01:37:30,340
+Lena Duchannes.
+
+1278
+01:37:30,920 --> 01:37:34,010
+Lena Duchannes? Sao con lại mời
+Lena Duchannes tới ăn tối?
+
+1279
+01:37:34,180 --> 01:37:35,220
+Con đâu có quen cô ấy.
+
+1280
+01:37:35,390 --> 01:37:38,430
+Cô ấy chẳng nói gì với ai ở trường.
+Dì biết cô ấy à?
+
+1281
+01:37:43,520 --> 01:37:45,900
+Mẹ Emily nói rằng
+cô ấy từng ở viện tâm thần.
+
+1282
+01:37:46,060 --> 01:37:50,360
+Con không biết có nên tin mẹ Emily không,
+nhưng cô ấy quả là kỳ cục.
+
+1283
+01:37:50,530 --> 01:37:52,780
+Trừ cái lễ hội Nội chiến khỉ gió đó và bữa ăn...
+
+1284
+01:37:52,950 --> 01:37:56,530
+... con sẽ nằm trên giường cả kỳ nghỉ đông này luôn.
+
+1285
+01:38:04,080 --> 01:38:06,210
+<i>Tôi không muốn thuyết giảng hôm nay.</i>
+
+1286
+01:38:07,130 --> 01:38:11,050
+<i>Thay vào đó, tôi chỉ muốn nói chuyện với các bạn.</i>
+
+1287
+01:38:11,970 --> 01:38:14,800
+Về một từ ta không còn nghe nói nhiều nữa:
+
+1288
+01:38:15,760 --> 01:38:17,600
+<i>Hi sinh.</i>
+
+1289
+01:38:18,720 --> 01:38:21,470
+<i>Tôi không gọi từ đó là một từ hiện đại</i>
+
+1290
+01:38:21,640 --> 01:38:24,690
+<i>Người ta nghe đến từ "hi sinh" và trở nên sợ hãi...</i>
+
+1291
+01:38:24,850 --> 01:38:27,650
+...rằng thứ gì đó sẽ bị tước mất
+
+1292
+01:38:27,810 --> 01:38:31,280
+<i>hoăc họ sẽ phải từ bỏ thứ
+mà họ sẽ không sống nổi nếu thiếu...</i>
+
+1293
+01:38:31,990 --> 01:38:35,320
+<i>"Hi sinh", đối với họ, nghĩa là" mất mát"...</i>
+
+1294
+01:38:35,490 --> 01:38:38,740
+<i>Trong một thế giới mà người ta nói
+rằng bạn có thể có mọi thứ...</i>
+
+1295
+01:38:40,200 --> 01:38:44,710
+<i>Nhưng tôi tin sự hi sinh thật sự là chiến thắng...</i>
+
+1296
+01:38:44,870 --> 01:38:48,080
+<i>Bởi vì nó đòi hỏi sự tự nguyện...</i>
+
+1297
+01:38:48,250 --> 01:38:51,460
+...để từ bỏ thứ gì hoặc ai đó mà bạn yêu
+
+1298
+01:38:52,050 --> 01:38:56,340
+<i>...cho điều gì hoặc ai đó mà
+bạn còn yêu hơn bản thân mình...</i>
+
+1299
+01:38:58,010 --> 01:38:59,010
+<i>Tôi không nói dối các bạn đâu.</i>
+
+1300
+01:39:00,180 --> 01:39:01,890
+<i>Đó là một ván bài.</i>
+
+1301
+01:39:02,470 --> 01:39:05,310
+<i>Hi sinh sẽ không lấy đi nỗi đau hay sự mất mát.</i>
+
+1302
+01:39:05,480 --> 01:39:08,150
+<i>Nhưng nó chiến thắng trận chiến chống lại sự cay đắng.</i>
+
+1303
+01:39:08,360 --> 01:39:14,070
+<i>Nỗi cay đắng mà dìm đi ánh sáng
+ý nghĩa thật sự của cuộc sống mỗi chúng ta.</i>
+
+1304
+01:39:49,900 --> 01:39:53,270
+<i> Chúng ta làm gì đây, dì Sarafine?
+Nó từ bỏ cậu ta rồi.</i>
+
+1305
+01:39:53,440 --> 01:39:57,360
+<i>
+Con bé yêu cậu ta. Lời nguyền sẽ vẫn có tác dụng.</i>
+
+1306
+01:39:57,530 --> 01:39:59,280
+<i>Nhưng chúng ta sẽ cần bạn cậu ta.</i>
+
+1307
+01:39:59,450 --> 01:40:03,910
+<i> Ôi, dì thân yêu?
+Cậu ta sẫn sàng đi bất cứ đi mà con muốn.</i>
+
+1308
+01:40:04,950 --> 01:40:06,750
+Anh làm lại được không?
+
+1309
+01:40:07,250 --> 01:40:11,250
+Anh không được nói với ai.
+Hứa với em là anh không được nói với ai còn sống nhé?
+
+1310
+01:40:11,420 --> 01:40:13,920
+Anh thề sẽ không nói.
+
+1311
+01:40:14,840 --> 01:40:18,930
+Được rồi, một lần cuối. Thử lại đi.
+
+1312
+01:40:24,100 --> 01:40:25,720
+Tuyệt quá.
+
+1313
+01:40:26,600 --> 01:40:30,310
+Em sẽ bảo anh khi nào làm.
+Anh phải nghe cho rõ đấy.
+
+1314
+01:40:30,480 --> 01:40:32,770
+Như mọi khi anh vẫn làm.
+
+1315
+01:40:33,480 --> 01:40:37,570
+Anh không biết giờ em yêu anh muốn chết thế nào đâu.
+
+1316
+01:41:03,220 --> 01:41:05,220
+Sẵn sàng? Khai hỏa!
+
+1317
+01:41:05,390 --> 01:41:06,810
+Khai hỏa!
+
+1318
+01:41:17,320 --> 01:41:18,940
+Tuyệt vời.
+
+1319
+01:41:31,160 --> 01:41:32,620
+Vào đi.
+
+1320
+01:41:37,460 --> 01:41:40,010
+Đã sẵn sàng hóa trang chưa?
+
+1321
+01:41:40,670 --> 01:41:42,680
+Đẹp quá.
+
+1322
+01:41:51,140 --> 01:41:53,520
+Con đã làm điều đúng đắn.
+
+1323
+01:41:53,690 --> 01:41:55,860
+Làm sao con biết nó sẽ có tác dụng?
+
+1324
+01:41:56,020 --> 01:42:00,240
+Khi lời nguyền được giải, con sẽ cảm thấy.
+
+1325
+01:42:00,780 --> 01:42:02,530
+Con sẽ biết thôi.
+
+1326
+01:42:03,610 --> 01:42:08,790
+Ôi, mọi người chuẩn bị đi rồi. Đến lúc rồi.
+
+1327
+01:42:11,200 --> 01:42:14,870
+Mavis, trông cô đặc biệt quá.
+
+1328
+01:42:15,040 --> 01:42:19,420
+À, hôm nay là ngày rất đặc biệt.
+
+1329
+01:42:28,850 --> 01:42:30,560
+- Mẹ?
+- Chào cưng.
+
+1330
+01:42:30,720 --> 01:42:34,600
+Cẩn thận đấy. Súng không có đạn
+không có nghĩa là không bị thương.
+
+1331
+01:42:35,060 --> 01:42:39,020
+Hai cậu đều trễ. Lấy súng và nạp đạn đi.
+Hai cậu đi Greenbrier.
+
+1332
+01:42:41,900 --> 01:42:44,820
+Xin chào mọi người...
+
+1333
+01:42:45,610 --> 01:42:48,870
+Cám ơn vì đã tới...
+
+1334
+01:42:49,030 --> 01:42:53,450
+Mặt trăng sẽ sớm lên,
+chúng ta nên bắt đầu thôi...
+
+1335
+01:42:56,460 --> 01:42:58,250
+À...
+
+1336
+01:42:58,420 --> 01:43:02,920
+Xin thứ lỗi. Như tổ tiên đã tiên đoán...
+
+1337
+01:43:03,760 --> 01:43:06,680
+<i>...Bản năng sẽ lộ diện.</i>
+
+1338
+01:43:07,260 --> 01:43:11,060
+<i>Do nó đã được đinh sẵn
+bởi năm nguyên tố...</i>
+
+1339
+01:43:11,220 --> 01:43:13,430
+<i>...vào đêm nay...</i>
+
+1340
+01:43:13,600 --> 01:43:17,350
+<i>...vòng quay cũ kết thúc và vòng quay mới bắt đầu...</i>
+
+1341
+01:43:17,520 --> 01:43:20,480
+<i>...nơi năng lượng Ánh sáng và Bóng tối hòa làm một...</i>
+
+1342
+01:43:20,650 --> 01:43:22,780
+<i>...trên đứa trẻ này...</i>
+
+1343
+01:43:22,940 --> 01:43:25,280
+...người sẽ trở thành phụ nữ...
+
+1344
+01:43:25,450 --> 01:43:26,950
+...Lena Duchannes...
+
+1345
+01:43:27,110 --> 01:43:33,200
+...bản chất cô bé sẽ làm lộ diện bản chất của mọi sức mạnh...
+
+1346
+01:43:33,370 --> 01:43:34,410
+<i>...cho vòng quay mới.</i>
+
+1347
+01:43:48,800 --> 01:43:50,010
+Này, dừng lại!
+
+1348
+01:43:50,890 --> 01:43:55,930
+Hoặc bắn tớ đi. Tớ ngứa chết đi được,
+Tớ thề là thà làm bên bị thương vong còn hơn.
+
+1349
+01:43:56,100 --> 01:43:59,560
+Cái này thật hết sức ngu ngốc. Ước gì tớ, ugh...
+
+1350
+01:43:59,730 --> 01:44:01,560
+Cậu có muốn giết nhau không?
+
+1351
+01:44:02,110 --> 01:44:05,400
+- Ghé qua xem phim?
+- Người ngoài hành tinh? Chất lượng cao?
+
+1352
+01:44:05,570 --> 01:44:08,950
+Được rồi. Đếm tới ba nhé.
+
+1353
+01:44:12,160 --> 01:44:13,580
+Chuẩn bị.
+
+1354
+01:44:14,740 --> 01:44:15,910
+- Một.
+- Một.
+
+1355
+01:44:16,080 --> 01:44:17,660
+- Hai.
+- Hai.
+
+1356
+01:44:17,830 --> 01:44:19,330
+Ba!
+
+1357
+01:44:22,170 --> 01:44:23,710
+Sao vậy?
+
+1358
+01:44:25,670 --> 01:44:27,090
+Con không biết.
+
+1359
+01:44:33,510 --> 01:44:35,680
+Ethan? Ethan.
+
+1360
+01:44:36,770 --> 01:44:38,270
+Ethan.
+
+1361
+01:44:39,350 --> 01:44:40,980
+- Lena.
+- Không.
+
+1362
+01:44:56,290 --> 01:44:57,540
+Ngừng bắn!
+
+1363
+01:44:57,700 --> 01:44:59,210
+Ethan!
+
+1364
+01:45:00,460 --> 01:45:04,920
+- Ethan đâu?
+- Greenbrier! Ra khỏi đây, cô gái!
+
+1365
+01:45:07,670 --> 01:45:09,170
+
+Ethan!
+
+1366
+01:45:10,010 --> 01:45:13,470
+Không! Ethan, không! Không!
+
+1367
+01:45:15,100 --> 01:45:17,390
+- Không!
+- Lena, tớ không-- Lena, tớ thề...
+
+1368
+01:45:17,560 --> 01:45:19,270
+Không! Đừng mà!
+
+1369
+01:45:19,430 --> 01:45:21,270
+Xin lỗi. Tớ xin lỗi...
+
+1370
+01:45:21,440 --> 01:45:23,730
+Không tin được chúng đâu, em họ.
+
+1371
+01:45:25,230 --> 01:45:28,230
+Chúng quay lưng lại với nhau không vì lý do gì.
+
+1372
+01:45:40,370 --> 01:45:43,250
+Lena, tớ xin lỗi. Tớ không cố ý.
+
+1373
+01:45:43,420 --> 01:45:44,960
+Được chứ?
+
+1374
+01:45:48,760 --> 01:45:54,840
+Chào mừng tới gia đình, con yêu.
+Cô gái đặc biệt của mẹ.
+
+1375
+01:46:17,490 --> 01:46:20,290
+Sắp bão rồi, ông Lee.
+Chúng ta có nên dừng lại không?
+
+1376
+01:47:02,620 --> 01:47:04,960
+
+Lena, dừng lại.
+
+1377
+01:47:12,460 --> 01:47:14,130
+Macon?
+
+1378
+01:47:16,180 --> 01:47:18,930
+
+Làm ơn hãy dừng lại.
+
+1379
+01:47:19,970 --> 01:47:23,100
+Macon. Macon, bác đã làm gì vậy?
+
+1380
+01:47:23,890 --> 01:47:28,100
+Lời nguyền cần được trả giá.
+
+1381
+01:47:29,110 --> 01:47:30,480
+Cháu không hiểu.
+
+1382
+01:47:30,650 --> 01:47:34,280
+Người con yêu phải chết.
+
+1383
+01:47:35,280 --> 01:47:38,700
+Thật là một thủ đoạn lén lút, Macon.
+Không công bằng.
+
+1384
+01:47:40,740 --> 01:47:42,200
+Macon?
+
+1385
+01:47:42,370 --> 01:47:45,120
+Ta đã hứa với mẹ cậu ta.
+
+1386
+01:47:46,290 --> 01:47:48,460
+Cháu không thể mất bác.
+
+1387
+01:47:49,380 --> 01:47:52,630
+- Được rồi, Lena.
+- Không.
+
+1388
+01:47:54,050 --> 01:47:56,510
+Đừng để chúng lừa cháu.
+
+1389
+01:47:57,510 --> 01:47:59,340
+Hãy...
+
+1390
+01:48:00,470 --> 01:48:02,720
+...tự lộ diện bản thân.
+
+1391
+01:48:13,690 --> 01:48:15,030
+
+Không!
+
+1392
+01:48:34,250 --> 01:48:35,380
+Ôi!
+
+1393
+01:48:38,970 --> 01:48:40,010
+Con làm gì vậy?
+
+1394
+01:48:40,180 --> 01:48:43,050
+Tôi nghĩ việc này chỉ xoay quanh hai mẹ con ta thôi.
+
+1395
+01:48:43,220 --> 01:48:44,810
+Tốt thôi.
+
+1396
+01:48:45,560 --> 01:48:49,600
+Ridley, đừng sợ. Con bé ở phe ta mà.
+
+1397
+01:48:49,770 --> 01:48:52,270
+Đó là Lena của chúng ta. Con nghe đây
+
+1398
+01:48:52,440 --> 01:48:56,280
+Con là con gái ta.Ta luôn muốn con ở bên.
+Là họ đã cướp con từ ta.
+
+1399
+01:48:56,440 --> 01:49:00,530
+Mặt trăng sắp lên rồi, và nó sẽ phát xét con như định mệnh phải thế.
+
+1400
+01:49:00,700 --> 01:49:04,120
+Chấp nhận đi, con yêu.
+Con không làm được gì đâu.
+
+1401
+01:49:18,340 --> 01:49:19,630
+Không ai làm được thế.
+
+1402
+01:49:20,300 --> 01:49:23,720
+Thả tôi ra! Nó còn mạnh hơn cả dì đấy!
+
+1403
+01:49:23,890 --> 01:49:26,470
+Lena. Lena, nghe chị này.
+
+1404
+01:49:26,640 --> 01:49:28,810
+Là ý của dì ấy.
+
+1405
+01:49:28,980 --> 01:49:32,440
+Bà ấy nói dù sao thì em sẽ về phe Bóng tối thôi.
+Chị sẽ không bao giờ làm hại em.
+
+1406
+01:49:32,600 --> 01:49:35,650
+Em nhớ lúc chị bỏ đi,
+để khỏi làm hại em không?
+
+1407
+01:49:36,070 --> 01:49:37,110
+Lena?
+
+1408
+01:49:37,280 --> 01:49:39,150
+Đi đi.
+
+1409
+01:49:41,530 --> 01:49:43,410
+Cám ơn nhé, em họ.
+
+1410
+01:49:49,700 --> 01:49:52,580
+Con giống mẹ hơn là con thèm thừa nhận đấy.
+
+1411
+01:49:52,750 --> 01:49:54,290
+Có ai hoàn hảo đâu.
+
+1412
+01:49:54,460 --> 01:49:58,500
+Lena, con có nguồn sức mạnh vô biên.
+Ta có thể dạy con sử dụng chúng.
+
+1413
+01:49:58,670 --> 01:50:02,260
+Ta có thể dạy con trở thành
+Người làm phép Bóng Đêm mạnh nhất từ trước tới giờ.
+
+1414
+01:50:02,430 --> 01:50:04,340
+Nghe hay quá, mẹ ạ.
+
+1415
+01:50:04,510 --> 01:50:09,020
+Ôi, con yêu. Người thường mà con yêu ấy?
+Hai con sẽ không bao giờ đến với nhau được.
+
+1416
+01:50:09,180 --> 01:50:10,470
+Con biết.
+
+1417
+01:50:10,640 --> 01:50:12,690
+Mẹ đã từng yêu con chưa?
+
+1418
+01:50:17,190 --> 01:50:19,320
+Mẹ đâu có nhớ.
+
+1419
+01:50:19,480 --> 01:50:21,860
+Thực ra chẳng có mẹ nào nhớ cả.
+
+1420
+01:50:22,030 --> 01:50:25,320
+Không dễ dàng gì, rặn một đứa
+con gái khác ra khỏi cơ thể mình...
+
+1421
+01:50:25,490 --> 01:50:30,540
+...một phiên bản trẻ hơn, hoàn hảo hơn mình,
+với tất cả các đặc điểm và không tì vết
+
+1422
+01:50:30,700 --> 01:50:32,870
+Dù sao thì, tình yêu là trò đùa của lý trí mà thôi?
+
+1423
+01:50:33,040 --> 01:50:37,000
+Nó đâu có tồn tại.
+Trong tự nhiên làm gì có thứ đó.
+
+1424
+01:50:37,670 --> 01:50:40,250
+Tình yêu là một bùa chú, tạo nên bởi con người...
+
+1425
+01:50:40,420 --> 01:50:44,220
+...cho phụ nữ có thứ để chơi thay vì sức mạnh.
+
+1426
+01:50:44,380 --> 01:50:47,180
+Ta muốn con có sức mạnh.
+
+1427
+01:50:47,430 --> 01:50:49,890
+Ta muốn con là người thực ra phải vậy.
+
+1428
+01:50:50,060 --> 01:50:52,310
+Chừng nào con còn giống mẹ.
+
+1429
+01:50:53,060 --> 01:50:55,390
+Bóng tối tồn tại trong con.
+Đừng có cố mà phủ nhận nó.
+
+1430
+01:50:55,560 --> 01:50:56,900
+Con đâu có.
+
+1431
+01:50:57,060 --> 01:51:00,070
+Vậy hãy theo nó đi. Theo nó và đi theo ta, ở bên ta.
+
+1432
+01:51:00,230 --> 01:51:03,860
+Chúng ta có thể làm chủ một
+thế giới mới, thế giới của chúng ta.
+
+1433
+01:51:10,330 --> 01:51:12,120
+Con làm gì thế?
+
+1434
+01:51:12,750 --> 01:51:14,910
+Đây là thế giới mới đó, mẹ ạ.
+
+1435
+01:51:15,080 --> 01:51:18,540
+Và nó không hoàn toàn là Bóng tối hay Ánh sáng.
+
+1436
+01:51:18,710 --> 01:51:20,420
+Và nó không hoàn toàn là của chúng ta.
+
+1437
+01:51:26,180 --> 01:51:28,760
+Mẹ nhớ ra rồi. Mẹ nhớ ra mẹ đã từng yêu thương con.
+
+1438
+01:51:28,930 --> 01:51:31,260
+Mẹ yêu con. Mẹ yêu con mà!
+
+1439
+01:51:31,430 --> 01:51:34,600
+Bà không nên dùng những từ mà mình không hiểu.
+
+1440
+01:51:37,600 --> 01:51:40,270
+Con vẫn cần ta!
+
+1441
+01:51:40,440 --> 01:51:41,940
+Bà làm đủ rồi đấy, mẹ à.
+
+1442
+01:51:45,190 --> 01:51:49,120
+Con phải bị phán xét!
+
+1443
+01:52:22,020 --> 01:52:23,110
+Macon?
+
+1444
+01:52:28,780 --> 01:52:30,490
+Chị ổn không?
+
+1445
+01:52:31,780 --> 01:52:33,080
+Không sao.
+
+1446
+01:52:37,790 --> 01:52:41,500
+Macon nói đây là cách duy nhất để bảo vệ cả hai.
+
+1447
+01:52:52,760 --> 01:52:57,770
+<i>Tôi có thể nghe thấy âm thanh đó.
+Âm thanh của tôi đang đau khổ.</i>
+
+1448
+01:52:58,680 --> 01:53:01,230
+<i>Tôi khóc vì anh vẫn sống.</i>
+
+1449
+01:53:01,400 --> 01:53:03,900
+<i>Vì ông đã ra đi.</i>
+
+1450
+01:53:04,320 --> 01:53:08,360
+<i>Tôi đã tan vỡ, rồi được cứu rỗi.</i>
+
+1451
+01:53:08,690 --> 01:53:11,700
+<i>Điều duy nhất tôi biết là
+con người cũ của tôi đã không còn.</i>
+
+1452
+01:53:12,870 --> 01:53:17,870
+<i>Bác ấy đã đúng. Không hay ho gì
+khi yêu một người thường.</i>
+
+1453
+01:53:18,830 --> 01:53:21,830
+<i>Họ không thể sống sót trong thế giới của chúng tôi.</i>
+
+1454
+01:53:23,790 --> 01:53:25,540
+<i>Hãy thoát ra. Đi đi, Ethan.</i>
+
+1455
+01:53:26,880 --> 01:53:30,090
+<i>Hãy tự chứng tỏ mình bằng thách thức...</i>
+
+1456
+01:53:30,260 --> 01:53:34,680
+<i>...hi vọng, tình yêu, giận dữ, bằng lòng biết ơn.</i>
+
+1457
+01:53:34,850 --> 01:53:38,220
+<i>Theo Ánh sáng. Theo Bóng tối.</i>
+
+1458
+01:53:38,390 --> 01:53:39,980
+<i>Hãy nhận lấy tất cả.</i>
+
+1459
+01:53:40,980 --> 01:53:43,060
+<i>Không gì nói được.</i>
+
+1460
+01:53:49,900 --> 01:53:51,490
+- Con xong chưa?
+- Rồi ạ.
+
+1461
+01:53:51,650 --> 01:53:54,200
+Sẽ tới New York
+vào thứ Năm nếu sắp xếp kịp thời gian.
+
+1462
+01:53:54,370 --> 01:53:56,780
+Chúng con sẽ ở cùng anh họ Link ở Brooklyn.
+
+1463
+01:53:56,950 --> 01:53:58,370
+Tới đây nào.
+
+1464
+01:53:58,540 --> 01:54:00,410
+Con sẽ gọi cho dì ngay khi đến nơi.
+
+1465
+01:54:01,250 --> 01:54:03,420
+Con muốn gọi lúc nào cũng được.
+
+1466
+01:54:03,580 --> 01:54:05,000
+Tạm biệt dì.
+
+1467
+01:54:11,010 --> 01:54:12,590
+Chào...
+
+1468
+01:54:12,760 --> 01:54:14,430
+- Lena, phải không?
+- Chào, ừ.
+
+1469
+01:54:14,590 --> 01:54:16,760
+- Ethan Wate.
+- Ừ, mình biết.
+
+1470
+01:54:16,930 --> 01:54:18,930
+À...
+
+1471
+01:54:21,060 --> 01:54:23,100
+Mình muốn...
+
+1472
+01:54:23,270 --> 01:54:25,190
+Um...
+
+1473
+01:54:25,350 --> 01:54:29,730
+Mình xin lỗi vì chúng ta chưa nói chuyện bao giờ,
+mình chỉ muốn nói với cậu...
+
+1474
+01:54:29,900 --> 01:54:34,410
+...mình nghĩ thơ của cậu
+ở cuộc thi sáng tác...
+
+1475
+01:54:34,950 --> 01:54:36,620
+...rất hay.
+
+1476
+01:54:37,910 --> 01:54:41,080
+Cám ơn. Cậu rất tử tế khi nói vậy.
+
+1477
+01:54:44,250 --> 01:54:46,880
+- Cậu sắp đi?
+- Ừ...
+
+1478
+01:54:47,040 --> 01:54:49,300
+Lên đường đi học.
+
+1479
+01:54:49,460 --> 01:54:51,800
+Mình sẽ xem qua đại học New York.
+
+1480
+01:54:51,960 --> 01:54:54,380
+Tuyệt. Rất tốt.
+
+1481
+01:55:00,560 --> 01:55:02,140
+Ôi, tựa đề hay thế.
+
+1482
+01:55:02,810 --> 01:55:04,730
+Bukowski?
+
+1483
+01:55:05,230 --> 01:55:06,940
+Ông ấy có hay không?
+
+1484
+01:55:08,560 --> 01:55:10,150
+Định nghĩa "hay."
+
+1485
+01:55:17,490 --> 01:55:21,450
+Cậu giữ đi. Một món quà "Thoát khỏi Gatlin".
+
+1486
+01:55:23,120 --> 01:55:24,500
+Thật sao?
+
+1487
+01:55:25,500 --> 01:55:28,080
+- Cám ơn nhé.
+- Không có chi.
+
+1488
+01:55:32,960 --> 01:55:34,420
+Hay lắm, Cám ơn cậu.
+
+1489
+01:55:34,590 --> 01:55:36,510
+Được rồi. Gặp cậu sau.
+
+1490
+01:55:36,680 --> 01:55:38,300
+Hẹn gặp lại.
+
+1491
+01:55:44,180 --> 01:55:46,190
+Ethan đang đến. Được rồi, chào.
+
+1492
+01:55:46,350 --> 01:55:47,480
+- Này, có được không...
+- Ah.
+
+1493
+01:55:47,650 --> 01:55:50,310
+...nếu chúng ta đi gặp mẹ tớ ở viện điều dưỡng?
+Nó ngay trên đường đi thôi.
+
+1494
+01:55:50,480 --> 01:55:51,520
+Chắc rồi.
+
+1495
+01:56:13,170 --> 01:56:17,050
+<i>"Luôn có một chỗ trống trong tim
+mà không bao giờ lấp đầy được.</i>
+
+1496
+01:56:17,220 --> 01:56:18,720
+<i>Một khoảng không.</i>
+
+1497
+01:56:18,880 --> 01:56:21,680
+<i>Ta sẽ biết hơn bao giờ hết.</i>
+
+1498
+01:56:22,010 --> 01:56:25,220
+<i>Có một khoảng trống trong tim
+sẽ không bao giờ được lấp đầy...</i>
+
+1499
+01:56:25,390 --> 01:56:30,060
+<i>...và ta cứ mãi chờ đợi khoảng trống đó."</i>
+
+1500
+01:57:15,230 --> 01:57:16,780
+Lena!
+
+1501
+01:57:16,780 --> 01:57:18,780
+Phụ đề dịch bởi Unknow. Subteam 2pi.vn
+

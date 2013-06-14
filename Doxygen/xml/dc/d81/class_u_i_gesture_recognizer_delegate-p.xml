@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dc/d81/class_u_i_gesture_recognizer_delegate-p" kind="protocol" prot="public">
+    <compoundname>UIGestureRecognizerDelegate-p</compoundname>
+    <derivedcompoundref refid="d3/d02/category_reader_thumbs_view_07_08" prot="public" virt="non-virtual">ReaderThumbsView()</derivedcompoundref>
+    <derivedcompoundref refid="db/d1e/category_reader_view_controller_07_08" prot="public" virt="non-virtual">ReaderViewController()</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="721">
+        <label>ReaderViewController()</label>
+        <link refid="db/d1e/category_reader_view_controller_07_08"/>
+        <childnode refid="719" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="719">
+        <label>&lt;UIGestureRecognizerDelegate&gt;</label>
+        <link refid="dc/d81/class_u_i_gesture_recognizer_delegate-p"/>
+      </node>
+      <node id="720">
+        <label>ReaderThumbsView()</label>
+        <link refid="d3/d02/category_reader_thumbs_view_07_08"/>
+        <childnode refid="719" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderViewController.m" line="38"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

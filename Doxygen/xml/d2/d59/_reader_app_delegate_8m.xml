@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d2/d59/_reader_app_delegate_8m" kind="file">
+    <compoundname>ReaderAppDelegate.m</compoundname>
+    <includes refid="dc/d3c/_reader_app_delegate_8h" local="yes">ReaderAppDelegate.h</includes>
+    <includes refid="de/d19/_reader_demo_controller_8h" local="yes">ReaderDemoController.h</includes>
+    <incdepgraph>
+      <node id="376">
+        <label>ReaderAppDelegate.h</label>
+        <link refid="dc/d3c/_reader_app_delegate_8h"/>
+        <childnode refid="377" relation="include">
+        </childnode>
+      </node>
+      <node id="375">
+        <label>Classes/ReaderAppDelegate.m</label>
+        <link refid="ReaderAppDelegate.m"/>
+        <childnode refid="376" relation="include">
+        </childnode>
+        <childnode refid="378" relation="include">
+        </childnode>
+      </node>
+      <node id="377">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="378">
+        <label>ReaderDemoController.h</label>
+        <link refid="de/d19/_reader_demo_controller_8h"/>
+        <childnode refid="377" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="d2/d59/_reader_app_delegate_8m_1ad41d327356247702d2a76f46a3a75a2a" prot="public" static="no" mutable="no">
+        <type>UINavigationController *</type>
+        <definition>UINavigationController* navigationController</definition>
+        <argsstring></argsstring>
+        <name>navigationController</name>
+        <initializer>{
+	UIWindow *mainWindow</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderAppDelegate.m" line="33" bodyfile="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderAppDelegate.m" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d59/_reader_app_delegate_8m_1a281653728c72507f807ace642add9886" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/de5/interface_reader_demo_controller" kindref="compound">ReaderDemoController</ref> *</type>
+        <definition>ReaderDemoController* readerDemoController</definition>
+        <argsstring></argsstring>
+        <name>readerDemoController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderAppDelegate.m" line="35" bodyfile="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderAppDelegate.m" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>ReaderAppDelegate.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Reader<sp/>v2.6.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Julius<sp/>Oklamcak<sp/>on<sp/>2011-07-01.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2011-2012<sp/>Julius<sp/>Oklamcak.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell<sp/>copies</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in<sp/>all</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>OR<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="dc/d3c/_reader_app_delegate_8h" kindref="compound">ReaderAppDelegate.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;<ref refid="de/d19/_reader_demo_controller_8h" kindref="compound">ReaderDemoController.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="d5/d15/interface_reader_app_delegate" kindref="compound">ReaderAppDelegate</ref></highlight></codeline>
+<codeline lineno="30" refid="d2/d59/_reader_app_delegate_8m_1ad41d327356247702d2a76f46a3a75a2a" refkind="member"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>UIWindow<sp/>*mainWindow;<sp/></highlight><highlight class="comment">//<sp/>Main<sp/>App<sp/>Window</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>UINavigationController<sp/>*<ref refid="d2/d59/_reader_app_delegate_8m_1ad41d327356247702d2a76f46a3a75a2a" kindref="member">navigationController</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="d2/d59/_reader_app_delegate_8m_1a281653728c72507f807ace642add9886" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/de5/interface_reader_demo_controller" kindref="compound">ReaderDemoController</ref><sp/>*<ref refid="d2/d59/_reader_app_delegate_8m_1a281653728c72507f807ace642add9886" kindref="member">readerDemoController</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>UIApplicationDelegate<sp/>methods</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">-<sp/>(BOOL)application:(UIApplication<sp/>*)application<sp/>handleOpenURL:(NSURL<sp/>*)url</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">-<sp/>(BOOL)application:(UIApplication<sp/>*)application<sp/>didFinishLaunchingWithOptions:(NSDictionary<sp/>*)launchOptions</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>mainWindow<sp/>=<sp/>[[UIWindow<sp/>alloc]<sp/>initWithFrame:[UIScreen<sp/>mainScreen].bounds];<sp/></highlight><highlight class="comment">//<sp/>Main<sp/>application<sp/>window</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d59/_reader_app_delegate_8m_1a281653728c72507f807ace642add9886" kindref="member">readerDemoController</ref><sp/>=<sp/>[[<ref refid="d7/de5/interface_reader_demo_controller" kindref="compound">ReaderDemoController</ref><sp/>alloc]<sp/>initWithNibName:nil<sp/>bundle:nil];<sp/></highlight><highlight class="comment">//<sp/>Demo<sp/>controller</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d59/_reader_app_delegate_8m_1ad41d327356247702d2a76f46a3a75a2a" kindref="member">navigationController</ref><sp/>=<sp/>[[UINavigationController<sp/>alloc]<sp/>initWithRootViewController:readerDemoController];</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>mainWindow.backgroundColor<sp/>=<sp/>[UIColor<sp/>scrollViewTexturedBackgroundColor];<sp/></highlight><highlight class="comment">//<sp/>Window<sp/>background<sp/>color</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d59/_reader_app_delegate_8m_1ad41d327356247702d2a76f46a3a75a2a" kindref="member">navigationController</ref>.navigationBar.barStyle<sp/>=<sp/>UIBarStyleBlack;<sp/><ref refid="d2/d59/_reader_app_delegate_8m_1ad41d327356247702d2a76f46a3a75a2a" kindref="member">navigationController</ref>.navigationBar.translucent<sp/>=<sp/>YES;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>mainWindow.rootViewController<sp/>=<sp/><ref refid="d2/d59/_reader_app_delegate_8m_1ad41d327356247702d2a76f46a3a75a2a" kindref="member">navigationController</ref>;<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>root<sp/>view<sp/>controller</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>[mainWindow<sp/>makeKeyAndVisible];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">-<sp/>(void)applicationWillResignActive:(UIApplication<sp/>*)application</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Sent<sp/>when<sp/>the<sp/>application<sp/>is<sp/>about<sp/>to<sp/>move<sp/>from<sp/>active<sp/>to<sp/>inactive<sp/>state.<sp/>This<sp/>can<sp/>occur<sp/>for<sp/>certain<sp/>types<sp/>of</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>temporary<sp/>interruptions<sp/>(such<sp/>as<sp/>an<sp/>incoming<sp/>phone<sp/>call<sp/>or<sp/>SMS<sp/>message)<sp/>or<sp/>when<sp/>the<sp/>user<sp/>quits<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>it<sp/>begins<sp/>the<sp/>transition<sp/>to<sp/>the<sp/>background<sp/>state.<sp/>Use<sp/>this<sp/>method<sp/>to<sp/>pause<sp/>ongoing<sp/>tasks,<sp/>disable<sp/>timers,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>throttle<sp/>down<sp/>OpenGL<sp/>ES<sp/>frame<sp/>rates.<sp/>Games<sp/>should<sp/>use<sp/>this<sp/>method<sp/>to<sp/>pause<sp/>the<sp/>game.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">-<sp/>(void)applicationDidEnterBackground:(UIApplication<sp/>*)application</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Use<sp/>this<sp/>method<sp/>to<sp/>release<sp/>shared<sp/>resources,<sp/>save<sp/>user<sp/>data,<sp/>invalidate<sp/>timers,<sp/>and<sp/>store<sp/>enough</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>application<sp/>state<sp/>information<sp/>to<sp/>restore<sp/>your<sp/>application<sp/>to<sp/>its<sp/>current<sp/>state<sp/>in<sp/>case<sp/>it<sp/>is<sp/>terminated<sp/>later.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>your<sp/>application<sp/>supports<sp/>background<sp/>execution,<sp/>called<sp/>instead<sp/>of<sp/>applicationWillTerminate:<sp/>when<sp/>the<sp/>user<sp/>quits.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">-<sp/>(void)applicationWillEnterForeground:(UIApplication<sp/>*)application</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Called<sp/>as<sp/>part<sp/>of<sp/>transition<sp/>from<sp/>the<sp/>background<sp/>to<sp/>the<sp/>inactive<sp/>state:<sp/>here<sp/>you<sp/>can<sp/>undo<sp/>many</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>of<sp/>the<sp/>changes<sp/>made<sp/>on<sp/>entering<sp/>the<sp/>background.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">-<sp/>(void)applicationDidBecomeActive:(UIApplication<sp/>*)application</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Restart<sp/>any<sp/>tasks<sp/>that<sp/>were<sp/>paused<sp/>(or<sp/>not<sp/>yet<sp/>started)<sp/>while<sp/>the<sp/>application<sp/>was<sp/>inactive.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>application<sp/>was<sp/>previously<sp/>in<sp/>the<sp/>background,<sp/>optionally<sp/>refresh<sp/>the<sp/>user<sp/>interface.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">-<sp/>(void)applicationWillTerminate:(UIApplication<sp/>*)application</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Called<sp/>when<sp/>the<sp/>application<sp/>is<sp/>about<sp/>to<sp/>terminate.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>See<sp/>also<sp/>applicationDidEnterBackground:.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">-<sp/>(void)applicationDidReceiveMemoryWarning:(UIApplication<sp/>*)application</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Free<sp/>up<sp/>as<sp/>much<sp/>memory<sp/>as<sp/>possible<sp/>by<sp/>purging<sp/>cached<sp/>data<sp/>objects<sp/>that<sp/>can<sp/>be<sp/>recreated</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>(or<sp/>reloaded<sp/>from<sp/>disk)<sp/>later.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderAppDelegate.m"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d3/d02/category_reader_thumbs_view_07_08" kind="category" prot="public">
+    <compoundname>ReaderThumbsView()</compoundname>
+    <basecompoundref refid="d6/dde/class_u_i_scroll_view_delegate-p" prot="public" virt="non-virtual">&lt;UIScrollViewDelegate&gt;</basecompoundref>
+    <basecompoundref refid="dc/d81/class_u_i_gesture_recognizer_delegate-p" prot="public" virt="non-virtual">&lt;UIGestureRecognizerDelegate&gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="615">
+        <label>&lt;UIScrollViewDelegate&gt;</label>
+        <link refid="d6/dde/class_u_i_scroll_view_delegate-p"/>
+      </node>
+      <node id="616">
+        <label>&lt;UIGestureRecognizerDelegate&gt;</label>
+        <link refid="dc/d81/class_u_i_gesture_recognizer_delegate-p"/>
+      </node>
+      <node id="614">
+        <label>ReaderThumbsView()</label>
+        <link refid="d3/d02/category_reader_thumbs_view_07_08"/>
+        <childnode refid="615" relation="public-inheritance">
+        </childnode>
+        <childnode refid="616" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="618">
+        <label>&lt;UIScrollViewDelegate&gt;</label>
+        <link refid="d6/dde/class_u_i_scroll_view_delegate-p"/>
+      </node>
+      <node id="619">
+        <label>&lt;UIGestureRecognizerDelegate&gt;</label>
+        <link refid="dc/d81/class_u_i_gesture_recognizer_delegate-p"/>
+      </node>
+      <node id="617">
+        <label>ReaderThumbsView()</label>
+        <link refid="d3/d02/category_reader_thumbs_view_07_08"/>
+        <childnode refid="618" relation="public-inheritance">
+        </childnode>
+        <childnode refid="619" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.m" line="28" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.m" bodystart="28" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

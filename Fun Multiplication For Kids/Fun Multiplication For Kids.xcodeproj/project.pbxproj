@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73938A711727DC7700531326 /* professor1.png in Resources */ = {isa = PBXBuildFile; fileRef = 73938A6F1727DC7700531326 /* professor1.png */; };
+		73938A721727DC7700531326 /* professor4.png in Resources */ = {isa = PBXBuildFile; fileRef = 73938A701727DC7700531326 /* professor4.png */; };
+		73938A741727DEA600531326 /* professor2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73938A731727DEA600531326 /* professor2.png */; };
+		73C5CA7617268AD50097F235 /* Correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C5CA7417268AD50097F235 /* Correct.png */; };
+		73C5CA7717268AD50097F235 /* Wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C5CA7517268AD50097F235 /* Wrong.png */; };
+		73C5CA7917269C2F0097F235 /* levelFail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C5CA7817269C2F0097F235 /* levelFail.mp3 */; };
+		73C85DDA172637D600D09AC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C85DD9172637D600D09AC5 /* UIKit.framework */; };
+		73C85DDC172637D600D09AC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C85DDB172637D600D09AC5 /* Foundation.framework */; };
+		73C85DDE172637D600D09AC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C85DDD172637D600D09AC5 /* CoreGraphics.framework */; };
+		73C85DE4172637D600D09AC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73C85DE2172637D600D09AC5 /* InfoPlist.strings */; };
+		73C85DE6172637D600D09AC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C85DE5172637D600D09AC5 /* main.m */; };
+		73C85DEA172637D600D09AC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C85DE9172637D600D09AC5 /* AppDelegate.m */; };
+		73C85DEC172637D600D09AC5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C85DEB172637D600D09AC5 /* Default.png */; };
+		73C85DEE172637D600D09AC5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C85DED172637D600D09AC5 /* Default@2x.png */; };
+		73C85DF0172637D700D09AC5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C85DEF172637D700D09AC5 /* Default-568h@2x.png */; };
+		73C85E001726385C00D09AC5 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C85DFB1726385C00D09AC5 /* GameViewController.m */; };
+		73C85E011726385C00D09AC5 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73C85DFC1726385C00D09AC5 /* GameViewController.xib */; };
+		73C85E021726385C00D09AC5 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C85DFE1726385C00D09AC5 /* HomeScreenViewController.m */; };
+		73C85E031726385C00D09AC5 /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73C85DFF1726385C00D09AC5 /* HomeScreenViewController.xib */; };
+		73C85E0D1726388C00D09AC5 /* Fruit.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73C85E041726388C00D09AC5 /* Fruit.plist */; };
+		73C85E0E1726388C00D09AC5 /* FruitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C85E061726388C00D09AC5 /* FruitView.m */; };
+		73C85E0F1726388C00D09AC5 /* FruitViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C85E081726388C00D09AC5 /* FruitViewCell.m */; };
+		73C85E101726388C00D09AC5 /* QuestionResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C85E0A1726388C00D09AC5 /* QuestionResultView.m */; };
+		73C85E111726388C00D09AC5 /* ResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C85E0C1726388C00D09AC5 /* ResultView.m */; };
+		73C85E14172638A200D09AC5 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C85E13172638A200D09AC5 /* Question.m */; };
+		73C85E181726395E00D09AC5 /* LevelListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C85E161726395E00D09AC5 /* LevelListViewController.m */; };
+		73C85E191726395E00D09AC5 /* LevelListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73C85E171726395E00D09AC5 /* LevelListViewController.xib */; };
+		73C85E1B172639C500D09AC5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C85E1A172639C500D09AC5 /* AVFoundation.framework */; };
+		73C85E1D172639E000D09AC5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C85E1C172639E000D09AC5 /* Default.png */; };
+		73C85E1F172639EA00D09AC5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C85E1E172639EA00D09AC5 /* Default@2x.png */; };
+		73C85E21172639F700D09AC5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C85E20172639F700D09AC5 /* Default-568h@2x.png */; };
+		73C85E3B17263A4E00D09AC5 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C85E2417263A4E00D09AC5 /* backButton.png */; };
+		73C85E3E17263A4E00D09AC5 /* passAllLevel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C85E2717263A4E00D09AC5 /* passAllLevel.wav */; };
+		73C85E3F17263A4E00D09AC5 /* Clapping.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C85E2817263A4E00D09AC5 /* Clapping.wav */; };
+		73C85E4017263A4E00D09AC5 /* Click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C85E2917263A4E00D09AC5 /* Click.wav */; };
+		73C85E4117263A4E00D09AC5 /* passLevel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C85E2A17263A4E00D09AC5 /* passLevel.wav */; };
+		73C85E4417263A4E00D09AC5 /* Ohh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C85E2D17263A4E00D09AC5 /* Ohh.wav */; };
+		73C85E4817263A4E00D09AC5 /* plane.tif in Resources */ = {isa = PBXBuildFile; fileRef = 73C85E3117263A4E00D09AC5 /* plane.tif */; };
+		73C85E5117263BA400D09AC5 /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C85E5017263BA400D09AC5 /* app-icon.png */; };
+		73C85E5317263BAA00D09AC5 /* app-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C85E5217263BAA00D09AC5 /* app-icon@2x.png */; };
+		73C85E5917264EF000D09AC5 /* LevelDescription.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73C85E5817264EF000D09AC5 /* LevelDescription.plist */; };
+		73E653C71729126200AA2E31 /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E653C51729126200AA2E31 /* trophy.png */; };
+		73E653C81729126200AA2E31 /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E653C61729126200AA2E31 /* plane.png */; };
+		73E653CA17293DE300AA2E31 /* finish.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73E653C917293DE300AA2E31 /* finish.wav */; };
+		73EE3D7A17278EC7005D2ACC /* ananas_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EE3D7117278EC7005D2ACC /* ananas_icon.png */; };
+		73EE3D7B17278EC7005D2ACC /* butter_scotch_ice_cream_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EE3D7217278EC7005D2ACC /* butter_scotch_ice_cream_icon.png */; };
+		73EE3D7C17278EC7005D2ACC /* cake_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EE3D7317278EC7005D2ACC /* cake_icon.png */; };
+		73EE3D7D17278EC7005D2ACC /* caramel_apple_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EE3D7417278EC7005D2ACC /* caramel_apple_icon.png */; };
+		73EE3D7E17278EC7005D2ACC /* cone_ice_cream_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EE3D7517278EC7005D2ACC /* cone_ice_cream_icon.png */; };
+		73EE3D7F17278EC7005D2ACC /* cotton_candy_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EE3D7617278EC7005D2ACC /* cotton_candy_icon.png */; };
+		73EE3D8017278EC7005D2ACC /* french_fries_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EE3D7717278EC7005D2ACC /* french_fries_icon.png */; };
+		73EE3D8117278EC7005D2ACC /* red_apple_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EE3D7817278EC7005D2ACC /* red_apple_icon.png */; };
+		73EE3D8217278EC7005D2ACC /* rocket_pop_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EE3D7917278EC7005D2ACC /* rocket_pop_icon.png */; };
+		73EE3D8417279078005D2ACC /* backGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73EE3D8317279078005D2ACC /* backGround.jpg */; };
+		73EE3D86172797D4005D2ACC /* homeScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EE3D85172797D4005D2ACC /* homeScreen.png */; };
+		73EE3D88172799D2005D2ACC /* dazzleMath.gif in Resources */ = {isa = PBXBuildFile; fileRef = 73EE3D87172799D2005D2ACC /* dazzleMath.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73938A6F1727DC7700531326 /* professor1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = professor1.png; sourceTree = "<group>"; };
+		73938A701727DC7700531326 /* professor4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = professor4.png; sourceTree = "<group>"; };
+		73938A731727DEA600531326 /* professor2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = professor2.png; sourceTree = "<group>"; };
+		73C5CA7417268AD50097F235 /* Correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Correct.png; sourceTree = "<group>"; };
+		73C5CA7517268AD50097F235 /* Wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wrong.png; sourceTree = "<group>"; };
+		73C5CA7817269C2F0097F235 /* levelFail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = levelFail.mp3; sourceTree = "<group>"; };
+		73C85DD6172637D600D09AC5 /* Fun Multiplication For Kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fun Multiplication For Kids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C85DD9172637D600D09AC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		73C85DDB172637D600D09AC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73C85DDD172637D600D09AC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		73C85DE1172637D600D09AC5 /* Fun Multiplication For Kids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fun Multiplication For Kids-Info.plist"; sourceTree = "<group>"; };
+		73C85DE3172637D600D09AC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73C85DE5172637D600D09AC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73C85DE7172637D600D09AC5 /* Fun Multiplication For Kids-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fun Multiplication For Kids-Prefix.pch"; sourceTree = "<group>"; };
+		73C85DE8172637D600D09AC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73C85DE9172637D600D09AC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		73C85DEB172637D600D09AC5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		73C85DED172637D600D09AC5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		73C85DEF172637D700D09AC5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		73C85DFA1726385C00D09AC5 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		73C85DFB1726385C00D09AC5 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		73C85DFC1726385C00D09AC5 /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		73C85DFD1726385C00D09AC5 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
+		73C85DFE1726385C00D09AC5 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
+		73C85DFF1726385C00D09AC5 /* HomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeScreenViewController.xib; sourceTree = "<group>"; };
+		73C85E041726388C00D09AC5 /* Fruit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Fruit.plist; sourceTree = "<group>"; };
+		73C85E051726388C00D09AC5 /* FruitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitView.h; sourceTree = "<group>"; };
+		73C85E061726388C00D09AC5 /* FruitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitView.m; sourceTree = "<group>"; };
+		73C85E071726388C00D09AC5 /* FruitViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitViewCell.h; sourceTree = "<group>"; };
+		73C85E081726388C00D09AC5 /* FruitViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitViewCell.m; sourceTree = "<group>"; };
+		73C85E091726388C00D09AC5 /* QuestionResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionResultView.h; sourceTree = "<group>"; };
+		73C85E0A1726388C00D09AC5 /* QuestionResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionResultView.m; sourceTree = "<group>"; };
+		73C85E0B1726388C00D09AC5 /* ResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultView.h; sourceTree = "<group>"; };
+		73C85E0C1726388C00D09AC5 /* ResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultView.m; sourceTree = "<group>"; };
+		73C85E12172638A200D09AC5 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		73C85E13172638A200D09AC5 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		73C85E151726395E00D09AC5 /* LevelListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelListViewController.h; sourceTree = "<group>"; };
+		73C85E161726395E00D09AC5 /* LevelListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelListViewController.m; sourceTree = "<group>"; };
+		73C85E171726395E00D09AC5 /* LevelListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelListViewController.xib; sourceTree = "<group>"; };
+		73C85E1A172639C500D09AC5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		73C85E1C172639E000D09AC5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		73C85E1E172639EA00D09AC5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		73C85E20172639F700D09AC5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		73C85E2417263A4E00D09AC5 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		73C85E2717263A4E00D09AC5 /* passAllLevel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = passAllLevel.wav; sourceTree = "<group>"; };
+		73C85E2817263A4E00D09AC5 /* Clapping.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Clapping.wav; sourceTree = "<group>"; };
+		73C85E2917263A4E00D09AC5 /* Click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Click.wav; sourceTree = "<group>"; };
+		73C85E2A17263A4E00D09AC5 /* passLevel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = passLevel.wav; sourceTree = "<group>"; };
+		73C85E2D17263A4E00D09AC5 /* Ohh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ohh.wav; sourceTree = "<group>"; };
+		73C85E3117263A4E00D09AC5 /* plane.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = plane.tif; sourceTree = "<group>"; };
+		73C85E5017263BA400D09AC5 /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
+		73C85E5217263BAA00D09AC5 /* app-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon@2x.png"; sourceTree = "<group>"; };
+		73C85E5817264EF000D09AC5 /* LevelDescription.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LevelDescription.plist; sourceTree = "<group>"; };
+		73E653C51729126200AA2E31 /* trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophy.png; sourceTree = "<group>"; };
+		73E653C61729126200AA2E31 /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
+		73E653C917293DE300AA2E31 /* finish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = finish.wav; sourceTree = "<group>"; };
+		73EE3D7117278EC7005D2ACC /* ananas_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ananas_icon.png; sourceTree = "<group>"; };
+		73EE3D7217278EC7005D2ACC /* butter_scotch_ice_cream_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butter_scotch_ice_cream_icon.png; sourceTree = "<group>"; };
+		73EE3D7317278EC7005D2ACC /* cake_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cake_icon.png; sourceTree = "<group>"; };
+		73EE3D7417278EC7005D2ACC /* caramel_apple_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caramel_apple_icon.png; sourceTree = "<group>"; };
+		73EE3D7517278EC7005D2ACC /* cone_ice_cream_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cone_ice_cream_icon.png; sourceTree = "<group>"; };
+		73EE3D7617278EC7005D2ACC /* cotton_candy_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cotton_candy_icon.png; sourceTree = "<group>"; };
+		73EE3D7717278EC7005D2ACC /* french_fries_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = french_fries_icon.png; sourceTree = "<group>"; };
+		73EE3D7817278EC7005D2ACC /* red_apple_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_apple_icon.png; sourceTree = "<group>"; };
+		73EE3D7917278EC7005D2ACC /* rocket_pop_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket_pop_icon.png; sourceTree = "<group>"; };
+		73EE3D8317279078005D2ACC /* backGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backGround.jpg; sourceTree = "<group>"; };
+		73EE3D85172797D4005D2ACC /* homeScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeScreen.png; sourceTree = "<group>"; };
+		73EE3D87172799D2005D2ACC /* dazzleMath.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dazzleMath.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73C85DD3172637D600D09AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C85E1B172639C500D09AC5 /* AVFoundation.framework in Frameworks */,
+				73C85DDA172637D600D09AC5 /* UIKit.framework in Frameworks */,
+				73C85DDC172637D600D09AC5 /* Foundation.framework in Frameworks */,
+				73C85DDE172637D600D09AC5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73C85DCD172637D600D09AC5 = {
+			isa = PBXGroup;
+			children = (
+				73C85E5217263BAA00D09AC5 /* app-icon@2x.png */,
+				73C85E5017263BA400D09AC5 /* app-icon.png */,
+				73C85E20172639F700D09AC5 /* Default-568h@2x.png */,
+				73C85E1E172639EA00D09AC5 /* Default@2x.png */,
+				73C85E1C172639E000D09AC5 /* Default.png */,
+				73C85DDF172637D600D09AC5 /* Fun Multiplication For Kids */,
+				73C85DD8172637D600D09AC5 /* Frameworks */,
+				73C85DD7172637D600D09AC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73C85DD7172637D600D09AC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73C85DD6172637D600D09AC5 /* Fun Multiplication For Kids.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73C85DD8172637D600D09AC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73C85E1A172639C500D09AC5 /* AVFoundation.framework */,
+				73C85DD9172637D600D09AC5 /* UIKit.framework */,
+				73C85DDB172637D600D09AC5 /* Foundation.framework */,
+				73C85DDD172637D600D09AC5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73C85DDF172637D600D09AC5 /* Fun Multiplication For Kids */ = {
+			isa = PBXGroup;
+			children = (
+				73C85DF91726383600D09AC5 /* ViewController */,
+				73C85DF81726382D00D09AC5 /* View */,
+				73C85DF71726381C00D09AC5 /* Data */,
+				73C85DF61726381300D09AC5 /* Resources */,
+				73C85DE8172637D600D09AC5 /* AppDelegate.h */,
+				73C85DE9172637D600D09AC5 /* AppDelegate.m */,
+				73C85DE0172637D600D09AC5 /* Supporting Files */,
+			);
+			path = "Fun Multiplication For Kids";
+			sourceTree = "<group>";
+		};
+		73C85DE0172637D600D09AC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73C85DE1172637D600D09AC5 /* Fun Multiplication For Kids-Info.plist */,
+				73C85DE2172637D600D09AC5 /* InfoPlist.strings */,
+				73C85DE5172637D600D09AC5 /* main.m */,
+				73C85DE7172637D600D09AC5 /* Fun Multiplication For Kids-Prefix.pch */,
+				73C85DEB172637D600D09AC5 /* Default.png */,
+				73C85DED172637D600D09AC5 /* Default@2x.png */,
+				73C85DEF172637D700D09AC5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73C85DF61726381300D09AC5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73E653C917293DE300AA2E31 /* finish.wav */,
+				73E653C51729126200AA2E31 /* trophy.png */,
+				73E653C61729126200AA2E31 /* plane.png */,
+				73938A731727DEA600531326 /* professor2.png */,
+				73938A6F1727DC7700531326 /* professor1.png */,
+				73938A701727DC7700531326 /* professor4.png */,
+				73EE3D87172799D2005D2ACC /* dazzleMath.gif */,
+				73EE3D85172797D4005D2ACC /* homeScreen.png */,
+				73EE3D8317279078005D2ACC /* backGround.jpg */,
+				73EE3D7117278EC7005D2ACC /* ananas_icon.png */,
+				73EE3D7217278EC7005D2ACC /* butter_scotch_ice_cream_icon.png */,
+				73EE3D7317278EC7005D2ACC /* cake_icon.png */,
+				73EE3D7417278EC7005D2ACC /* caramel_apple_icon.png */,
+				73EE3D7517278EC7005D2ACC /* cone_ice_cream_icon.png */,
+				73EE3D7617278EC7005D2ACC /* cotton_candy_icon.png */,
+				73EE3D7717278EC7005D2ACC /* french_fries_icon.png */,
+				73EE3D7817278EC7005D2ACC /* red_apple_icon.png */,
+				73EE3D7917278EC7005D2ACC /* rocket_pop_icon.png */,
+				73C5CA7817269C2F0097F235 /* levelFail.mp3 */,
+				73C5CA7417268AD50097F235 /* Correct.png */,
+				73C5CA7517268AD50097F235 /* Wrong.png */,
+				73C85E2417263A4E00D09AC5 /* backButton.png */,
+				73C85E2717263A4E00D09AC5 /* passAllLevel.wav */,
+				73C85E2817263A4E00D09AC5 /* Clapping.wav */,
+				73C85E2917263A4E00D09AC5 /* Click.wav */,
+				73C85E2A17263A4E00D09AC5 /* passLevel.wav */,
+				73C85E2D17263A4E00D09AC5 /* Ohh.wav */,
+				73C85E3117263A4E00D09AC5 /* plane.tif */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		73C85DF71726381C00D09AC5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				73C85E041726388C00D09AC5 /* Fruit.plist */,
+				73C85E12172638A200D09AC5 /* Question.h */,
+				73C85E13172638A200D09AC5 /* Question.m */,
+				73C85E5817264EF000D09AC5 /* LevelDescription.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		73C85DF81726382D00D09AC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73C85E051726388C00D09AC5 /* FruitView.h */,
+				73C85E061726388C00D09AC5 /* FruitView.m */,
+				73C85E071726388C00D09AC5 /* FruitViewCell.h */,
+				73C85E081726388C00D09AC5 /* FruitViewCell.m */,
+				73C85E091726388C00D09AC5 /* QuestionResultView.h */,
+				73C85E0A1726388C00D09AC5 /* QuestionResultView.m */,
+				73C85E0B1726388C00D09AC5 /* ResultView.h */,
+				73C85E0C1726388C00D09AC5 /* ResultView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		73C85DF91726383600D09AC5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				73C85E151726395E00D09AC5 /* LevelListViewController.h */,
+				73C85E161726395E00D09AC5 /* LevelListViewController.m */,
+				73C85E171726395E00D09AC5 /* LevelListViewController.xib */,
+				73C85DFA1726385C00D09AC5 /* GameViewController.h */,
+				73C85DFB1726385C00D09AC5 /* GameViewController.m */,
+				73C85DFC1726385C00D09AC5 /* GameViewController.xib */,
+				73C85DFD1726385C00D09AC5 /* HomeScreenViewController.h */,
+				73C85DFE1726385C00D09AC5 /* HomeScreenViewController.m */,
+				73C85DFF1726385C00D09AC5 /* HomeScreenViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73C85DD5172637D600D09AC5 /* Fun Multiplication For Kids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73C85DF3172637D700D09AC5 /* Build configuration list for PBXNativeTarget "Fun Multiplication For Kids" */;
+			buildPhases = (
+				73C85DD2172637D600D09AC5 /* Sources */,
+				73C85DD3172637D600D09AC5 /* Frameworks */,
+				73C85DD4172637D600D09AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fun Multiplication For Kids";
+			productName = "Fun Multiplication For Kids";
+			productReference = 73C85DD6172637D600D09AC5 /* Fun Multiplication For Kids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73C85DCE172637D600D09AC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Thanh Dao";
+			};
+			buildConfigurationList = 73C85DD1172637D600D09AC5 /* Build configuration list for PBXProject "Fun Multiplication For Kids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 73C85DCD172637D600D09AC5;
+			productRefGroup = 73C85DD7172637D600D09AC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73C85DD5172637D600D09AC5 /* Fun Multiplication For Kids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73C85DD4172637D600D09AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C85DE4172637D600D09AC5 /* InfoPlist.strings in Resources */,
+				73C85DEC172637D600D09AC5 /* Default.png in Resources */,
+				73C85DEE172637D600D09AC5 /* Default@2x.png in Resources */,
+				73C85DF0172637D700D09AC5 /* Default-568h@2x.png in Resources */,
+				73C85E011726385C00D09AC5 /* GameViewController.xib in Resources */,
+				73C85E031726385C00D09AC5 /* HomeScreenViewController.xib in Resources */,
+				73C85E0D1726388C00D09AC5 /* Fruit.plist in Resources */,
+				73C85E191726395E00D09AC5 /* LevelListViewController.xib in Resources */,
+				73C85E1D172639E000D09AC5 /* Default.png in Resources */,
+				73C85E1F172639EA00D09AC5 /* Default@2x.png in Resources */,
+				73C85E21172639F700D09AC5 /* Default-568h@2x.png in Resources */,
+				73C85E3B17263A4E00D09AC5 /* backButton.png in Resources */,
+				73C85E3E17263A4E00D09AC5 /* passAllLevel.wav in Resources */,
+				73C85E3F17263A4E00D09AC5 /* Clapping.wav in Resources */,
+				73C85E4017263A4E00D09AC5 /* Click.wav in Resources */,
+				73C85E4117263A4E00D09AC5 /* passLevel.wav in Resources */,
+				73C85E4417263A4E00D09AC5 /* Ohh.wav in Resources */,
+				73C85E4817263A4E00D09AC5 /* plane.tif in Resources */,
+				73C85E5117263BA400D09AC5 /* app-icon.png in Resources */,
+				73C85E5317263BAA00D09AC5 /* app-icon@2x.png in Resources */,
+				73C85E5917264EF000D09AC5 /* LevelDescription.plist in Resources */,
+				73C5CA7617268AD50097F235 /* Correct.png in Resources */,
+				73C5CA7717268AD50097F235 /* Wrong.png in Resources */,
+				73C5CA7917269C2F0097F235 /* levelFail.mp3 in Resources */,
+				73EE3D7A17278EC7005D2ACC /* ananas_icon.png in Resources */,
+				73EE3D7B17278EC7005D2ACC /* butter_scotch_ice_cream_icon.png in Resources */,
+				73EE3D7C17278EC7005D2ACC /* cake_icon.png in Resources */,
+				73EE3D7D17278EC7005D2ACC /* caramel_apple_icon.png in Resources */,
+				73EE3D7E17278EC7005D2ACC /* cone_ice_cream_icon.png in Resources */,
+				73EE3D7F17278EC7005D2ACC /* cotton_candy_icon.png in Resources */,
+				73EE3D8017278EC7005D2ACC /* french_fries_icon.png in Resources */,
+				73EE3D8117278EC7005D2ACC /* red_apple_icon.png in Resources */,
+				73EE3D8217278EC7005D2ACC /* rocket_pop_icon.png in Resources */,
+				73EE3D8417279078005D2ACC /* backGround.jpg in Resources */,
+				73EE3D86172797D4005D2ACC /* homeScreen.png in Resources */,
+				73EE3D88172799D2005D2ACC /* dazzleMath.gif in Resources */,
+				73938A711727DC7700531326 /* professor1.png in Resources */,
+				73938A721727DC7700531326 /* professor4.png in Resources */,
+				73938A741727DEA600531326 /* professor2.png in Resources */,
+				73E653C71729126200AA2E31 /* trophy.png in Resources */,
+				73E653C81729126200AA2E31 /* plane.png in Resources */,
+				73E653CA17293DE300AA2E31 /* finish.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73C85DD2172637D600D09AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C85DE6172637D600D09AC5 /* main.m in Sources */,
+				73C85DEA172637D600D09AC5 /* AppDelegate.m in Sources */,
+				73C85E001726385C00D09AC5 /* GameViewController.m in Sources */,
+				73C85E021726385C00D09AC5 /* HomeScreenViewController.m in Sources */,
+				73C85E0E1726388C00D09AC5 /* FruitView.m in Sources */,
+				73C85E0F1726388C00D09AC5 /* FruitViewCell.m in Sources */,
+				73C85E101726388C00D09AC5 /* QuestionResultView.m in Sources */,
+				73C85E111726388C00D09AC5 /* ResultView.m in Sources */,
+				73C85E14172638A200D09AC5 /* Question.m in Sources */,
+				73C85E181726395E00D09AC5 /* LevelListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73C85DE2172637D600D09AC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73C85DE3172637D600D09AC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73C85DF1172637D700D09AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73C85DF2172637D700D09AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73C85DF4172637D700D09AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fun Multiplication For Kids/Fun Multiplication For Kids-Prefix.pch";
+				INFOPLIST_FILE = "Fun Multiplication For Kids/Fun Multiplication For Kids-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		73C85DF5172637D700D09AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fun Multiplication For Kids/Fun Multiplication For Kids-Prefix.pch";
+				INFOPLIST_FILE = "Fun Multiplication For Kids/Fun Multiplication For Kids-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73C85DD1172637D600D09AC5 /* Build configuration list for PBXProject "Fun Multiplication For Kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73C85DF1172637D700D09AC5 /* Debug */,
+				73C85DF2172637D700D09AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73C85DF3172637D700D09AC5 /* Build configuration list for PBXNativeTarget "Fun Multiplication For Kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73C85DF4172637D700D09AC5 /* Debug */,
+				73C85DF5172637D700D09AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73C85DCE172637D600D09AC5 /* Project object */;
+}

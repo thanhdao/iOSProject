@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dd/de3/interface_reader_content_view" kind="class" prot="public">
+    <compoundname>ReaderContentView</compoundname>
+    <basecompoundref refid="d0/dd4/class_u_i_scroll_view" prot="public" virt="non-virtual">UIScrollView</basecompoundref>
+    <basecompoundref refid="d6/dde/class_u_i_scroll_view_delegate-p" prot="public" virt="non-virtual">&lt;UIScrollViewDelegate&gt;</basecompoundref>
+    <includes refid="da/dd6/_reader_content_view_8h" local="no">ReaderContentView.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="dd/de3/interface_reader_content_view_1abbbb9c4881d98915cb299e3f903b9719" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>id&lt; <ref refid="d5/d7d/protocol_reader_content_view_delegate-p" kindref="compound">ReaderContentViewDelegate</ref> &gt;</type>
+        <definition>id&lt;ReaderContentViewDelegate&gt; ReaderContentView::message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" line="44" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/de3/interface_reader_content_view_1ac045875376b7c51f37c2ee946f9c3de4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ReaderContentView::initWithFrame:fileURL:page:password:</definition>
+        <argsstring>(CGRect frame,[fileURL] NSURL *fileURL,[page] NSUInteger page,[password] NSString *phrase)</argsstring>
+        <name>initWithFrame:fileURL:page:password:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <attributes>[fileURL]</attributes>
+          <type>NSURL *</type>
+          <declname>fileURL</declname>
+        </param>
+        <param>
+          <attributes>[page]</attributes>
+          <type>NSUInteger</type>
+          <declname>page</declname>
+        </param>
+        <param>
+          <attributes>[password]</attributes>
+          <type>NSString *</type>
+          <declname>phrase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" line="46" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" bodystart="89" bodyend="152"/>
+        <references refid="d0/dfc/_reader_content_view_8m_1a9b4d22a4b9ff601bf1f349fd74b5153d" compoundref="d0/dfc/_reader_content_view_8m" startline="39">theContainerView</references>
+        <references refid="d0/dfc/_reader_content_view_8m_1a3cde7c414f32ec6318a25dd6ab15838b" compoundref="d0/dfc/_reader_content_view_8m" startline="49">CONTENT_INSET</references>
+        <references refid="d0/dfc/_reader_content_view_8m_1a43bbdfc8c7e72c062123df3990bbd296" compoundref="d0/dfc/_reader_content_view_8m" startline="34">theThumbView</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/de3/interface_reader_content_view_1a952138f340db971d89ca8f455c20eda8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderContentView::showPageThumb:page:password:guid:</definition>
+        <argsstring>(NSURL *fileURL,[page] NSInteger page,[password] NSString *phrase,[guid] NSString *guid)</argsstring>
+        <name>showPageThumb:page:password:guid:</name>
+        <param>
+          <type>NSURL *</type>
+          <declname>fileURL</declname>
+        </param>
+        <param>
+          <attributes>[page]</attributes>
+          <type>NSInteger</type>
+          <declname>page</declname>
+        </param>
+        <param>
+          <attributes>[password]</attributes>
+          <type>NSString *</type>
+          <declname>phrase</declname>
+        </param>
+        <param>
+          <attributes>[guid]</attributes>
+          <type>NSString *</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" line="48" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" bodystart="161" bodyend="176"/>
+        <references refid="d0/dfc/_reader_content_view_8m_1a3743fb19ca662d805f3189a296804910" compoundref="d0/dfc/_reader_content_view_8m" startline="54">PAGE_THUMB_LARGE</references>
+        <references refid="d0/dfc/_reader_content_view_8m_1aee64ce469e56253e26100e37ae359664" compoundref="d0/dfc/_reader_content_view_8m" startline="55">PAGE_THUMB_SMALL</references>
+        <references refid="dc/dc5/interface_reader_thumb_request_1aceedc8df03338e125e8e6872e46080bf" compoundref="dc/d88/_reader_thumb_request_8m" startline="67" endline="70">ReaderThumbRequest::newForView:fileURL:password:guid:page:size:</references>
+        <references refid="da/d97/interface_reader_thumb_cache_1a5254f54ac18877ab24f532abedf47e6e" compoundref="db/d21/_reader_thumb_cache_8m" startline="42" endline="51">ReaderThumbCache::sharedInstance</references>
+        <references refid="da/d97/interface_reader_thumb_cache_1a4471faa4bdb367b02aeed4da49af7e4b" compoundref="db/d21/_reader_thumb_cache_8m" startline="164" endline="187">ReaderThumbCache::thumbRequest:priority:</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/de3/interface_reader_content_view_1ace7f8325b0e739649fe9aab17a15b66a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ReaderContentView::processSingleTap:</definition>
+        <argsstring>(UITapGestureRecognizer *recognizer)</argsstring>
+        <name>processSingleTap:</name>
+        <param>
+          <type>UITapGestureRecognizer *</type>
+          <declname>recognizer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" line="50" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" bodystart="230" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/de3/interface_reader_content_view_1af43ce1f20e44310bfc790100ed823d37" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderContentView::zoomIncrement</definition>
+        <argsstring>()</argsstring>
+        <name>zoomIncrement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" line="52" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" bodystart="235" bodyend="250"/>
+        <references refid="d0/dfc/_reader_content_view_8m_1afaa77712cb340ee34fc56eb5b926d98d" compoundref="d0/dfc/_reader_content_view_8m" startline="41">zoomAmount</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/de3/interface_reader_content_view_1a9045f28f0f226225b3da62941522252d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderContentView::zoomDecrement</definition>
+        <argsstring>()</argsstring>
+        <name>zoomDecrement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" line="53" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" bodystart="252" bodyend="267"/>
+        <references refid="d0/dfc/_reader_content_view_8m_1afaa77712cb340ee34fc56eb5b926d98d" compoundref="d0/dfc/_reader_content_view_8m" startline="41">zoomAmount</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/de3/interface_reader_content_view_1a771f0b83553366bd863f9c5b00db4808" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderContentView::zoomReset</definition>
+        <argsstring>()</argsstring>
+        <name>zoomReset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" line="54" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.m" bodystart="269" bodyend="275"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="476">
+        <label>ReaderContentView</label>
+        <link refid="dd/de3/interface_reader_content_view"/>
+        <childnode refid="477" relation="public-inheritance">
+        </childnode>
+        <childnode refid="478" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="478">
+        <label>&lt;UIScrollViewDelegate&gt;</label>
+        <link refid="d6/dde/class_u_i_scroll_view_delegate-p"/>
+      </node>
+      <node id="477">
+        <label>UIScrollView</label>
+        <link refid="d0/dd4/class_u_i_scroll_view"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="479">
+        <label>ReaderContentView</label>
+        <link refid="dd/de3/interface_reader_content_view"/>
+        <childnode refid="480" relation="public-inheritance">
+        </childnode>
+        <childnode refid="481" relation="public-inheritance">
+        </childnode>
+        <childnode refid="482" relation="usage">
+          <edgelabel>message</edgelabel>
+        </childnode>
+      </node>
+      <node id="481">
+        <label>&lt;UIScrollViewDelegate&gt;</label>
+        <link refid="d6/dde/class_u_i_scroll_view_delegate-p"/>
+      </node>
+      <node id="480">
+        <label>UIScrollView</label>
+        <link refid="d0/dd4/class_u_i_scroll_view"/>
+      </node>
+      <node id="482">
+        <label>id&lt; ReaderContentViewDelegate-p &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" line="42" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderContentView.h" bodystart="42" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="dd/de3/interface_reader_content_view_1ac045875376b7c51f37c2ee946f9c3de4" prot="public" virt="virtual"><scope>ReaderContentView</scope><name>initWithFrame:fileURL:page:password:</name></member>
+      <member refid="dd/de3/interface_reader_content_view_1abbbb9c4881d98915cb299e3f903b9719" prot="public" virt="non-virtual"><scope>ReaderContentView</scope><name>message</name></member>
+      <member refid="dd/de3/interface_reader_content_view_1ace7f8325b0e739649fe9aab17a15b66a" prot="public" virt="virtual"><scope>ReaderContentView</scope><name>processSingleTap:</name></member>
+      <member refid="dd/de3/interface_reader_content_view_1a952138f340db971d89ca8f455c20eda8" prot="public" virt="virtual"><scope>ReaderContentView</scope><name>showPageThumb:page:password:guid:</name></member>
+      <member refid="dd/de3/interface_reader_content_view_1a9045f28f0f226225b3da62941522252d" prot="public" virt="virtual"><scope>ReaderContentView</scope><name>zoomDecrement</name></member>
+      <member refid="dd/de3/interface_reader_content_view_1af43ce1f20e44310bfc790100ed823d37" prot="public" virt="virtual"><scope>ReaderContentView</scope><name>zoomIncrement</name></member>
+      <member refid="dd/de3/interface_reader_content_view_1a771f0b83553366bd863f9c5b00db4808" prot="public" virt="virtual"><scope>ReaderContentView</scope><name>zoomReset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

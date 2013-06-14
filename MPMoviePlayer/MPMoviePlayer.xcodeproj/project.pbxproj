@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		731581481755A83C002032AA /* Subtitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 731581471755A83C002032AA /* Subtitle.m */; };
+		7315814A1755A87E002032AA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731581491755A87E002032AA /* MediaPlayer.framework */; };
+		7315814C1755A88C002032AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7315814B1755A88B002032AA /* QuartzCore.framework */; };
+		73D0C4851756F35900F96775 /* SubtitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D0C4841756F35900F96775 /* SubtitleViewController.m */; };
+		73F29F271754549000C208B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F29F261754549000C208B9 /* UIKit.framework */; };
+		73F29F291754549000C208B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F29F281754549000C208B9 /* Foundation.framework */; };
+		73F29F2B1754549000C208B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F29F2A1754549000C208B9 /* CoreGraphics.framework */; };
+		73F29F311754549000C208B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73F29F2F1754549000C208B9 /* InfoPlist.strings */; };
+		73F29F331754549000C208B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F29F321754549000C208B9 /* main.m */; };
+		73F29F371754549000C208B9 /* MoviePlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F29F361754549000C208B9 /* MoviePlayerAppDelegate.m */; };
+		73F29F391754549000C208B9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F29F381754549000C208B9 /* Default.png */; };
+		73F29F3B1754549000C208B9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F29F3A1754549000C208B9 /* Default@2x.png */; };
+		73F29F3D1754549000C208B9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F29F3C1754549000C208B9 /* Default-568h@2x.png */; };
+		73F29F401754549000C208B9 /* MoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F29F3F1754549000C208B9 /* MoviePlayerViewController.m */; };
+		73F29F431754549000C208B9 /* MoviePlayerViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F29F411754549000C208B9 /* MoviePlayerViewController_iPhone.xib */; };
+		73F29F461754549000C208B9 /* MoviePlayerViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F29F441754549000C208B9 /* MoviePlayerViewController_iPad.xib */; };
+		73FC81C8175601BB00454F4D /* Beautiful.Creatures.2013.720p.WEB-DL.X264-WEBiOS_clip1.srt in Resources */ = {isa = PBXBuildFile; fileRef = 73FC81C7175601BB00454F4D /* Beautiful.Creatures.2013.720p.WEB-DL.X264-WEBiOS_clip1.srt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		731581461755A83C002032AA /* Subtitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subtitle.h; sourceTree = "<group>"; };
+		731581471755A83C002032AA /* Subtitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subtitle.m; sourceTree = "<group>"; };
+		731581491755A87E002032AA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7315814B1755A88B002032AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		73D0C4831756F35900F96775 /* SubtitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtitleViewController.h; sourceTree = "<group>"; };
+		73D0C4841756F35900F96775 /* SubtitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtitleViewController.m; sourceTree = "<group>"; };
+		73F29F231754549000C208B9 /* MPMoviePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPMoviePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F29F261754549000C208B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		73F29F281754549000C208B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73F29F2A1754549000C208B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		73F29F2E1754549000C208B9 /* MPMoviePlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPMoviePlayer-Info.plist"; sourceTree = "<group>"; };
+		73F29F301754549000C208B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73F29F321754549000C208B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73F29F341754549000C208B9 /* MPMoviePlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPMoviePlayer-Prefix.pch"; sourceTree = "<group>"; };
+		73F29F351754549000C208B9 /* MoviePlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviePlayerAppDelegate.h; sourceTree = "<group>"; };
+		73F29F361754549000C208B9 /* MoviePlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerAppDelegate.m; sourceTree = "<group>"; };
+		73F29F381754549000C208B9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		73F29F3A1754549000C208B9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		73F29F3C1754549000C208B9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		73F29F3E1754549000C208B9 /* MoviePlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviePlayerViewController.h; sourceTree = "<group>"; };
+		73F29F3F1754549000C208B9 /* MoviePlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerViewController.m; sourceTree = "<group>"; };
+		73F29F421754549000C208B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MoviePlayerViewController_iPhone.xib; sourceTree = "<group>"; };
+		73F29F451754549000C208B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MoviePlayerViewController_iPad.xib; sourceTree = "<group>"; };
+		73FC81C7175601BB00454F4D /* Beautiful.Creatures.2013.720p.WEB-DL.X264-WEBiOS_clip1.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Beautiful.Creatures.2013.720p.WEB-DL.X264-WEBiOS_clip1.srt"; sourceTree = "<group>"; };
+		73FC81C91756073B00454F4D /* MacroUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroUtilities.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73F29F201754549000C208B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7315814C1755A88C002032AA /* QuartzCore.framework in Frameworks */,
+				7315814A1755A87E002032AA /* MediaPlayer.framework in Frameworks */,
+				73F29F271754549000C208B9 /* UIKit.framework in Frameworks */,
+				73F29F291754549000C208B9 /* Foundation.framework in Frameworks */,
+				73F29F2B1754549000C208B9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73F29F1A1754549000C208B9 = {
+			isa = PBXGroup;
+			children = (
+				73D0C4831756F35900F96775 /* SubtitleViewController.h */,
+				73D0C4841756F35900F96775 /* SubtitleViewController.m */,
+				73FC81C7175601BB00454F4D /* Beautiful.Creatures.2013.720p.WEB-DL.X264-WEBiOS_clip1.srt */,
+				731581461755A83C002032AA /* Subtitle.h */,
+				731581471755A83C002032AA /* Subtitle.m */,
+				73F29F2C1754549000C208B9 /* MPMoviePlayer */,
+				73F29F251754549000C208B9 /* Frameworks */,
+				73F29F241754549000C208B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73F29F241754549000C208B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73F29F231754549000C208B9 /* MPMoviePlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73F29F251754549000C208B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7315814B1755A88B002032AA /* QuartzCore.framework */,
+				731581491755A87E002032AA /* MediaPlayer.framework */,
+				73F29F261754549000C208B9 /* UIKit.framework */,
+				73F29F281754549000C208B9 /* Foundation.framework */,
+				73F29F2A1754549000C208B9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73F29F2C1754549000C208B9 /* MPMoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				73F29F351754549000C208B9 /* MoviePlayerAppDelegate.h */,
+				73F29F361754549000C208B9 /* MoviePlayerAppDelegate.m */,
+				73F29F3E1754549000C208B9 /* MoviePlayerViewController.h */,
+				73F29F3F1754549000C208B9 /* MoviePlayerViewController.m */,
+				73F29F411754549000C208B9 /* MoviePlayerViewController_iPhone.xib */,
+				73F29F441754549000C208B9 /* MoviePlayerViewController_iPad.xib */,
+				73FC81C91756073B00454F4D /* MacroUtilities.h */,
+				73F29F2D1754549000C208B9 /* Supporting Files */,
+			);
+			path = MPMoviePlayer;
+			sourceTree = "<group>";
+		};
+		73F29F2D1754549000C208B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73F29F2E1754549000C208B9 /* MPMoviePlayer-Info.plist */,
+				73F29F2F1754549000C208B9 /* InfoPlist.strings */,
+				73F29F321754549000C208B9 /* main.m */,
+				73F29F341754549000C208B9 /* MPMoviePlayer-Prefix.pch */,
+				73F29F381754549000C208B9 /* Default.png */,
+				73F29F3A1754549000C208B9 /* Default@2x.png */,
+				73F29F3C1754549000C208B9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73F29F221754549000C208B9 /* MPMoviePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73F29F491754549000C208B9 /* Build configuration list for PBXNativeTarget "MPMoviePlayer" */;
+			buildPhases = (
+				73F29F1F1754549000C208B9 /* Sources */,
+				73F29F201754549000C208B9 /* Frameworks */,
+				73F29F211754549000C208B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPMoviePlayer;
+			productName = MPMoviePlayer;
+			productReference = 73F29F231754549000C208B9 /* MPMoviePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73F29F1B1754549000C208B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MoviePlayer;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Thanh Dao";
+			};
+			buildConfigurationList = 73F29F1E1754549000C208B9 /* Build configuration list for PBXProject "MPMoviePlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 73F29F1A1754549000C208B9;
+			productRefGroup = 73F29F241754549000C208B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73F29F221754549000C208B9 /* MPMoviePlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73F29F211754549000C208B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F29F311754549000C208B9 /* InfoPlist.strings in Resources */,
+				73F29F391754549000C208B9 /* Default.png in Resources */,
+				73F29F3B1754549000C208B9 /* Default@2x.png in Resources */,
+				73F29F3D1754549000C208B9 /* Default-568h@2x.png in Resources */,
+				73F29F431754549000C208B9 /* MoviePlayerViewController_iPhone.xib in Resources */,
+				73F29F461754549000C208B9 /* MoviePlayerViewController_iPad.xib in Resources */,
+				73FC81C8175601BB00454F4D /* Beautiful.Creatures.2013.720p.WEB-DL.X264-WEBiOS_clip1.srt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73F29F1F1754549000C208B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F29F331754549000C208B9 /* main.m in Sources */,
+				73F29F371754549000C208B9 /* MoviePlayerAppDelegate.m in Sources */,
+				73F29F401754549000C208B9 /* MoviePlayerViewController.m in Sources */,
+				731581481755A83C002032AA /* Subtitle.m in Sources */,
+				73D0C4851756F35900F96775 /* SubtitleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73F29F2F1754549000C208B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73F29F301754549000C208B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		73F29F411754549000C208B9 /* MoviePlayerViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73F29F421754549000C208B9 /* en */,
+			);
+			name = MoviePlayerViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		73F29F441754549000C208B9 /* MoviePlayerViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73F29F451754549000C208B9 /* en */,
+			);
+			name = MoviePlayerViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73F29F471754549000C208B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73F29F481754549000C208B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73F29F4A1754549000C208B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPMoviePlayer/MPMoviePlayer-Prefix.pch";
+				INFOPLIST_FILE = "MPMoviePlayer/MPMoviePlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		73F29F4B1754549000C208B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPMoviePlayer/MPMoviePlayer-Prefix.pch";
+				INFOPLIST_FILE = "MPMoviePlayer/MPMoviePlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73F29F1E1754549000C208B9 /* Build configuration list for PBXProject "MPMoviePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73F29F471754549000C208B9 /* Debug */,
+				73F29F481754549000C208B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73F29F491754549000C208B9 /* Build configuration list for PBXNativeTarget "MPMoviePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73F29F4A1754549000C208B9 /* Debug */,
+				73F29F4B1754549000C208B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73F29F1B1754549000C208B9 /* Project object */;
+}

@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d9/d3a/protocol_reader_thumbs_view_delegate-p" kind="protocol" prot="public" abstract="yes">
+    <compoundname>ReaderThumbsViewDelegate-p</compoundname>
+    <basecompoundref refid="d0/d10/class_n_s_object-p" prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <basecompoundref refid="d6/dde/class_u_i_scroll_view_delegate-p" prot="public" virt="non-virtual">&lt;UIScrollViewDelegate&gt;</basecompoundref>
+    <derivedcompoundref refid="d3/d8f/category_thumbs_view_controller_07_08" prot="public" virt="non-virtual">ThumbsViewController()</derivedcompoundref>
+    <includes refid="d8/dce/_reader_thumbs_view_8h" local="no">ReaderThumbsView.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a7994669387eb329edb3aad761710786f" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>NSUInteger</type>
+        <definition>NSUInteger ReaderThumbsViewDelegate-p::numberOfThumbsInThumbsView:</definition>
+        <argsstring>(ReaderThumbsView *thumbsView)</argsstring>
+        <name>numberOfThumbsInThumbsView:</name>
+        <param>
+          <type><ref refid="dd/df8/interface_reader_thumbs_view" kindref="compound">ReaderThumbsView</ref> *</type>
+          <declname>thumbsView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a2f8cd902ac375053c12c2c2745d6296e" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>id</type>
+        <definition>id ReaderThumbsViewDelegate-p::thumbsView:thumbCellWithFrame:</definition>
+        <argsstring>(ReaderThumbsView *thumbsView,[thumbCellWithFrame] CGRect frame)</argsstring>
+        <name>thumbsView:thumbCellWithFrame:</name>
+        <param>
+          <type><ref refid="dd/df8/interface_reader_thumbs_view" kindref="compound">ReaderThumbsView</ref> *</type>
+          <declname>thumbsView</declname>
+        </param>
+        <param>
+          <attributes>[thumbCellWithFrame]</attributes>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a0e775cbe6eac2c4f29090ef56087a626" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbsViewDelegate-p::thumbsView:updateThumbCell:forIndex:</definition>
+        <argsstring>(ReaderThumbsView *thumbsView,[updateThumbCell] id thumbCell,[forIndex] NSInteger index)</argsstring>
+        <name>thumbsView:updateThumbCell:forIndex:</name>
+        <param>
+          <type><ref refid="dd/df8/interface_reader_thumbs_view" kindref="compound">ReaderThumbsView</ref> *</type>
+          <declname>thumbsView</declname>
+        </param>
+        <param>
+          <attributes>[updateThumbCell]</attributes>
+          <type>id</type>
+          <declname>thumbCell</declname>
+        </param>
+        <param>
+          <attributes>[forIndex]</attributes>
+          <type>NSInteger</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a664c8fd8faf6f277cbcb3287aeecf26f" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbsViewDelegate-p::thumbsView:didSelectThumbWithIndex:</definition>
+        <argsstring>(ReaderThumbsView *thumbsView,[didSelectThumbWithIndex] NSInteger index)</argsstring>
+        <name>thumbsView:didSelectThumbWithIndex:</name>
+        <param>
+          <type><ref refid="dd/df8/interface_reader_thumbs_view" kindref="compound">ReaderThumbsView</ref> *</type>
+          <declname>thumbsView</declname>
+        </param>
+        <param>
+          <attributes>[didSelectThumbWithIndex]</attributes>
+          <type>NSInteger</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a358c8c70944eedb2986383076b98ca94" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbsViewDelegate-p::thumbsView:refreshThumbCell:forIndex:</definition>
+        <argsstring>(ReaderThumbsView *thumbsView,[refreshThumbCell] id thumbCell,[forIndex] NSInteger index)</argsstring>
+        <name>thumbsView:refreshThumbCell:forIndex:</name>
+        <param>
+          <type><ref refid="dd/df8/interface_reader_thumbs_view" kindref="compound">ReaderThumbsView</ref> *</type>
+          <declname>thumbsView</declname>
+        </param>
+        <param>
+          <attributes>[refreshThumbCell]</attributes>
+          <type>id</type>
+          <declname>thumbCell</declname>
+        </param>
+        <param>
+          <attributes>[forIndex]</attributes>
+          <type>NSInteger</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a958b9247665abef986a150f1320b7048" prot="public" static="no" const="no" explicit="no" inline="no" optional="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderThumbsViewDelegate-p::thumbsView:didPressThumbWithIndex:</definition>
+        <argsstring>(ReaderThumbsView *thumbsView,[didPressThumbWithIndex] NSInteger index)</argsstring>
+        <name>thumbsView:didPressThumbWithIndex:</name>
+        <param>
+          <type><ref refid="dd/df8/interface_reader_thumbs_view" kindref="compound">ReaderThumbsView</ref> *</type>
+          <declname>thumbsView</declname>
+        </param>
+        <param>
+          <attributes>[didPressThumbWithIndex]</attributes>
+          <type>NSInteger</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" line="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="623">
+        <label>ThumbsViewController()</label>
+        <link refid="d3/d8f/category_thumbs_view_controller_07_08"/>
+        <childnode refid="620" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="622">
+        <label>&lt;UIScrollViewDelegate&gt;</label>
+        <link refid="d6/dde/class_u_i_scroll_view_delegate-p"/>
+      </node>
+      <node id="620">
+        <label>&lt;ReaderThumbsViewDelegate&gt;</label>
+        <link refid="d9/d3a/protocol_reader_thumbs_view_delegate-p"/>
+        <childnode refid="621" relation="public-inheritance">
+        </childnode>
+        <childnode refid="622" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="621">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="626">
+        <label>&lt;UIScrollViewDelegate&gt;</label>
+        <link refid="d6/dde/class_u_i_scroll_view_delegate-p"/>
+      </node>
+      <node id="624">
+        <label>&lt;ReaderThumbsViewDelegate&gt;</label>
+        <link refid="d9/d3a/protocol_reader_thumbs_view_delegate-p"/>
+        <childnode refid="625" relation="public-inheritance">
+        </childnode>
+        <childnode refid="626" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="625">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" line="32" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderThumbsView.h" bodystart="32" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a7994669387eb329edb3aad761710786f" prot="public" virt="virtual"><scope>ReaderThumbsViewDelegate-p</scope><name>numberOfThumbsInThumbsView:</name></member>
+      <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a958b9247665abef986a150f1320b7048" prot="public" virt="virtual"><scope>ReaderThumbsViewDelegate-p</scope><name>thumbsView:didPressThumbWithIndex:</name></member>
+      <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a664c8fd8faf6f277cbcb3287aeecf26f" prot="public" virt="virtual"><scope>ReaderThumbsViewDelegate-p</scope><name>thumbsView:didSelectThumbWithIndex:</name></member>
+      <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a358c8c70944eedb2986383076b98ca94" prot="public" virt="virtual"><scope>ReaderThumbsViewDelegate-p</scope><name>thumbsView:refreshThumbCell:forIndex:</name></member>
+      <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a2f8cd902ac375053c12c2c2745d6296e" prot="public" virt="virtual"><scope>ReaderThumbsViewDelegate-p</scope><name>thumbsView:thumbCellWithFrame:</name></member>
+      <member refid="d9/d3a/protocol_reader_thumbs_view_delegate-p_1a0e775cbe6eac2c4f29090ef56087a626" prot="public" virt="virtual"><scope>ReaderThumbsViewDelegate-p</scope><name>thumbsView:updateThumbCell:forIndex:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d8/da4/category_document_outline_entry_07_08" kind="category" prot="public">
+    <compoundname>DocumentOutlineEntry()</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d8/da4/category_document_outline_entry_07_08_1a528b075edd4071b08259d6012a2040af" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="assign">
+        <type>NSInteger</type>
+        <definition>NSInteger DocumentOutlineEntry()::level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.m" line="417" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.m" bodystart="417" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/da4/category_document_outline_entry_07_08_1ab0bc837797c044f995cd199643689617" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* DocumentOutlineEntry()::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.m" line="418" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.m" bodystart="418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/da4/category_document_outline_entry_07_08_1a9da4d185e33f0c043de7420cd009f8dd" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>id</type>
+        <definition>id DocumentOutlineEntry()::target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.m" line="419" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.m" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="396">
+        <label>NSInteger</label>
+      </node>
+      <node id="397">
+        <label>NSString *</label>
+      </node>
+      <node id="395">
+        <label>DocumentOutlineEntry()</label>
+        <link refid="d8/da4/category_document_outline_entry_07_08"/>
+        <childnode refid="396" relation="usage">
+          <edgelabel>level</edgelabel>
+        </childnode>
+        <childnode refid="397" relation="usage">
+          <edgelabel>title</edgelabel>
+        </childnode>
+        <childnode refid="398" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+      </node>
+      <node id="398">
+        <label>id</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.m" line="415" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.m" bodystart="415" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d8/da4/category_document_outline_entry_07_08_1a528b075edd4071b08259d6012a2040af" prot="public" virt="non-virtual"><scope>DocumentOutlineEntry()</scope><name>level</name></member>
+      <member refid="d8/da4/category_document_outline_entry_07_08_1a9da4d185e33f0c043de7420cd009f8dd" prot="public" virt="non-virtual"><scope>DocumentOutlineEntry()</scope><name>target</name></member>
+      <member refid="d8/da4/category_document_outline_entry_07_08_1ab0bc837797c044f995cd199643689617" prot="public" virt="non-virtual"><scope>DocumentOutlineEntry()</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

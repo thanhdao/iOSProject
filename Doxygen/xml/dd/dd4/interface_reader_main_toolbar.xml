@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dd/dd4/interface_reader_main_toolbar" kind="class" prot="public">
+    <compoundname>ReaderMainToolbar</compoundname>
+    <basecompoundref refid="d3/dea/interface_u_i_x_toolbar_view" prot="public" virt="non-virtual">UIXToolbarView</basecompoundref>
+    <includes refid="db/d57/_reader_main_toolbar_8h" local="no">ReaderMainToolbar.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="dd/dd4/interface_reader_main_toolbar_1ac49604961559e4c0f54d137e63af866b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>id&lt; <ref refid="dd/db6/protocol_reader_main_toolbar_delegate-p" kindref="compound">ReaderMainToolbarDelegate</ref> &gt;</type>
+        <definition>id&lt;ReaderMainToolbarDelegate&gt; ReaderMainToolbar::delegate</definition>
+        <argsstring></argsstring>
+        <name>delegate</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.h" line="47" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/dd4/interface_reader_main_toolbar_1a044759c7364bd9a7a581e3bdf5e1d5d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ReaderMainToolbar::initWithFrame:document:</definition>
+        <argsstring>(CGRect frame,[document] ReaderDocument *object)</argsstring>
+        <name>initWithFrame:document:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <attributes>[document]</attributes>
+          <type><ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.h" line="49" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.m" bodystart="66" bodyend="222"/>
+        <references refid="dc/d5a/_reader_main_toolbar_8m_1aa00c852ab240ccfc4717b66f0dddeeb0" compoundref="dc/d5a/_reader_main_toolbar_8m" startline="42">BUTTON_X</references>
+        <references refid="dc/d5a/_reader_main_toolbar_8m_1ae828609252069795563592f52c8f0ff1" compoundref="dc/d5a/_reader_main_toolbar_8m" startline="43">BUTTON_Y</references>
+        <references refid="dc/d5a/_reader_main_toolbar_8m_1af073b8929e9fb751d249916260bbca28" compoundref="dc/d5a/_reader_main_toolbar_8m" startline="47">DONE_BUTTON_WIDTH</references>
+        <references refid="dc/d5a/_reader_main_toolbar_8m_1a94be6e055d514b19c7cb5f56f492f016" compoundref="dc/d5a/_reader_main_toolbar_8m" startline="45">BUTTON_HEIGHT</references>
+        <references refid="dc/d5a/_reader_main_toolbar_8m_1a8f1e10810c95f47c353b73f314285eac" compoundref="dc/d5a/_reader_main_toolbar_8m" startline="44">BUTTON_SPACE</references>
+        <references refid="dc/d5a/_reader_main_toolbar_8m_1a47910ffb1aa9a71b761234762df10d1c" compoundref="dc/d5a/_reader_main_toolbar_8m" startline="48">THUMBS_BUTTON_WIDTH</references>
+        <references refid="dc/d5a/_reader_main_toolbar_8m_1a301de4b68716d736925373b4bc5aa4dc" compoundref="dc/d5a/_reader_main_toolbar_8m" startline="51">MARK_BUTTON_WIDTH</references>
+        <references refid="dc/d5a/_reader_main_toolbar_8m_1a0be688d5d461c865feb3bca482f6fd56" compoundref="dc/d5a/_reader_main_toolbar_8m" startline="33">markImageN</references>
+        <references refid="dc/d5a/_reader_main_toolbar_8m_1a0c7ea625f3f54ee83387ae2a68caa77a" compoundref="dc/d5a/_reader_main_toolbar_8m" startline="37">markImageY</references>
+        <references refid="dc/d5a/_reader_main_toolbar_8m_1a160e114c168fc3f89a1916fa95fe5761" compoundref="dc/d5a/_reader_main_toolbar_8m" startline="50">EMAIL_BUTTON_WIDTH</references>
+        <references refid="dc/d5a/_reader_main_toolbar_8m_1a5bdb2724f48d40c1b0c506a42e890f42" compoundref="dc/d5a/_reader_main_toolbar_8m" startline="49">PRINT_BUTTON_WIDTH</references>
+        <references refid="dc/d5a/_reader_main_toolbar_8m_1aca66aeea7d75b42b8f410023f648964c" compoundref="dc/d5a/_reader_main_toolbar_8m" startline="53">TITLE_HEIGHT</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/dd4/interface_reader_main_toolbar_1aeab5ef81a054a7f6d482df492593c000" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderMainToolbar::setBookmarkState:</definition>
+        <argsstring>(BOOL state)</argsstring>
+        <name>setBookmarkState:</name>
+        <param>
+          <type>BOOL</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.h" line="51" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.m" bodystart="224" bodyend="243"/>
+        <references refid="dc/d5a/_reader_main_toolbar_8m_1a0c7ea625f3f54ee83387ae2a68caa77a" compoundref="dc/d5a/_reader_main_toolbar_8m" startline="37">markImageY</references>
+        <references refid="dc/d5a/_reader_main_toolbar_8m_1a0be688d5d461c865feb3bca482f6fd56" compoundref="dc/d5a/_reader_main_toolbar_8m" startline="33">markImageN</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/dd4/interface_reader_main_toolbar_1a382b768b1c7e3cdc248d2c4032fc0c50" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderMainToolbar::hideToolbar</definition>
+        <argsstring>()</argsstring>
+        <name>hideToolbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.h" line="53" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.m" bodystart="263" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/dd4/interface_reader_main_toolbar_1aa660d25f2a55769eeccc672b59f473c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderMainToolbar::showToolbar</definition>
+        <argsstring>()</argsstring>
+        <name>showToolbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.h" line="54" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.m" bodystart="281" bodyend="297"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="536">
+        <label>UIXToolbarView</label>
+        <link refid="d3/dea/interface_u_i_x_toolbar_view"/>
+        <childnode refid="537" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="535">
+        <label>ReaderMainToolbar</label>
+        <link refid="dd/dd4/interface_reader_main_toolbar"/>
+        <childnode refid="536" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="537">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="539">
+        <label>UIXToolbarView</label>
+        <link refid="d3/dea/interface_u_i_x_toolbar_view"/>
+        <childnode refid="540" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="541">
+        <label>id&lt; ReaderMainToolbarDelegate-p &gt;</label>
+      </node>
+      <node id="538">
+        <label>ReaderMainToolbar</label>
+        <link refid="dd/dd4/interface_reader_main_toolbar"/>
+        <childnode refid="539" relation="public-inheritance">
+        </childnode>
+        <childnode refid="541" relation="usage">
+          <edgelabel>delegate</edgelabel>
+        </childnode>
+      </node>
+      <node id="540">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.h" line="46" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderMainToolbar.h" bodystart="45" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="dd/dd4/interface_reader_main_toolbar_1ac49604961559e4c0f54d137e63af866b" prot="public" virt="non-virtual"><scope>ReaderMainToolbar</scope><name>delegate</name></member>
+      <member refid="dd/dd4/interface_reader_main_toolbar_1a382b768b1c7e3cdc248d2c4032fc0c50" prot="public" virt="virtual"><scope>ReaderMainToolbar</scope><name>hideToolbar</name></member>
+      <member refid="dd/dd4/interface_reader_main_toolbar_1a044759c7364bd9a7a581e3bdf5e1d5d9" prot="public" virt="virtual"><scope>ReaderMainToolbar</scope><name>initWithFrame:document:</name></member>
+      <member refid="dd/dd4/interface_reader_main_toolbar_1aeab5ef81a054a7f6d482df492593c000" prot="public" virt="virtual"><scope>ReaderMainToolbar</scope><name>setBookmarkState:</name></member>
+      <member refid="dd/dd4/interface_reader_main_toolbar_1aa660d25f2a55769eeccc672b59f473c5" prot="public" virt="virtual"><scope>ReaderMainToolbar</scope><name>showToolbar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,154 @@
+\hypertarget{_reader_view_controller_8m}{\section{Sources/\-Reader\-View\-Controller.m File Reference}
+\label{da/d57/_reader_view_controller_8m}\index{Sources/\-Reader\-View\-Controller.\-m@{Sources/\-Reader\-View\-Controller.\-m}}
+}
+{\ttfamily \#import \char`\"{}Reader\-Constants.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Reader\-View\-Controller.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Thumbs\-View\-Controller.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Reader\-Main\-Toolbar.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Reader\-Main\-Pagebar.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Reader\-Content\-View.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Reader\-Thumb\-Cache.\-h\char`\"{}}\\*
+{\ttfamily \#import \char`\"{}Reader\-Thumb\-Queue.\-h\char`\"{}}\\*
+{\ttfamily \#import $<$Message\-U\-I/\-Message\-U\-I.\-h$>$}\\*
+Include dependency graph for Reader\-View\-Controller.\-m\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/de2/_reader_view_controller_8m__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_reader_view_controller_8m_a5280d888eb4e783a660e1fab109fd0ce}{P\-A\-G\-I\-N\-G\-\_\-\-V\-I\-E\-W\-S}~3
+\item 
+\#define \hyperlink{_reader_view_controller_8m_a2f6f5ca2387ead23dcdfcec8360087ce}{T\-O\-O\-L\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T}~44.\-0f
+\item 
+\#define \hyperlink{_reader_view_controller_8m_a1ad01bf2aff9a7894bdf80d966f6c5dc}{P\-A\-G\-E\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T}~48.\-0f
+\item 
+\#define \hyperlink{_reader_view_controller_8m_a2200fe7bdd836fc656a65b767b1ffc19}{T\-A\-P\-\_\-\-A\-R\-E\-A\-\_\-\-S\-I\-Z\-E}~48.\-0f
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_u_i_scroll_view}{U\-I\-Scroll\-View} $\ast$ \hyperlink{_reader_view_controller_8m_a26b3f142981df1c2060c9fe2975e292c}{the\-Scroll\-View}
+\item 
+\hyperlink{interface_reader_main_toolbar}{Reader\-Main\-Toolbar} $\ast$ \hyperlink{_reader_view_controller_8m_ab4986c01722ed98cc120accb47922a4a}{main\-Toolbar}
+\item 
+\hyperlink{interface_reader_main_pagebar}{Reader\-Main\-Pagebar} $\ast$ \hyperlink{_reader_view_controller_8m_a784b120a3dba6d28c1a7ec26068be81a}{main\-Pagebar}
+\item 
+N\-S\-Mutable\-Dictionary $\ast$ \hyperlink{_reader_view_controller_8m_a746ff8850587586606081d42d61421c8}{content\-Views}
+\item 
+U\-I\-Print\-Interaction\-Controller $\ast$ \hyperlink{_reader_view_controller_8m_a19134a5a48cfeb8bf28dcafd3d5817df}{print\-Interaction}
+\item 
+N\-S\-Integer \hyperlink{_reader_view_controller_8m_a2a2c6697f5ae01721db7e4c15a72c6b1}{current\-Page}
+\item 
+C\-G\-Size \hyperlink{_reader_view_controller_8m_a92f98c2888ea8f2a870d07900e4c4047}{last\-Appear\-Size}
+\item 
+N\-S\-Date $\ast$ \hyperlink{_reader_view_controller_8m_aa8a6f45542aebe790a6e7d1dfd2fe4da}{last\-Hide\-Time}
+\item 
+B\-O\-O\-L \hyperlink{_reader_view_controller_8m_aec65890e2f31eaa6ca53c56b5ea79f76}{is\-Visible}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{_reader_view_controller_8m_a1ad01bf2aff9a7894bdf80d966f6c5dc}{\index{Reader\-View\-Controller.\-m@{Reader\-View\-Controller.\-m}!P\-A\-G\-E\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T@{P\-A\-G\-E\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T}}
+\index{P\-A\-G\-E\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T@{P\-A\-G\-E\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T}!ReaderViewController.m@{Reader\-View\-Controller.\-m}}
+\subsubsection[{P\-A\-G\-E\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-A\-G\-E\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T~48.\-0f}}\label{da/d57/_reader_view_controller_8m_a1ad01bf2aff9a7894bdf80d966f6c5dc}
+
+
+Definition at line 69 of file Reader\-View\-Controller.\-m.
+
+\hypertarget{_reader_view_controller_8m_a5280d888eb4e783a660e1fab109fd0ce}{\index{Reader\-View\-Controller.\-m@{Reader\-View\-Controller.\-m}!P\-A\-G\-I\-N\-G\-\_\-\-V\-I\-E\-W\-S@{P\-A\-G\-I\-N\-G\-\_\-\-V\-I\-E\-W\-S}}
+\index{P\-A\-G\-I\-N\-G\-\_\-\-V\-I\-E\-W\-S@{P\-A\-G\-I\-N\-G\-\_\-\-V\-I\-E\-W\-S}!ReaderViewController.m@{Reader\-View\-Controller.\-m}}
+\subsubsection[{P\-A\-G\-I\-N\-G\-\_\-\-V\-I\-E\-W\-S}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-A\-G\-I\-N\-G\-\_\-\-V\-I\-E\-W\-S~3}}\label{da/d57/_reader_view_controller_8m_a5280d888eb4e783a660e1fab109fd0ce}
+
+
+Definition at line 66 of file Reader\-View\-Controller.\-m.
+
+\hypertarget{_reader_view_controller_8m_a2200fe7bdd836fc656a65b767b1ffc19}{\index{Reader\-View\-Controller.\-m@{Reader\-View\-Controller.\-m}!T\-A\-P\-\_\-\-A\-R\-E\-A\-\_\-\-S\-I\-Z\-E@{T\-A\-P\-\_\-\-A\-R\-E\-A\-\_\-\-S\-I\-Z\-E}}
+\index{T\-A\-P\-\_\-\-A\-R\-E\-A\-\_\-\-S\-I\-Z\-E@{T\-A\-P\-\_\-\-A\-R\-E\-A\-\_\-\-S\-I\-Z\-E}!ReaderViewController.m@{Reader\-View\-Controller.\-m}}
+\subsubsection[{T\-A\-P\-\_\-\-A\-R\-E\-A\-\_\-\-S\-I\-Z\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\-A\-P\-\_\-\-A\-R\-E\-A\-\_\-\-S\-I\-Z\-E~48.\-0f}}\label{da/d57/_reader_view_controller_8m_a2200fe7bdd836fc656a65b767b1ffc19}
+
+
+Definition at line 71 of file Reader\-View\-Controller.\-m.
+
+\hypertarget{_reader_view_controller_8m_a2f6f5ca2387ead23dcdfcec8360087ce}{\index{Reader\-View\-Controller.\-m@{Reader\-View\-Controller.\-m}!T\-O\-O\-L\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T@{T\-O\-O\-L\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T}}
+\index{T\-O\-O\-L\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T@{T\-O\-O\-L\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T}!ReaderViewController.m@{Reader\-View\-Controller.\-m}}
+\subsubsection[{T\-O\-O\-L\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\-O\-O\-L\-B\-A\-R\-\_\-\-H\-E\-I\-G\-H\-T~44.\-0f}}\label{da/d57/_reader_view_controller_8m_a2f6f5ca2387ead23dcdfcec8360087ce}
+
+
+Definition at line 68 of file Reader\-View\-Controller.\-m.
+
+
+
+\subsection{Variable Documentation}
+\hypertarget{_reader_view_controller_8m_a746ff8850587586606081d42d61421c8}{\index{Reader\-View\-Controller.\-m@{Reader\-View\-Controller.\-m}!content\-Views@{content\-Views}}
+\index{content\-Views@{content\-Views}!ReaderViewController.m@{Reader\-View\-Controller.\-m}}
+\subsubsection[{content\-Views}]{\setlength{\rightskip}{0pt plus 5cm}N\-S\-Mutable\-Dictionary$\ast$ content\-Views}}\label{da/d57/_reader_view_controller_8m_a746ff8850587586606081d42d61421c8}
+
+
+Definition at line 51 of file Reader\-View\-Controller.\-m.
+
+\hypertarget{_reader_view_controller_8m_a2a2c6697f5ae01721db7e4c15a72c6b1}{\index{Reader\-View\-Controller.\-m@{Reader\-View\-Controller.\-m}!current\-Page@{current\-Page}}
+\index{current\-Page@{current\-Page}!ReaderViewController.m@{Reader\-View\-Controller.\-m}}
+\subsubsection[{current\-Page}]{\setlength{\rightskip}{0pt plus 5cm}N\-S\-Integer current\-Page}}\label{da/d57/_reader_view_controller_8m_a2a2c6697f5ae01721db7e4c15a72c6b1}
+
+
+Definition at line 55 of file Reader\-View\-Controller.\-m.
+
+\hypertarget{_reader_view_controller_8m_aec65890e2f31eaa6ca53c56b5ea79f76}{\index{Reader\-View\-Controller.\-m@{Reader\-View\-Controller.\-m}!is\-Visible@{is\-Visible}}
+\index{is\-Visible@{is\-Visible}!ReaderViewController.m@{Reader\-View\-Controller.\-m}}
+\subsubsection[{is\-Visible}]{\setlength{\rightskip}{0pt plus 5cm}B\-O\-O\-L is\-Visible}}\label{da/d57/_reader_view_controller_8m_aec65890e2f31eaa6ca53c56b5ea79f76}
+
+
+Definition at line 61 of file Reader\-View\-Controller.\-m.
+
+\hypertarget{_reader_view_controller_8m_a92f98c2888ea8f2a870d07900e4c4047}{\index{Reader\-View\-Controller.\-m@{Reader\-View\-Controller.\-m}!last\-Appear\-Size@{last\-Appear\-Size}}
+\index{last\-Appear\-Size@{last\-Appear\-Size}!ReaderViewController.m@{Reader\-View\-Controller.\-m}}
+\subsubsection[{last\-Appear\-Size}]{\setlength{\rightskip}{0pt plus 5cm}C\-G\-Size last\-Appear\-Size}}\label{da/d57/_reader_view_controller_8m_a92f98c2888ea8f2a870d07900e4c4047}
+
+
+Definition at line 57 of file Reader\-View\-Controller.\-m.
+
+\hypertarget{_reader_view_controller_8m_aa8a6f45542aebe790a6e7d1dfd2fe4da}{\index{Reader\-View\-Controller.\-m@{Reader\-View\-Controller.\-m}!last\-Hide\-Time@{last\-Hide\-Time}}
+\index{last\-Hide\-Time@{last\-Hide\-Time}!ReaderViewController.m@{Reader\-View\-Controller.\-m}}
+\subsubsection[{last\-Hide\-Time}]{\setlength{\rightskip}{0pt plus 5cm}N\-S\-Date$\ast$ last\-Hide\-Time}}\label{da/d57/_reader_view_controller_8m_aa8a6f45542aebe790a6e7d1dfd2fe4da}
+
+
+Definition at line 59 of file Reader\-View\-Controller.\-m.
+
+\hypertarget{_reader_view_controller_8m_a784b120a3dba6d28c1a7ec26068be81a}{\index{Reader\-View\-Controller.\-m@{Reader\-View\-Controller.\-m}!main\-Pagebar@{main\-Pagebar}}
+\index{main\-Pagebar@{main\-Pagebar}!ReaderViewController.m@{Reader\-View\-Controller.\-m}}
+\subsubsection[{main\-Pagebar}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Reader\-Main\-Pagebar}$\ast$ main\-Pagebar}}\label{da/d57/_reader_view_controller_8m_a784b120a3dba6d28c1a7ec26068be81a}
+
+
+Definition at line 49 of file Reader\-View\-Controller.\-m.
+
+\hypertarget{_reader_view_controller_8m_ab4986c01722ed98cc120accb47922a4a}{\index{Reader\-View\-Controller.\-m@{Reader\-View\-Controller.\-m}!main\-Toolbar@{main\-Toolbar}}
+\index{main\-Toolbar@{main\-Toolbar}!ReaderViewController.m@{Reader\-View\-Controller.\-m}}
+\subsubsection[{main\-Toolbar}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Reader\-Main\-Toolbar}$\ast$ main\-Toolbar}}\label{da/d57/_reader_view_controller_8m_ab4986c01722ed98cc120accb47922a4a}
+
+
+Definition at line 47 of file Reader\-View\-Controller.\-m.
+
+\hypertarget{_reader_view_controller_8m_a19134a5a48cfeb8bf28dcafd3d5817df}{\index{Reader\-View\-Controller.\-m@{Reader\-View\-Controller.\-m}!print\-Interaction@{print\-Interaction}}
+\index{print\-Interaction@{print\-Interaction}!ReaderViewController.m@{Reader\-View\-Controller.\-m}}
+\subsubsection[{print\-Interaction}]{\setlength{\rightskip}{0pt plus 5cm}U\-I\-Print\-Interaction\-Controller$\ast$ print\-Interaction}}\label{da/d57/_reader_view_controller_8m_a19134a5a48cfeb8bf28dcafd3d5817df}
+
+
+Definition at line 53 of file Reader\-View\-Controller.\-m.
+
+\hypertarget{_reader_view_controller_8m_a26b3f142981df1c2060c9fe2975e292c}{\index{Reader\-View\-Controller.\-m@{Reader\-View\-Controller.\-m}!the\-Scroll\-View@{the\-Scroll\-View}}
+\index{the\-Scroll\-View@{the\-Scroll\-View}!ReaderViewController.m@{Reader\-View\-Controller.\-m}}
+\subsubsection[{the\-Scroll\-View}]{\setlength{\rightskip}{0pt plus 5cm}{\bf U\-I\-Scroll\-View}$\ast$ the\-Scroll\-View}}\label{da/d57/_reader_view_controller_8m_a26b3f142981df1c2060c9fe2975e292c}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+\{
+    \hyperlink{interface_reader_document}{ReaderDocument} *document
+\end{DoxyCode}
+
+
+Definition at line 42 of file Reader\-View\-Controller.\-m.
+

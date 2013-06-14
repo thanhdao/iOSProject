@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dir_0c68614ac8d8401edbf4146ded722294" kind="dir">
+    <compoundname>Classes</compoundname>
+    <innerfile refid="dc/d3c/_reader_app_delegate_8h">ReaderAppDelegate.h</innerfile>
+    <innerfile refid="d2/d59/_reader_app_delegate_8m">ReaderAppDelegate.m</innerfile>
+    <innerfile refid="d3/d5d/_reader_book_delegate_8h">ReaderBookDelegate.h</innerfile>
+    <innerfile refid="de/dd9/_reader_book_delegate_8m">ReaderBookDelegate.m</innerfile>
+    <innerfile refid="de/d19/_reader_demo_controller_8h">ReaderDemoController.h</innerfile>
+    <innerfile refid="d9/db5/_reader_demo_controller_8m">ReaderDemoController.m</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Classes/"/>
+  </compounddef>
+</doxygen>

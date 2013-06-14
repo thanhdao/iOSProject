@@ -1,0 +1,6 @@
+<map id="ReaderThumbView" name="ReaderThumbView">
+<area shape="rect" id="node3" href="$d4/df0/interface_reader_content_thumb.html" title="ReaderContentThumb" alt="" coords="5,161,157,189"/>
+<area shape="rect" id="node4" href="$dd/d65/interface_reader_pagebar_thumb.html" title="ReaderPagebarThumb" alt="" coords="182,161,337,189"/>
+<area shape="rect" id="node5" href="$d0/ddf/interface_thumbs_page_thumb.html" title="ThumbsPageThumb" alt="" coords="362,161,504,189"/>
+<area shape="rect" id="node2" href="$db/d6b/class_u_i_view.html" title="UIView" alt="" coords="228,6,291,34"/>
+</map>

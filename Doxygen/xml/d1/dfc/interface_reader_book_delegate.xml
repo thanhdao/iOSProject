@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d1/dfc/interface_reader_book_delegate" kind="class" prot="public">
+    <compoundname>ReaderBookDelegate</compoundname>
+    <basecompoundref refid="d7/dc4/class_n_s_object" prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <basecompoundref refid="d8/d72/class_u_i_application_delegate-p" prot="public" virt="non-virtual">&lt;UIApplicationDelegate&gt;</basecompoundref>
+    <includes refid="d3/d5d/_reader_book_delegate_8h" local="no">ReaderBookDelegate.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="449">
+        <label>&lt;UIApplicationDelegate&gt;</label>
+        <link refid="d8/d72/class_u_i_application_delegate-p"/>
+      </node>
+      <node id="448">
+        <label>NSObject</label>
+        <link refid="d7/dc4/class_n_s_object"/>
+      </node>
+      <node id="447">
+        <label>ReaderBookDelegate</label>
+        <link refid="d1/dfc/interface_reader_book_delegate"/>
+        <childnode refid="448" relation="public-inheritance">
+        </childnode>
+        <childnode refid="449" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="452">
+        <label>&lt;UIApplicationDelegate&gt;</label>
+        <link refid="d8/d72/class_u_i_application_delegate-p"/>
+      </node>
+      <node id="451">
+        <label>NSObject</label>
+        <link refid="d7/dc4/class_n_s_object"/>
+      </node>
+      <node id="450">
+        <label>ReaderBookDelegate</label>
+        <link refid="d1/dfc/interface_reader_book_delegate"/>
+        <childnode refid="451" relation="public-inheritance">
+        </childnode>
+        <childnode refid="452" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderBookDelegate.h" line="28" bodyfile="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderBookDelegate.h" bodystart="28" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

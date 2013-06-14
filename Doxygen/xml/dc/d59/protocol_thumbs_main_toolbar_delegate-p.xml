@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dc/d59/protocol_thumbs_main_toolbar_delegate-p" kind="protocol" prot="public" abstract="yes">
+    <compoundname>ThumbsMainToolbarDelegate-p</compoundname>
+    <basecompoundref refid="d0/d10/class_n_s_object-p" prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <derivedcompoundref refid="d3/d8f/category_thumbs_view_controller_07_08" prot="public" virt="non-virtual">ThumbsViewController()</derivedcompoundref>
+    <includes refid="d4/d40/_thumbs_main_toolbar_8h" local="no">ThumbsMainToolbar.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d59/protocol_thumbs_main_toolbar_delegate-p_1a0a1f15eccee494d202ee8b4bc99633db" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ThumbsMainToolbarDelegate-p::tappedInToolbar:doneButton:</definition>
+        <argsstring>(ThumbsMainToolbar *toolbar,[doneButton] UIButton *button)</argsstring>
+        <name>tappedInToolbar:doneButton:</name>
+        <param>
+          <type><ref refid="df/db1/interface_thumbs_main_toolbar" kindref="compound">ThumbsMainToolbar</ref> *</type>
+          <declname>toolbar</declname>
+        </param>
+        <param>
+          <attributes>[doneButton]</attributes>
+          <type>UIButton *</type>
+          <declname>button</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d59/protocol_thumbs_main_toolbar_delegate-p_1a2b192075116f44d678a6bfc923086bd7" prot="public" static="no" const="no" explicit="no" inline="no" required="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ThumbsMainToolbarDelegate-p::tappedInToolbar:showControl:</definition>
+        <argsstring>(ThumbsMainToolbar *toolbar,[showControl] UISegmentedControl *control)</argsstring>
+        <name>tappedInToolbar:showControl:</name>
+        <param>
+          <type><ref refid="df/db1/interface_thumbs_main_toolbar" kindref="compound">ThumbsMainToolbar</ref> *</type>
+          <declname>toolbar</declname>
+        </param>
+        <param>
+          <attributes>[showControl]</attributes>
+          <type>UISegmentedControl *</type>
+          <declname>control</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.h" line="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="680">
+        <label>ThumbsViewController()</label>
+        <link refid="d3/d8f/category_thumbs_view_controller_07_08"/>
+        <childnode refid="678" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="678">
+        <label>&lt;ThumbsMainToolbarDelegate&gt;</label>
+        <link refid="dc/d59/protocol_thumbs_main_toolbar_delegate-p"/>
+        <childnode refid="679" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="679">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="681">
+        <label>&lt;ThumbsMainToolbarDelegate&gt;</label>
+        <link refid="dc/d59/protocol_thumbs_main_toolbar_delegate-p"/>
+        <childnode refid="682" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="682">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.h" line="32" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.h" bodystart="32" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="dc/d59/protocol_thumbs_main_toolbar_delegate-p_1a0a1f15eccee494d202ee8b4bc99633db" prot="public" virt="virtual"><scope>ThumbsMainToolbarDelegate-p</scope><name>tappedInToolbar:doneButton:</name></member>
+      <member refid="dc/d59/protocol_thumbs_main_toolbar_delegate-p_1a2b192075116f44d678a6bfc923086bd7" prot="public" virt="virtual"><scope>ThumbsMainToolbarDelegate-p</scope><name>tappedInToolbar:showControl:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

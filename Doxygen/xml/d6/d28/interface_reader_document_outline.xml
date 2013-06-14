@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d6/d28/interface_reader_document_outline" kind="class" prot="public">
+    <compoundname>ReaderDocumentOutline</compoundname>
+    <basecompoundref refid="d7/dc4/class_n_s_object" prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <basecompoundref refid="d0/d10/class_n_s_object-p" prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <includes refid="d6/d79/_reader_document_outline_8h" local="no">ReaderDocumentOutline.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d6/d28/interface_reader_document_outline_1aeeb9f682b0b0e07a65ceb5b7aece0dc6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>NSArray *</type>
+        <definition>NSArray * ReaderDocumentOutline::outlineFromFileURL:password:</definition>
+        <argsstring>(NSURL *fileURL,[password] NSString *phrase)</argsstring>
+        <name>outlineFromFileURL:password:</name>
+        <param>
+          <type>NSURL *</type>
+          <declname>fileURL</declname>
+        </param>
+        <param>
+          <attributes>[password]</attributes>
+          <type>NSString *</type>
+          <declname>phrase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" line="30" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.m" bodystart="372" bodyend="405"/>
+        <references refid="d0/db1/_c_g_p_d_f_document_8h_1a29e26388c8323c906c5b3160d32cb5f1" compoundref="d8/dac/_c_g_p_d_f_document_8m" startline="32" endline="80">CGPDFDocumentCreateX</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d28/interface_reader_document_outline_1a3ba49af0876f15f2a2460c0351de561e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderDocumentOutline::logDocumentOutlineArray:</definition>
+        <argsstring>(NSArray *array)</argsstring>
+        <name>logDocumentOutlineArray:</name>
+        <param>
+          <type>NSArray *</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" line="32" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.m" bodystart="110" bodyend="120"/>
+        <references refid="d6/d28/interface_reader_document_outline_1a3ba49af0876f15f2a2460c0351de561e" compoundref="d3/d2f/_reader_document_outline_8m" startline="110" endline="120">logDocumentOutlineArray:</references>
+        <referencedby refid="d6/d28/interface_reader_document_outline_1a3ba49af0876f15f2a2460c0351de561e" compoundref="d3/d2f/_reader_document_outline_8m" startline="110" endline="120">logDocumentOutlineArray:</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="519">
+        <label>ReaderDocumentOutline</label>
+        <link refid="d6/d28/interface_reader_document_outline"/>
+        <childnode refid="520" relation="public-inheritance">
+        </childnode>
+        <childnode refid="521" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="521">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="520">
+        <label>NSObject</label>
+        <link refid="d7/dc4/class_n_s_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="522">
+        <label>ReaderDocumentOutline</label>
+        <link refid="d6/d28/interface_reader_document_outline"/>
+        <childnode refid="523" relation="public-inheritance">
+        </childnode>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="524">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="523">
+        <label>NSObject</label>
+        <link refid="d7/dc4/class_n_s_object"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" line="28" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocumentOutline.h" bodystart="28" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d6/d28/interface_reader_document_outline_1a3ba49af0876f15f2a2460c0351de561e" prot="public" virt="virtual"><scope>ReaderDocumentOutline</scope><name>logDocumentOutlineArray:</name></member>
+      <member refid="d6/d28/interface_reader_document_outline_1aeeb9f682b0b0e07a65ceb5b7aece0dc6" prot="public" virt="virtual"><scope>ReaderDocumentOutline</scope><name>outlineFromFileURL:password:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

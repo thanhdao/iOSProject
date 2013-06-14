@@ -1,0 +1,130 @@
+\subsubsection*{Introduction}
+
+I've crafted this open source P\-D\-F reader code for fellow i\-O\-S developers struggling with wrangling P\-D\-F files onto i\-O\-S device screens.
+
+The code is universal and does not require any X\-I\-Bs (as all U\-I elements are code generated, allowing for greatest flexibility). It runs on i\-Pad, i\-Phone and i\-Pod touch with i\-O\-S 4.\-0 and up. Also supported are the Retina displays in all new devices and is ready to be fully internationalized. The idea was to provide a complete project template that you could start building from, or, just pull the required files into an existing project to enable P\-D\-F reading/viewing in your app(s).
+
+
+
+
+
+
+
+
+
+After launching the sample app, tap on the left hand side of the screen to go back a page. Tap on the right hand side to go to the next page. You can also swipe left and right to change pages. Tap on the screen to fade in the toolbar and page slider. Double-\/tap with one finger (or pinch out) to zoom in. Double tap with two fingers (or pinch in) to zoom out.
+
+This implementation has been tested with large P\-D\-F files (over 250\-M\-B in size and over 2800 pages in length) and with P\-D\-F files of all flavors (from text only documents to graphics heavy magazines). It also works rather well on older devices (such as the i\-Pod touch 2nd generation and i\-Phone 3\-G) and takes advantage of the dual-\/core processor (via \hyperlink{class_c_a_tiled_layer}{C\-A\-Tiled\-Layer} and multi-\/threading) in new devices.
+
+To see an example open source P\-D\-F Viewer App that uses this code as its base, have a look at this project repository on Git\-Hub\-: \href{https://github.com/vfr/Viewer}{\tt https\-://github.\-com/vfr/\-Viewer}
+
+\subsubsection*{Features}
+
+Multithreaded\-: The U\-I is always quite smooth and responsive.
+
+Supports\-:
+
+
+\begin{DoxyItemize}
+\item i\-Books-\/like document navigation.
+\item Device rotation and all orientations.\-¹
+\item Encrypted (password protected) P\-D\-Fs.
+\item P\-D\-F links (U\-R\-I and go to page).
+\item P\-D\-Fs with rotated pages.
+\end{DoxyItemize}
+
+\subsubsection*{Notes}
+
+Version 2.\-x of the P\-D\-F reader code was originally developed and tested under Xcode 3.\-2.\-6, L\-L\-V\-M 1.\-7, i\-O\-S 4.\-3.\-5 and i\-O\-S 4.\-2.\-1 with current development and testing under Xcode 4.\-5, L\-L\-V\-M 4.\-1, i\-O\-S 5/6. Please note that as of v2.\-6, the code was refactored to use A\-R\-C.
+
+The overall P\-D\-F reader functionality is encapsulated in the \hyperlink{interface_reader_view_controller}{Reader\-View\-Controller} class. To present a document with this class, you first need to create a \hyperlink{interface_reader_document}{Reader\-Document} object with the file path to the P\-D\-F document and then initialize a new \hyperlink{interface_reader_view_controller}{Reader\-View\-Controller} with this \hyperlink{interface_reader_document}{Reader\-Document} object. The \hyperlink{interface_reader_view_controller}{Reader\-View\-Controller} class uses a \hyperlink{interface_reader_document}{Reader\-Document} object to store information about the document and to keep track of document properties (thumb cache directory path, bookmarks and the current page number for example).
+
+An initialized \hyperlink{interface_reader_view_controller}{Reader\-View\-Controller} can then be presented modally, pushed onto a U\-I\-Navigation\-Controller stack, placed in a U\-I\-Tab\-Bar\-Controller tab, or be used as a root view controller. Please note that since \hyperlink{interface_reader_view_controller}{Reader\-View\-Controller} implements its own toolbar, you need to hide the U\-I\-Navigation\-Controller navigation bar before pushing it and then show the navigation bar after popping it. The \hyperlink{interface_reader_demo_controller}{Reader\-Demo\-Controller} class shows how this is done with a bundled P\-D\-F file. To create a 'book as an app', please see the \hyperlink{interface_reader_book_delegate}{Reader\-Book\-Delegate} class.
+
+\subsubsection*{Required Files}
+
+The following files are required to incorporate the P\-D\-F reader into one of your projects\-: \begin{DoxyVerb}CGPDFDocument.h, CGPDFDocument.m
+ReaderDocument.h, ReaderDocument.m
+ReaderConstants.h, ReaderConstants.m
+ReaderViewController.h, ReaderViewController.m
+ReaderMainToolbar.h, ReaderMainToolbar.m
+ReaderMainPagebar.h, ReaderMainPagebar.m
+ReaderContentView.h, ReaderContentView.m
+ReaderContentPage.h, ReaderContentPage.m
+ReaderContentTile.h, ReaderContentTile.m
+ReaderThumbCache.h, ReaderThumbCache.m
+ReaderThumbRequest.h, ReaderThumbRequest.m
+ReaderThumbQueue.h, ReaderThumbQueue.m
+ReaderThumbFetch.h, ReaderThumbFetch.m
+ReaderThumbRender.h, ReaderThumbRender.m
+ReaderThumbView.h, ReaderThumbView.m
+ReaderThumbsView.h, ReaderThumbsView.m
+ThumbsViewController.h, ThumbsViewController.m
+ThumbsMainToolbar.h, ThumbsMainToolbar.m
+UIXToolbarView.h, UIXToolbarView.m
+
+Reader-Button-H.png, Reader-Button-H@2x.png
+Reader-Button-N.png, Reader-Button-N@2x.png
+Reader-Email.png, Reader-Email@2x.png
+Reader-Mark-N.png, Reader-Mark-N@2x.png
+Reader-Mark-Y.png, Reader-Mark-Y@2x.png
+Reader-Print.png, Reader-Print@2x.png
+Reader-Thumbs.png, Reader-Thumbs@2x.png
+
+Localizable.strings (UTF-16 encoding)
+\end{DoxyVerb}
+
+
+\subsubsection*{Required i\-O\-S Frameworks}
+
+To incorporate the P\-D\-F reader code into one of your projects, all of the following i\-O\-S frameworks are required\-: \begin{DoxyVerb}UIKit, Foundation, CoreGraphics, QuartzCore, ImageIO, MessageUI
+\end{DoxyVerb}
+
+
+\subsubsection*{Compile Time Options}
+
+In \hyperlink{_reader_constants_8h}{Reader\-Constants.\-h} the following \#define options are available\-:
+
+{\ttfamily R\-E\-A\-D\-E\-R\-\_\-\-B\-O\-O\-K\-M\-A\-R\-K\-S} -\/ If T\-R\-U\-E, enables page bookmark support.
+
+{\ttfamily R\-E\-A\-D\-E\-R\-\_\-\-E\-N\-A\-B\-L\-E\-\_\-\-M\-A\-I\-L} -\/ If T\-R\-U\-E, an email button is added to the toolbar (if the device is properly configured for email support).
+
+{\ttfamily R\-E\-A\-D\-E\-R\-\_\-\-E\-N\-A\-B\-L\-E\-\_\-\-P\-R\-I\-N\-T} -\/ If T\-R\-U\-E, a print button is added to the toolbar (if printing is supported and available on the device).
+
+{\ttfamily R\-E\-A\-D\-E\-R\-\_\-\-E\-N\-A\-B\-L\-E\-\_\-\-T\-H\-U\-M\-B\-S} -\/ If T\-R\-U\-E, a thumbs button is added to the toolbar (enabling page thumbnail document navigation).
+
+{\ttfamily R\-E\-A\-D\-E\-R\-\_\-\-D\-I\-S\-A\-B\-L\-E\-\_\-\-I\-D\-L\-E} -\/ If T\-R\-U\-E, the i\-O\-S idle timer is disabled while viewing a document (beware of battery drain).
+
+{\ttfamily R\-E\-A\-D\-E\-R\-\_\-\-S\-H\-O\-W\-\_\-\-S\-H\-A\-D\-O\-W\-S} -\/ If T\-R\-U\-E, a shadow is shown around each page and the page content is inset by a couple of extra points.
+
+{\ttfamily R\-E\-A\-D\-E\-R\-\_\-\-S\-T\-A\-N\-D\-A\-L\-O\-N\-E} -\/ If F\-A\-L\-S\-E, a \char`\"{}\-Done\char`\"{} button is added to the toolbar and the -\/dismiss\-Reader\-View\-Controller\-: delegate method is messaged when it is tapped.
+
+{\ttfamily R\-E\-A\-D\-E\-R\-\_\-\-D\-I\-S\-A\-B\-L\-E\-\_\-\-R\-E\-T\-I\-N\-A} -\/ If T\-R\-U\-E, sets the \hyperlink{class_c_a_tiled_layer}{C\-A\-Tiled\-Layer} content\-Scale to 1.\-0f. This effectively disables retina support and results in non-\/retina device rendering speeds on retina display devices at the loss of retina display quality.
+
+{\ttfamily R\-E\-A\-D\-E\-R\-\_\-\-E\-N\-A\-B\-L\-E\-\_\-\-P\-R\-E\-V\-I\-E\-W} -\/ If T\-R\-U\-E, a medium resolution page thumbnail is displayed before the \hyperlink{class_c_a_tiled_layer}{C\-A\-Tiled\-Layer} starts to render the P\-D\-F page.
+
+\subsubsection*{\hyperlink{interface_reader_document}{Reader\-Document} Archiving}
+
+To change where the property list for \hyperlink{interface_reader_document}{Reader\-Document} objects is stored ($\sim$/\-Library/\-Application Support/ by default), see the +archive\-File\-Path\-: method in the \hyperlink{_reader_document_8m}{Reader\-Document.\-m} source file. Archiving and unarchiving of the \hyperlink{interface_reader_document}{Reader\-Document} object for a document is mandatory since this is where the current page number, bookmarks and directory of the document page thumb cache is kept.
+
+\subsubsection*{Caveats}
+
+¹ There appears to be a bug in i\-O\-S 4 with its view controller rotation handling when a modal view controller is presented in landscape from a modal view controller when the status bar is visible on i\-Phone and i\-Pod touch. The good news is that i\-O\-S 5 appears to have fixed this bug.
+
+\subsubsection*{Contact Info}
+
+Website\-: \href{http://www.vfr.org/}{\tt http\-://www.\-vfr.\-org/}
+
+Email\-: joklamcak(at)gmail(dot)com
+
+If you find this code useful, or wish to fund further development, you can use Pay\-Pal to donate to the vfr-\/\-Reader project\-:
+
+\href{https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=joklamcak@gmail.com&lc=US&item_name=vfr-Reader&no_note=1&currency_code=USD}{\tt }
+
+\subsubsection*{Acknowledgements}
+
+The P\-D\-F link support code in the \hyperlink{interface_reader_content_page}{Reader\-Content\-Page} class is based on the links navigation code by Sorin Nistor from \href{http://ipdfdev.com/}{\tt http\-://ipdfdev.\-com/}.
+
+\subsubsection*{License}
+
+This code has been made available under the M\-I\-T License. 

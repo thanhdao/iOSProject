@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d3/dea/interface_u_i_x_toolbar_view" kind="class" prot="public">
+    <compoundname>UIXToolbarView</compoundname>
+    <basecompoundref refid="db/d6b/class_u_i_view" prot="public" virt="non-virtual">UIView</basecompoundref>
+    <derivedcompoundref refid="dd/dd4/interface_reader_main_toolbar" prot="public" virt="non-virtual">ReaderMainToolbar</derivedcompoundref>
+    <derivedcompoundref refid="df/db1/interface_thumbs_main_toolbar" prot="public" virt="non-virtual">ThumbsMainToolbar</derivedcompoundref>
+    <includes refid="d4/dea/_u_i_x_toolbar_view_8h" local="no">UIXToolbarView.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="756">
+        <label>UIXToolbarView</label>
+        <link refid="d3/dea/interface_u_i_x_toolbar_view"/>
+        <childnode refid="757" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="758">
+        <label>ReaderMainToolbar</label>
+        <link refid="dd/dd4/interface_reader_main_toolbar"/>
+        <childnode refid="756" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="757">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+      <node id="759">
+        <label>ThumbsMainToolbar</label>
+        <link refid="df/db1/interface_thumbs_main_toolbar"/>
+        <childnode refid="756" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="760">
+        <label>UIXToolbarView</label>
+        <link refid="d3/dea/interface_u_i_x_toolbar_view"/>
+        <childnode refid="761" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="761">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/UIXToolbarView.h" line="29" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/UIXToolbarView.h" bodystart="28" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="df/db1/interface_thumbs_main_toolbar" kind="class" prot="public">
+    <compoundname>ThumbsMainToolbar</compoundname>
+    <basecompoundref refid="d3/dea/interface_u_i_x_toolbar_view" prot="public" virt="non-virtual">UIXToolbarView</basecompoundref>
+    <includes refid="d4/d40/_thumbs_main_toolbar_8h" local="no">ThumbsMainToolbar.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="df/db1/interface_thumbs_main_toolbar_1a193cc895ab3fba1e9a9b119303e98f3f" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>id&lt; <ref refid="dc/d59/protocol_thumbs_main_toolbar_delegate-p" kindref="compound">ThumbsMainToolbarDelegate</ref> &gt;</type>
+        <definition>id&lt;ThumbsMainToolbarDelegate&gt; ThumbsMainToolbar::delegate</definition>
+        <argsstring></argsstring>
+        <name>delegate</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.h" line="43" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/db1/interface_thumbs_main_toolbar_1a35addaf9329a272f6c0a6472ca4968e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ThumbsMainToolbar::initWithFrame:title:</definition>
+        <argsstring>(CGRect frame,[title] NSString *title)</argsstring>
+        <name>initWithFrame:title:</name>
+        <param>
+          <type>CGRect</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <attributes>[title]</attributes>
+          <type>NSString *</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.h" line="45" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.m" bodystart="54" bodyend="131"/>
+        <references refid="d6/d82/_thumbs_main_toolbar_8m_1aa00c852ab240ccfc4717b66f0dddeeb0" compoundref="d6/d82/_thumbs_main_toolbar_8m" startline="33">BUTTON_X</references>
+        <references refid="d6/d82/_thumbs_main_toolbar_8m_1ae828609252069795563592f52c8f0ff1" compoundref="d6/d82/_thumbs_main_toolbar_8m" startline="34">BUTTON_Y</references>
+        <references refid="d6/d82/_thumbs_main_toolbar_8m_1af073b8929e9fb751d249916260bbca28" compoundref="d6/d82/_thumbs_main_toolbar_8m" startline="38">DONE_BUTTON_WIDTH</references>
+        <references refid="d6/d82/_thumbs_main_toolbar_8m_1a94be6e055d514b19c7cb5f56f492f016" compoundref="d6/d82/_thumbs_main_toolbar_8m" startline="36">BUTTON_HEIGHT</references>
+        <references refid="d6/d82/_thumbs_main_toolbar_8m_1a8f1e10810c95f47c353b73f314285eac" compoundref="d6/d82/_thumbs_main_toolbar_8m" startline="35">BUTTON_SPACE</references>
+        <references refid="d6/d82/_thumbs_main_toolbar_8m_1a79bea6cfde3660a4458408bb01571e6f" compoundref="d6/d82/_thumbs_main_toolbar_8m" startline="39">SHOW_CONTROL_WIDTH</references>
+        <references refid="d6/d82/_thumbs_main_toolbar_8m_1aca66aeea7d75b42b8f410023f648964c" compoundref="d6/d82/_thumbs_main_toolbar_8m" startline="41">TITLE_HEIGHT</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="672">
+        <label>UIXToolbarView</label>
+        <link refid="d3/dea/interface_u_i_x_toolbar_view"/>
+        <childnode refid="673" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="673">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+      <node id="671">
+        <label>ThumbsMainToolbar</label>
+        <link refid="df/db1/interface_thumbs_main_toolbar"/>
+        <childnode refid="672" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="675">
+        <label>UIXToolbarView</label>
+        <link refid="d3/dea/interface_u_i_x_toolbar_view"/>
+        <childnode refid="676" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="677">
+        <label>id&lt; ThumbsMainToolbarDelegate-p &gt;</label>
+      </node>
+      <node id="676">
+        <label>UIView</label>
+        <link refid="db/d6b/class_u_i_view"/>
+      </node>
+      <node id="674">
+        <label>ThumbsMainToolbar</label>
+        <link refid="df/db1/interface_thumbs_main_toolbar"/>
+        <childnode refid="675" relation="public-inheritance">
+        </childnode>
+        <childnode refid="677" relation="usage">
+          <edgelabel>delegate</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.h" line="42" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ThumbsMainToolbar.h" bodystart="41" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="df/db1/interface_thumbs_main_toolbar_1a193cc895ab3fba1e9a9b119303e98f3f" prot="public" virt="non-virtual"><scope>ThumbsMainToolbar</scope><name>delegate</name></member>
+      <member refid="df/db1/interface_thumbs_main_toolbar_1a35addaf9329a272f6c0a6472ca4968e4" prot="public" virt="virtual"><scope>ThumbsMainToolbar</scope><name>initWithFrame:title:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

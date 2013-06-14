@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="d8/d72/class_u_i_application_delegate-p" kind="protocol" prot="public">
+    <compoundname>UIApplicationDelegate-p</compoundname>
+    <derivedcompoundref refid="d5/d15/interface_reader_app_delegate" prot="public" virt="non-virtual">ReaderAppDelegate</derivedcompoundref>
+    <derivedcompoundref refid="d1/dfc/interface_reader_book_delegate" prot="public" virt="non-virtual">ReaderBookDelegate</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="712">
+        <label>&lt;UIApplicationDelegate&gt;</label>
+        <link refid="d8/d72/class_u_i_application_delegate-p"/>
+      </node>
+      <node id="713">
+        <label>ReaderAppDelegate</label>
+        <link refid="d5/d15/interface_reader_app_delegate"/>
+        <childnode refid="712" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="714">
+        <label>ReaderBookDelegate</label>
+        <link refid="d1/dfc/interface_reader_book_delegate"/>
+        <childnode refid="712" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Classes/ReaderAppDelegate.h" line="28"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

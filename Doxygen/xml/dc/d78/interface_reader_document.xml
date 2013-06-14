@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="dc/d78/interface_reader_document" kind="class" prot="public">
+    <compoundname>ReaderDocument</compoundname>
+    <basecompoundref refid="d7/dc4/class_n_s_object" prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <basecompoundref refid="d0/d10/class_n_s_object-p" prot="public" virt="non-virtual">&lt;NSObject&gt;</basecompoundref>
+    <basecompoundref refid="d7/dc8/class_n_s_coding-p" prot="public" virt="non-virtual">&lt;NSCoding&gt;</basecompoundref>
+    <includes refid="d9/db4/_reader_document_8h" local="no">ReaderDocument.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="dc/d78/interface_reader_document_1a1d10bceac39442fdd660c1696edf2573" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* ReaderDocument::guid</definition>
+        <argsstring></argsstring>
+        <name>guid</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="30" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d78/interface_reader_document_1adb6d224fb441a753e3f90baf4477c884" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no" accessor="strong">
+        <type>NSDate *</type>
+        <definition>NSDate* ReaderDocument::fileDate</definition>
+        <argsstring></argsstring>
+        <name>fileDate</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="31" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d78/interface_reader_document_1a9c51a6e373b8657337a0924ab0f19cb8" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSDate *</type>
+        <definition>NSDate* ReaderDocument::lastOpen</definition>
+        <argsstring></argsstring>
+        <name>lastOpen</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="32" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d78/interface_reader_document_1a4c9221246aa089f1471bb9f58022629d" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no" accessor="strong">
+        <type>NSNumber *</type>
+        <definition>NSNumber* ReaderDocument::fileSize</definition>
+        <argsstring></argsstring>
+        <name>fileSize</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="33" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d78/interface_reader_document_1ac41f9c6f4b2b8c109ef03971eaa64225" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no" accessor="strong">
+        <type>NSNumber *</type>
+        <definition>NSNumber* ReaderDocument::pageCount</definition>
+        <argsstring></argsstring>
+        <name>pageCount</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="34" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" compoundref="d3/dfb/_reader_document_8m" startline="197" endline="249">initWithFilePath:password:</referencedby>
+        <referencedby refid="dc/d78/interface_reader_document_1abaa0f925596750005438de7667b115a9" compoundref="d3/dfb/_reader_document_8m" startline="280" endline="304">updateProperties</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="dc/d78/interface_reader_document_1a5604d89843047aadab52a61f92837c4b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="strong">
+        <type>NSNumber *</type>
+        <definition>NSNumber* ReaderDocument::pageNumber</definition>
+        <argsstring></argsstring>
+        <name>pageNumber</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="35" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d78/interface_reader_document_1aeb8333eda0eee2c0a48a43e2766ae31a" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no" accessor="strong">
+        <type>NSMutableIndexSet *</type>
+        <definition>NSMutableIndexSet* ReaderDocument::bookmarks</definition>
+        <argsstring></argsstring>
+        <name>bookmarks</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="36" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d78/interface_reader_document_1a1c95075453d9fde3a66ac3238496a8cb" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString * ReaderDocument::fileName</definition>
+        <argsstring></argsstring>
+        <name>fileName</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="37" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="dc/d78/interface_reader_document_1a4566989b0714e4a959806ab6b81b4c61" compoundref="d3/dfb/_reader_document_8m" startline="275" endline="278">saveReaderDocument</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="dc/d78/interface_reader_document_1a782c81876b82fa2f840f4bef6709ec4d" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no" accessor="strong">
+        <type>NSString *</type>
+        <definition>NSString* ReaderDocument::password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="38" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d78/interface_reader_document_1a76f21379e86bce6c49b5e7469494fdbc" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no" accessor="strong">
+        <type>NSURL *</type>
+        <definition>NSURL * ReaderDocument::fileURL</definition>
+        <argsstring></argsstring>
+        <name>fileURL</name>
+        <read></read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="39" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" compoundref="d3/dfb/_reader_document_8m" startline="197" endline="249">initWithFilePath:password:</referencedby>
+        <referencedby refid="dc/d78/interface_reader_document_1abaa0f925596750005438de7667b115a9" compoundref="d3/dfb/_reader_document_8m" startline="280" endline="304">updateProperties</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dc/d78/interface_reader_document_1a45e97f0c02ba91018b7ccac3b8b5d255" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref> *</type>
+        <definition>ReaderDocument * ReaderDocument::withDocumentFilePath:password:</definition>
+        <argsstring>(NSString *filename,[password] NSString *phrase)</argsstring>
+        <name>withDocumentFilePath:password:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <attributes>[password]</attributes>
+          <type>NSString *</type>
+          <declname>phrase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="41" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" bodystart="156" bodyend="168"/>
+        <references refid="dc/d78/interface_reader_document_1a3567d59bbbccc7c57f079e651d13c364" compoundref="d3/dfb/_reader_document_8m" startline="129" endline="154">unarchiveFromFileName:password:</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d78/interface_reader_document_1a3567d59bbbccc7c57f079e651d13c364" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="dc/d78/interface_reader_document" kindref="compound">ReaderDocument</ref> *</type>
+        <definition>ReaderDocument * ReaderDocument::unarchiveFromFileName:password:</definition>
+        <argsstring>(NSString *filename,[password] NSString *phrase)</argsstring>
+        <name>unarchiveFromFileName:password:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <attributes>[password]</attributes>
+          <type>NSString *</type>
+          <declname>phrase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="43" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" bodystart="129" bodyend="154"/>
+        <referencedby refid="dc/d78/interface_reader_document_1a45e97f0c02ba91018b7ccac3b8b5d255" compoundref="d3/dfb/_reader_document_8m" startline="156" endline="168">withDocumentFilePath:password:</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>id</type>
+        <definition>id ReaderDocument::initWithFilePath:password:</definition>
+        <argsstring>(NSString *fullFilePath,[password] NSString *phrase)</argsstring>
+        <name>initWithFilePath:password:</name>
+        <param>
+          <type>NSString *</type>
+          <declname>fullFilePath</declname>
+        </param>
+        <param>
+          <attributes>[password]</attributes>
+          <type>NSString *</type>
+          <declname>phrase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="45" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" bodystart="197" bodyend="249"/>
+        <references refid="dc/d88/_reader_thumb_request_8m_1ac958e5c284612df6eb50f018ff1ac831" compoundref="dc/d88/_reader_thumb_request_8m" startline="30">_guid</references>
+        <references refid="d3/dfb/_reader_document_8m_1a6ae163208de62aa6f2598ccb01f9a070" compoundref="d3/dfb/_reader_document_8m" startline="48">_password</references>
+        <references refid="d3/dfb/_reader_document_8m_1a9c4719c9861c51f3d80f92a851c132ed" compoundref="d3/dfb/_reader_document_8m" startline="44">_bookmarks</references>
+        <references refid="d3/dfb/_reader_document_8m_1a6181e4abb2165c889e8f788bd29caedb" compoundref="d3/dfb/_reader_document_8m" startline="42">_pageNumber</references>
+        <references refid="d3/dfb/_reader_document_8m_1af84710c8ffca4efe47502b31270c5783" compoundref="d3/dfb/_reader_document_8m" startline="46">_fileName</references>
+        <references refid="dc/d78/interface_reader_document_1a76f21379e86bce6c49b5e7469494fdbc" compoundref="d9/db4/_reader_document_8h" startline="39">fileURL</references>
+        <references refid="d0/db1/_c_g_p_d_f_document_8h_1a29e26388c8323c906c5b3160d32cb5f1" compoundref="d8/dac/_c_g_p_d_f_document_8m" startline="32" endline="80">CGPDFDocumentCreateX</references>
+        <references refid="dc/d78/interface_reader_document_1ac41f9c6f4b2b8c109ef03971eaa64225" compoundref="d9/db4/_reader_document_8h" startline="34">pageCount</references>
+        <references refid="d3/dfb/_reader_document_8m_1a768e662987b3edbf2688848b45bea3da" compoundref="d3/dfb/_reader_document_8m" startline="40">_pageCount</references>
+        <references refid="d3/dfb/_reader_document_8m_1a58a038479c757187e233a0ea71d54dbe" compoundref="d3/dfb/_reader_document_8m" startline="36">_lastOpen</references>
+        <references refid="d3/dfb/_reader_document_8m_1a280582bf94c845a6b2b1172b47985bb9" compoundref="d3/dfb/_reader_document_8m" startline="31">_fileDate</references>
+        <references refid="d3/dfb/_reader_document_8m_1aadbe3726ec4d6dbd8227fb5af7325ec8" compoundref="d3/dfb/_reader_document_8m" startline="38">_fileSize</references>
+        <references refid="dc/d78/interface_reader_document_1a4566989b0714e4a959806ab6b81b4c61" compoundref="d3/dfb/_reader_document_8m" startline="275" endline="278">saveReaderDocument</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d78/interface_reader_document_1a4566989b0714e4a959806ab6b81b4c61" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderDocument::saveReaderDocument</definition>
+        <argsstring>()</argsstring>
+        <name>saveReaderDocument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="47" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" bodystart="275" bodyend="278"/>
+        <references refid="dc/d78/interface_reader_document_1a1c95075453d9fde3a66ac3238496a8cb" compoundref="d9/db4/_reader_document_8h" startline="37">fileName</references>
+        <referencedby refid="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" compoundref="d3/dfb/_reader_document_8m" startline="197" endline="249">initWithFilePath:password:</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d78/interface_reader_document_1abaa0f925596750005438de7667b115a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReaderDocument::updateProperties</definition>
+        <argsstring>()</argsstring>
+        <name>updateProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="49" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.m" bodystart="280" bodyend="304"/>
+        <references refid="dc/d78/interface_reader_document_1a76f21379e86bce6c49b5e7469494fdbc" compoundref="d9/db4/_reader_document_8h" startline="39">fileURL</references>
+        <references refid="dc/d78/interface_reader_document_1ac41f9c6f4b2b8c109ef03971eaa64225" compoundref="d9/db4/_reader_document_8h" startline="34">pageCount</references>
+        <references refid="d3/dfb/_reader_document_8m_1a768e662987b3edbf2688848b45bea3da" compoundref="d3/dfb/_reader_document_8m" startline="40">_pageCount</references>
+        <references refid="d3/dfb/_reader_document_8m_1a280582bf94c845a6b2b1172b47985bb9" compoundref="d3/dfb/_reader_document_8m" startline="31">_fileDate</references>
+        <references refid="d3/dfb/_reader_document_8m_1aadbe3726ec4d6dbd8227fb5af7325ec8" compoundref="d3/dfb/_reader_document_8m" startline="38">_fileSize</references>
+        <referencedby refid="d5/dfd/interface_reader_view_controller_1ab5d4b891df22eba0bec1ee6f6be9ac29" compoundref="da/d57/_reader_view_controller_8m" startline="283" endline="306">ReaderViewController::initWithReaderDocument:</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="501">
+        <label>&lt;NSCoding&gt;</label>
+        <link refid="d7/dc8/class_n_s_coding-p"/>
+      </node>
+      <node id="498">
+        <label>ReaderDocument</label>
+        <link refid="dc/d78/interface_reader_document"/>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+        <childnode refid="500" relation="public-inheritance">
+        </childnode>
+        <childnode refid="501" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="500">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="499">
+        <label>NSObject</label>
+        <link refid="d7/dc4/class_n_s_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="505">
+        <label>&lt;NSCoding&gt;</label>
+        <link refid="d7/dc8/class_n_s_coding-p"/>
+      </node>
+      <node id="502">
+        <label>ReaderDocument</label>
+        <link refid="dc/d78/interface_reader_document"/>
+        <childnode refid="503" relation="public-inheritance">
+        </childnode>
+        <childnode refid="504" relation="public-inheritance">
+        </childnode>
+        <childnode refid="505" relation="public-inheritance">
+        </childnode>
+        <childnode refid="506" relation="usage">
+          <edgelabel>pageNumber</edgelabel>
+          <edgelabel>pageCount</edgelabel>
+          <edgelabel>fileSize</edgelabel>
+        </childnode>
+        <childnode refid="507" relation="usage">
+          <edgelabel>lastOpen</edgelabel>
+          <edgelabel>fileDate</edgelabel>
+        </childnode>
+        <childnode refid="508" relation="usage">
+          <edgelabel>password</edgelabel>
+          <edgelabel>guid</edgelabel>
+          <edgelabel>fileName</edgelabel>
+        </childnode>
+        <childnode refid="509" relation="usage">
+          <edgelabel>bookmarks</edgelabel>
+        </childnode>
+        <childnode refid="510" relation="usage">
+          <edgelabel>fileURL</edgelabel>
+        </childnode>
+      </node>
+      <node id="510">
+        <label>NSURL *</label>
+      </node>
+      <node id="509">
+        <label>NSMutableIndexSet *</label>
+      </node>
+      <node id="508">
+        <label>NSString *</label>
+      </node>
+      <node id="504">
+        <label>&lt;NSObject&gt;</label>
+        <link refid="d0/d10/class_n_s_object-p"/>
+      </node>
+      <node id="506">
+        <label>NSNumber *</label>
+      </node>
+      <node id="503">
+        <label>NSObject</label>
+        <link refid="d7/dc4/class_n_s_object"/>
+      </node>
+      <node id="507">
+        <label>NSDate *</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" line="28" bodyfile="/Users/thanhdao/ThamKhao/Reader/Sources/ReaderDocument.h" bodystart="28" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="dc/d78/interface_reader_document_1aeb8333eda0eee2c0a48a43e2766ae31a" prot="public" virt="non-virtual"><scope>ReaderDocument</scope><name>bookmarks</name></member>
+      <member refid="dc/d78/interface_reader_document_1adb6d224fb441a753e3f90baf4477c884" prot="public" virt="non-virtual"><scope>ReaderDocument</scope><name>fileDate</name></member>
+      <member refid="dc/d78/interface_reader_document_1a1c95075453d9fde3a66ac3238496a8cb" prot="public" virt="non-virtual"><scope>ReaderDocument</scope><name>fileName</name></member>
+      <member refid="dc/d78/interface_reader_document_1a4c9221246aa089f1471bb9f58022629d" prot="public" virt="non-virtual"><scope>ReaderDocument</scope><name>fileSize</name></member>
+      <member refid="dc/d78/interface_reader_document_1a76f21379e86bce6c49b5e7469494fdbc" prot="public" virt="non-virtual"><scope>ReaderDocument</scope><name>fileURL</name></member>
+      <member refid="dc/d78/interface_reader_document_1a1d10bceac39442fdd660c1696edf2573" prot="public" virt="non-virtual"><scope>ReaderDocument</scope><name>guid</name></member>
+      <member refid="dc/d78/interface_reader_document_1af33867630b0ddabb164d3c23aca88b02" prot="public" virt="virtual"><scope>ReaderDocument</scope><name>initWithFilePath:password:</name></member>
+      <member refid="dc/d78/interface_reader_document_1a9c51a6e373b8657337a0924ab0f19cb8" prot="public" virt="non-virtual"><scope>ReaderDocument</scope><name>lastOpen</name></member>
+      <member refid="dc/d78/interface_reader_document_1ac41f9c6f4b2b8c109ef03971eaa64225" prot="public" virt="non-virtual"><scope>ReaderDocument</scope><name>pageCount</name></member>
+      <member refid="dc/d78/interface_reader_document_1a5604d89843047aadab52a61f92837c4b" prot="public" virt="non-virtual"><scope>ReaderDocument</scope><name>pageNumber</name></member>
+      <member refid="dc/d78/interface_reader_document_1a782c81876b82fa2f840f4bef6709ec4d" prot="public" virt="non-virtual"><scope>ReaderDocument</scope><name>password</name></member>
+      <member refid="dc/d78/interface_reader_document_1a4566989b0714e4a959806ab6b81b4c61" prot="public" virt="virtual"><scope>ReaderDocument</scope><name>saveReaderDocument</name></member>
+      <member refid="dc/d78/interface_reader_document_1a3567d59bbbccc7c57f079e651d13c364" prot="public" virt="virtual"><scope>ReaderDocument</scope><name>unarchiveFromFileName:password:</name></member>
+      <member refid="dc/d78/interface_reader_document_1abaa0f925596750005438de7667b115a9" prot="public" virt="virtual"><scope>ReaderDocument</scope><name>updateProperties</name></member>
+      <member refid="dc/d78/interface_reader_document_1a45e97f0c02ba91018b7ccac3b8b5d255" prot="public" virt="virtual"><scope>ReaderDocument</scope><name>withDocumentFilePath:password:</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
